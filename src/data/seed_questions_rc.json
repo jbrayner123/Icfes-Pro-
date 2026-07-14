@@ -1,0 +1,262 @@
+[
+  {
+    "id_pregunta": "seed_rc_02",
+    "modulo": "Quantitative Reasoning",
+    "enunciado": "Una prueba de laboratorio clínico para detectar una afección patológica tiene una tasa de verdaderos positivos (sensibilidad) del 99% y una tasa de falsos positivos del 5%. Se sabe que la prevalencia de esta afección en la población general es de exactamente 1 por cada 1,000 habitantes (0.1%). Si un ciudadano seleccionado al azar se somete al test y obtiene un resultado positivo, ¿cuál es la probabilidad exacta de que realmente padezca la patología?",
+    "opciones": [
+      {"letra": "A", "texto": "Exactamente el 99.00%, pues esa es la sensibilidad física declarada del test.", "es_correcta": false},
+      {"letra": "B", "texto": "Aproximadamente el 1.94%, debido al fuerte impacto estadístico de los falsos positivos sobre una enfermedad de muy baja prevalencia.", "es_correcta": true},
+      {"letra": "C", "texto": "Exactamente el 95.00%, dado que el margen de error del test es del 5%.", "es_correcta": false},
+      {"letra": "D", "texto": "Aproximadamente el 50.00%, pues el paciente se debate entre estar enfermo o sano.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "Aplicando el Teorema de Bayes: P(Enfermo|Positivo) = [P(Positivo|Enfermo)*P(Enfermo)] / [P(Positivo|Enfermo)*P(Enfermo) + P(Positivo|Sano)*P(Sano)]. P(Enfermo) = 0.001. P(Sano) = 0.999. P(Positivo|Enfermo) = 0.99. P(Positivo|Sano) = 0.05. Numerador: 0.99 * 0.001 = 0.00099. Denominador: 0.00099 + (0.05 * 0.999) = 0.00099 + 0.04995 = 0.05094. Probabilidad final: 0.00099 / 0.05094 = 0.01943 (1.94%). Aunque el test es muy preciso, la inmensa mayoría de positivos serán falsos positivos.",
+    "tema": "Probabilidad Bayesiana"
+  },
+  {
+    "id_pregunta": "seed_rc_03",
+    "modulo": "Quantitative Reasoning",
+    "enunciado": "En un estudio sobre distribución de ingresos salariales mensuales de dos empresas de tecnología (Alfa y Beta), se obtienen los siguientes estadísticos de resumen en USD:\n- Alfa: Mediana = $2,500; Media = $3,100; Desviación Estándar = $1,800.\n- Beta: Mediana = $2,800; Media = $2,900; Desviación Estándar = $500.\n\nAl comparar estas distribuciones, ¿cuál de las siguientes conclusiones es matemáticamente correcta?",
+    "opciones": [
+      {"letra": "A", "texto": "La mitad de los empleados de la empresa Alfa gana más de $3,100 mensuales.", "es_correcta": false},
+      {"letra": "B", "texto": "La distribución salarial de la empresa Beta presenta una dispersión mucho menor, indicando mayor equidad interna y salarios más homogéneos que en Alfa.", "es_correcta": true},
+      {"letra": "C", "texto": "La empresa Alfa tiene un costo de nómina total inferior a la de Beta porque su mediana es más baja.", "es_correcta": false},
+      {"letra": "D", "texto": "Ningún empleado de la empresa Beta gana menos de $2,400 mensuales.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La desviación estándar mide el grado de dispersión de los datos alrededor de la media. El valor de Beta ($500) es muy inferior al de Alfa ($1,800), lo que certifica que los salarios en Beta están muy agrupados cerca de la media (homogeneidad). La mediana en Alfa indica que el 50% gana menos de $2,500 (no $3,100).",
+    "tema": "Dispersión y Tendencia Central"
+  },
+  {
+    "id_pregunta": "seed_rc_04",
+    "modulo": "Quantitative Reasoning",
+    "enunciado": "Un agricultor tiene un terreno rectangular de 1,200 metros cuadrados para cultivar maíz y soya. Quiere destinar 'x' metros cuadrados a maíz e 'y' metros cuadrados a soya. El cultivo de maíz requiere una inversión de $2 USD por metro cuadrado y el de soya requiere $4 USD por metro cuadrado. El presupuesto disponible para la siembra es de $3,600 USD. ¿Cuál de los siguientes sistemas de desigualdades modela las restricciones de área y presupuesto del agricultor?",
+    "opciones": [
+      {"letra": "A", "texto": "x + y <= 1200; 2x + 4y <= 3600; x >= 0, y >= 0", "es_correcta": true},
+      {"letra": "B", "texto": "x * y <= 1200; 2x * 4y <= 3600; x >= 0, y >= 0", "es_correcta": false},
+      {"letra": "C", "texto": "x + y >= 1200; 2x + 4y >= 3600; x >= 0, y >= 0", "es_correcta": false},
+      {"letra": "D", "texto": "x + y = 1200; 2x + 4y = 3600; x < 0, y < 0", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La suma de las áreas destinadas a cada cultivo no puede exceder el terreno disponible (x + y <= 1200). El costo financiero asociado tampoco puede superar el presupuesto disponible (2x + 4y <= 3600). Las áreas deben ser de naturaleza no negativa (x >= 0, y >= 0).",
+    "tema": "Sistemas de Desigualdades"
+  },
+  {
+    "id_pregunta": "seed_rc_05",
+    "modulo": "Quantitative Reasoning",
+    "enunciado": "La tasa de inflación mensual en una economía se ha mantenido constante en el 2% durante 4 meses consecutivos. Al cabo de estos 4 meses, ¿cuál ha sido el incremento porcentual total acumulado del índice de precios?",
+    "opciones": [
+      {"letra": "A", "texto": "Exactamente el 8.00%, pues se multiplican los 4 meses por el 2% mensual.", "es_correcta": false},
+      {"letra": "B", "texto": "Aproximadamente el 8.24%, debido al efecto multiplicador del interés compuesto sobre la inflación acumulada.", "es_correcta": true},
+      {"letra": "C", "texto": "Exactamente el 8.16%, sumando la inflación promedio ponderada de la canasta básica.", "es_correcta": false},
+      {"letra": "D", "texto": "Aproximadamente el 4.00%, ya que la inflación real descuenta el valor del dinero.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "El cálculo de inflación acumulada sigue la fórmula del interés compuesto: (1 + i)^n - 1. Aquí, (1 + 0.02)^4 - 1 = (1.02)^4 - 1 = 1.08243 - 1 = 0.08243, lo que representa un aumento acumulado exacto del 8.24% en el costo general de vida.",
+    "tema": "Modelamiento Financiero"
+  },
+  {
+    "id_pregunta": "seed_rc_06",
+    "modulo": "Quantitative Reasoning",
+    "enunciado": "En una planta de tratamiento de agua, una válvula de descarga evacúa un estanque a una velocidad decreciente que sigue la función matemática: V(t) = 500 - 25t litros, donde 't' es el tiempo transcurrido en minutos. ¿En cuántos minutos se vaciará por completo el estanque y cuál es el volumen inicial del mismo?",
+    "opciones": [
+      {"letra": "A", "texto": "Se vaciará en 10 minutos y el volumen inicial era de 250 litros.", "es_correcta": false},
+      {"letra": "B", "texto": "Se vaciará en 20 minutos y el volumen inicial era de 500 litros.", "es_correcta": true},
+      {"letra": "C", "texto": "Se vaciará en 25 minutos y el volumen inicial era de 1,000 litros.", "es_correcta": false},
+      {"letra": "D", "texto": "Se vaciará en 50 minutos y el volumen inicial era de 500 litros.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "Para t = 0, el volumen inicial es V(0) = 500 - 25(0) = 500 litros. Para hallar el tiempo de vaciado total, hacemos V(t) = 0: 500 - 25t = 0 => 25t = 500 => t = 500 / 25 = 20 minutos.",
+    "tema": "Funciones Lineales"
+  },
+  {
+    "id_pregunta": "seed_rc_07",
+    "modulo": "Quantitative Reasoning",
+    "enunciado": "Un fabricante de jugos comercializa su producto en cajas de cartón con forma de prisma rectangular. El volumen de cada caja es de 1,000 centímetros cúbicos (1 litro). Con el fin de reducir los costos del material, decide diseñar un cilindro que contenga el mismo volumen pero minimizando el área superficial de empaque. Si la altura del cilindro óptimo debe ser igual a su diámetro, ¿cuál debe ser aproximadamente el radio del cilindro en centímetros?",
+    "opciones": [
+      {"letra": "A", "texto": "Aproximadamente 2.54 cm.", "es_correcta": false},
+      {"letra": "B", "texto": "Aproximadamente 5.42 cm.", "es_correcta": true},
+      {"letra": "C", "texto": "Aproximadamente 10.00 cm.", "es_correcta": false},
+      {"letra": "D", "texto": "Aproximadamente 8.12 cm.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "El volumen de un cilindro es V = pi * r^2 * h. Dado que h = 2r (diámetro), tenemos: V = pi * r^2 * 2r = 2 * pi * r^3. Despejando r: 1000 = 2 * pi * r^3 => r^3 = 500 / pi => r^3 = 159.15 => r = cuberoot(159.15) ≈ 5.42 cm.",
+    "tema": "Optimización Geométrica"
+  },
+  {
+    "id_pregunta": "seed_rc_08",
+    "modulo": "Quantitative Reasoning",
+    "enunciado": "Un grupo de investigación realiza una encuesta sobre hábitos de lectura en una universidad. Seleccionan una muestra aleatoria de 400 estudiantes de ingeniería y reportan un promedio de 5 libros leídos al año. El grupo concluye que: 'Los estudiantes universitarios del país leen un promedio exacto de 5 libros anuales'. ¿Cuál es el principal sesgo o error metodológico en el razonamiento estadístico del grupo de investigación?",
+    "opciones": [
+      {"letra": "A", "texto": "No entrevistaron a la totalidad de estudiantes matriculados en ingeniería.", "es_correcta": false},
+      {"letra": "B", "texto": "La muestra no es representativa de la población nacional universitaria, al limitarse exclusivamente a una carrera (ingeniería) y a una única universidad, incurriendo en un sesgo de selección y generalización apresurada.", "es_correcta": true},
+      {"letra": "C", "texto": "Utilizaron la media en lugar de la mediana, lo que distorsiona la tendencia real del estudio.", "es_correcta": false},
+      {"letra": "D", "texto": "No controlaron las condiciones ambientales del campus durante la aplicación de la encuesta.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "Para generalizar una conclusión sobre una población general (estudiantes del país), la muestra debe ser probabilística, aleatoria y representativa de múltiples regiones y carreras académicas. Limitarse a ingeniería en una única universidad introduce un sesgo de muestreo masivo.",
+    "tema": "Diseño de Muestreo"
+  },
+  {
+    "id_pregunta": "seed_rc_09",
+    "modulo": "Quantitative Reasoning",
+    "enunciado": "Un servidor web procesa solicitudes de forma constante las 24 horas del día. Recibe en promedio 60 solicitudes por minuto. Suponiendo que el número de solicitudes por minuto sigue un proceso de distribución de probabilidad de Poisson, ¿cuál es la probabilidad exacta de recibir exactamente 0 solicitudes en un intervalo arbitrario de 5 segundos?",
+    "opciones": [
+      {"letra": "A", "texto": "Exactamente el 0.00%, pues el servidor tiene tráfico permanente.", "es_correcta": false},
+      {"letra": "B", "texto": "Aproximadamente el 0.67%, expresado matemáticamente por e^(-5).", "es_correcta": true},
+      {"letra": "C", "texto": "Exactamente el 5.00%, por la relación directa de tiempo.", "es_correcta": false},
+      {"letra": "D", "texto": "Aproximadamente el 13.53%, calculado como e^(-2).", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "Si recibe 60 solicitudes por minuto (60 segundos), la tasa de llegada (λ) es de 1 solicitud por segundo. Para un intervalo de t = 5 segundos, la tasa media de llegadas es λ*t = 5 solicitudes. En la distribución de Poisson, P(X = k) = (λ^k * e^(-λ)) / k!. Para k = 0, P(X = 0) = (5^0 * e^(-5)) / 0! = e^(-5) ≈ 0.00673 (0.67%).",
+    "tema": "Procesos de Poisson"
+  },
+  {
+    "id_pregunta": "seed_rc_10",
+    "modulo": "Quantitative Reasoning",
+    "enunciado": "Se lanzan al aire dos dados convencionales equilibrados de 6 caras numeradas de 1 a 6. Si se sabe que la suma de los resultados de ambos dados dio un número par, ¿cuál es la probabilidad de que la suma sea un número múltiplo de 4?",
+    "opciones": [
+      {"letra": "A", "texto": "1/2 (50.00%)", "es_correcta": false},
+      {"letra": "B", "texto": "1/2 (50.00%)", "es_correcta": false},
+      {"letra": "C", "texto": "1/2 (50.00%)", "es_correcta": false},
+      {"letra": "D", "texto": "1/2 (50.00%)", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "Espacio muestral de dos dados: 36 resultados. Casos donde la suma es par: hay 18 sumas pares (18 sumas impares). Casos donde la suma es par Y múltiplo de 4: los múltiplos de 4 posibles son 4, 8, 12. Obtener 4: (1,3),(2,2),(3,1) = 3 formas. Obtener 8: (2,6),(3,5),(4,4),(5,3),(6,2) = 5 formas. Obtener 12: (6,6) = 1 forma. Total múltiplos de 4 = 3 + 5 + 1 = 9 formas. Probabilidad condicional = 9 múltiplos de 4 / 18 pares = 1/2 (50%).",
+    "tema": "Probabilidad Condicional"
+  },
+  {
+    "id_pregunta": "seed_rc_11",
+    "modulo": "Quantitative Reasoning",
+    "enunciado": "Un ciclista asciende un puerto de montaña de 10 kilómetros a una velocidad constante de 10 km/h. De inmediato, da la vuelta y desciende el mismo trayecto de 10 km a una velocidad constante de 30 km/h. ¿Cuál fue la velocidad promedio global del ciclista para el viaje de ida y vuelta completo de 20 km?",
+    "opciones": [
+      {"letra": "A", "texto": "Exactamente 20 km/h, que corresponde al promedio aritmético de ambas velocidades.", "es_correcta": false},
+      {"letra": "B", "texto": "Exactamente 15 km/h, calculado mediante la media armónica de las velocidades del recorrido.", "es_correcta": true},
+      {"letra": "C", "texto": "Exactamente 18 km/h, que pondera el esfuerzo de la subida física.", "es_correcta": false},
+      {"letra": "D", "texto": "Exactamente 22.5 km/h, descontando el coeficiente de fricción del viento.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La velocidad promedio es Distancia Total / Tiempo Total. Distancia = 20 km. Tiempo subida: 10 km / 10 km/h = 1 hora. Tiempo bajada: 10 km / 30 km/h = 1/3 hora (20 minutos). Tiempo Total = 1 + 1/3 = 4/3 horas. Velocidad promedio = 20 km / (4/3 h) = 60 / 4 = 15 km/h. Esto equivale a la media armónica: 2 / [ (1/10) + (1/30) ] = 2 / (4/30) = 15 km/h.",
+    "tema": "Media Armónica"
+  },
+  {
+    "id_pregunta": "seed_rc_12",
+    "modulo": "Quantitative Reasoning",
+    "enunciado": "Un fabricante de cemento tiene un silo con capacidad para 50 toneladas. Si el silo contiene actualmente 15 toneladas de cemento y se llena mediante una tubería de suministro a una tasa de 4 toneladas por hora, ¿cuál de las siguientes ecuaciones lineales modela el inventario de cemento 'I(t)' en toneladas en función del tiempo 't' en horas?",
+    "opciones": [
+      {"letra": "A", "texto": "I(t) = 4t - 15", "es_correcta": false},
+      {"letra": "B", "texto": "I(t) = 4t + 15", "es_correcta": true},
+      {"letra": "C", "texto": "I(t) = 15t + 4", "es_correcta": false},
+      {"letra": "D", "texto": "I(t) = 50 - 4t", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "El inventario inicial es de 15 toneladas (ordenada en el origen, b = 15). La tasa de incremento constante es de 4 toneladas por hora (pendiente, m = 4). Por tanto, el inventario para cualquier tiempo t es I(t) = 4t + 15, con la restricción física de que I(t) <= 50.",
+    "tema": "Ecuaciones Lineales"
+  },
+  {
+    "id_pregunta": "seed_rc_13",
+    "modulo": "Quantitative Reasoning",
+    "enunciado": "En un curso de matemáticas avanzadas, el 60% de los estudiantes son hombres y el 40% son mujeres. El 20% de los hombres y el 30% de las mujeres aprobaron el curso con honores. Si se selecciona un estudiante al azar y se encuentra que aprobó con honores, ¿cuál es la probabilidad de que este estudiante sea mujer?",
+    "opciones": [
+      {"letra": "A", "texto": "Exactamente el 40.00%, equivalente a la proporción demográfica de la muestra.", "es_correcta": false},
+      {"letra": "B", "texto": "Exactamente el 50.00%, calculada por la ley de probabilidad total y teorema de Bayes.", "es_correcta": true},
+      {"letra": "C", "texto": "Exactamente el 30.00%, ya que es la probabilidad directa para mujeres.", "es_correcta": false},
+      {"letra": "D", "texto": "Exactamente el 60.00%, ponderando la presencia masculina mayoritaria.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "Sea H: Hombre, M: Mujer, A: Aprueba con honores. P(H) = 0.60, P(M) = 0.40. P(A|H) = 0.20, P(A|M) = 0.30. Probabilidad de que apruebe con honores P(A) = P(A|H)*P(H) + P(A|M)*P(M) = (0.20*0.60) + (0.30*0.40) = 0.12 + 0.12 = 0.24. Probabilidad condicional de ser mujer dado que aprobó con honores P(M|A) = [P(A|M)*P(M)] / P(A) = 0.12 / 0.24 = 0.50 (50.00%).",
+    "tema": "Teorema de Bayes"
+  },
+  {
+    "id_pregunta": "seed_rc_14",
+    "modulo": "Quantitative Reasoning",
+    "enunciado": "Un inversionista compra una acción por $100 USD. El primer año la acción sube un 50% de valor. El segundo año, debido a una crisis macroeconómica regional, la acción cae un 50% con respecto al valor que tenía al final del primer año. Al cabo de los dos años, el valor final de la acción es de:",
+    "opciones": [
+      {"letra": "A", "texto": "Exactamente $100 USD, pues la subida y la bajada porcentual se anulan.", "es_correcta": false},
+      {"letra": "B", "texto": "Exactamente $75 USD, debido a que la caída se aplica sobre un capital mayor ($150 USD).", "es_correcta": true},
+      {"letra": "C", "texto": "Exactamente $50 USD, porque se perdió la mitad del valor del capital inicial.", "es_correcta": false},
+      {"letra": "D", "texto": "Exactamente $125 USD, considerando los intereses generados.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "Año 1: La acción sube 50%: $100 * (1 + 0.50) = $150 USD. Año 2: Cae un 50% sobre el nuevo valor: $150 * (1 - 0.50) = $75 USD. La variación porcentual neta es de -25% ((1+0.5)*(1-0.5) - 1 = -0.25).",
+    "tema": "Porcentajes Encadenados"
+  },
+  {
+    "id_pregunta": "seed_rc_15",
+    "modulo": "Quantitative Reasoning",
+    "enunciado": "Se realiza un estudio de tiempos de entrega en minutos para un servicio de mensajería urbana. El conjunto de datos presenta una media de 30 minutos y una desviación estándar de 4 minutos. Si la distribución de tiempos es simétrica e histogramada en forma de campana (distribución normal), ¿cuál es el porcentaje aproximado de entregas que se realizan en un intervalo de 22 a 38 minutos?",
+    "opciones": [
+      {"letra": "A", "texto": "Aproximadamente el 50.00% de las entregas.", "es_correcta": false},
+      {"letra": "B", "texto": "Aproximadamente el 95.44% de las entregas.", "es_correcta": true},
+      {"letra": "C", "texto": "Aproximadamente el 68.26% de las entregas.", "es_correcta": false},
+      {"letra": "D", "texto": "Aproximadamente el 99.73% de las entregas.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "El rango de 22 a 38 minutos corresponde exactamente a dos desviaciones estándar a la izquierda y derecha de la media (30 - 2*4 = 22; 30 + 2*4 = 38). De acuerdo con la regla empírica del modelo de distribución normal (68-95-99.7), alrededor del 95.44% de los datos se encuentran dentro de ±2 desviaciones estándar.",
+    "tema": "Distribución Normal"
+  },
+  {
+    "id_pregunta": "seed_rc_16",
+    "modulo": "Quantitative Reasoning",
+    "enunciado": "Un sistema de alcantarillado recolecta aguas residuales municipales de tres colectores independientes. El colector A aporta el 50% del caudal total con un 2% de sedimentos pesados; el colector B aporta el 30% del caudal con un 5% de sedimentos; y el colector C aporta el 20% con un 10% de sedimentos. ¿Cuál es el porcentaje total ponderado de sedimentos en el agua que ingresa a la planta de tratamiento final?",
+    "opciones": [
+      {"letra": "A", "texto": "Exactamente el 17.00% de sedimentos.", "es_correcta": false},
+      {"letra": "B", "texto": "Exactamente el 4.50% de sedimentos.", "es_correcta": true},
+      {"letra": "C", "texto": "Exactamente el 5.66% de sedimentos.", "es_correcta": false},
+      {"letra": "D", "texto": "Exactamente el 7.20% de sedimentos.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "Calculamos la media ponderada de los sedimentos: (0.50 * 0.02) + (0.30 * 0.05) + (0.20 * 0.10) = 0.010 + 0.015 + 0.020 = 0.045, lo que representa exactamente un 4.50% de sedimentos ponderados.",
+    "tema": "Media Ponderada"
+  },
+  {
+    "id_pregunta": "seed_rc_17",
+    "modulo": "Quantitative Reasoning",
+    "enunciado": "Un cable coaxial cilíndrico de 100 metros de longitud tiene un radio interior r1 = 0.5 cm y un radio exterior r2 = 1.0 cm. Si se duplican simultáneamente ambos radios pero manteniendo la longitud intacta en 100 metros, ¿por qué factor se incrementará el volumen total del aislamiento plástico ubicado entre ambos cilindros?",
+    "opciones": [
+      {"letra": "A", "texto": "Se incrementará exactamente por un factor de 2.", "es_correcta": false},
+      {"letra": "B", "texto": "Se incrementará exactamente por un factor de 4.", "es_correcta": true},
+      {"letra": "C", "texto": "Se incrementará exactamente por un factor de 8.", "es_correcta": false},
+      {"letra": "D", "texto": "Se mantendrá constante dado que la longitud no cambió.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "El volumen de un cilindro hueco es V = pi * L * (r2^2 - r1^2). Si duplicamos los radios (R2 = 2*r2, R1 = 2*r1): V_nuevo = pi * L * ((2*r2)^2 - (2*r1)^2) = pi * L * (4*r2^2 - 4*r1^2) = 4 * [pi * L * (r2^2 - r1^2)] = 4 * V. El volumen aumenta exactamente en un factor de 4.",
+    "tema": "Proporciones Geométricas"
+  },
+  {
+    "id_pregunta": "seed_rc_18",
+    "modulo": "Quantitative Reasoning",
+    "enunciado": "Un banco central decide reducir su tasa de encaje legal (proporción de depósitos que los bancos comerciales deben mantener en reserva física) del 10% al 5%. Teóricamente, en el modelo monetario básico de multiplicación bancaria, esta reducción de encaje genera que la capacidad potencial máxima de creación de dinero en la economía:",
+    "opciones": [
+      {"letra": "A", "texto": "Disminuya a la mitad.", "es_correcta": false},
+      {"letra": "B", "texto": "Se duplique de forma exacta.", "es_correcta": true},
+      {"letra": "C", "texto": "Se mantenga invariable.", "es_correcta": false},
+      {"letra": "D", "texto": "Aumente de forma infinita.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "El multiplicador bancario (m) es el recíproco de la tasa de encaje (e): m = 1 / e. Originalmente, m = 1 / 0.10 = 10. Con el nuevo encaje del 5%, m = 1 / 0.05 = 20. Al disminuir el encaje a la mitad, la capacidad potencial de creación de depósitos se duplica de forma exacta.",
+    "tema": "Razonamiento Macroeconómico"
+  },
+  {
+    "id_pregunta": "seed_rc_19",
+    "modulo": "Quantitative Reasoning",
+    "enunciado": "Un proyectil de prueba se lanza verticalmente hacia arriba desde el nivel del suelo. Su altura en metros 'h(t)' respecto al tiempo 't' en segundos sigue la ecuación cuadrática h(t) = 80t - 5t^2. ¿Cuál es la altura máxima alcanzada por el proyectil y en qué segundo exacto se alcanza?",
+    "opciones": [
+      {"letra": "A", "texto": "Alcanza los 400 metros de altura en el segundo 10.", "es_correcta": false},
+      {"letra": "B", "texto": "Alcanza los 320 metros de altura en el segundo 8.", "es_correcta": true},
+      {"letra": "C", "texto": "Alcanza los 160 metros de altura en el segundo 4.", "es_correcta": false},
+      {"letra": "D", "texto": "Alcanza los 640 metros de altura en el segundo 16.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La ecuación cuadrática h(t) = -5t^2 + 80t tiene un máximo en su vértice t = -b / (2a) = -80 / (2 * -5) = -80 / -10 = 8 segundos. Evaluando t = 8 en h(t): h(8) = 80(8) - 5(8^2) = 640 - 5(64) = 640 - 320 = 320 metros de altura máxima.",
+    "tema": "Optimización Cuadrática"
+  },
+  {
+    "id_pregunta": "seed_rc_20",
+    "modulo": "Quantitative Reasoning",
+    "enunciado": "Un tren parte de la estación A hacia la estación B (separadas por 300 km) a una velocidad constante de 60 km/h. Dos horas más tarde, otro tren de carga parte de la estación B hacia la estación A por una vía paralela a una velocidad constante de 40 km/h. ¿A qué distancia de la estación A se cruzarán ambos trenes?",
+    "opciones": [
+      {"letra": "A", "texto": "Se cruzarán a 150 km de la estación A.", "es_correcta": false},
+      {"letra": "B", "texto": "Se cruzarán a 228 km de la estación A.", "es_correcta": true},
+      {"letra": "C", "texto": "Se cruzarán a 180 km de la estación A.", "es_correcta": false},
+      {"letra": "D", "texto": "Se cruzarán a 200 km de la estación A.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "En las primeras 2 horas, el tren A recorre 60 km/h * 2 h = 120 km. La distancia remanente entre ambos trenes es 300 - 120 = 180 km. A partir de ese momento (t_nuevo = 0), se mueven al encuentro con velocidad relativa = 60 + 40 = 100 km/h. Tiempo hasta el cruce: 180 km / 100 km/h = 1.8 horas. Distancia total recorrida por tren A desde el inicio: 120 km + (60 km/h * 1.8 h) = 120 + 108 = 228 km de la estación A.",
+    "tema": "Ecuaciones de Movimiento"
+  },
+  {
+    "id_pregunta": "seed_rc_21",
+    "modulo": "Quantitative Reasoning",
+    "enunciado": "Una red de distribución de energía eléctrica tiene una probabilidad de falla del 10% en un día de tormenta severa. Si ocurren 3 tormentas severas independientes en un mes, ¿cuál es la probabilidad exacta de que la red de energía falle al menos una vez debido a estas tormentas?",
+    "opciones": [
+      {"letra": "A", "texto": "Exactamente el 30.00%, multiplicando 3 tormentas por el 10% de probabilidad de fallo.", "es_correcta": false},
+      {"letra": "B", "texto": "Exactamente el 27.10%, calculado restando del total la probabilidad de no fallar nunca.", "es_correcta": true},
+      {"letra": "C", "texto": "Exactamente el 10.00%, ya que las tormentas son eventos independientes sin memoria.", "es_correcta": false},
+      {"letra": "D", "texto": "Exactamente el 90.00%, considerando la sobrecarga física acumulada en los transformadores.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "Para calcular la probabilidad de 'al menos uno', es más sencillo calcular el complemento P(Falle al menos una vez) = 1 - P(No falle en ninguna tormenta). La probabilidad de no fallar en una tormenta es 1 - 0.10 = 0.90. Como las tormentas son independientes, la probabilidad de no fallar en las 3 es (0.90)^3 = 0.729. Por tanto, P(Falle al menos una vez) = 1 - 0.729 = 0.271 (27.10%).",
+    "tema": "Eventos Complementarios"
+  }
+]

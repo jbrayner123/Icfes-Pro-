@@ -1,0 +1,262 @@
+[
+  {
+    "id_pregunta": "seed_lc_02",
+    "modulo": "Critical Reading",
+    "enunciado": "Lea atentamente el siguiente fragmento del filósofo Michel Foucault sobre el poder disciplinario:\n\n'La disciplina es una anatomía política del detalle que no opera mediante la violencia física directa, sino mediante la distribución de los cuerpos en el espacio, la codificación minuciosa de las actividades y el examen perpetuo. El Panóptico de Bentham representa la cúspide de esta tecnología: un dispositivo que induce en el detenido un estado consciente y permanente de visibilidad que garantiza el funcionamiento automático del poder, incluso cuando la mirada del guardián esté ausente'.\n\nDe acuerdo con el fragmento, ¿cuál es el objetivo central del diseño arquitectónico y funcional del Panóptico?",
+    "opciones": [
+      {"letra": "A", "texto": "Castigar de manera física y ejemplar a los transgresores de las leyes estatales para disuadir el crimen en las plazas públicas.", "es_correcta": false},
+      {"letra": "B", "texto": "Internalizar la vigilancia en la psicología del propio individuo de modo que se auto-vigile, haciendo innecesaria la coacción violenta y continua del guardián.", "es_correcta": true},
+      {"letra": "C", "texto": "Garantizar que los guardias de las prisiones tengan condiciones de descanso óptimas durante sus turnos nocturnos.", "es_correcta": false},
+      {"letra": "D", "texto": "Democratizar la toma de decisiones dentro de los centros de detención mediante asambleas deliberativas periódicas.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "El fragmento señala que el Panóptico 'induce un estado consciente y permanente de visibilidad que garantiza el funcionamiento automático del poder'. El sujeto, sintiéndose vigilado constantemente, asume e internaliza las restricciones del poder sobre su propio cuerpo y conducta.",
+    "tema": "Poder Disciplinario"
+  },
+  {
+    "id_pregunta": "seed_lc_03",
+    "modulo": "Critical Reading",
+    "enunciado": "Considere este célebre fragmento del filósofo Friedrich Nietzsche en su ensayo 'Sobre verdad y mentira en sentido extramoral':\n\n'¿Qué es entonces la verdad? Una hueste en movimiento de metáforas, metonimias, antropomorfismos; en resumidas cuentas, una suma de relaciones humanas que han sido realzadas, extrapoladas y adornadas poéticamente, y que después de un prolongado uso un pueblo considera firmes, canónicas y vinculantes. Las verdades son ilusiones de las que se ha olvidado que lo son, metáforas que se han vuelto desgastadas y sin fuerza'.\n\n¿Cuál de las siguientes afirmaciones sintetiza con mayor fidelidad la concepción nietzscheana de la 'verdad' expuesta en el fragmento?",
+    "opciones": [
+      {"letra": "A", "texto": "La verdad es un reflejo matemático exacto del orden físico natural que la ciencia puede describir de forma objetiva.", "es_correcta": false},
+      {"letra": "B", "texto": "La verdad es una construcción lingüística, social y metafórica que ha sido institucionalizada y olvidada en su origen poético, operando como una ilusión colectiva necesaria.", "es_correcta": true},
+      {"letra": "C", "texto": "La mentira es éticamente superior a la verdad puesto que permite la creación artística libre de regulaciones estatales.", "es_correcta": false},
+      {"letra": "D", "texto": "Las ilusiones cognitivas son fallas biológicas del cerebro humano que desaparecerán con la evolución racional.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "Nietzsche deconstruye la pretensión metafísica de la verdad absoluta. Define la verdad como una construcción antropomórfica y poética ('hueste en movimiento de metáforas') que la costumbre y el lenguaje han solidificado hasta hacernos olvidar su naturaleza puramente representativa e ilusoria.",
+    "tema": "Epistemología Crítica"
+  },
+  {
+    "id_pregunta": "seed_lc_04",
+    "modulo": "Critical Reading",
+    "enunciado": "Lea el fragmento del filósofo Jürgen Habermas en relación con la acción comunicativa:\n\n'La acción comunicativa ocurre cuando los participantes no coordinan sus planes de acción a través de cálculos egocéntricos de éxito personal, sino a través de actos de entendimiento mutuo. En el discurso libre de dominación, las pretensiones de validez (verdad, rectitud normativa y veracidad) son evaluadas únicamente bajo la fuerza del mejor argumento, permitiendo un consenso genuino y democrático'.\n\n¿Cuál es la premisa implícita del modelo comunicativo defendido por el autor?",
+    "opciones": [
+      {"letra": "A", "texto": "La negociación política y económica debe basarse siempre en amenazas coercitivas para ser eficaz en el largo plazo.", "es_correcta": false},
+      {"letra": "B", "texto": "El lenguaje humano posee un telos o propósito inherente orientado hacia el entendimiento mutuo y la resolución racional de conflictos.", "es_correcta": true},
+      {"letra": "C", "texto": "Los consensos democráticos son ilusiones semánticas creadas por las élites para legitimar la opresión económica.", "es_correcta": false},
+      {"letra": "D", "texto": "La fuerza del argumento depende de la jerarquía académica y el estatus social de quien emite el enunciado.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "Para afirmar que la acción comunicativa es viable y se distingue de la acción estratégica instrumental (cálculos de éxito), Habermas asume de manera implícita que el lenguaje y la comunicación humana tienen una predisposición fundamental de origen (un telos) encaminada a la búsqueda cooperativa de entendimiento.",
+    "tema": "Acción Comunicativa"
+  },
+  {
+    "id_pregunta": "seed_lc_05",
+    "modulo": "Critical Reading",
+    "enunciado": "Lea con atención el fragmento sobre la Teoría de la Justicia de John Rawls y el 'Velo de Ignorancia':\n\n'Para diseñar los principios de una sociedad justa, debemos imaginar que los deliberantes se encuentran bajo un velo de ignorancia: nadie conoce su clase social, su género, su etnia, sus talentos naturales ni su concepción particular del bien. Al desconocer qué lugar ocuparán en el tejido social, los participantes diseñarán instituciones racionales que protejan a los sectores más desaventajados, garantizando un mínimo de libertades y equidad'.\n\nSegún la lógica del 'Velo de Ignorancia', la justicia social emerge de:",
+    "opciones": [
+      {"letra": "A", "texto": "La compasión altruista y el sacrificio moral voluntario que los ricos realizan en beneficio de las clases bajas.", "es_correcta": false},
+      {"letra": "B", "texto": "Un cálculo de prudencia racional y auto-interés bajo condiciones de incertidumbre absoluta sobre la propia posición social futura.", "es_correcta": true},
+      {"letra": "C", "texto": "La abolición violenta del Estado y la propiedad privada por parte de una vanguardia revolucionaria instruida.", "es_correcta": false},
+      {"letra": "D", "texto": "La imposición autoritaria de una religión común que unifique las concepciones morales del bien colectivo.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "El velo de ignorancia no asume bondad infinita en el ser humano, sino racionalidad egoísta prudente. Dado que el deliberante podría terminar siendo el miembro más pobre o vulnerable de la sociedad, su auto-interés racional lo empuja a diseñar reglas que protejan a los desaventajados por si acaso él resulta ser uno de ellos.",
+    "tema": "Filosofía Política"
+  },
+  {
+    "id_pregunta": "seed_lc_06",
+    "modulo": "Critical Reading",
+    "enunciado": "Analice el siguiente fragmento del filósofo y sociólogo Walter Benjamin en 'La obra de arte en la época de su reproductibilidad técnica':\n\n'Incluso en la reproducción mejor acabada de una obra de arte, falta algo: el aquí y el ahora de la obra de arte, su existencia irrepetible en el lugar en que se encuentra. En este aquí y ahora se constituye el aura del original. La tecnología de reproducción de masas desprende lo reproducido del ámbito de la tradición, destruyendo su aura al sustituir su presencia irrepetible por una presencia masiva'.\n\n¿Cuál de los siguientes fenómenos contemporáneos representa la máxima radicalización de la 'pérdida del aura' descrita por Benjamin?",
+    "opciones": [
+      {"letra": "A", "texto": "La restauración manual de una pintura renacentista en un museo nacional.", "es_correcta": false},
+      {"letra": "B", "texto": "La creación algorítmica masiva de imágenes mediante inteligencia artificial generativa, donde el concepto de 'original irrepetible' desaparece por completo en una red de datos infinitamente clonable.", "es_correcta": true},
+      {"letra": "C", "texto": "La subasta internacional de un manuscrito literario inédito de un autor fallecido.", "es_correcta": false},
+      {"letra": "D", "texto": "La prohibición gubernamental de tomar fotografías con flash dentro de las galerías de arte sacro.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La IA generativa elimina el 'aquí y ahora' de la producción artística humana tradicional, produciendo réplicas e imágenes sintéticas instantáneas sin anclaje físico, histórico ni existencial único, consumando la destrucción del aura descrita premonitoriamente por el autor.",
+    "tema": "Estética y Tecnología"
+  },
+  {
+    "id_pregunta": "seed_lc_07",
+    "modulo": "Critical Reading",
+    "enunciado": "Considere la postura del epistemólogo Karl Popper sobre el progreso científico:\n\n'Una teoría científica nunca puede ser verificada o probada de forma absoluta mediante la acumulación de casos favorables. No importa cuántos cisnes blancos observemos, ello no justifica concluir que todos los cisnes son blancos. El criterio de cientificidad de una teoría no es su verificabilidad, sino su falsabilidad: la capacidad del sistema teórico de admitir refutaciones empíricas mediante experimentos rigurosos'.\n\nDe acuerdo con la tesis falibilista de Popper, un sistema de creencias que declare poseer explicaciones absolutas e irrefutables frente a cualquier fenómeno físico es:",
+    "opciones": [
+      {"letra": "A", "texto": "El ideal máximo de rigurosidad científica al que aspira la física teórica y la cosmología.", "es_correcta": false},
+      {"letra": "B", "texto": "Una teoría pseudocientífica o metafísica, al carecer de cláusulas de falsación y blindarse contra toda contrastación empírica en el mundo real.", "es_correcta": true},
+      {"letra": "C", "texto": "Un paradigma científico en transición temporal que requiere más recolección de datos inductivos.", "es_correcta": false},
+      {"letra": "D", "texto": "Un modelo lógico deductivo inmune a las leyes físicas de la gravedad universal.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "Para Popper, si una teoría explica todo y es inmune a ser contradicha por cualquier dato empírico posible (por ejemplo, el psicoanálisis vulgar o el horóscopo), carece de carácter científico. La ciencia avanza mediante conjeturas audaces expuestas constantemente a la refutación (falsación).",
+    "tema": "Filosofía de la Ciencia"
+  },
+  {
+    "id_pregunta": "seed_lc_08",
+    "modulo": "Critical Reading",
+    "enunciado": "Lea atentamente el fragmento de la filósofa Donna Haraway en su 'Manifiesto Cyborg':\n\n'El cyborg es una criatura en un mundo postgenérico; no tiene ninguna relación con la binaridad de género, ni con el mito edípico de la naturaleza original, ni con la nostalgia de un estado edénico pre-tecnológico. El cyborg subvierte las fronteras dualistas que la modernidad occidental ha erigido: humano/máquina, naturaleza/cultura, orgánico/inorgánico. Es una ontología que rechaza la pureza esencialista'.\n\n¿Cuál de las siguientes afirmaciones se alinea con la metáfora del cyborg propuesta por Haraway?",
+    "opciones": [
+      {"letra": "A", "texto": "La tecnología destruirá la esencia biológica pura y sagrada de la humanidad, por lo que debemos retornar al campo.", "es_correcta": false},
+      {"letra": "B", "texto": "La hibridación técnica abre espacios políticos para deconstruir las identidades fijas y esencialistas impuestas por las estructuras sociales tradicionales.", "es_correcta": true},
+      {"letra": "C", "texto": "Los robots militares controlados por IA sustituirán a los soldados humanos en las guerras del siglo XXI.", "es_correcta": false},
+      {"letra": "D", "texto": "El dualismo cartesiano entre mente y cuerpo es una verdad biológica inmutable sustentada en la genética.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "Haraway utiliza el cyborg como una figura emancipatoria que rompe con las dicotomías esencialistas de género y naturaleza. La fusión del cuerpo con la máquina desestabiliza la idea de una identidad 'natural' o 'pura', permitiendo repensar la libertad fuera de las prisiones binarias.",
+    "tema": "Estudios de Género y Ciencia"
+  },
+  {
+    "id_pregunta": "seed_lc_09",
+    "modulo": "Critical Reading",
+    "enunciado": "Considere la célebre tesis existencialista de Jean-Paul Sartre:\n\n'El hombre está condenado a ser libre. Condenado, porque no se ha creado a sí mismo, y sin embargo libre, porque una vez arrojado al mundo es responsable de todo lo que hace. No hay determinismos, ni Dios, ni naturaleza humana preestablecida que nos excuse: la existencia precede a la esencia'.\n\nLa frase 'la existencia precede a la esencia' significa que:",
+    "opciones": [
+      {"letra": "A", "texto": "El alma humana es creada por una deidad antes de la concepción biológica del feto en el vientre.", "es_correcta": false},
+      {"letra": "B", "texto": "El ser humano primero existe en el mundo físico y solo a través de sus elecciones libres, actos e historia personal se define y se dota a sí mismo de un significado o esencia singular.", "es_correcta": true},
+      {"letra": "C", "texto": "Los genes determinan de forma rigurosa e irreversible el comportamiento y destino moral de los individuos.", "es_correcta": false},
+      {"letra": "D", "texto": "La sociedad debe clasificar a los ciudadanos según su utilidad económica previa a su nacimiento.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "Para el existencialismo sartreano, no nacemos con un propósito o naturaleza determinada (esencia). Primero aparecemos en el mundo (existimos) como una tabula rasa radical y, a través de cada decisión consciente y libre, construimos lo que somos. Por ende, la responsabilidad ética sobre nuestra propia vida es absoluta e ineludible.",
+    "tema": "Existencialismo"
+  },
+  {
+    "id_pregunta": "seed_lc_10",
+    "modulo": "Critical Reading",
+    "enunciado": "Lea atentamente el fragmento de Noam Chomsky sobre los medios de comunicación de masas:\n\n'La función primordial de los medios corporativos consiste en manufacturar el consentimiento de las mayorías. A través de la selección sistemática de las noticias, la marginación de las voces críticas y la saturación de entretenimiento insustancial, los medios encuadran el debate político de modo que las decisiones de las élites financieras y gubernamentales parezcan las únicas racionales y democráticas posibles'.\n\n¿Cuál es la consecuencia directa de la 'manufactura del consentimiento' en el ejercicio democrático de los ciudadanos?",
+    "opciones": [
+      {"letra": "A", "texto": "Aumenta la participación activa de los ciudadanos en huelgas generales y comités locales de base.", "es_correcta": false},
+      {"letra": "B", "texto": "Neutraliza el disenso político real y formatea la opinión pública de manera pasiva, reduciendo la democracia a un ritual electoral formal desprovisto de alternativas estructurales de cambio.", "es_correcta": true},
+      {"letra": "C", "texto": "Fomenta la libre competencia y la reducción de impuestos de importación de papel de prensa extranjero.", "es_correcta": false},
+      {"letra": "D", "texto": "Obliga a los partidos de oposición a crear sus propias redes satelitales de radiodifusión comunitaria.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La manufactura del consentimiento adormece el pensamiento crítico ciudadano al encuadrar las noticias dentro de límites ideológicos tolerables para las élites. La ciudadanía aprueba políticas que benefician al poder financiero creyendo falsamente que delibera de forma libre.",
+    "tema": "Crítica de Medios"
+  },
+  {
+    "id_pregunta": "seed_lc_11",
+    "modulo": "Critical Reading",
+    "enunciado": "Considere la perspectiva del filósofo Hans-Georg Gadamer sobre la hermenéutica:\n\n'La pretensión de la ilustración de juzgar un texto histórico despojándose de todos los prejuicios y presupuestos personales es una ilusión metodológica nociva. Comprender no es anular nuestro presente para resucitar el pasado, sino lograr una fusión de horizontes: el encuentro donde el horizonte histórico del texto dialoga con el horizonte de prejuicios legítimos de nuestro propio presente, transformando a ambos en una nueva comprensión común'.\n\nSegún Gadamer, los 'prejuicios' del intérprete son:",
+    "opciones": [
+      {"letra": "A", "texto": "Obstáculos intelectuales dañinos que deben erradicarse mediante el método matemático formal de las ciencias puras.", "es_correcta": false},
+      {"letra": "B", "texto": "Condiciones previas necesarias e inevitables de posibilitación de la comprensión, que constituyen nuestro punto de partida histórico para dialogar con el texto.", "es_correcta": true},
+      {"letra": "C", "texto": "Juicios morales errados heredados de la religión que impiden el progreso científico de las humanidades.", "es_correcta": false},
+      {"letra": "D", "texto": "Mecanismos de opresión discursiva diseñados por el patriarcado para limitar el acceso al conocimiento.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "A diferencia de la Ilustración, que ve el 'prejuicio' como ignorancia, la hermenéutica filosófica de Gadamer lo reivindica como 'pre-comprensión'. No podemos interpretar nada desde la nada absoluta; interpretamos desde nuestra tradición histórica (nuestro horizonte), la cual posibilita el encuentro con el texto.",
+    "tema": "Hermenéutica"
+  },
+  {
+    "id_pregunta": "seed_lc_12",
+    "modulo": "Critical Reading",
+    "enunciado": "Lea el fragmento de Theodor Adorno y Max Horkheimer sobre la 'Industria Cultural':\n\n'La industria cultural somete a todos los sectores de la vida espiritual a un único formateo industrial. El cine, la radio y la televisión ya no pretenden ser arte, sino mercancías estandarizadas producidas en serie para adecuar el consumo espiritual de las masas. Al ofrecer tramas predecibles, finales felices estandarizados y ritmos masticados, la industria cultural atrofia la imaginación y la capacidad reflexiva del consumidor, impidiendo el despertar de la conciencia de clase'.\n\nBajo esta perspectiva crítica de la Escuela de Frankfurt, el entretenimiento de masas opera principalmente como:",
+    "opciones": [
+      {"letra": "A", "texto": "Una herramienta de emancipación estética que democratiza la alta cultura para el proletariado.", "es_correcta": false},
+      {"letra": "B", "texto": "Un anestésico social e ideológico que neutraliza el potencial revolucionario y crítico del sujeto al asimilarlo al mercado de consumo masivo.", "es_correcta": true},
+      {"letra": "C", "texto": "Un reflejo espontáneo de la riqueza cultural del folklore popular y de las tradiciones obreras.", "es_correcta": false},
+      {"letra": "D", "texto": "Un canal educativo que incrementa el nivel cognitivo de los ciudadanos en matemáticas financieras.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La industria cultural convierte el arte en un producto estandarizado para adormecer el pensamiento. Ofrece una simulación de placer y escape que reconcilia al trabajador con la alienación del sistema capitalista, desactivando su rebeldía.",
+    "tema": "Industria Cultural"
+  },
+  {
+    "id_pregunta": "seed_lc_13",
+    "modulo": "Critical Reading",
+    "enunciado": "Considere la tesis del filósofo de la ciencia Thomas Kuhn en su obra 'La estructura de las revoluciones científicas':\n\n'El progreso científico no ocurre mediante una acumulación lineal y pacífica de nuevos conocimientos objetivos. Por el contrario, transcurre mediante revoluciones: periodos de ciencia normal regidos por un paradigma dominante entran en crisis debido a la acumulación de anomalías inexplicables. Cuando el viejo paradigma colapsa, es reemplazado de manera abrupta por un nuevo paradigma inconmensurable con el anterior, redefiniendo qué es la ciencia y el mundo mismo'.\n\nLa afirmación de Kuhn de que los paradigmas son 'inconmensurables' implica que:",
+    "opciones": [
+      {"letra": "A", "texto": "Los paradigmas modernos contienen más ecuaciones matemáticas verdaderas que los paradigmas medievales.", "es_correcta": false},
+      {"letra": "B", "texto": "No existe un estándar neutral, objetivo o lenguaje común absoluto para comparar o juzgar dos paradigmas de manera puramente lógica, puesto que cada uno define sus propios métodos, verdades y vocabulario.", "es_correcta": true},
+      {"letra": "C", "texto": "La verdad científica cambia cada veinticuatro horas dependiendo del financiamiento estatal de los laboratorios.", "es_correcta": false},
+      {"letra": "D", "texto": "Los científicos pertenecientes a un paradigma anterior sufren de trastornos neurológicos de origen biológico.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "Inconmensurabilidad significa 'falta de una medida común'. Dos paradigmas en pugna (como la física de Aristóteles y la de Newton) ven el mundo de formas incompatibles y definen la realidad con lenguajes dispares, lo que impide una comparación matemática pura, requiriendo una 'conversión' conceptual de la comunidad científica.",
+    "tema": "Filosofía de la Ciencia"
+  },
+  {
+    "id_pregunta": "seed_lc_14",
+    "modulo": "Critical Reading",
+    "enunciado": "Analice la famosa paradoja de la tolerancia enunciada por el filósofo Karl Popper:\n\n'Si extendemos la tolerancia ilimitada incluso a aquellos que son intolerantes, si no estamos dispuestos a defender una sociedad tolerante contra el atropello de los intolerantes, los tolerantes serán destruidos, y la tolerancia con ellos. Por lo tanto, debemos proclamar el derecho a no tolerar a los intolerantes, siempre que sea necesario para preservar la tolerancia'.\n\nLa conclusión de Popper fundamenta la necesidad democrática de:",
+    "opciones": [
+      {"letra": "A", "texto": "Aceptar pacíficamente todos los discursos de odio en aras de defender la libertad de expresión absoluta.", "es_correcta": false},
+      {"letra": "B", "texto": "Establecer límites éticos, constitucionales y legales a los grupos extremistas que buscan destruir las libertades democráticas y los derechos humanos fundamentales.", "es_correcta": true},
+      {"letra": "C", "texto": "Eliminar la pluralidad política permitiendo únicamente la existencia de un partido oficial progresista.", "es_correcta": false},
+      {"letra": "D", "texto": "Proscribir las religiones tradicionales para evitar el fanatismo moral de origen teocrático.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La paradoja de la tolerancia sostiene que, para mantener la existencia de una sociedad libre y abierta (tolerante), no se puede permitir la intolerancia absoluta que busca abolir por la fuerza o el engaño el propio orden democrático, legitimando la autodefensa constitucional del Estado de Derecho.",
+    "tema": "Filosofía Política"
+  },
+  {
+    "id_pregunta": "seed_lc_15",
+    "modulo": "Critical Reading",
+    "enunciado": "Lea el fragmento del sociólogo Zygmunt Bauman sobre la modernidad líquida:\n\n'En la sociedad líquida contemporánea, todos los compromisos a largo plazo, los lazos humanos y las instituciones sociales estables se disuelven. El ciudadano es transformado en consumidor: las relaciones afectivas se evalúan bajo el prisma del coste-beneficio y se descartan rápidamente cuando dejan de producir satisfacción inmediata. La fluidez destruye la solidaridad colectiva, dejando al individuo en una soledad existencial desprotegida'.\n\nSegún Bauman, la fragilidad de los lazos humanos en la modernidad líquida es un efecto de:",
+    "opciones": [
+      {"letra": "A", "texto": "El aumento en las tasas de divorcio provocado por la secularización de la cultura de masas.", "es_correcta": false},
+      {"letra": "B", "texto": "La asimilación de la lógica de consumo mercantil, desechabilidad y satisfacción instantánea en el ámbito de las relaciones humanas y la vida comunitaria.", "es_correcta": true},
+      {"letra": "C", "texto": "La falta de regulaciones penales que sancionen el abandono de los deberes de paternidad.", "es_correcta": false},
+      {"letra": "D", "texto": "El excesivo desarrollo industrial de las tecnologías móviles de mensajería instantánea.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "Bauman sostiene que el capitalismo tardío moldea nuestra subjetividad para actuar como consumidores permanentes. Al aplicar la lógica mercantil de 'usar y desechar' a los vínculos afectivos, estos pierden su solidez y compromiso, diluyéndose de forma continua ('liquidez').",
+    "tema": "Sociología Crítica"
+  },
+  {
+    "id_pregunta": "seed_lc_16",
+    "modulo": "Critical Reading",
+    "enunciado": "Considere la teoría de la performatividad de Judith Butler:\n\n'El género no es una esencia biológica preexistente, ni una verdad oculta inscrita en las células del cuerpo. El género es una construcción cultural y lingüística producida a través de la repetición ritualizada y performativa de gestos, discursos y comportamientos sancionados socialmente. Es una actuación (performance) que produce la ilusión de una naturaleza interior fija'.\n\nBajo la óptica butleriana, el género es:",
+    "opciones": [
+      {"letra": "A", "texto": "Un rol social de elección libre y consciente que el individuo cambia a su antojo de forma diaria.", "es_correcta": false},
+      {"letra": "B", "texto": "Un efecto discursivo y corporal construido a través de la reiteración de normas sociales imperativas que moldean al sujeto desde el nacimiento.", "es_correcta": true},
+      {"letra": "C", "texto": "Una manifestación neurológica inmutable que determina el temperamento emocional de hombres y mujeres.", "es_correcta": false},
+      {"letra": "D", "texto": "Un mito medieval que carece de efectos materiales reales en el derecho civil contemporáneo.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La performatividad del género no implica una 'actuación de teatro voluntaria'. Es la repetición inconsciente y forzada de normas sociales del discurso regulador que, al materializarse en los cuerpos, crea el efecto de naturalidad de lo masculino y lo femenino.",
+    "tema": "Teoría de Género"
+  },
+  {
+    "id_pregunta": "seed_lc_17",
+    "modulo": "Critical Reading",
+    "enunciado": "Lea atentamente el fragmento del filósofo Albert Camus en 'El mito de Sísifo':\n\n'Los dioses habían condenado a Sísifo a subir sin cesar una roca hasta la cima de una montaña, desde donde la piedra volvía a caer por su propio peso. Habían pensado con algún fundamento que no hay castigo más terrible que el trabajo inútil y sin esperanza. Pero Sísifo es superior a su destino; es más fuerte que su roca. Ese instante de retorno, esa pausa en la cima antes de que la piedra vuelva a caer, es el momento de la conciencia. Hay que imaginar a Sísifo dichoso'.\n\n¿Por qué Camus considera que 'Sísifo es superior a su destino' y que debemos 'imaginarlo dichoso'?",
+    "opciones": [
+      {"letra": "A", "texto": "Porque Sísifo eventualmente convence a los dioses de perdonar sus pecados terrenales y otorgarle la inmortalidad celestial.", "es_correcta": false},
+      {"letra": "B", "texto": "Porque al asumir plenamente la inutilidad de su castigo con total lucidez y conciencia, adueñándose de su esfuerzo sin falsas esperanzas celestiales, convierte su condena en un acto de rebelión soberana.", "es_correcta": true},
+      {"letra": "C", "texto": "Porque Sísifo inventa una polea mecánica que le permite automatizar la elevación física de la piedra.", "es_correcta": false},
+      {"letra": "D", "texto": "Porque el ejercicio muscular diario le proporciona un estado de éxtasis físico de origen místico.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "En la filosofía del absurdo, la rebelión radica en la lucidez extrema: reconocer que la vida carece de un sentido trascendente intrínseco, pero vivirla y asumirla plenamente sin claudicar ante el suicidio físico o el misticismo religioso. Sísifo, sabiendo que su roca siempre caerá, decide subirla de todos modos, arrebatando a los dioses el poder del castigo.",
+    "tema": "Filosofía del Absurdo"
+  },
+  {
+    "id_pregunta": "seed_lc_18",
+    "modulo": "Critical Reading",
+    "enunciado": "Analice la postura epistemológica de Bruno Latour en la Teoría del Actor-Red:\n\n'La realidad científica y los hechos tecnológicos no son descubrimientos puros de genios aislados en la naturaleza. Son redes sociotécnicas complejas de asociaciones donde los actores humanos (científicos, políticos) y no-humanos (microscopios, bacterias, software, laboratorios) interactúan en un plano de simetría general. Un hecho científico se consolida solo cuando la red de aliados es lo suficientemente fuerte para resistir las objeciones de los escépticos'.\n\nEl principio de 'simetría general' de Latour propone que:",
+    "opciones": [
+      {"letra": "A", "texto": "La mente humana posee una simetría bilateral idéntica a la estructura de los cristales inorgánicos.", "es_correcta": false},
+      {"letra": "B", "texto": "Tanto los agentes humanos como los elementos tecnológicos y naturales (actantes no-humanos) deben analizarse con el mismo marco conceptual, reconociendo que ambos ejercen agencia e influyen en la consolidación del conocimiento.", "es_correcta": true},
+      {"letra": "C", "texto": "La ciencia pura debe subordinarse de forma matemática a las decisiones estéticas de los artistas locales.", "es_correcta": false},
+      {"letra": "D", "texto": "Los computadores cuánticos eventualmente adquirirán derechos civiles y autonomía legal frente al Estado.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La simetría general latouriana rompe la barrera moderna sujeto/objeto. Sostiene que los objetos, tecnologías y microbios tienen un papel activo ('agency') en el entramado sociotécnico; las bacterias del laboratorio de Pasteur dictan la forma de la teoría tanto como la destreza discursiva del propio Pasteur.",
+    "tema": "Estudios de Ciencia y Tecnología"
+  },
+  {
+    "id_pregunta": "seed_lc_19",
+    "modulo": "Critical Reading",
+    "enunciado": "Considere la noción de la 'banalidad del mal' desarrollada por la pensadora Hannah Arendt en relación con el juicio al criminal de guerra nazi Adolf Eichmann:\n\n'Eichmann no era un monstruo sádico ni un demonio ideológico sediento de sangre. Era un burócrata aterradoramente normal, un ciudadano diligente que organizaba la logística de los trenes de deportación masiva sin odiar a las víctimas. Su maldad provenía no de una perversidad excepcional, sino de una total ausencia de pensamiento, de una incapacidad absoluta de juzgar de forma autónoma fuera de las órdenes de su jerarquía oficial'.\n\nLa tesis de Arendt alerta que el mayor peligro moral en las sociedades modernas reside en:",
+    "opciones": [
+      {"letra": "A", "texto": "La escasez de psiquiatras capacitados para diagnosticar psicopatías graves en funcionarios públicos de nivel ministerial.", "es_correcta": false},
+      {"letra": "B", "texto": "La obediencia ciega, la renuncia a la reflexión moral autónoma y la deshumanización del lenguaje técnico-burocrático dentro de aparatos institucionales sumisos.", "es_correcta": true},
+      {"letra": "C", "texto": "La falta de cámaras de seguridad de alta tecnología en los despachos judiciales del país.", "es_correcta": false},
+      {"letra": "D", "texto": "El incremento en el volumen de tratados comerciales internacionales de libre comercio.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "Arendt escandalizó al mundo al señalar que el mal extremo puede ser perpetrado por burócratas normales que simplemente 'cumplen con su deber' de manera mecánica. La renuncia al pensamiento autónomo y la empatía dentro de una estructura jerárquica deshumaniza al individuo, volviéndolo una pieza eficiente de la barbarie.",
+    "tema": "Filosofía Moral y Política"
+  },
+  {
+    "id_pregunta": "seed_lc_20",
+    "modulo": "Critical Reading",
+    "enunciado": "Lea el fragmento del filósofo pragmatista Richard Rorty sobre la solidaridad humana:\n\n'La solidaridad humana no es una esencia interna compartida por todos los hombres en virtud de su razón o biología, lista para ser descubierta. La solidaridad debe ser creada de forma activa. No se logra mediante reflexiones metafísicas puras, sino mediante la educación de la sensibilidad: la habilidad imaginativa de ver a los extraños como compañeros de sufrimiento, expandiendo la descripción de quiénes entran en la categoría de nosotros'.\n\nSegún Rorty, el vehículo principal para expandir la solidaridad social es:",
+    "opciones": [
+      {"letra": "A", "texto": "La demostración matemática de los principios universales de la ley natural y la teología.", "es_correcta": false},
+      {"letra": "B", "texto": "La literatura, el periodismo narrativo y el cine, que permiten imaginar la vida y el dolor ajeno de forma empática, sensibilizando la conciencia moral del sujeto.", "es_correcta": true},
+      {"letra": "C", "texto": "La imposición militar de fronteras soberanas rígidas para evitar mezclas culturales nocivas.", "es_correcta": false},
+      {"letra": "D", "texto": "El desarrollo comercial de algoritmos bursátiles que automaticen la entrega de donaciones corporativas.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "Rorty desconfía de los fundamentos metafísicos absolutos. Sostiene que la solidaridad se teje de forma pragmática y empática. Al leer novelas, reportajes u oír relatos sobre personas marginadas, aprendemos a ver al 'otro' no como un extraño hostil, sino como alguien que sufre y merece ser integrado al 'nosotros'.",
+    "tema": "Pragmatismo Moral"
+  },
+  {
+    "id_pregunta": "seed_lc_21",
+    "modulo": "Critical Reading",
+    "enunciado": "Considere la crítica del filósofo Slavoj Žižek sobre el consumismo ecológico contemporáneo:\n\n'Cuando compramos manzanas orgánicas o donamos un porcentaje del café al comercio justo, no estamos simplemente consumiendo un producto. Estamos comprando nuestra propia redención espiritual: el precio incluye la creencia reconfortante de que estamos haciendo algo positivo por el planeta. Este capitalismo ético mercantilizado neutraliza la verdadera protesta radical al hacernos sentir que somos parte de la solución a través del consumo mismo, blindando al sistema económico de reformas estructurales reales'.\n\n¿Cuál es la paradoja del capitalismo ético señalada por Žižek?",
+    "opciones": [
+      {"letra": "A", "texto": "Las manzanas orgánicas tienen un costo de producción agrícola inferior al de los alimentos transgénicos importados.", "es_correcta": false},
+      {"letra": "B", "texto": "El propio acto de consumo ético e individual alivia la culpa moral del consumidor y pacifica su inquietud política, consolidando el funcionamiento del sistema económico depredador al sustituir la acción colectiva estructural por un gesto mercantil inofensivo.", "es_correcta": true},
+      {"letra": "C", "texto": "Las corporaciones transnacionales sufren pérdidas fiscales de gran escala por financiar la reforestación de cuencas fluviales.", "es_correcta": false},
+      {"letra": "D", "texto": "La ecología extrema impide que los países subdesarrollados accedan a la tecnología nuclear con fines pacíficos.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "Žižek desvela que el consumismo verde opera como una ideología perfecta: al comprar, sentimos que cumplimos con nuestro deber cívico de proteger el planeta. Esto despolitiza la causa ecológica, ya que el consumidor prefiere un gesto ético de mercado fácil antes que organizarse colectivamente para exigir un cambio radical de la matriz productiva.",
+    "tema": "Crítica Ideológica"
+  }
+]

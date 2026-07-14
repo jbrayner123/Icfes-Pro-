@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: pro-icfes
+    env: node
+    plan: starter # Starter plan is required for Persistent Disks
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 3000
+      - key: DATA_DIR
+        value: /data
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: DEEPSEEK_API_KEY
+        sync: false
+    disk:
+      name: pro-icfes-disk
+      mountPath: /data
+      sizeGB: 1

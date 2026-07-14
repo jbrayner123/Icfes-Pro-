@@ -1,0 +1,782 @@
+[
+  {
+    "id_pregunta": "seed_en_101",
+    "modulo": "English",
+    "enunciado": "Choose the option that grammatically and logically completes the following sentence from an academic study on software efficiency:\n\n'Had the developers been aware of the significant latency issues, they ________ optimized the database queries before the application was deployed to the production environment.'",
+    "opciones": [
+      {"letra": "A", "texto": "would have", "es_correcta": true},
+      {"letra": "B", "texto": "will have", "es_correcta": false},
+      {"letra": "C", "texto": "should be", "es_correcta": false},
+      {"letra": "D", "texto": "could be", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "This is an inverted third conditional sentence (equivalent to: 'If the developers had been aware...'). The result clause must use 'would have' + past participle ('optimized') to express an unfulfilled past condition.",
+    "tema": "Inverted Conditionals"
+  },
+  {
+    "id_pregunta": "seed_en_102",
+    "modulo": "English",
+    "enunciado": "Select the word that best fits the blank space in this professional announcement:\n\n'Due to the upcoming migration to cloud infrastructure, all local servers will be ________ decommissioned over the next three weeks to ensure a smooth transition with zero data loss.'",
+    "opciones": [
+      {"letra": "A", "texto": "gradually", "es_correcta": true},
+      {"letra": "B", "texto": "abruptly", "es_correcta": false},
+      {"letra": "C", "texto": "superficially", "es_correcta": false},
+      {"letra": "D", "texto": "reluctantly", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "'Gradually' means step-by-step or slowly over time, which matches the intention of 'ensure a smooth transition with zero data loss'. 'Abruptly' (suddenly) would contradict 'smooth transition'; 'superficially' and 'reluctantly' are semantically incorrect in this context.",
+    "tema": "Lexical Precision"
+  },
+  {
+    "id_pregunta": "seed_en_103",
+    "modulo": "English",
+    "enunciado": "Choose the correct phrase to complete the gap in this technical description:\n\n'The new security protocol is designed to protect user accounts ________ unauthorized login attempts, utilizing a combination of biometric authentication and rate-limiting thresholds.'",
+    "opciones": [
+      {"letra": "A", "texto": "against", "es_correcta": true},
+      {"letra": "B", "texto": "from of", "es_correcta": false},
+      {"letra": "C", "texto": "towards", "es_correcta": false},
+      {"letra": "D", "texto": "upon", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "The verb 'protect' is followed by the preposition 'against' or 'from' when referring to a threat or hazard. Since 'against' is the only grammatically correct option provided, it is the correct choice.",
+    "tema": "Prepositional Collocations"
+  },
+  {
+    "id_pregunta": "seed_en_104",
+    "modulo": "English",
+    "enunciado": "Read the text and answer the question:\n\n'Artificial Intelligence has transformed the landscape of modern medicine. Machine learning models are now capable of scanning thousands of radiological images in seconds, identifying microscopic anomalies with accuracy rates that rival seasoned pathologists. However, experts warn that these tools should be viewed as diagnostic assistants rather than independent decision-makers, as they lack the holistic, patient-centric understanding required for comprehensive medical care.'\n\nWhat is the author's primary argument regarding the role of AI in medicine?",
+    "opciones": [
+      {"letra": "A", "texto": "AI should completely replace human pathologists due to its superior speed and flawless accuracy.", "es_correcta": false},
+      {"letra": "B", "texto": "AI is a powerful supplementary tool but cannot replace the comprehensive judgment of human medical professionals.", "es_correcta": true},
+      {"letra": "C", "texto": "Medical professionals should reject AI models because they are prone to critical diagnostic errors.", "es_correcta": false},
+      {"letra": "D", "texto": "AI is only useful for minor administrative tasks and has no real clinical value in modern healthcare.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "The text states that AI is fast and accurate but should be used as a 'diagnostic assistant' rather than an 'independent decision-maker' because it lacks a 'holistic, patient-centric understanding'. This supports option B.",
+    "tema": "Reading Comprehension"
+  },
+  {
+    "id_pregunta": "seed_en_105",
+    "modulo": "English",
+    "enunciado": "Identify the option that best completes the sentence under formal subjunctive structures:\n\n'The CTO demanded that the lead engineer ________ the deployment immediately, as critical database corruption was detected during the dry run.'",
+    "opciones": [
+      {"letra": "A", "texto": "halt", "es_correcta": true},
+      {"letra": "B", "texto": "halts", "es_correcta": false},
+      {"letra": "C", "texto": "halted", "es_correcta": false},
+      {"letra": "D", "texto": "will halt", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "Verbs of demanding, suggesting, or recommending (e.g., 'demand that') require the subjunctive mood in the subsequent clause. The subjunctive uses the bare base form of the verb ('halt') regardless of the subject.",
+    "tema": "Subjunctive Mood"
+  },
+  {
+    "id_pregunta": "seed_en_106",
+    "modulo": "English",
+    "enunciado": "Complete the professional conversation with the most appropriate response:\n\n'Speaker X: I’m really struggling to get the regional teams to adopt the new project management methodology. They seem very resistant to change.\nSpeaker Y: ________________. Have you considered hosting some interactive workshops to address their specific concerns?'",
+    "opciones": [
+      {"letra": "A", "texto": "That sounds incredibly frustrating, but it’s a common reaction to structural transitions.", "es_correcta": true},
+      {"letra": "B", "texto": "I wouldn't worry about it because we can just fire anyone who doesn't use it.", "es_correcta": false},
+      {"letra": "C", "texto": "I agree that the software is completely useless and we should revert to paper.", "es_correcta": false},
+      {"letra": "D", "texto": "Maybe they are just lazy and don’t understand how basic technology works.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "Option A is empathetic, professional, and directly addresses the speaker's concern while paving the way for the constructive suggestion about workshops. The other options are unprofessional or overly aggressive.",
+    "tema": "Professional Communication Registers"
+  },
+  {
+    "id_pregunta": "seed_en_107",
+    "modulo": "English",
+    "enunciado": "Choose the word that best completes the academic gap:\n\n'The researcher’s findings were highly controversial, yet they were backed by ________ empirical data that could not be easily dismissed by his peers.'",
+    "opciones": [
+      {"letra": "A", "texto": "compelling", "es_correcta": true},
+      {"letra": "B", "texto": "superficial", "es_correcta": false},
+      {"letra": "C", "texto": "hearsay", "es_correcta": false},
+      {"letra": "D", "texto": "negligible", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "'Compelling' means convincing, powerful, or demanding attention, which fits perfectly with 'empirical data that could not be easily dismissed'. 'Superficial', 'hearsay', and 'negligible' denote weakness, contradicting the rest of the sentence.",
+    "tema": "Advanced Vocabulary"
+  },
+  {
+    "id_pregunta": "seed_en_108",
+    "modulo": "English",
+    "enunciado": "Select the correct option to complete this passive voice construction:\n\n'By the time the system auditors arrive next Monday, the entire server cluster ________ for vulnerabilities by our cybersecurity team.'",
+    "opciones": [
+      {"letra": "A", "texto": "will have been scanned", "es_correcta": true},
+      {"letra": "B", "texto": "has been scanned", "es_correcta": false},
+      {"letra": "C", "texto": "is being scanned", "es_correcta": false},
+      {"letra": "D", "texto": "was scanned", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "The adverbial phrase 'By the time...' referencing a future point ('next Monday') requires the Future Perfect tense. In the passive voice, this takes the form 'will have been' + past participle ('scanned').",
+    "tema": "Future Perfect Passive"
+  },
+  {
+    "id_pregunta": "seed_en_109",
+    "modulo": "English",
+    "enunciado": "Which of the options correctly completes the complex relative clause in this research summary:\n\n'The quantum cryptography startup, ________ co-founders were recently awarded an international scientific prize, has just secured ten million dollars in Series A funding.'",
+    "opciones": [
+      {"letra": "A", "texto": "whose", "es_correcta": true},
+      {"letra": "B", "texto": "whom", "es_correcta": false},
+      {"letra": "C", "texto": "of which", "es_correcta": false},
+      {"letra": "D", "texto": "that", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "'Whose' is a possessive relative pronoun used to show ownership or association with both people and entities (the co-founders of the startup). 'Whom' is an object pronoun, 'of which' is awkward here, and 'that' cannot be possessive.",
+    "tema": "Relative Pronouns"
+  },
+  {
+    "id_pregunta": "seed_en_110",
+    "modulo": "English",
+    "enunciado": "Read the short article and answer the question:\n\n'Biometric monitoring systems have become standard practice in modern offices. Proponents claim that tracking employee eye movements and typing speed enhances productivity and prevents slacking. Opponents, however, argue that this level of scrutiny turns the workplace into a modern panopticon, raising high anxiety levels and severely damaging morale. In their view, true productivity stems from trust and creative freedom rather than digital surveillance.'\n\nWhat is the tone of the opponents mentioned in the text?",
+    "opciones": [
+      {"letra": "A", "texto": "Critical and apprehensive", "es_correcta": true},
+      {"letra": "B", "texto": "Indifferent and neutral", "es_correcta": false},
+      {"letra": "C", "texto": "Enthusiastic and supportive", "es_correcta": false},
+      {"letra": "D", "texto": "Sarcastic and humorous", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "The opponents express concerns that surveillance turns the workplace into a 'panopticon', raises 'anxiety', and damages 'morale'. This language is deeply critical and apprehensive (worried about future outcomes) rather than indifferent, supportive, or sarcastic.",
+    "tema": "Tone and Attitude Analysis"
+  },
+  {
+    "id_pregunta": "seed_en_111",
+    "modulo": "English",
+    "enunciado": "Choose the logical linking word to complete this argumentative passage:\n\n'The corporation decided to invest heavily in eco-friendly packaging solutions. ________, they launched a massive PR campaign to highlight their commitment to carbon neutrality, hoping to attract younger, environmentally conscious consumers.'",
+    "opciones": [
+      {"letra": "A", "texto": "Furthermore", "es_correcta": true},
+      {"letra": "B", "texto": "Nevertheless", "es_correcta": false},
+      {"letra": "C", "texto": "Otherwise", "es_correcta": false},
+      {"letra": "D", "texto": "Instead", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "The second sentence introduces an additional, supportive action taken by the corporation. 'Furthermore' is used to add info that aligns with the previous statement. 'Nevertheless' indicates contrast, 'otherwise' shows a conditional alternative, and 'instead' suggests replacement.",
+    "tema": "Linking Words"
+  },
+  {
+    "id_pregunta": "seed_en_112",
+    "modulo": "English",
+    "enunciado": "Select the correct verb pattern to complete this sentence on technological migration:\n\n'The system architect recommended ________ a hybrid cloud model before committing to a full-scale migration of all customer databases.'",
+    "opciones": [
+      {"letra": "A", "texto": "testing", "es_correcta": true},
+      {"letra": "B", "texto": "to test", "es_correcta": false},
+      {"letra": "C", "texto": "test", "es_correcta": false},
+      {"letra": "D", "texto": "to be tested", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "The verb 'recommend' is followed directly by a gerund ('testing') when there is no direct object pronoun or 'that' clause intervening. Therefore, 'recommend testing' is the grammatically correct structure.",
+    "tema": "Verb Patterns (Gerunds & Infinitives)"
+  },
+  {
+    "id_pregunta": "seed_en_113",
+    "modulo": "English",
+    "enunciado": "Choose the word that best completes the gap in this technical guide:\n\n'To optimize database performance, you should periodically run indexing routines to prevent data query operations from becoming ________ over time.'",
+    "opciones": [
+      {"letra": "A", "texto": "sluggish", "es_correcta": true},
+      {"letra": "B", "texto": "expedited", "es_correcta": false},
+      {"letra": "C", "texto": "volatile", "es_correcta": false},
+      {"letra": "D", "texto": "redundant", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "'Sluggish' means slow-moving or lacking energy/speed, which describes degraded query performance. 'Expedited' means sped up (the opposite); 'volatile' means unstable; 'redundant' means repetitive.",
+    "tema": "Technical Vocabulary"
+  },
+  {
+    "id_pregunta": "seed_en_114",
+    "modulo": "English",
+    "enunciado": "Read the paragraph and answer the question:\n\n'While high-growth startups often receive widespread praise in the tech media for their rapid valuation increases, long-term economic data suggests that up to 90% of these enterprises fail within their first five years. The primary driver of this mortality rate is not a lack of innovative ideas, but rather premature scaling—spending capital on aggressive marketing and staff expansion before establishing a verified product-market fit.'\n\nAccording to the passage, what is the main cause of failure for high-growth startups?",
+    "opciones": [
+      {"letra": "A", "texto": "A severe lack of creative and innovative product designs.", "es_correcta": false},
+      {"letra": "B", "texto": "Expanding operations and spending capital before validating the product's demand in the market.", "es_correcta": true},
+      {"letra": "C", "texto": "Negative coverage and bias in tech journalism and media.", "es_correcta": false},
+      {"letra": "D", "texto": "High corporate tax rates and excessive government regulations.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "The text directly states that 'premature scaling'—defined as spending capital on marketing and staff expansion before establishing product-market fit—is the primary driver of the high failure rate, making option B the correct answer.",
+    "tema": "Reading Comprehension"
+  },
+  {
+    "id_pregunta": "seed_en_115",
+    "modulo": "English",
+    "enunciado": "Complete the sentence using the correct modal verb of deduction:\n\n'The server room door is locked and the security cameras are offline. The maintenance team ________ been inside when the power failure occurred, as they had the only key card.'",
+    "opciones": [
+      {"letra": "A", "texto": "must have", "es_correcta": true},
+      {"letra": "B", "texto": "should have", "es_correcta": false},
+      {"letra": "C", "texto": "might not", "es_correcta": false},
+      {"letra": "D", "texto": "ought to", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "'Must have' + past participle is used to make a strong logical deduction about a past event based on strong evidence (they had the only key card). 'Should have' refers to an unfulfilled expectation; 'might not' suggests a weak negative possibility.",
+    "tema": "Modals of Past Deduction"
+  },
+  {
+    "id_pregunta": "seed_en_116",
+    "modulo": "English",
+    "enunciado": "Choose the word that best completes the sentence:\n\n'The new CEO was praised for her ________ approach to problem-solving, which anticipated market shifts before they impacted corporate profits.'",
+    "opciones": [
+      {"letra": "A", "texto": "proactive", "es_correcta": true},
+      {"letra": "B", "texto": "reactive", "es_correcta": false},
+      {"letra": "C", "texto": "complacent", "es_correcta": false},
+      {"letra": "D", "texto": "negligent", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "'Proactive' means taking action to control a situation rather than just responding to it after it has happened. This fits with 'anticipated market shifts before they impacted corporate profits'. 'Reactive' is the opposite, while 'complacent' and 'negligent' are negative terms.",
+    "tema": "Contextual Vocabulary"
+  },
+  {
+    "id_pregunta": "seed_en_117",
+    "modulo": "English",
+    "enunciado": "Select the correct prepositional phrase to complete this formal request:\n\n'________ the new corporate green policy, all employees are requested to minimize printing and transition to digital document workflows.'",
+    "opciones": [
+      {"letra": "A", "texto": "In accordance with", "es_correcta": true},
+      {"letra": "B", "texto": "In spite of", "es_correcta": false},
+      {"letra": "C", "texto": "By means of", "es_correcta": false},
+      {"letra": "D", "texto": "In contrast to", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "'In accordance with' means in agreement or compliance with a rule, law, or policy, which fits the sentence perfectly. 'In spite of' indicates contrast, 'by means of' denotes instrument, and 'in contrast to' shows opposition.",
+    "tema": "Prepositional Phrases"
+  },
+  {
+    "id_pregunta": "seed_en_118",
+    "modulo": "English",
+    "enunciado": "Read the tech report snippet and answer the question:\n\n'In response to the growing threat of ransomware, many enterprises are adopting air-gapped backups. An air gap is a security measure that ensures a backup copy of critical data is completely offline and disconnected from any network, making it physically impossible for remote hackers to access or encrypt it during a cyberattack.'\n\nWhat is the defining characteristic of an air-gapped backup?",
+    "opciones": [
+      {"letra": "A", "texto": "It relies on high-speed fiber optic cables for real-time synchronization.", "es_correcta": false},
+      {"letra": "B", "texto": "It is completely isolated from any network or online connection.", "es_correcta": true},
+      {"letra": "C", "texto": "It is stored in high-altitude environments to prevent physical theft.", "es_correcta": false},
+      {"letra": "D", "texto": "It encrypts data using quantum-level mathematical formulas.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "The text defines an air gap as a security measure ensuring that backup data is 'completely offline and disconnected from any network', validating option B.",
+    "tema": "Technical Reading Comprehension"
+  },
+  {
+    "id_pregunta": "seed_en_119",
+    "modulo": "English",
+    "enunciado": "Choose the option that grammatically completes the relative adverb structure:\n\n'We have finally reached a stage in our software development lifecycle ________ automated tests can be executed continuously with every code commit.'",
+    "opciones": [
+      {"letra": "A", "texto": "where", "es_correcta": true},
+      {"letra": "B", "texto": "which", "es_correcta": false},
+      {"letra": "C", "texto": "whose", "es_correcta": false},
+      {"letra": "D", "texto": "who", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "'Where' is used as a relative adverb to refer to a situation, point, or stage (e.g., 'a stage... where automated tests can be run'). 'Which' would require a preposition like 'at which' to be correct in this position.",
+    "tema": "Relative Adverbs"
+  },
+  {
+    "id_pregunta": "seed_en_120",
+    "modulo": "English",
+    "enunciado": "Identify the meaning of the phrasal verb in the following context:\n\n'The system administrators decided to call off the database migration after several critical edge cases failed during the staging trials.'",
+    "opciones": [
+      {"letra": "A", "texto": "To cancel", "es_correcta": true},
+      {"letra": "B", "texto": "To postpone", "es_correcta": false},
+      {"letra": "C", "texto": "To accelerate", "es_correcta": false},
+      {"letra": "D", "texto": "To evaluate", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "The phrasal verb 'call off' means to cancel something that was planned. Thus, 'call off the database migration' means to cancel the migration. To postpone would be 'put off' or 'defer'.",
+    "tema": "Phrasal Verbs"
+  },
+  {
+    "id_pregunta": "seed_en_121",
+    "modulo": "English",
+    "enunciado": "Choose the word that best completes the gap in this financial software review:\n\n'The auditing tool performs an ________ analysis of transaction logs, detecting anomalies that human auditors would likely overlook.'",
+    "opciones": [
+      {"letra": "A", "texto": "exhaustive", "es_correcta": true},
+      {"letra": "B", "texto": "cursory", "es_correcta": false},
+      {"letra": "C", "texto": "haphazard", "es_correcta": false},
+      {"letra": "D", "texto": "superficial", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "'Exhaustive' means fully comprehensive, thorough, and detailed, which fits the context of detecting hard-to-find anomalies. 'Cursory' and 'superficial' mean brief or shallow, while 'haphazard' means random or unorganized.",
+    "tema": "Academic Vocabulary"
+  },
+  {
+    "id_pregunta": "seed_en_122",
+    "modulo": "English",
+    "enunciado": "Select the correct option to complete this sentence using inversion for emphasis:\n\n'No sooner ________ the server room than the emergency backup generators booted up to supply electrical power.'",
+    "opciones": [
+      {"letra": "A", "texto": "had the engineers left", "es_correcta": true},
+      {"letra": "B", "texto": "the engineers had left", "es_correcta": false},
+      {"letra": "C", "texto": "did the engineers left", "es_correcta": false},
+      {"letra": "D", "texto": "have the engineers left", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "Negative adverbials like 'No sooner' at the beginning of a sentence require subject-auxiliary inversion. The structure is 'No sooner had + subject + past participle... than'. Option A is the only grammatically correct structure.",
+    "tema": "Grammatical Inversion"
+  },
+  {
+    "id_pregunta": "seed_en_123",
+    "modulo": "English",
+    "enunciado": "Choose the best word to complete this business strategy report:\n\n'By diversifying its supply chain, the tech firm hopes to ________ any potential disruption caused by sudden geopolitical instability.'",
+    "opciones": [
+      {"letra": "A", "texto": "mitigate", "es_correcta": true},
+      {"letra": "B", "texto": "exacerbate", "es_correcta": false},
+      {"letra": "C", "texto": "validate", "es_correcta": false},
+      {"letra": "D", "texto": "oversee", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "'Mitigate' means to make less severe, serious, or painful, which fits perfectly with reducing 'potential disruption'. 'Exacerbate' means to make worse; 'validate' is to confirm; and 'oversee' is to supervise.",
+    "tema": "Business & Tech Vocabulary"
+  },
+  {
+    "id_pregunta": "seed_en_124",
+    "modulo": "English",
+    "enunciado": "Read the text and answer the question:\n\n'Green computing refers to the practice of designing, manufacturing, and using computers and servers in an environmentally sustainable manner. One key tactic is virtualizing servers, allowing a single physical machine to host multiple virtual operating systems, thus reducing energy usage, cooling costs, and physical hardware waste. However, adoption is slow because many legacy systems are incompatible with virtualization layers.'\n\nWhat is a major obstacle to the widespread adoption of green computing through virtualization, according to the text?",
+    "opciones": [
+      {"letra": "A", "texto": "A complete lack of server virtualization software providers.", "es_correcta": false},
+      {"letra": "B", "texto": "The incompatibility of many older legacy systems with virtualization.", "es_correcta": true},
+      {"letra": "C", "texto": "The extremely high energy costs associated with running virtual machines.", "es_correcta": false},
+      {"letra": "D", "texto": "A global shortage of physical server hardware.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "The text states that 'adoption is slow because many legacy systems are incompatible with virtualization layers', making option B the correct answer.",
+    "tema": "Reading Comprehension"
+  },
+  {
+    "id_pregunta": "seed_en_125",
+    "modulo": "English",
+    "enunciado": "Choose the option that grammatically completes this comparative structure:\n\n'The new cloud database engine is not only faster but also significantly ________ to scale than our local on-premise relational database server.'",
+    "opciones": [
+      {"letra": "A", "texto": "easier", "es_correcta": true},
+      {"letra": "B", "texto": "more easy", "es_correcta": false},
+      {"letra": "C", "texto": "easiest", "es_correcta": false},
+      {"letra": "D", "texto": "easily", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "The comparative form of the two-syllable adjective 'easy' (ending in -y) is 'easier'. 'More easy' is grammatically incorrect, 'easiest' is superlative, and 'easily' is an adverb.",
+    "tema": "Comparatives and Superlatives"
+  },
+  {
+    "id_pregunta": "seed_en_126",
+    "modulo": "English",
+    "enunciado": "Choose the most appropriate word to fill in the blank:\n\n'The project team had to ________ several technical hurdles before they could successfully integrate the payment gateway API.'",
+    "opciones": [
+      {"letra": "A", "texto": "surmount", "es_correcta": true},
+      {"letra": "B", "texto": "submit", "es_correcta": false},
+      {"letra": "C", "texto": "succumb", "es_correcta": false},
+      {"letra": "D", "texto": "suppress", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "'Surmount' means to overcome a difficulty or obstacle, which perfectly fits 'technical hurdles'. 'Submit' means to hand in or yield; 'succumb' means to give in to a temptation or disease; 'suppress' means to forcibly put an end to.",
+    "tema": "Advanced Vocabulary"
+  },
+  {
+    "id_pregunta": "seed_en_127",
+    "modulo": "English",
+    "enunciado": "Select the option that best completes the sentence grammatically:\n\n'If the legacy database crash had occurred during working hours, it ________ a catastrophic impact on our customer support operations.'",
+    "opciones": [
+      {"letra": "A", "texto": "would have had", "es_correcta": true},
+      {"letra": "B", "texto": "will have had", "es_correcta": false},
+      {"letra": "C", "texto": "had had", "es_correcta": false},
+      {"letra": "D", "texto": "has had", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "This sentence uses a past hypothetical condition (third conditional). The condition clause is 'If the legacy database crash had occurred' (past perfect), so the result clause must be 'would have' + past participle ('would have had').",
+    "tema": "Conditionals"
+  },
+  {
+    "id_pregunta": "seed_en_128",
+    "modulo": "English",
+    "enunciado": "Read the product specification snippet:\n\n'This software is provided on an \"as-is\" basis. The developer makes no warranties, express or implied, regarding its fitness for a particular purpose. Users are solely responsible for verifying data accuracy and ensuring backup systems are active before using this application in enterprise environments.'\n\nWhat is the main warning issued in the specification?",
+    "opciones": [
+      {"letra": "A", "texto": "The developer guarantees the software is completely bug-free and suited for all business purposes.", "es_correcta": false},
+      {"letra": "B", "texto": "The developer takes no responsibility for the software's performance and demands that users handle backups and data verification.", "es_correcta": true},
+      {"letra": "C", "texto": "Users are required to purchase a premium subscription before backing up any critical data.", "es_correcta": false},
+      {"letra": "D", "texto": "The software is only compatible with outdated operating systems and legacy databases.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "The text states the software is provided 'as-is' with 'no warranties' and that 'Users are solely responsible' for data accuracy and backups. This aligns with option B.",
+    "tema": "Technical Reading Comprehension"
+  },
+  {
+    "id_pregunta": "seed_en_129",
+    "modulo": "English",
+    "enunciado": "Choose the word that best completes the gap in this project status report:\n\n'Due to a sudden bottleneck in frontend asset delivery, the overall deployment schedule has been delayed by two weeks, ________ affecting our marketing campaign launch.'",
+    "opciones": [
+      {"letra": "A", "texto": "consequently", "es_correcta": true},
+      {"letra": "B", "texto": "initially", "es_correcta": false},
+      {"letra": "C", "texto": "nevertheless", "es_correcta": false},
+      {"letra": "D", "texto": "conversely", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "'Consequently' means as a result or effect, which matches the cause-and-effect relationship between the deployment delay and the marketing launch. 'Initially' means at the start; 'nevertheless' means despite that; 'conversely' means in an opposite way.",
+    "tema": "Adverbial Connectors"
+  },
+  {
+    "id_pregunta": "seed_en_130",
+    "modulo": "English",
+    "enunciado": "Select the correct preposition to complete this sentence on system configurations:\n\n'Please ensure that all database parameters are fully compliant ________ the latest security regulations defined by the compliance department.'",
+    "opciones": [
+      {"letra": "A", "texto": "with", "es_correcta": true},
+      {"letra": "B", "texto": "to", "es_correcta": false},
+      {"letra": "C", "texto": "of", "es_correcta": false},
+      {"letra": "D", "texto": "for", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "The adjective 'compliant' collocates with the preposition 'with' (e.g., 'compliant with regulations'). Therefore, option A is the correct grammatical choice.",
+    "tema": "Prepositional Collocations"
+  },
+  {
+    "id_pregunta": "seed_en_131",
+    "modulo": "English",
+    "enunciado": "Choose the option that grammatically completes this cleft sentence for rhetorical emphasis:\n\n'________ the development team most was not the frequency of the server outages, but rather the complete lack of logging instrumentation to diagnose them.'",
+    "opciones": [
+      {"letra": "A", "texto": "What surprised", "es_correcta": true},
+      {"letra": "B", "texto": "That surprised", "es_correcta": false},
+      {"letra": "C", "texto": "It was surprising", "es_correcta": false},
+      {"letra": "D", "texto": "Which did surprise", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "A pseudo-cleft sentence starting with 'What' (e.g., 'What surprised X was Y') is used to place focal emphasis on the subject or clause that follows the verb 'to be'.",
+    "tema": "Cleft Sentences"
+  },
+  {
+    "id_pregunta": "seed_en_132",
+    "modulo": "English",
+    "enunciado": "Choose the vocabulary word that best fits the professional gap:\n\n'The company's customer support proved to be highly ________ during the global service outage, answering thousands of inquiries with professional composure.'",
+    "opciones": [
+      {"letra": "A", "texto": "resilient", "es_correcta": true},
+      {"letra": "B", "texto": "vulnerable", "es_correcta": false},
+      {"letra": "C", "texto": "negligible", "es_correcta": false},
+      {"letra": "D", "texto": "apathetic", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "'Resilient' means able to withstand or recover quickly from difficult conditions. This aligns with handling a major service outage with composure.",
+    "tema": "Lexical Precision"
+  },
+  {
+    "id_pregunta": "seed_en_133",
+    "modulo": "English",
+    "enunciado": "Complete the sentence with the correct phrasal verb meaning 'to tolerate':\n\n'I cannot ________ with this constant noise in the office; I will request to work remotely until the construction next door is completed.'",
+    "opciones": [
+      {"letra": "A", "texto": "put up", "es_correcta": true},
+      {"letra": "B", "texto": "get along", "es_correcta": false},
+      {"letra": "C", "texto": "look down", "es_correcta": false},
+      {"letra": "D", "texto": "keep on", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "The phrasal verb 'put up with' means to tolerate or endure something unpleasant without complaining. 'Get along' means have a harmonious relationship.",
+    "tema": "Phrasal Verbs"
+  },
+  {
+    "id_pregunta": "seed_en_134",
+    "modulo": "English",
+    "enunciado": "Read the text and answer the question:\n\n'Renewable energy microgrids represent a shift toward decentralized power grids. By incorporating solar panels, localized wind turbines, and advanced battery storage units, communities can operate independently of the main electrical grid. During extreme weather events, which frequently cause widespread blackouts in centralized systems, microgrids can disconnect from the main grid and continue supplying uninterrupted electrical power to local homes and critical care facilities.'\n\nWhat is the primary advantage of renewable microgrids mentioned in the passage?",
+    "opciones": [
+      {"letra": "A", "texto": "They completely eliminate the need for any form of electrical storage like batteries.", "es_correcta": false},
+      {"letra": "B", "texto": "They allow localized communities to maintain electrical power during wider grid failures.", "es_correcta": true},
+      {"letra": "C", "texto": "They are significantly cheaper to manufacture than conventional centralized power stations.", "es_correcta": false},
+      {"letra": "D", "texto": "They are completely immune to localized severe weather conditions.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "The text states that during extreme weather events causing widespread blackouts, microgrids can disconnect and continue supplying uninterrupted power, highlighting their localized reliability.",
+    "tema": "Reading Comprehension"
+  },
+  {
+    "id_pregunta": "seed_en_135",
+    "modulo": "English",
+    "enunciado": "Select the correct option to complete this negative inversion structure:\n\n'Seldom ________ such a brilliant demonstration of data science in our quarterly performance reviews.'",
+    "opciones": [
+      {"letra": "A", "texto": "have we seen", "es_correcta": true},
+      {"letra": "B", "texto": "we have seen", "es_correcta": false},
+      {"letra": "C", "texto": "did we saw", "es_correcta": false},
+      {"letra": "D", "texto": "we saw", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "When negative or restrictive adverbs like 'Seldom' begin a sentence for emphasis, they must be followed by subject-auxiliary inversion (auxiliary verb + subject + main verb).",
+    "tema": "Grammatical Inversion"
+  },
+  {
+    "id_pregunta": "seed_en_136",
+    "modulo": "English",
+    "enunciado": "Choose the phrase that correctly completes this relative clause:\n\n'The method ________ we resolved the server replication bottleneck was highly appreciated by the DevOps lead.'",
+    "opciones": [
+      {"letra": "A", "texto": "by which", "es_correcta": true},
+      {"letra": "B", "texto": "whom with", "es_correcta": false},
+      {"letra": "C", "texto": "which in", "es_correcta": false},
+      {"letra": "D", "texto": "of what", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "'By which' is a formal prepositional relative clause structure used to denote the means or method through which an action is performed.",
+    "tema": "Relative Clauses"
+  },
+  {
+    "id_pregunta": "seed_en_137",
+    "modulo": "English",
+    "enunciado": "Select the word that best fits the blank space in this sentence:\n\n'The quality control team is known for their ________ attention to detail, catching even the smallest typographical errors before a book is published.'",
+    "opciones": [
+      {"letra": "A", "texto": "meticulous", "es_correcta": true},
+      {"letra": "B", "texto": "hazardous", "es_correcta": false},
+      {"letra": "C", "texto": "negligent", "es_correcta": false},
+      {"letra": "D", "texto": "haphazard", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "'Meticulous' means showing great attention to detail; very careful and precise. This fits perfectly with catching the smallest errors.",
+    "tema": "Academic Vocabulary"
+  },
+  {
+    "id_pregunta": "seed_en_138",
+    "modulo": "English",
+    "enunciado": "Read the text and answer the question:\n\n'The gig economy has fundamentally transformed the relationship between employers and laborers. By hiring independent freelancers instead of full-time employees, corporations can rapidly adjust their staffing levels in response to fluctuating market demands. While this model offers unprecedented flexibility for both parties, critics argue that it strips workers of critical labor protections, such as health insurance, retirement contributions, and guaranteed minimum wages, leaving them financially vulnerable.'\n\nWhat is a major criticism of the gig economy model, according to the text?",
+    "opciones": [
+      {"letra": "A", "texto": "It makes it extremely difficult for companies to adjust their staff size.", "es_correcta": false},
+      {"letra": "B", "texto": "It deprives contract workers of essential social benefits and financial safety nets.", "es_correcta": true},
+      {"letra": "C", "texto": "It completely outlaws remote work opportunities in tech sectors.", "es_correcta": false},
+      {"letra": "D", "texto": "It increases corporate tax liabilities significantly.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "The text states that critics argue this model 'strips workers of critical labor protections, such as health insurance, retirement contributions, and guaranteed minimum wages'. This directly corresponds to option B.",
+    "tema": "Reading Comprehension"
+  },
+  {
+    "id_pregunta": "seed_en_139",
+    "modulo": "English",
+    "enunciado": "Choose the correct participle structure to complete this sentence:\n\n'________ the technical database migration, the engineers decided to celebrate their success with a team dinner.'",
+    "opciones": [
+      {"letra": "A", "texto": "Having completed", "es_correcta": true},
+      {"letra": "B", "texto": "Completed", "es_correcta": false},
+      {"letra": "C", "texto": "Have completing", "es_correcta": false},
+      {"letra": "D", "texto": "On completion", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "A perfect participle clause ('Having' + past participle) is used to show that one action was completed before another action in the main clause took place.",
+    "tema": "Perfect Participles"
+  },
+  {
+    "id_pregunta": "seed_en_140",
+    "modulo": "English",
+    "enunciado": "Complete the professional conversation with the most appropriate response:\n\n'Client: We are deeply concerned about the delayed integration of the payment gateway API. This is pushing back our entire product launch date.\nAccount Manager: ________________. I have scheduled an urgent meeting with our engineering lead to expedite this process.'",
+    "opciones": [
+      {"letra": "A", "texto": "I completely understand your concern, and we are treating this matter with the highest priority.", "es_correcta": true},
+      {"letra": "B", "texto": "It's not our fault because your API documentation was extremely poorly written.", "es_correcta": false},
+      {"letra": "C", "texto": "You should probably calm down because a two-week delay is not a big deal in this industry.", "es_correcta": false},
+      {"letra": "D", "texto": "I agree that our developers are quite slow and incompetent, but we can't do anything about it.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "Option A is professional, empathetic, takes responsibility, and assures the client that the issue is being handled with high priority.",
+    "tema": "Professional Communication Registers"
+  },
+  {
+    "id_pregunta": "seed_en_141",
+    "modulo": "English",
+    "enunciado": "Identify the option that grammatically completes this mixed conditional sentence:\n\n'If the software architecture had been designed with scalability in mind, we ________ experiencing these severe performance bottlenecks today.'",
+    "opciones": [
+      {"letra": "A", "texto": "would not be", "es_correcta": true},
+      {"letra": "B", "texto": "had not been", "es_correcta": false},
+      {"letra": "C", "texto": "will not be", "es_correcta": false},
+      {"letra": "D", "texto": "should not have", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "This is a mixed conditional expressing a hypothetical past condition ('if it had been designed') and its present result ('we would not be experiencing... today').",
+    "tema": "Mixed Conditionals"
+  },
+  {
+    "id_pregunta": "seed_en_142",
+    "modulo": "English",
+    "enunciado": "Select the word that best completes the academic sentence:\n\n'The rapid growth of decentralized financial systems has presented ________ challenges to traditional regulatory frameworks.'",
+    "opciones": [
+      {"letra": "A", "texto": "unprecedented", "es_correcta": true},
+      {"letra": "B", "texto": "obsolete", "es_correcta": false},
+      {"letra": "C", "texto": "superficial", "es_correcta": false},
+      {"letra": "D", "texto": "trivial", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "'Unprecedented' means never done or known before. The rise of decentralized finance presents novel, never-before-seen challenges to regulators.",
+    "tema": "Academic Vocabulary"
+  },
+  {
+    "id_pregunta": "seed_en_143",
+    "modulo": "English",
+    "enunciado": "Select the correct prepositional collocation to complete this academic sentence:\n\n'Prolonged exposure to microgravity in space has been shown to be highly ________ human bone density, requiring astronauts to follow strict physical training regimens.'",
+    "opciones": [
+      {"letra": "A", "texto": "detrimental to", "es_correcta": true},
+      {"letra": "B", "texto": "beneficial for", "es_correcta": false},
+      {"letra": "C", "texto": "indifferent of", "es_correcta": false},
+      {"letra": "D", "texto": "compatible with", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "The adjective 'detrimental' (meaning harmful or damaging) collocates with the preposition 'to'.",
+    "tema": "Prepositional Collocations"
+  },
+  {
+    "id_pregunta": "seed_en_144",
+    "modulo": "English",
+    "enunciado": "Read the text and answer the question:\n\n'While telecommuting offers significant benefits such as eliminated commute times and a better work-life balance, it can also lead to unintended psychological consequences. Remote workers frequently report feelings of professional isolation and an inability to disconnect from work at the end of the day. Without a clear physical boundary between the office and home, many find themselves answering emails late into the night, resulting in chronic burnout.'\n\nAccording to the passage, what is a primary cause of chronic burnout for remote workers?",
+    "opciones": [
+      {"letra": "A", "texto": "An excessive amount of mandatory face-to-face team meetings.", "es_correcta": false},
+      {"letra": "B", "texto": "The lack of a distinct boundary between their professional and personal spaces.", "es_correcta": true},
+      {"letra": "C", "texto": "Severe technical issues with corporate video conferencing software.", "es_correcta": false},
+      {"letra": "D", "texto": "A sudden reduction in their overall monthly salaries.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "The text explains that 'Without a clear physical boundary between the office and home, many find themselves answering emails late into the night, resulting in chronic burnout.' This aligns with option B.",
+    "tema": "Reading Comprehension"
+  },
+  {
+    "id_pregunta": "seed_en_145",
+    "modulo": "English",
+    "enunciado": "Identify the option that best completes the sentence under formal subjunctive structures:\n\n'The compliance officer insisted that every member of the database administration team ________ a non-disclosure agreement before receiving master credentials.'",
+    "opciones": [
+      {"letra": "A", "texto": "sign", "es_correcta": true},
+      {"letra": "B", "texto": "signs", "es_correcta": false},
+      {"letra": "C", "texto": "signed", "es_correcta": false},
+      {"letra": "D", "texto": "will sign", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "The verb 'insist' followed by a 'that' clause expressing a requirement or command demands the subjunctive mood, which uses the base form of the verb ('sign') for all subjects.",
+    "tema": "Subjunctive Mood"
+  },
+  {
+    "id_pregunta": "seed_en_146",
+    "modulo": "English",
+    "enunciado": "Choose the phrasal verb that best completes this technical sentence:\n\n'The introduction of automated testing pipelines has ________ a massive reduction in software deployment cycle times.'",
+    "opciones": [
+      {"letra": "A", "texto": "brought about", "es_correcta": true},
+      {"letra": "B", "texto": "carried out", "es_correcta": false},
+      {"letra": "C", "texto": "looked into", "es_correcta": false},
+      {"letra": "D", "texto": "taken over", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "The phrasal verb 'bring about' means to cause something to happen. In this context, automated testing caused a reduction in deployment times.",
+    "tema": "Phrasal Verbs"
+  },
+  {
+    "id_pregunta": "seed_en_147",
+    "modulo": "English",
+    "enunciado": "Choose the word that best completes the gap in this professional sentence:\n\n'In today’s digital era, smartphones have become ________, with people using them for banking, navigation, and professional correspondence.'",
+    "opciones": [
+      {"letra": "A", "texto": "ubiquitous", "es_correcta": true},
+      {"letra": "B", "texto": "ephemeral", "es_correcta": false},
+      {"letra": "C", "texto": "redundant", "es_correcta": false},
+      {"letra": "D", "texto": "obsolete", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "'Ubiquitous' means present, appearing, or found everywhere. This matches the description of smartphones being used for all aspects of daily life.",
+    "tema": "Advanced Vocabulary"
+  },
+  {
+    "id_pregunta": "seed_en_148",
+    "modulo": "English",
+    "enunciado": "Read the text and answer the question:\n\n'Phishing campaigns have evolved beyond generic spam emails to highly targeted spear-phishing attacks. By gathering information from public social media profiles, attackers can craft highly personalized messages that mimic internal corporate communications or official alerts from financial institutions. These sophisticated social engineering techniques are designed to bypass traditional firewall filters by manipulating human trust rather than exploiting software vulnerabilities.'\n\nAccording to the passage, how do modern spear-phishing attacks primarily succeed in bypassing cybersecurity firewalls?",
+    "opciones": [
+      {"letra": "A", "texto": "By exploiting zero-day software vulnerabilities in major operating systems.", "es_correcta": false},
+      {"letra": "B", "texto": "By manipulating human trust through highly customized and personalized messages.", "es_correcta": true},
+      {"letra": "C", "texto": "By using high-frequency signals to disrupt physical hardware infrastructure.", "es_correcta": false},
+      {"letra": "D", "texto": "By launching denial-of-service attacks on company authentication servers.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "The text states that spear-phishing succeeds 'by manipulating human trust rather than exploiting software vulnerabilities', which corresponds to option B.",
+    "tema": "Reading Comprehension"
+  },
+  {
+    "id_pregunta": "seed_en_149",
+    "modulo": "English",
+    "enunciado": "Choose the relative adverb that grammatically completes this policy statement:\n\n'The corporation established a new HR policy ________ employees could request up to four weeks of unpaid sabbatical leave for personal development.'",
+    "opciones": [
+      {"letra": "A", "texto": "whereby", "es_correcta": true},
+      {"letra": "B", "texto": "whichever", "es_correcta": false},
+      {"letra": "C", "texto": "wherein", "es_correcta": false},
+      {"letra": "D", "texto": "whoever", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "'Whereby' is a relative adverb meaning 'by which' or 'through which', used to describe a mechanism or policy through which an action becomes possible.",
+    "tema": "Relative Adverbs"
+  },
+  {
+    "id_pregunta": "seed_en_150",
+    "modulo": "English",
+    "enunciado": "Choose the option that represents the most appropriate formal register to close a business proposal:\n\n'We look forward to the possibility of collaborating on this initiative. ________________, please do not hesitate to contact our team.'",
+    "opciones": [
+      {"letra": "A", "texto": "Should you require any further information", "es_correcta": true},
+      {"letra": "B", "texto": "If you wanna know more about this stuff", "es_correcta": false},
+      {"letra": "C", "texto": "Tell us if you need anything else immediately", "es_correcta": false},
+      {"letra": "D", "texto": "In case you are confused about our proposal", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "Option A is a formal inverted conditional clause ('Should you require...' instead of 'If you require...') commonly used in professional and academic registers.",
+    "tema": "Professional Communication Registers"
+  },
+  {
+    "id_pregunta": "seed_en_151",
+    "modulo": "English",
+    "enunciado": "Complete the double comparative structure with the correct grammatical pattern:\n\n'The ________ the database latency issues persisted, the ________ frustrated our active customer base became.'",
+    "opciones": [
+      {"letra": "A", "texto": "longer / more", "es_correcta": true},
+      {"letra": "B", "texto": "more long / more", "es_correcta": false},
+      {"letra": "C", "texto": "longest / most", "es_correcta": false},
+      {"letra": "D", "texto": "long / much", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "Double comparatives use the structure 'The' + comparative adjective + clause, 'the' + comparative adjective + clause. The comparative of 'long' is 'longer', and the comparative of 'frustrated' is 'more frustrated'.",
+    "tema": "Double Comparatives"
+  },
+  {
+    "id_pregunta": "seed_en_152",
+    "modulo": "English",
+    "enunciado": "Select the verb that best fits the blank space in this security directive:\n\n'In order to comply with international financial audits, our team must thoroughly ________ the transaction log history to ensure there are no compliance anomalies.'",
+    "opciones": [
+      {"letra": "A", "texto": "scrutinize", "es_correcta": true},
+      {"letra": "B", "texto": "dismiss", "es_correcta": false},
+      {"letra": "C", "texto": "disregard", "es_correcta": false},
+      {"letra": "D", "texto": "glance", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "'Scrutinize' means to examine or inspect closely and thoroughly, which is standard in rigorous audits. 'Dismiss' and 'disregard' are opposites, and 'glance' is too superficial.",
+    "tema": "Technical Vocabulary"
+  },
+  {
+    "id_pregunta": "seed_en_153",
+    "modulo": "English",
+    "enunciado": "Choose the correct preposition to complete this development guideline:\n\n'To prevent severe software regression, all engineers are strictly requested to abstain ________ committing code directly to the master branch without peer review.'",
+    "opciones": [
+      {"letra": "A", "texto": "from", "es_correcta": true},
+      {"letra": "B", "texto": "to", "es_correcta": false},
+      {"letra": "C", "texto": "of", "es_correcta": false},
+      {"letra": "D", "texto": "against", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "The verb 'abstain' collocates with the preposition 'from' (e.g., 'abstain from doing something').",
+    "tema": "Prepositional Collocations"
+  },
+  {
+    "id_pregunta": "seed_en_154",
+    "modulo": "English",
+    "enunciado": "Read the text and answer the question:\n\n'Blockchain technology has found a natural application in supply chain logistics. By creating an immutable, distributed ledger, all parties in a global supply chain—from raw material suppliers to final retailers—can record transactions and verify the physical origin of products in real time. This transparent tracking system significantly reduces instances of fraud and counterfeiting, though high implementation costs remain a barrier for smaller logistics firms.'\n\nWhat is a major obstacle preventing smaller logistics firms from adopting blockchain, according to the text?",
+    "opciones": [
+      {"letra": "A", "texto": "A total lack of interest from global retailers in transparent tracking.", "es_correcta": false},
+      {"letra": "B", "texto": "The high financial investment required to implement the technology.", "es_correcta": true},
+      {"letra": "C", "texto": "The physical weight of the storage hardware units required.", "es_correcta": false},
+      {"letra": "D", "texto": "Strict international laws prohibiting distributed ledgers.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "The text states that 'high implementation costs remain a barrier for smaller logistics firms', which directly supports option B.",
+    "tema": "Reading Comprehension"
+  },
+  {
+    "id_pregunta": "seed_en_155",
+    "modulo": "English",
+    "enunciado": "Choose the option that grammatically completes this causative construction:\n\n'To ensure high database availability, the infrastructure lead decided to ________ by a certified third-party vendor before the holiday traffic spike.'",
+    "opciones": [
+      {"letra": "A", "texto": "have the servers upgraded", "es_correcta": true},
+      {"letra": "B", "texto": "upgraded the servers", "es_correcta": false},
+      {"letra": "C", "texto": "have upgraded the servers", "es_correcta": false},
+      {"letra": "D", "texto": "be upgrading the servers", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "The passive causative structure is 'have/get' + object + past participle ('have the servers upgraded'), which means arranging for someone else to do a task.",
+    "tema": "Passive Causatives"
+  },
+  {
+    "id_pregunta": "seed_en_156",
+    "modulo": "English",
+    "enunciado": "Select the word that best completes the gap in this technical review:\n\n'With the rapid rise of modern cloud microservices, on-premise physical mainframes have largely become ________ in startup environments.'",
+    "opciones": [
+      {"letra": "A", "texto": "obsolete", "es_correcta": true},
+      {"letra": "B", "texto": "innovative", "es_correcta": false},
+      {"letra": "C", "texto": "indispensable", "es_correcta": false},
+      {"letra": "D", "texto": "receptive", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "'Obsolete' means out of date or no longer used. Cloud services have rendered physical on-premise mainframes obsolete in modern startups.",
+    "tema": "Advanced Vocabulary"
+  },
+  {
+    "id_pregunta": "seed_en_157",
+    "modulo": "English",
+    "enunciado": "Choose the correct contrast connector to complete the professional report:\n\n'The startup decided to aggressively expand its operations into European markets, ________ on a much smaller marketing budget than initially planned.'",
+    "opciones": [
+      {"letra": "A", "texto": "albeit", "es_correcta": true},
+      {"letra": "B", "texto": "despite of", "es_correcta": false},
+      {"letra": "C", "texto": "whereas", "es_correcta": false},
+      {"letra": "D", "texto": "nonetheless", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "'Albeit' is a conjunction meaning 'although' or 'even though', used to introduce a qualifying or contrasting fact in a concise manner (e.g., 'albeit on a smaller budget').",
+    "tema": "Contrast Connectors"
+  },
+  {
+    "id_pregunta": "seed_en_158",
+    "modulo": "English",
+    "enunciado": "Read the text and answer the question:\n\n'Algorithmic bias in artificial intelligence recruitment systems has drawn severe scrutiny from ethicists. When these machine learning models are trained on historical hiring data, they frequently replicate past human biases against women and minority candidates. Consequently, instead of creating an objective evaluation process, the automated system perpetuates historical inequalities under the guise of mathematical objectivity.'\n\nAccording to the passage, why do automated AI recruitment systems often perpetuate historical hiring biases?",
+    "opciones": [
+      {"letra": "A", "texto": "Because they are deliberately programmed by software engineers to discriminate.", "es_correcta": false},
+      {"letra": "B", "texto": "Because they are trained on historic hiring datasets that contain past human biases.", "es_correcta": true},
+      {"letra": "C", "texto": "Because they lack the processing power to analyze complex curriculum vitae.", "es_correcta": false},
+      {"letra": "D", "texto": "Because they prioritize candidates with less professional experience.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "The text states that 'When these machine learning models are trained on historical hiring data, they frequently replicate past human biases', making option B the correct choice.",
+    "tema": "Reading Comprehension"
+  },
+  {
+    "id_pregunta": "seed_en_159",
+    "modulo": "English",
+    "enunciado": "Choose the idiom that best completes this project meeting suggestion:\n\n'The lead architect warned that trying to ________ during the initial system design phase would inevitably lead to severe technical debt.'",
+    "opciones": [
+      {"letra": "A", "texto": "cut corners", "es_correcta": true},
+      {"letra": "B", "texto": "break the ice", "es_correcta": false},
+      {"letra": "C", "texto": "call it a day", "es_correcta": false},
+      {"letra": "D", "texto": "spill the beans", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "The idiom 'cut corners' means to do something in the easiest, cheapest, or fastest way, often sacrificing quality. Doing this during initial design leads to technical debt.",
+    "tema": "Idiomatic Expressions"
+  },
+  {
+    "id_pregunta": "seed_en_160",
+    "modulo": "English",
+    "enunciado": "Choose the option that grammatically completes this future perfect continuous construction:\n\n'By the time the new feature is officially launched next winter, our core engineering team ________ on its performance optimization for over six months.'",
+    "opciones": [
+      {"letra": "A", "texto": "will have been working", "es_correcta": true},
+      {"letra": "B", "texto": "has been working", "es_correcta": false},
+      {"letra": "C", "texto": "will be working", "es_correcta": false},
+      {"letra": "D", "texto": "had been working", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "The Future Perfect Continuous tense ('will have been' + -ing verb) is used to project ourselves forward in time and look back at the duration of an ongoing activity.",
+    "tema": "Future Perfect Continuous"
+  }
+]

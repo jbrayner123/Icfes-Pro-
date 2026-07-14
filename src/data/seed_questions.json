@@ -1,0 +1,119 @@
+[
+  {
+    "id_pregunta": "seed_sd_01",
+    "modulo": "Diseño de Software",
+    "enunciado": "En un ecosistema transaccional distribuido de alta carga (microservicios de Pedidos, Inventario y Facturación), la arquitectura original implementaba el protocolo Two-Phase Commit (2PC) para garantizar atomicidad global (ACID). No obstante, bajo tráfico pico, el sistema colapsa debido al bloqueo prolongado de recursos de red y bases de datos mientras se espera la fase de confirmación (commit phase). Para resolver este cuello de botella y garantizar escalabilidad manteniendo coherencia, la mejor decisión arquitectónica es:",
+    "opciones": [
+      {"letra": "A", "texto": "Implementar el patrón Saga Orquestado, sustituyendo la atomicidad ACID inmediata por consistencia eventual (BASE) y definiendo transacciones compensatorias explícitas para cada paso del flujo.", "es_correcta": true},
+      {"letra": "B", "texto": "Reemplazar todas las bases de datos relacionales por un único clúster distribuido NoSQL sin transacciones, confiando en que el hardware de red elimine el retraso físico.", "es_correcta": false},
+      {"letra": "C", "texto": "Envolver los llamados HTTP síncronos de los tres microservicios en un patrón Singleton global para serializar los hilos de ejecución concurrentes en el servidor.", "es_correcta": false},
+      {"letra": "D", "texto": "Utilizar llamadas directas a nivel de base de datos entre esquemas cruzados usando vistas materializadas actualizadas en tiempo real mediante disparadores (triggers) recursivos.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "El patrón de diseño de comportamiento SAGA gestiona transacciones distribuidas mediante una secuencia de transacciones locales independientes. Cada paso actualiza la base de datos de un servicio específico y publica un evento. Si un paso falla, se ejecutan transacciones compensatorias en sentido inverso para revertir los cambios de manera eventual, sustituyendo el costoso acoplamiento temporal de 2PC por un modelo asíncrono altamente escalable.",
+    "tema": "Sistemas Distribuidos"
+  },
+  {
+    "id_pregunta": "seed_sd_02",
+    "modulo": "Diseño de Software",
+    "enunciado": "Un backend bancario debe consumir tres APIs externas de pasarelas de pago heredadas. La pasarela A responde con payloads SOAP/XML firmados digitalmente por certificados X.509; la pasarela B utiliza REST con cifrado simétrico AES-256 en JSON; y la pasarela C utiliza rpc nativo sobre gRPC. El sistema principal requiere procesar transacciones de manera uniforme, con tolerancia a fallos dinámica y capacidad de conmutar (failover) de pasarela en tiempo de ejecución. ¿Cómo se debe estructurar este diseño?",
+    "opciones": [
+      {"letra": "A", "texto": "Implementar un bloque condicional 'switch-case' con herencia directa en la clase controladora de la interfaz de usuario, instanciando los SDKs de cada pasarela según se requiera.", "es_correcta": false},
+      {"letra": "B", "texto": "Diseñar una abstracción unificada (IPasarelaPago) aplicando el patrón Adapter (Adaptador) para deconstruir y encapsular las llamadas específicas de cada pasarela bajo métodos comunes de negocio, acoplado a un patrón Strategy (Estrategia) para el intercambio en caliente.", "es_correcta": true},
+      {"letra": "C", "texto": "Crear un objeto Singleton global que herede de todas las pasarelas simultáneamente mediante herencia múltiple de interfaces complejas para evitar la inyección de dependencias.", "es_correcta": false},
+      {"letra": "D", "texto": "Serializar los payloads binarios de red en el navegador del cliente final utilizando WebAssembly, forzando a que sea el navegador el que traduzca las llamadas criptográficas antes de enviarlas al servidor.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La combinación de Adapter y Strategy es óptima. Adapter homogeniza las APIs dispares bajo una interfaz única conocida por el negocio. Strategy encapsula los algoritmos de selección del proveedor de pago, permitiendo cambiar la pasarela activa dinámicamente en tiempo de ejecución de manera transparente.",
+    "tema": "Patrones de Diseño"
+  },
+  {
+    "id_pregunta": "seed_com_01",
+    "modulo": "Communication",
+    "enunciado": "Lea con atención el siguiente fragmento redactado por un Director de Comunicaciones durante una grave brecha de seguridad que expuso información confidencial de millones de usuarios:\n\n'Nuestra corporación opera bajo los más exigentes estándares de ciberseguridad global. Aunque un evento externo imprevisto de fuerza mayor comprometió de manera temporal un segmento marginal de registros históricos debido a fallos ajenos a nuestro control, el incidente fue contenido de inmediato. No existen pruebas de daño material directo a nuestros valiosos clientes. Por ende, los reportes alarmistas de la prensa carecen de fundamento científico y solo buscan desestabilizar el mercado financiero regional'.\n\nDesde el punto de vista de la efectividad comunicativa institucional y el análisis crítico, ¿cuál es la principal debilidad de este comunicado?",
+    "opciones": [
+      {"letra": "A", "texto": "Carece de una tesis explícita sobre el origen geográfico exacto de los atacantes cibernéticos.", "es_correcta": false},
+      {"letra": "B", "texto": "Utiliza una retórica defensiva que minimiza la gravedad del evento mediante eufemismos ('evento imprevisto', 'segmento marginal') y descalifica a la prensa, lo que socava la transparencia institucional, genera desconfianza y elude la responsabilidad objetiva frente a los usuarios.", "es_correcta": true},
+      {"letra": "C", "texto": "Es excesivamente corto y no contiene enlaces al código fuente del sistema de encriptación que falló durante el incidente.", "es_correcta": false},
+      {"letra": "D", "texto": "El autor utiliza conectores lógicos de causa que confunden los términos matemáticos del volumen real de registros comprometidos.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "El uso de eufemismos defensivos y ataques a los medios debilita la confianza pública. En comunicación de crisis, la transparencia y asunción ética de responsabilidad es indispensable para contener la fuga de credibilidad.",
+    "tema": "Retórica e Institución"
+  },
+  {
+    "id_pregunta": "seed_rc_01",
+    "modulo": "Quantitative Reasoning",
+    "enunciado": "Un clúster distribuido de indexación de datos debe procesar un dataset masivo de 550 Terabytes (TB). Inicialmente, la infraestructura cuenta con 4 nodos activos que procesan a una tasa constante de 2.5 TB/hora por nodo. El equipo de TI decide incrementar el número de nodos activos a 10 para acelerar la operación. No obstante, debido a los cuellos de botella de sincronización e interconexión de red, la eficiencia de procesamiento individual de cada uno de los 10 nodos disminuye en un 12% con respecto a su tasa original. ¿Cuánto tiempo exacto tardará el clúster de 10 nodos en indexar el dataset completo?",
+    "opciones": [
+      {"letra": "A", "texto": "25 horas", "es_correcta": true},
+      {"letra": "B", "texto": "55 horas", "es_correcta": false},
+      {"letra": "C", "texto": "22 horas", "es_correcta": false},
+      {"letra": "D", "texto": "30 horas", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "Rendimiento original: 4 nodos * 2.5 TB/h = 10 TB/h. Rendimiento nuevo por nodo con pérdida del 12%: 2.5 * 0.88 = 2.2 TB/h. Rendimiento global con 10 nodos: 10 * 2.2 = 22 TB/h. Tiempo final: 550 TB / 22 TB/h = 25 horas.",
+    "tema": "Modelamiento y Proporciones"
+  },
+  {
+    "id_pregunta": "seed_lc_01",
+    "modulo": "Critical Reading",
+    "enunciado": "Lea atentamente el siguiente fragmento en relación con el experimento de la 'Habitación China':\n\n'Imaginemos que estoy encerrado en una habitación y que se me entrega un gran volumen de hojas escritas en chino junto con un conjunto de reglas en inglés que explican cómo correlacionar los caracteres chinos con otros. Las reglas me permiten responder de forma sintáctica a preguntas escritas en chino, a pesar de que yo no comprendo absolutamente nada de ese idioma. Para un observador externo, mis respuestas son indistinguibles de las de un hablante nativo chino. Sin embargo, resulta evidente que yo no entiendo chino; simplemente manipulo símbolos de acuerdo con su forma formal y no con su significado'.\n\n¿Cuál de las siguientes afirmaciones constituye una premisa implícita y fundamental que sostiene este argumento para rebatir la teoría de la 'Inteligencia Artificial Fuerte'?",
+    "opciones": [
+      {"letra": "A", "texto": "La sintaxis formal de un programa computacional es intrínsecamente idéntica a la semántica cognitiva humana, por lo que las máquinas eventualmente tendrán sentimientos reales.", "es_correcta": false},
+      {"letra": "B", "texto": "La manipulación formal de símbolos lógicos (sintaxis) no es idéntica ni suficiente por sí misma para constituir el entendimiento consciente de significados (semántica).", "es_correcta": true},
+      {"letra": "C", "texto": "El idioma inglés posee una estructura neuronal intrínsecamente superior a la del idioma chino para procesar algoritmos matemáticos complejos.", "es_correcta": false},
+      {"letra": "D", "texto": "Cualquier observador externo que interactúe con un sistema de software carece por completo de criterio racional para evaluar la validez del método científico.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "El experimento busca demostrar que la sintaxis formal pura no equivale a comprensión mental (semántica). Un sistema computacional manipula caracteres mecánicamente, pero esto carece de conciencia conceptual del significado.",
+    "tema": "Análisis Crítico"
+  },
+  {
+    "id_pregunta": "seed_cc_01",
+    "modulo": "Citizen Competencies",
+    "enunciado": "En una situación de grave crisis económica nacional, el Presidente de la República de Colombia hace uso de las facultades del Estado de Emergencia Económica, Social y Ecológica (Art. 215 CN) y expide un Decreto Legislativo que suspende temporalmente las prestaciones sociales de los trabajadores particulares de medianas empresas para 'aliviar el flujo de caja corporativo'. Ante esta medida unilateral del Ejecutivo, ¿cuál es el mecanismo constitucional e institucional previsto por el ordenamiento colombiano para salvaguardar la separación de poderes?",
+    "opciones": [
+      {"letra": "A", "texto": "El Decreto Legislativo adquiere validez jurídica permanente e irreversible tan pronto es firmado por el gabinete, impidiendo cualquier revisión judicial.", "es_correcta": false},
+      {"letra": "B", "texto": "El Decreto se somete automáticamente a un control constitucional oficioso por parte de la Corte Constitucional, la cual evaluará si la medida respeta la intangibilidad de los derechos fundamentales y los principios de conexidad, necesidad y proporcionalidad.", "es_correcta": true},
+      {"letra": "C", "texto": "El Congreso de la República debe disolverse de inmediato y convocar a una asamblea constituyente popular para redactar un nuevo código sustantivo del trabajo.", "es_correcta": false},
+      {"letra": "D", "texto": "Los gobernadores departamentales tienen la potestad de anular unilateralmente la aplicación del Decreto en sus respectivos territorios mediante un referendo local.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "Todo decreto legislativo expedido bajo estados de excepción debe remitirse automáticamente a la Corte Constitucional al día siguiente de su promulgación para un riguroso control material y formal de constitucionalidad.",
+    "tema": "Controles Constitucionales"
+  },
+  {
+    "id_pregunta": "seed_en_01",
+    "modulo": "English",
+    "enunciado": "Read the academic text below and choose the option that best completes the gap:\n\n'The unprecedented surge in quantum computing capabilities has triggered severe concern among cybersecurity intelligence groups. Most contemporary cryptographic algorithms, which rely heavily on the prime factorization of immense numbers, are anticipated to be completely ______ by Shor’s algorithm once stable, fault-tolerant quantum machines emerge. Consequently, the immediate transition to post-quantum cryptography (PQC) is no longer a theoretical debate but an urgent systemic necessity.'",
+    "opciones": [
+      {"letra": "A", "texto": "rendered obsolete", "es_correcta": true},
+      {"letra": "B", "texto": "exponentially bolstered", "es_correcta": false},
+      {"letra": "C", "texto": "superficially bypassed", "es_correcta": false},
+      {"letra": "D", "texto": "mutually reconciled", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "The text describes that Shor's algorithm will break standard cryptography. Hence, current algorithms will become ineffective and useless. 'Rendered obsolete' is the precise academic phrasing for this scenario.",
+    "tema": "Advanced Reading"
+  },
+  {
+    "id_pregunta": "seed_pf_01",
+    "modulo": "Project Formulation",
+    "enunciado": "En la formulación y evaluación de proyectos tecnológicos, un equipo analiza una inversión agrícola de $400 millones. La Tasa de Interés de Oportunidad (TIO) de los inversionistas es del 12% anual. Al descontar los flujos netos proyectados a 5 años, el proyecto arroja un Valor Presente Neto de exactamente cero (VPN = 0). Desde una perspectiva metodológica rigurosa de toma de decisiones financieras, este resultado indica que:",
+    "opciones": [
+      {"letra": "A", "texto": "El proyecto genera pérdidas financieras netas idénticas al capital de inversión inicial y debe descartarse de inmediato.", "es_correcta": false},
+      {"letra": "B", "texto": "El proyecto rinde exactamente la tasa de retorno exigida por los inversionistas (12% anual), logrando cubrir la inversión y el costo de oportunidad, por lo cual es aceptable.", "es_correcta": true},
+      {"letra": "C", "texto": "La Tasa Interna de Retorno (TIR) del proyecto es del 0%, lo que imposibilita de raíz el retorno de capital.", "es_correcta": false},
+      {"letra": "D", "texto": "El periodo de recuperación de la inversión es infinito, requiriendo un subsidio gubernamental perpetuo.", "es_corrector": false}
+    ],
+    "explicacion_retroalimentacion": "Un VPN = 0 significa que el proyecto cubre la inversión inicial, el financiamiento y rinde exactamente la tasa de retorno esperada por los accionistas (TIO). Por ende, el proyecto es financieramente viable e indiferente.",
+    "tema": "Evaluación Financiera"
+  },
+  {
+    "id_pregunta": "seed_st_01",
+    "modulo": "Scientific Thinking",
+    "enunciado": "Un equipo de investigadores postula la hipótesis de que un nuevo algoritmo heurístico (OptimaX) encuentra mejores mínimos globales en el problema del agente viajero (TSP) que el estándar genético (AG_Standard). Para verificar esta hipótesis científicamente de forma rigurosa, descartando el azar y sesgos sistemáticos, el diseño metodológico óptimo debe:",
+    "opciones": [
+      {"letra": "A", "texto": "Seleccionar una muestra sesgada de grafos pequeños favorables a OptimaX y describir cualitativamente su elegancia.", "es_correcta": false},
+      {"letra": "B", "texto": "Diseñar un estudio experimental controlado sobre un conjunto heterogéneo y estandarizado de datasets públicos (TSPLIB), ejecutar ambos algoritmos bajo idénticas restricciones de hardware, registrar cuantitativamente el costo de ruta, y aplicar una prueba estadística de diferencia de medias con p-valor < 0.05.", "es_correcta": true},
+      {"letra": "C", "texto": "Realizar una encuesta de satisfacción subjetiva de legibilidad del código entre los desarrolladores del equipo.", "es_correcta": false},
+      {"letra": "D", "texto": "Demostrar matemáticamente la complejidad asintótica Big-O teórica y omitir la fase de experimentación empírica.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La validación empírica de heurísticas en computación requiere un entorno controlado estandarizado (TSPLIB), repetibilidad empírica y contrastación rigurosa mediante inferencia estadística de hipótesis para garantizar representatividad lógica.",
+    "tema" : "Diseño Experimental"
+  }
+]

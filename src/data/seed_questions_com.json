@@ -1,0 +1,262 @@
+[
+  {
+    "id_pregunta": "seed_com_02",
+    "modulo": "Communication",
+    "enunciado": "Para redactar un ensayo académico que defienda la viabilidad del voto electrónico obligatorio en elecciones nacionales, ¿cuál de los siguientes esquemas estructurales representa la mejor secuencia lógica de planificación textual?",
+    "opciones": [
+      {"letra": "A", "texto": "Introducción de la tesis -> Exposición del funcionamiento técnico de las urnas -> Mención de fallos en otros países -> Conclusión con llamado emotivo.", "es_correcta": false},
+      {"letra": "B", "texto": "Planteamiento del problema de abstencionismo -> Formulación de la tesis -> Argumento de transparencia -> Refutación de objeciones de ciberseguridad -> Conclusión analítica.", "es_correcta": true},
+      {"letra": "C", "texto": "Historia de la democracia -> Ventajas de la digitalización global -> Glosario técnico -> Resumen ejecutivo.", "es_correcta": false},
+      {"letra": "D", "texto": "Ataque a la corrupción del sistema físico tradicional -> Declaración de la tesis -> Recuento anecdótico personal -> Cierre reflexivo.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La opción B sigue el rigor de la estructura argumentativa clásica académica. Inicia con el contexto del abstencionismo para justificar la necesidad del voto, define de inmediato la tesis, la sustenta con un argumento sólido, introduce un contraargumento común para refutarlo científicamente, y cierra con una conclusión analítica sintética de la propuesta.",
+    "tema": "Planificación Textual"
+  },
+  {
+    "id_pregunta": "seed_com_03",
+    "modulo": "Communication",
+    "enunciado": "Analice el siguiente fragmento:\n\n'La reforma tributaria propuesta por el ministerio busca, fundamentalmente, dinamizar el sector agrícola mediante incentivos fiscales. __________, diversos analistas argumentan que el efecto neto real sobre el pequeño productor será adverso, __________ no se contemplan subsidios directos al transporte de insumos'.\n\n¿Qué pareja de conectores discursivos restituye de manera lógica la cohesión gramatical y el sentido del texto?",
+    "opciones": [
+      {"letra": "A", "texto": "Por lo tanto / ya que", "es_correcta": false},
+      {"letra": "B", "texto": "No obstante / dado que", "es_correcta": true},
+      {"letra": "C", "texto": "En adición / a pesar de que", "es_correcta": false},
+      {"letra": "D", "texto": "Por consiguiente / sin embargo", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "El primer conector debe introducir una objeción adversativa ('No obstante') respecto a la intención declarada de la reforma. El segundo conector introduce la causa o justificación de esa objeción ('dado que' o 'puesto que').",
+    "tema": "Cohesión y Conectores"
+  },
+  {
+    "id_pregunta": "seed_com_04",
+    "modulo": "Communication",
+    "enunciado": "En un informe técnico dirigido a la junta directiva de una empresa de desarrollo, se escribe lo siguiente:\n\n'La API colapsó porque el programador no puso bien las variables en el código y todo se volvió un desastre'.\n\n¿Cuál de las siguientes opciones reescribe esta frase con el registro formal, objetivo e impersonal adecuado para este contexto discursivo?",
+    "opciones": [
+      {"letra": "A", "texto": "El servicio de integración API experimentó una interrupción operativa debido a una configuración inadecuada de las variables de entorno, lo cual afectó la estabilidad general del sistema.", "es_correcta": true},
+      {"letra": "B", "texto": "La API colapsó lamentablemente a causa de un descuido del equipo de desarrollo, quienes configuraron de forma incorrecta el código fuente.", "es_correcta": false},
+      {"letra": "C", "texto": "Se registró un fallo grave en la API porque las variables no fueron puestas debidamente en su lugar por el encargado técnico.", "es_correcta": false},
+      {"letra": "D", "texto": "Hubo una caída técnica de la API atribuible a que la codificación de las variables resultó deficiente para la junta directiva.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La opción A adopta un tono profesional, técnico e impersonal ('experimentó una interrupción', 'configuración inadecuada de variables'). Evita culpar subjetivamente ('el programador') y elimina términos informales o exagerados ('desastre', 'descuido lamentable').",
+    "tema": "Registro y Tono"
+  },
+  {
+    "id_pregunta": "seed_com_05",
+    "modulo": "Communication",
+    "enunciado": "Considere la siguiente tesis argumentativa:\n\n'La descentralización administrativa del presupuesto público aumenta la eficiencia del gasto en las regiones'.\n\n¿Cuál de los siguientes enunciados representa un contraargumento que debilita directamente esta tesis de manera racional?",
+    "opciones": [
+      {"letra": "A", "texto": "Las regiones del país han recibido históricamente menos atención presupuestal del gobierno central.", "es_correcta": false},
+      {"letra": "B", "texto": "La descentralización requiere que las alcaldías locales adquieran licencias de software contable de alta gama.", "es_correcta": false},
+      {"letra": "C", "texto": "La descentralización debilita los controles anticorrupción nacionales, permitiendo que élites locales capturen el presupuesto sin el debido rigor técnico de auditoría.", "es_correcta": true},
+      {"letra": "D", "texto": "La mayoría de los ciudadanos prefieren que las decisiones financieras se centralicen en las capitales del país.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La opción C presenta una debilidad inherente de la descentralización: la vulnerabilidad frente a la corrupción regional y la falta de capacidad técnica local de auditoría, contradiciendo directamente la premisa de que 'aumenta la eficiencia' de manera automática.",
+    "tema": "Estructura Argumentativa"
+  },
+  {
+    "id_pregunta": "seed_com_06",
+    "modulo": "Communication",
+    "enunciado": "Un redactor de políticas de privacidad quiere evitar que los usuarios de una aplicación consideren que sus datos serán comercializados de forma indiscriminada. ¿Cuál de las siguientes afirmaciones transmite este mensaje de manera asertiva, transparente y clara?",
+    "opciones": [
+      {"letra": "A", "texto": "Nosotros no vendemos sus datos personales bajo ninguna circunstancia sospechosa o no autorizada.", "es_correcta": false},
+      {"letra": "B", "texto": "Nuestra política prohíbe taxativamente la comercialización, cesión o transferencia de los datos recolectados a terceros con fines publicitarios sin su consentimiento explícito.", "es_correcta": true},
+      {"letra": "C", "texto": "Los datos recopilados solo se utilizarán para mejorar la plataforma y no serán entregados a menos que una empresa socia los requiera para mercadeo.", "es_correcta": false},
+      {"letra": "D", "texto": "Garantizamos que la información personal de cada usuario queda encriptada y su uso comercial queda estrictamente regulado de forma interna.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La opción B define con precisión los términos jurídicos y técnicos ('prohíbe taxativamente la comercialización', 'consentimiento explícito'), eliminando ambigüedades sospechosas que dejen dudas sobre la venta de datos personales.",
+    "tema": "Asertividad y Precisión"
+  },
+  {
+    "id_pregunta": "seed_com_07",
+    "modulo": "Communication",
+    "enunciado": "Lea el siguiente texto:\n\n'La transición energética en el transporte es imperativa. Los carros eléctricos disminuyen las emisiones de CO2 de forma masiva en las metrópolis. Por lo tanto, el gobierno central debe financiar la importación de estos vehículos'.\n\n¿Cuál es un supuesto no explícito (premisa implícita) que valida lógicamente la inferencia del autor?",
+    "opciones": [
+      {"letra": "A", "texto": "Los automóviles eléctricos son más costosos de mantener que los vehículos tradicionales de combustión.", "es_correcta": false},
+      {"letra": "B", "texto": "Es responsabilidad económica del gobierno central subsidiar o financiar la transición hacia tecnologías ambientalmente sostenibles.", "es_correcta": true},
+      {"letra": "C", "texto": "La red eléctrica nacional cuenta con suficiente capacidad instalada para abastecer la recarga masiva de vehículos.", "es_correcta": false},
+      {"letra": "D", "texto": "La reducción de emisiones de CO2 en las metrópolis mejorará los índices de salud pública de los ciudadanos.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "Para deducir lógicamente que 'el gobierno central debe financiar' a partir de que 'los carros eléctricos reducen el CO2', se requiere el supuesto moral/político de que financiar tecnologías limpias entra dentro de las responsabilidades directas y financieras del Estado.",
+    "tema": "Premisas Implícitas"
+  },
+  {
+    "id_pregunta": "seed_com_08",
+    "modulo": "Communication",
+    "enunciado": "En la introducción de un ensayo de opinión sobre la crisis carcelaria en Colombia, se redacta el siguiente párrafo:\n\n'El hacinamiento carcelario en Colombia ha superado límites tolerables. Las prisiones, lejos de rehabilitar a los condenados, operan como escuelas del crimen organizado. Es indispensable reformar la política penal vigente'.\n\nLa función principal de la oración final dentro de este párrafo introductorio es:",
+    "opciones": [
+      {"letra": "A", "texto": "Presentar un dato empírico que ilustra la gravedad de la crisis carcelaria nacional.", "es_correcta": false},
+      {"letra": "B", "texto": "Declarar la tesis o postura central del autor frente al problema planteado.", "es_correcta": true},
+      {"letra": "C", "texto": "Introducir una objeción adversativa para debilitar el argumento del crimen organizado.", "es_correcta": false},
+      {"letra": "D", "texto": "Exponer una digresión descriptiva sobre las condiciones de salud de los internos.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La última oración del párrafo de introducción expresa la postura o tesis del autor de manera afirmativa ('Es indispensable reformar la política penal vigente'). Las oraciones previas operan como justificación contextual de dicha postura.",
+    "tema": "Estructura de Párrafo"
+  },
+  {
+    "id_pregunta": "seed_com_09",
+    "modulo": "Communication",
+    "enunciado": "Lea con atención el siguiente párrafo de un editorial político:\n\n'La descentralización del sistema de salud en los años noventa pretendía acercar la atención médica a las comunidades más remotas. Sin embargo, lo que ocurrió fue una alarmante fragmentación de la infraestructura pública y una captura mafiosa de los presupuestos por caciques regionales'.\n\n¿Cuál de las siguientes opciones expresa de manera concisa y rigurosa la idea central del fragmento?",
+    "opciones": [
+      {"letra": "A", "texto": "La salud en Colombia requiere un modelo mixto privado que reduzca la injerencia de alcaldes y gobernadores.", "es_correcta": false},
+      {"letra": "B", "texto": "La descentralización sanitaria no alcanzó su objetivo democratizador debido a la corrupción de élites locales y al fraccionamiento institucional.", "es_correcta": true},
+      {"letra": "C", "texto": "La política pública de los años noventa eliminó la totalidad del presupuesto que el gobierno central destinaba a la prevención médica.", "es_correcta": false},
+      {"letra": "D", "texto": "Los caciques regionales se oponían sistemáticamente a la modernización tecnológica del sistema de salud pública.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La opción B sintetiza de manera directa y fiel el contraste entre la intención original ('pretendía acercar') y los resultados negativos ('fragmentación', 'captura de presupuestos por caciques') descritos por el autor.",
+    "tema": "Idea Central"
+  },
+  {
+    "id_pregunta": "seed_com_10",
+    "modulo": "Communication",
+    "enunciado": "Un columnista de economía desea convencer al lector de que la imposición de aranceles al acero extranjero es contraproducente para el empleo nacional. ¿Cuál de los siguientes argumentos apoya con mayor fuerza racional su hipótesis?",
+    "opciones": [
+      {"letra": "A", "texto": "El acero importado es de menor calidad estética que el acero producido por obreros nacionales en las siderúrgicas de Boyacá.", "es_correcta": false},
+      {"letra": "B", "texto": "Los aranceles encarecen el acero importado, lo que incrementa sustancialmente los costos de la construcción y manufactura local, forzando a estas industrias a despedir miles de trabajadores.", "es_correcta": true},
+      {"letra": "C", "texto": "La mayoría de los países industrializados han reducido históricamente sus aranceles para fomentar la paz mundial.", "es_correcta": false},
+      {"letra": "D", "texto": "Los impuestos arancelarios son recaudados por la aduana y luego se redistribuyen de manera deficiente en programas de educación primaria.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La opción B establece un encadenamiento causal lógico directo entre el arancel, el costo de las materias primas para sectores intensivos en empleo (construcción/manufactura) y el desempleo resultante, dándole un sustento racional fuerte a la tesis original.",
+    "tema": "Argumentación Económica"
+  },
+  {
+    "id_pregunta": "seed_com_11",
+    "modulo": "Communication",
+    "enunciado": "Al corregir el estilo de un artículo científico sobre genética de plantas, el autor encuentra la siguiente oración redundante:\n\n'En mi opinión personal y subjetiva, considero que los resultados obtenidos empíricamente en el laboratorio muestran de manera clara y evidente que el gen se expresa'.\n\n¿Cuál de las siguientes opciones depura la oración de manera asertiva, rigurosa y libre de redundancias?",
+    "opciones": [
+      {"letra": "A", "texto": "Yo creo personalmente que los datos empíricos que vimos demuestran evidentemente que el gen sí que se expresa.", "es_correcta": false},
+      {"letra": "B", "texto": "Los resultados de laboratorio demuestran que el gen se expresa.", "es_correcta": true},
+      {"letra": "C", "texto": "En mi opinión, considero de manera clara y obvia que el gen en cuestión se expresa en el laboratorio.", "es_correcta": false},
+      {"letra": "D", "texto": "Nuestros análisis evidencian objetivamente que el gen se manifiesta de forma clara en las plantas del laboratorio.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La opción B elimina los pleonasmos 'opinión personal', 'subjetiva', 'considero', 'clara', 'evidente' y 'empíricamente' (pues el laboratorio ya denota empirismo). Ofrece la versión más concisa, directa y académica de la idea.",
+    "tema": "Redundancia y Estilo"
+  },
+  {
+    "id_pregunta": "seed_com_12",
+    "modulo": "Communication",
+    "enunciado": "En un debate sobre políticas de seguridad nacional, el expositor argumenta:\n\n'La propuesta de mi opositor para legalizar el porte de armas es ridícula, puesto que él nunca ha vivido en un barrio humilde y no sabe lo que es el miedo'.\n\nDesde el punto de vista de la lógica argumentativa formal, el expositor está cometiendo la falacia de:",
+    "opciones": [
+      {"letra": "A", "texto": "Ad Ignorantiam (apelación a la ignorancia).", "es_correcta": false},
+      {"letra": "B", "texto": "Ad Hominem (ataque personal ofensivo o circunstancial).", "es_correcta": true},
+      {"letra": "C", "texto": "Post Hoc Ergo Propter Hoc (falsa causalidad).", "es_correcta": false},
+      {"letra": "D", "texto": "Ad Populum (apelación al sentimiento de las masas).", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "El orador invalida la propuesta de su opositor atacando sus características personales y circunstancias de vida ('nunca ha vivido en un barrio humilde') en lugar de debatir racionalmente los méritos empíricos o lógicos de la propuesta sobre el porte de armas.",
+    "tema": "Falacias en el Discurso"
+  },
+  {
+    "id_pregunta": "seed_com_13",
+    "modulo": "Communication",
+    "enunciado": "Para redactar una conclusión efectiva en un ensayo argumentativo que aborda el cambio climático, el autor debe evitar:",
+    "opciones": [
+      {"letra": "A", "texto": "Sintetizar los principales argumentos presentados a lo largo del texto.", "es_correcta": false},
+      {"letra": "B", "texto": "Reafirmar la tesis a la luz de las evidencias discutidas.", "es_correcta": false},
+      {"letra": "C", "texto": "Introducir ideas nuevas, datos inéditos o argumentos no discutidos previamente en el cuerpo del ensayo.", "es_correcta": true},
+      {"letra": "D", "texto": "Plantear una reflexión general o proyección futura sobre el problema.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La conclusión es el cierre del razonamiento y debe sintetizar lo expuesto. Introducir ideas o datos nuevos en este punto quiebra la coherencia discursiva y confunde al lector, debilitando el rigor lógico del ensayo.",
+    "tema": "Estructura del Cierre"
+  },
+  {
+    "id_pregunta": "seed_com_14",
+    "modulo": "Communication",
+    "enunciado": "Seleccione la opción que presente la mejor reestructuración del siguiente fragmento desorganizado:\n\n'1. Aunque los antibióticos salvan vidas, 2. El uso indiscriminado acelera la resistencia bacteriana. 3. Esto representa una amenaza global. 4. Se requiere educar a la población'.",
+    "opciones": [
+      {"letra": "A", "texto": "Se requiere educar a la población (4), puesto que el uso indiscriminado acelera la resistencia bacteriana (2), lo que representa una amenaza global (3), aunque los antibióticos salvan vidas (1).", "es_correcta": false},
+      {"letra": "B", "texto": "Aunque los antibióticos salvan vidas (1), su uso indiscriminado acelera la resistencia bacteriana (2), lo cual representa una amenaza global (3); por ende, es urgente educar a la población en su uso responsable (4).", "es_correcta": true},
+      {"letra": "C", "texto": "El uso indiscriminado acelera la resistencia bacteriana (2) y representa una amenaza global (3); no obstante, se requiere educar a la población (4), aunque los antibióticos salvan vidas (1).", "es_correcta": false},
+      {"letra": "D", "texto": "Aunque los antibióticos representan una amenaza global (3), salvan vidas (1), por lo cual el uso indiscriminado se requiere educar a la población (4).", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La opción B hilvana de forma fluida el contraste concesivo ('Aunque...'), la relación consecuencial interna de la resistencia y amenaza bacteriana ('lo cual representa...'), e introduce el marcador conclusivo correcto ('por ende') para conectar la solución educativa.",
+    "tema": "Secuencia y Coherencia"
+  },
+  {
+    "id_pregunta": "seed_com_15",
+    "modulo": "Communication",
+    "enunciado": "Lea la siguiente afirmación formulada por una alcaldía en un comunicado de prensa:\n\n'Las obras de peatonalización de la avenida principal causarán cierres totales durante tres meses. Pedimos disculpas por el malestar' y compárela con esta otra:\n\n'La peatonalización de la avenida principal transformará el centro histórico en un espacio amigable para las familias. Durante las obras, que durarán solo 90 días, implementaremos desvíos ágiles'.\n\nLa diferencia pragmática y retórica fundamental entre ambos mensajes radica en que el segundo:",
+    "opciones": [
+      {"letra": "A", "texto": "Presenta datos matemáticos de duración mucho más precisos que el primero.", "es_correcta": false},
+      {"letra": "B", "texto": "Adopta un encuadre (framing) positivo centrado en los beneficios de largo plazo y el alivio operativo de la molestia, atenuando el impacto de la restricción física.", "es_correcta": true},
+      {"letra": "C", "texto": "Es de carácter puramente poético y literario, carente de valor informativo objetivo para la ciudadanía.", "es_correcta": false},
+      {"letra": "D", "texto": "Elude revelar de forma transparente el tiempo real de interrupción de las vías vehiculares.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La retórica pública utiliza el encuadre (framing) para moldear la percepción de las medidas. El segundo texto enfoca al lector en el resultado positivo ('espacio amigable para familias') y en las acciones preventivas de la administración ('desvíos ágiles'), reduciendo el rechazo natural al cierre.",
+    "tema": "Encuadre Discursivo"
+  },
+  {
+    "id_pregunta": "seed_com_16",
+    "modulo": "Communication",
+    "enunciado": "Al redactar un artículo científico, el uso de la primera persona del plural ('Nosotros encontramos que...') en lugar de la forma pasiva impersonal ('Se encontró que...') tiene el propósito metodológico y discursivo de:",
+    "opciones": [
+      {"letra": "A", "texto": "Darle un carácter informal y novelesco que atraiga a lectores no especializados.", "es_correcta": false},
+      {"letra": "B", "texto": "Asumir la responsabilidad directa de los investigadores sobre los hallazgos y decisiones metodológicas, una práctica cada vez más valorada en la ciencia moderna.", "es_correcta": true},
+      {"letra": "C", "texto": "Sugerir que los resultados del estudio son subjetivos y carecen de validez científica estricta.", "es_correcta": false},
+      {"letra": "D", "texto": "Disminuir el rigor estadístico de las fórmulas aplicadas en los análisis de datos empíricos.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "El uso de la voz activa en primera persona plural asume la autoría directa ('agency') de las decisiones metodológicas, lo que dota al texto científico de asertividad intelectual y transparencia sobre quién tomó las decisiones experimentales.",
+    "tema": "Voz Narrativa en Ciencia"
+  },
+  {
+    "id_pregunta": "seed_com_17",
+    "modulo": "Communication",
+    "enunciado": "Lea el siguiente texto argumentativo:\n\n'La educación superior pública debe ser gratuita. Si el gobierno cobra matrículas, impide el acceso de jóvenes vulnerables. Por lo tanto, el sistema público debe financiarse en su totalidad con impuestos progresivos'.\n\n¿Cuál de las siguientes es la objeción técnica de viabilidad fiscal más relevante contra este argumento?",
+    "opciones": [
+      {"letra": "A", "texto": "Muchos estudiantes de colegios públicos prefieren ingresar de inmediato a laborar en el comercio informal.", "es_correcta": false},
+      {"letra": "B", "texto": "La gratuidad universal desvía recursos públicos escasos que beneficiarían también a estudiantes ricos, sobrecargando las finanzas públicas sin un principio equitativo de focalización socioeconómica.", "es_correcta": true},
+      {"letra": "C", "texto": "Los impuestos progresivos son difíciles de recaudar en economías con altos niveles de inflación de divisas.", "es_correcta": false},
+      {"letra": "D", "texto": "La educación privada ofrece mejores salarios de egreso debido al prestigio de marca internacional.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La objeción B introduce una crítica racional de focalización: la gratuidad absoluta subsidia a los ricos que sí pueden pagar, lo que representa una ineficiencia distributiva de los recursos fiscales escasos.",
+    "tema": "Análisis de Objeciones"
+  },
+  {
+    "id_pregunta": "seed_com_18",
+    "modulo": "Communication",
+    "enunciado": "Considere la siguiente frase y su correspondiente análisis estilístico:\n\n'Llegamos a la ciudad cansados, de la cual nos fuimos temprano'.\n\nLa frase presenta un error de cohesión sintáctica debido a:",
+    "opciones": [
+      {"letra": "A", "texto": "La discordancia de género gramatical entre el adjetivo cansados y el sustantivo ciudad.", "es_correcta": false},
+      {"letra": "B", "texto": "Un distanciamiento anárquico del relativo 'de la cual' respecto a su antecedente 'ciudad', lo que entorpece la fluidez y claridad de la frase, configurando un hipérbaton forzado y defectuoso.", "es_correcta": true},
+      {"letra": "C", "texto": "El uso incorrecto del verbo de movimiento 'ir' en modo subjuntivo condicional.", "es_correcta": false},
+      {"letra": "D", "texto": "La redundancia léxica entre los verbos llegar e ir en una misma oración coordinada.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La opción B identifica el problema sintáctico: la inadecuada posición del relativo 'de la cual' interrumpe el orden natural de la frase, forzando al lector a un reprocesamiento cognitivo innecesario.",
+    "tema": "Sintaxis y Estilo"
+  },
+  {
+    "id_pregunta": "seed_com_19",
+    "modulo": "Communication",
+    "enunciado": "Para publicar una columna de divulgación científica en un periódico nacional sobre el descubrimiento de una nueva vacuna, el título que mejor balancea la precisión científica y el impacto general para el público es:",
+    "opciones": [
+      {"letra": "A", "texto": "Inhibición de la glicoproteína espícula mediante inmunógenos vectoriales sintéticos del adenovirus tipo 5.", "es_correcta": false},
+      {"letra": "B", "texto": "¡La cura total existe! Una inyección milagrosa erradicará todas las enfermedades respiratorias del planeta para siempre.", "es_correcta": false},
+      {"letra": "C", "texto": "Nueva vacuna de base genética abre el camino para frenar mutaciones de virus respiratorios severos.", "es_correcta": true},
+      {"letra": "D", "texto": "El laboratorio nacional anuncia la aprobación de su patente número 40-A de biología molecular recombinante.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La opción C es precisa sin caer en tecnicismos inaccesibles (como glicoproteína o adenovirus) ni en el sensacionalismo irresponsable y falaz de la opción B, logrando el equilibrio de la comunicación de ciencia masiva.",
+    "tema": "Titulación Divulgativa"
+  },
+  {
+    "id_pregunta": "seed_com_20",
+    "modulo": "Communication",
+    "enunciado": "Lea la siguiente frase:\n\n'Hubieron muchos manifestantes en la plaza exigiendo reformas'.\n\n¿Cuál es la corrección gramatical y justificación de esta frase según las normas de la Real Academia Española (RAE)?",
+    "opciones": [
+      {"letra": "A", "texto": "Debe mantenerse 'Hubieron' porque concuerda en plural con el sustantivo 'manifestantes'.", "es_correcta": false},
+      {"letra": "B", "texto": "Debe cambiarse a 'Hubo', dado que el verbo 'haber' en su uso impersonal carece de sujeto y solo se conjuga en tercera persona del singular, operando 'muchos manifestantes' como objeto directo.", "es_correcta": true},
+      {"letra": "C", "texto": "Debe redactarse como 'Se hubieron manifestantes' para indicar la voz pasiva refleja colectiva.", "es_correcta": false},
+      {"letra": "D", "texto": "Debe reescribirse como 'Había muchos manifestantes' únicamente si se trata de un registro periodístico informal.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "El verbo haber impersonal (que indica existencia) no tiene sujeto gramatical con el cual concordar en plural. El sustantivo que lo acompaña es su complemento directo, por lo que el verbo debe conjugarse invariablemente en singular ('Hubo manifestantes').",
+    "tema": "Concordancia Gramatical"
+  },
+  {
+    "id_pregunta": "seed_com_21",
+    "modulo": "Communication",
+    "enunciado": "En la introducción de una propuesta técnica para asegurar el presupuesto de un proyecto, el párrafo inicial describe ampliamente la historia de la empresa y la biografía de los fundadores. Metodológicamente, este diseño es deficiente porque:",
+    "opciones": [
+      {"letra": "A", "texto": "Oculte los costos reales de los salarios de los desarrolladores frente al cliente.", "es_correcta": false},
+      {"letra": "B", "texto": "Desvía la atención del lector de la justificación directa del problema técnico y la propuesta de valor del proyecto, violando el principio de relevancia informativa en textos comerciales.", "es_correcta": true},
+      {"letra": "C", "texto": "Los fundadores de empresas de tecnología suelen tener perfiles profesionales poco interesantes para inversionistas.", "es_correcta": false},
+      {"letra": "D", "texto": "Las biografías deben ser redactadas en un archivo anexo PDF separado por razones de propiedad intelectual.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "Una propuesta de negocios efectiva debe justificar de inmediato la relevancia técnica de la solución. Desviar el inicio hacia datos biográficos rompe la jerarquía de la información y aburre a la junta evaluadora del presupuesto.",
+    "tema": "Estructura de Propuesta"
+  }
+]

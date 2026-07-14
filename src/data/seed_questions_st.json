@@ -1,0 +1,392 @@
+[
+  {
+    "id_pregunta": "seed_st_101",
+    "modulo": "Scientific Thinking",
+    "enunciado": "Un equipo de investigadores en ingeniería ambiental desea validar empíricamente la efectividad de un nuevo compuesto biológico (BioClear) para acelerar la degradación de plásticos de un solo uso en condiciones de compostaje controlado. Postulan que añadir BioClear reduce a la mitad el tiempo requerido para degradar el 90% del material. Para realizar un experimento estadísticamente riguroso, el equipo debe definir claramente las variables en estudio. ¿Cuál es la delimitación correcta de las variables independiente, dependiente y de control?",
+    "opciones": [
+      {"letra": "A", "texto": "Variable independiente: la cantidad total de plástico degradado; Variable dependiente: la dosificación de BioClear; Variables de control: la marca comercial del plástico.", "es_correcta": false},
+      {"letra": "B", "texto": "Variable independiente: la presencia o dosificación del compuesto BioClear; Variable dependiente: el porcentaje o tasa de degradación del plástico medido en el tiempo; Variables de control: la temperatura, humedad, tipo de compostaje, tipo y densidad física del plástico.", "es_correcta": true},
+      {"letra": "C", "texto": "Variable independiente: la temperatura y humedad del ambiente compostador; Variable dependiente: el costo financiero de producir BioClear; Variables de control: el tamaño de la pala usada para revolver el material.", "es_correcta": false},
+      {"letra": "D", "texto": "Variable independiente: el fabricante del compuesto biológico; Variable dependiente: el volumen total de gas metano emitido; Variables de control: el tipo de envase comercial del BioClear.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La variable independiente es el factor que el experimentador manipula de forma activa (añadir o no BioClear, y su dosis). La variable dependiente es la respuesta o efecto medido que se presume condicionado por la independiente (el porcentaje de degradación del plástico). Las variables de control son aquellos factores ambientales y materiales que deben mantenerse constantes para asegurar que el efecto observado se debe únicamente a la independiente.",
+    "tema": "Diseño Experimental y Variables"
+  },
+  {
+    "id_pregunta": "seed_st_102",
+    "modulo": "Scientific Thinking",
+    "enunciado": "Un estudio epidemiológico de cohorte analiza la relación entre el consumo diario de café y la incidencia de fallas cardiovasculares crónicas en 10,000 adultos durante 10 años. Al finalizar, los resultados muestran una correlación lineal positiva moderada muy clara (R = 0.55) entre el consumo elevado de cafeína y los eventos cardíacos, con un p-valor de 0.002. Los autores del estudio concluyen que el consumo de café provoca de manera directa ataques cardíacos en la población adulta. ¿Cuál es la principal debilidad metodológica y analítica de esta conclusión?",
+    "opciones": [
+      {"letra": "A", "texto": "El tamaño de la muestra de 10,000 adultos es insuficiente para poder aplicar una prueba paramétrica lineal.", "es_correcta": false},
+      {"letra": "B", "texto": "La correlación de Pearson (R = 0.55) es matemáticamente imposible de calcular sobre variables de carácter continuo.", "es_correcta": false},
+      {"letra": "C", "texto": "Se confunde correlación estadística con causalidad directa, ignorando variables de confusión ocultas (como el tabaquismo, niveles de estrés, dieta o sedentarismo comunes entre consumidores de café) que podrían explicar la asociación observada.", "es_correcta": true},
+      {"letra": "D", "texto": "El p-valor de 0.002 indica que los resultados no son estadísticamente significativos, por lo que la correlación es espuria por mero azar.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "Un axioma fundamental del pensamiento científico es que 'correlación no implica causalidad'. Una asociación estadística entre dos variables no prueba que una sea la causa de la otra; ambas podrían estar influenciadas por una tercera variable de confusión (por ejemplo, personas con mayor estrés que fuman más tabaco tienden a tomar más café, siendo el tabaco o el estrés las causas reales del daño cardíaco).",
+    "tema": "Inferencia y Causalidad"
+  },
+  {
+    "id_pregunta": "seed_st_103",
+    "modulo": "Scientific Thinking",
+    "enunciado": "Un grupo de científicos computacionales propone una nueva técnica heurística de ruteo para drones (RutaInteligente). Desean evaluar si RutaInteligente consume menos batería promedio por vuelo que el algoritmo de ruteo estándar (A-Estrella). Planean recolectar datos de 50 vuelos de prueba controlados para cada algoritmo. Para certificar que la diferencia en el consumo de energía es estadísticamente significativa y que no es producto de fluctuaciones del viento u otros ruidos ambientales, ¿cuál es el procedimiento estadístico más adecuado?",
+    "opciones": [
+      {"letra": "A", "texto": "Calcular los valores máximos de batería remanente en ambos grupos de vuelo y redactar un informe meramente descriptivo cualitativo de la diferencia física.", "es_correcta": false},
+      {"letra": "B", "texto": "Efectuar una prueba estadística de contraste de hipótesis de diferencia de medias, como una prueba t de Student para muestras independientes (si se asume normalidad) o una prueba de Mann-Whitney (si no se asume normalidad), evaluando si el p-valor obtenido es inferior al nivel de significancia prefijado (alfa = 0.05).", "es_correcta": true},
+      {"letra": "C", "texto": "Promediar las velocidades lineales del viento y ajustar una regresión logística que clasifique los drones según su fabricante tecnológico.", "es_correcta": false},
+      {"letra": "D", "texto": "Asumir de forma teórica que el algoritmo genético estándar siempre tiene un desempeño idéntico al de RutaInteligente en condiciones de laboratorio extremo.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "Para comparar las medias de dos grupos independientes de datos numéricos continuos, la prueba t de Student es la herramienta estadística paramétrica idónea si los datos tienen distribución normal. Si los datos presentan sesgos extremos, se recurre al test no paramétrico de Mann-Whitney (o de la U). Si el p-valor calculado es < 0.05, se rechaza la hipótesis nula de igualdad, demostrando significancia estadística del nuevo algoritmo.",
+    "tema": "Pruebas de Hipótesis"
+  },
+  {
+    "id_pregunta": "seed_st_104",
+    "modulo": "Scientific Thinking",
+    "enunciado": "Un modelo de simulación matemática busca predecir el avance de una plaga biológica en cultivos forestales templados. El modelo se basa en ecuaciones diferenciales de dinámica poblacional, asumiendo un entorno homogéneo e infinito, temperaturas estables promedio de 22°C y total ausencia de depredadores. Al intentar aplicar este modelo científico predictivo sobre bosques reales andinos muy diversos y montañosos, ¿cuál de los siguientes análisis sobre su validez científica es correcto?",
+    "opciones": [
+      {"letra": "A", "texto": "El modelo será perfectamente predictivo porque las leyes de la biología molecular son idénticas en todas las latitudes geográficas terrestres.", "es_correcta": false},
+      {"letra": "B", "texto": "El modelo posee graves limitaciones de validez externa, pues sus supuestos simplificadores básicos (homogeneidad ecológica, ausencia de depredadores, temperaturas constantes) no se cumplen en la realidad compleja de los ecosistemas andinos.", "es_correcta": true},
+      {"letra": "C", "texto": "El modelo carece de validez metodológica interna porque las ecuaciones diferenciales de primer orden son incompatibles con el cálculo matricial numérico.", "es_correcta": false},
+      {"letra": "D", "texto": "El modelo es inútil puesto que la simulación por computadora contradice los principios éticos y experimentales del empirismo puro de la ciencia clásica.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "Todo modelo científico es una simplificación de la realidad. Al exportar un modelo a un contexto diferente, se debe evaluar críticamente si las simplificaciones o supuestos originales (entorno homogéneo, sin depredadores, temperatura estable) siguen siendo válidos. El modelado de ecosistemas diversos andinos presenta variabilidades que invalidan los supuestos de homogeneidad, limitando la validez externa del modelo.",
+    "tema": "Modelado y Supuestos Simplificadores"
+  },
+  {
+    "id_pregunta": "seed_st_105",
+    "modulo": "Scientific Thinking",
+    "enunciado": "Usted analiza un artículo científico publicado en una revista biológica. El autor afirma que un nuevo pesticida (K_Destructor) es totalmente inofensivo para las abejas domésticas. Al revisar la sección de 'Metodología', usted descubre que la investigación fue financiada en su totalidad por la multinacional química agropecuaria que fabrica y comercializa K_Destructor, y que los experimentos de laboratorio duraron solo 24 horas continuas, ignorando efectos de toxicidad crónica a mediano plazo. Desde la perspectiva ética y analítica del método científico, ¿cómo debe valorarse este hallazgo?",
+    "opciones": [
+      {"letra": "A", "texto": "Se debe aceptar plenamente el estudio ya que el arbitraje por pares de las revistas biológicas anula de forma automática cualquier conflicto de intereses corporativos.", "es_correcta": false},
+      {"letra": "B", "texto": "Se debe recibir el estudio con escepticismo metodológico, identificando un potencial sesgo de financiación que compromete la objetividad ética, y un error de diseño experimental de subexposición temporal al evaluar solo toxicidad aguda.", "es_correcta": true},
+      {"letra": "C", "texto": "Se debe desestimar el estudio de forma automática aduciendo que la investigación de compuestos biológicos sintéticos está prohibida por la bioética internacional.", "es_correcta": false},
+      {"letra": "D", "texto": "Se debe premiar al autor del pesticida debido al excelente rigor económico que demuestra al optimizar los tiempos de experimentación biológica.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La evaluación científica crítica exige analizar tanto la validez interna del diseño experimental (por ejemplo, si evaluar solo 24 horas es suficiente para descartar daños crónicos) como los factores contextuales éticos. Un potencial sesgo de interés debido a la financiación directa por parte del fabricante del producto exige replicación independiente para convalidar los hallazgos.",
+    "tema": "Ética y Rigor Científico"
+  },
+  {
+    "id_pregunta": "seed_st_106",
+    "modulo": "Scientific Thinking",
+    "enunciado": "Un equipo de psicólogos cognitivos postula la siguiente hipótesis explicativa:\n\n'Los estudiantes universitarios que entrenan diariamente con ejercicios de meditación mindfulness mejoran su capacidad de memoria operativa a corto plazo en comparación con quienes no meditan'.\n\n¿Cuál de las siguientes propuestas metodológicas representa el diseño experimental de investigación más sólido para validar o rechazar científicamente esta hipótesis?",
+    "opciones": [
+      {"letra": "A", "texto": "Pedir a 50 estudiantes voluntarios meditadores que describan cualitativamente por medio de un ensayo de autoevaluación subjetiva qué tan buena es su memoria al despertar.", "es_correcta": false},
+      {"letra": "B", "texto": "Diseñar un estudio experimental aleatorizado y controlado (RCT). Dividir a 100 estudiantes elegidos al azar en dos grupos de 50: un grupo experimental entrenado en mindfulness de forma controlada por un mes, y un grupo de control sometido a una actividad neutra de lectura por el mismo tiempo. Evaluar la memoria operativa de todos con un test cognitivo estandarizado antes y después de la intervención de forma ciega.", "es_correcta": true},
+      {"letra": "C", "texto": "Entrevistar a profesores universitarios de la facultad de ciencias humanas acerca de si consideran que meditar ayuda a concentrarse en los exámenes de grado.", "es_correcta": false},
+      {"letra": "D", "texto": "Revisar las notas históricas de matemáticas de los estudiantes budistas de la región y compararlas con las de estudiantes de otras congregaciones religiosas locales.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La solidez del método científico experimental descansa en el control de variables de confusión mediante la aleatorización (RCT). Dividir la muestra aleatoriamente en grupo de intervención (mindfulness) y grupo de control (actividad neutra comparable), controlando el tiempo y aplicando pruebas cognitivas estandarizadas objetivas pre y post-test ('doble ciego' idealmente), minimiza sesgos psicológicos y permite establecer relaciones causa-efecto robustas.",
+    "tema": "Diseño Experimental e Hipótesis"
+  },
+  {
+    "id_pregunta": "seed_st_107",
+    "modulo": "Scientific Thinking",
+    "enunciado": "En un estudio científico sobre el rendimiento de un nuevo tipo de turbina hidroeléctrica, los datos de potencia eléctrica generada se grafican contra la velocidad lineal del agua en el río. El gráfico de dispersión muestra que a bajas velocidades la energía es casi nula; luego experimenta un incremento pronunciado y rápido en forma de parábola, estabilizándose finalmente en un límite asintótico horizontal (meseta) a velocidades muy altas. Al interpretar este comportamiento físico expresado en la gráfica, los investigadores deben concluir correctamente que:",
+    "opciones": [
+      {"letra": "A", "texto": "La potencia eléctrica es perfectamente inversamente proporcional a la velocidad del agua durante toda la escala.", "es_correcta": false},
+      {"letra": "B", "texto": "Existe un rango intermedio de velocidades donde la eficiencia del generador responde de forma no lineal (exponencial o cuadrática), topando al final con un límite físico infranqueable o saturación de capacidad técnica de la turbina.", "es_correcta": true},
+      {"letra": "C", "texto": "La turbina hidroeléctrica opera de manera inestable e impredecible al azar al no mostrar una correlación perfectamente recta de tipo lineal simple.", "es_correcta": false},
+      {"letra": "D", "texto": "El agua del río transporta cantidades decrecientes de energía cinética a medida que incrementa su velocidad de desplazamiento físico.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La meseta o límite asintótico horizontal en gráficos de desempeño físico o biológico indica saturación (la turbina no puede generar más energía a pesar de que el agua vaya más rápido porque alcanza su límite electromecánico). El comportamiento curvo intermedio representa el rango dinámico no lineal de respuesta técnica de la máquina.",
+    "tema": "Interpretación de Datos Gráficos"
+  },
+  {
+    "id_pregunta": "seed_st_108",
+    "modulo": "Scientific Thinking",
+    "enunciado": "Un grupo de agrónomos investiga si el uso de compost orgánico de lombriz enriquece la densidad de nitratos del suelo de cultivo de papa criolla en Boyacá. Tras evaluar parcelas tratadas y no tratadas, obtienen una diferencia de densidad de nitratos a favor de las tratadas, arrojando un p-valor = 0.08 en la prueba de hipótesis. ¿Cómo debe interpretarse rigurosamente este p-valor bajo un nivel de confianza estándar del 95% (alfa = 0.05)?",
+    "opciones": [
+      {"letra": "A", "texto": "La diferencia de densidad es altamente significativa, demostrando de forma irrefutable la efectividad biológica del compost orgánico.", "es_correcta": false},
+      {"letra": "B", "texto": "No se puede rechazar la hipótesis nula de igualdad bajo el nivel estándar de significancia del 5%, ya que el p-valor (0.08) es superior a alfa (0.05), lo que sugiere que la diferencia observada podría deberse al azar o requerir una muestra mayor para ser concluyente.", "es_correcta": true},
+      {"letra": "C", "texto": "El experimento falló de forma absoluta debido a errores sistemáticos en la calibración física de los sensores químicos de Boyacá.", "es_correcta": false},
+      {"letra": "D", "texto": "La probabilidad de que las papas tratadas contengan nitratos tóxicos para el consumo humano es de exactamente el 8%.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "El p-valor es la probabilidad de observar la diferencia encontrada (o una más extrema) asumiendo que la hipótesis nula es verdadera (es decir, que no hay diferencia real). Con p = 0.08, supera el límite de significancia estándar de alfa = 0.05. Por ende, no hay evidencia estadística suficiente para rechazar la hipótesis nula con un 95% de confianza, debiendo declararse el hallazgo como no estadísticamente significativo.",
+    "tema": "Contraste de Hipótesis y p-valor"
+  },
+  {
+    "id_pregunta": "seed_st_109",
+    "modulo": "Scientific Thinking",
+    "enunciado": "Durante un experimento de física ondulatoria, los estudiantes miden el periodo de oscilación de un péndulo de masa constante variando la longitud de la cuerda. Los estudiantes asumen de forma idealizada que la única fuerza que actúa es la gravedad terrestre y que el ángulo de oscilación inicial es despreciable (pequeñas oscilaciones). Al comparar los resultados empíricos con la teoría matemática clásica, notan desviaciones consistentes en péndulos con cuerdas muy cortas y ángulos iniciales amplios de 60 grados. ¿Cuál es la explicación científica más coherente para esta desviación empírica?",
+    "opciones": [
+      {"letra": "A", "texto": "La constante de gravedad terrestre experimenta variaciones gravitacionales drásticas a nivel del suelo del salón de clases físicas.", "es_correcta": false},
+      {"letra": "B", "texto": "La suposición matemática idealizada de ángulo despreciable (donde sen(x) ≈ x) deja de ser válida para amplitudes de oscilación grandes como 60 grados, introduciendo discrepancias por error sistemático de modelado no lineal.", "es_correcta": true},
+      {"letra": "C", "texto": "El movimiento ondulatorio de los péndulos físicos es intrínsecamente inmune a las leyes de fricción molecular del aire ambiental.", "es_correcta": false},
+      {"letra": "D", "texto": "La masa de la plomada del péndulo se reduce espontáneamente debido a la evaporación del metal por la fricción del hilo.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La aproximación clásica del péndulo simple se basa en la aproximación de ángulos pequeños (sen(θ) ≈ θ). Si se efectúan oscilaciones amplias (ej. 60°), esta hipótesis matemática simplificadora deja de ser válida, provocando discrepancias predecibles al desviarse de la fórmula de aproximación lineal del periodo de oscilación física.",
+    "tema": "Aproximaciones y Límites Teóricos"
+  },
+  {
+    "id_pregunta": "seed_st_110",
+    "modulo": "Scientific Thinking",
+    "enunciado": "Un artículo de investigación psicológica analiza las tasas de adicción digital en adolescentes. El investigador recopila datos aplicando encuestas autoadministradas por internet a 300 jóvenes de una de las zonas residenciales de estrato socioeconómico alto más exclusivas de Bogotá, concluyendo de forma generalizada que 'el 75% de la juventud colombiana padece de adicción severa a los teléfonos inteligentes'. ¿Cuál es el principal problema de validez científica de esta investigación?",
+    "opciones": [
+      {"letra": "A", "texto": "El número absoluto de 300 adolescentes encuestados es matemáticamente demasiado bajo para calcular porcentajes simples.", "es_correcta": false},
+      {"letra": "B", "texto": "La muestra de estudio carece de representatividad sociodemográfica y socioeconómica, lo que inhabilita de raíz extrapolar (generalizar) las conclusiones obtenidas a toda la juventud diversa del territorio nacional colombiano.", "es_correcta": true},
+      {"letra": "C", "texto": "Las encuestas digitales son incompatibles con los programas de análisis estadístico multivariado multivariables del computador.", "es_correcta": false},
+      {"letra": "D", "texto": "El estudio violó las normas internacionales de la física cuántica al utilizar transmisiones de redes inalámbricas Wi-Fi.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "Para generalizar una conclusión sobre una población amplia (juventud colombiana), la muestra analizada debe ser representativa de dicha población. Tomar una muestra sesgada de un estrato económico muy particular en una única urbe ignora los contextos rurales y urbanos diversos de otros estratos de Colombia, constituyendo un error de validez externa por sesgo de selección de muestra.",
+    "tema": "Muestreo y Validez Externa"
+  },
+  {
+    "id_pregunta": "seed_st_111",
+    "modulo": "Scientific Thinking",
+    "enunciado": "Un equipo de microbiólogos en Colombia realiza un ensayo clínico para comprobar si un nuevo antibiótico sintético (Bactrinox) es más potente para erradicar la bacteria Salmonella en cultivos in vitro que el antibiótico comercial convencional. En el diseño experimental, un 'Grupo de Control Negativo' recibe únicamente solución salina estéril sin antibiótico alguno. ¿Cuál es el rol científico primordial de este grupo de control?",
+    "opciones": [
+      {"letra": "A", "texto": "Reducir los costos totales de insumos químicos al no gastar antibióticos costosos durante las fases de prueba inicial.", "es_correcta": false},
+      {"letra": "B", "texto": "Servir como línea de referencia de comparación basal para verificar que la muerte natural bacteriana en el cultivo o factores ambientales no se confundan con el efecto de Bactrinox, aislando la verdadera potencia del antibiótico.", "es_correcta": true},
+      {"letra": "C", "texto": "Evitar demandas legales y demandas penales de bioseguridad por parte de comités de bioética internacional.", "es_correcta": false},
+      {"letra": "D", "texto": "Establecer las tasas de reproducción asintótica de hongos microscópicos no patógenos en el laboratorio.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "Un grupo de control negativo permite aislar el efecto de la variable independiente (el antibiótico) frente a cambios que ocurrirían espontáneamente sin intervención (crecimiento o muerte natural bacteriana, efectos del solvente o del medio). Si la bacteria también muriera en el grupo de control salino, indicaría que el cultivo falla por otros factores, no por la potencia antibiótica.",
+    "tema": "Grupo de Control en Ciencia"
+  },
+  {
+    "id_pregunta": "seed_st_112",
+    "modulo": "Scientific Thinking",
+    "enunciado": "Un grupo de geólogos colombianos estudia la correlación histórica entre las tasas de deforestación andina en laderas montañosas de Antioquia y la frecuencia de deslizamientos de tierra invernales masivos durante los últimos 40 años. Registran datos anuales y construyen un modelo de regresión lineal. Encuentran un coeficiente de determinación R² = 0.81, con un p-valor de 0.0001. ¿Cómo debe interpretarse rigurosamente el valor de R² en este estudio geológico?",
+    "opciones": [
+      {"letra": "A", "texto": "La deforestación provoca exactamente el 81% de los sismos y terremotos tectónicos del departamento de Antioquia.", "es_correcta": false},
+      {"letra": "B", "texto": "El modelo de regresión lineal explica el 81% de la variabilidad observada en la frecuencia de los deslizamientos de tierra en función de la deforestación de laderas, denotando un alto poder predictivo y de ajuste.", "es_correcta": true},
+      {"letra": "C", "texto": "El 81% de las mediciones del estudio contienen errores sistemáticos introducidos por el clima húmedo de la cordillera central.", "es_correcta": false},
+      {"letra": "D", "texto": "La probabilidad de que ocurra un deslizamiento de tierra catastrófico en laderas forestadas es de exactamente el 81%.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "El coeficiente de determinación (R²) en estadística describe la proporción de la varianza de la variable dependiente (deslizamientos de tierra) que es explicada o predicha por el modelo ajustado en función de la variable independiente (deforestación). Un R² de 0.81 indica que el 81% de las fluctuaciones anuales de deslizamientos se explican de forma sólida por la tasa de deforestación.",
+    "tema": "Coeficiente de Determinación R²"
+  },
+  {
+    "id_pregunta": "seed_st_113",
+    "modulo": "Scientific Thinking",
+    "enunciado": "La falsabilidad es un concepto epistemológico fundamental propuesto por Karl Popper. Según este principio rector del método científico, una teoría o postulado adquiere el carácter de 'científica' únicamente cuando:",
+    "opciones": [
+      {"letra": "A", "texto": "Ha sido demostrada matemáticamente como una verdad absoluta e inalterable por científicos ganadores del Premio Nobel.", "es_correcta": false},
+      {"letra": "B", "texto": "Es susceptible de ser contrastada empíricamente con la realidad física y, potencialmente, de ser desmentida o refutada mediante observaciones u experimentos empíricos repetibles.", "es_correcta": true},
+      {"letra": "C", "texto": "Su estructura conceptual está redactada usando lenguajes lógicos que prohíben la existencia de cualquier duda metodológica.", "es_correcta": false},
+      {"letra": "D", "texto": "Goza del respaldo mayoritario y de la fe ciega de los gremios comerciales y de las industrias pesadas mundiales.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La falsabilidad de Popper establece que para que una hipótesis o teoría sea catalogada como científica, debe ser lógicamente posible concebir un experimento o una observación empírica que contradiga o refute el postulado original. Las afirmaciones imposibles de poner a prueba o de contradecir (ej. afirmaciones místicas o tautologías) entran en el ámbito de la pseudociencia o metafísica.",
+    "tema": "Falsabilidad y Epistemología"
+  },
+  {
+    "id_pregunta": "seed_st_114",
+    "modulo": "Scientific Thinking",
+    "enunciado": "Un equipo de genetistas desea evaluar si una mutación molecular particular está vinculada al desarrollo de resistencia al calor en plantas de banano en Colombia. Estudian un grupo de plantas silvestres mutadas y otro grupo de plantas control sin mutación. Al registrar la viabilidad de cloroplastos ante temperaturas extremas de 45°C, observan promedios divergentes. Sin embargo, no aplican ninguna prueba estadística de contraste de hipótesis. Un crítico del estudio afirma que las diferencias reportadas carecen de rigurosidad científica porque:",
+    "opciones": [
+      {"letra": "A", "texto": "La temperatura de 45°C no puede ser medida de forma exacta usando termómetros digitales modernos.", "es_correcta": false},
+      {"letra": "B", "texto": "Sin un test de significancia estadística (como prueba t o ANOVA), es imposible saber si la divergencia en los promedios es un verdadero efecto biológico o si simplemente se debe a la variabilidad natural aleatoria interindividual de la muestra.", "es_correcta": true},
+      {"letra": "C", "texto": "Las mutaciones moleculares en plantas tropicales no responden a las leyes físicas de conservación de la materia celular.", "es_correcta": false},
+      {"letra": "D", "texto": "El cultivo de banano criollo está exento de evaluaciones bajo el método de diseño empírico controlado.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "En investigación empírica, la variación de datos entre muestras es inevitable debido a diferencias intrínsecas de cada individuo. La diferencia matemática de promedios simples puede inducir a error si la dispersión de datos es alta. Las pruebas estadísticas de hipótesis contrastan el tamaño de la diferencia contra la varianza de los datos, dictaminando si la diferencia es real (significativa) o mero ruido aleatorio.",
+    "tema": "Importancia del Test Estadístico"
+  },
+  {
+    "id_pregunta": "seed_st_115",
+    "modulo": "Scientific Thinking",
+    "enunciado": "Durante una investigación de campo en el desierto de la Tatacoa, los paleontólogos desentierran restos óseos fósiles de un mamífero prehistórico gigante. El equipo desea estimar de forma exacta la edad cronológica absoluta de los fósiles. ¿Cuál de las siguientes metodologías de datación científica es la más confiable y estandarizada para este propósito arqueológico?",
+    "opciones": [
+      {"letra": "A", "texto": "Estudiar la profundidad relativa de las huellas de pisadas de vacas sobre las laderas andinas del desierto boyacense.", "es_correcta": false},
+      {"letra": "B", "texto": "Analizar la proporción radiactiva de isótopos de carbono-14 (para muestras menores de 50,000 años) o métodos radiométricos de potasio-argón / uranio-plomo (para estratos geológicos más antiguos) contenidos en el fósil o roca circundante.", "es_correcta": true},
+      {"letra": "C", "texto": "Consultar bases de datos digitales de mitos y leyendas locales sobre animales de gran tamaño en la región huilense.", "es_correcta": false},
+      {"letra": "D", "texto": "Medir el peso en gramos del polvo erosionado acumulado sobre la superficie de los fósiles en el laboratorio.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La datación radiométrica aprovecha las tasas constantes de desintegración radiactiva de ciertos isótopos inestables presentes en rocas y restos orgánicos fósiles (vida media). Esto permite calcular el tiempo exacto transcurrido desde la muerte del espécimen o consolidación de la roca, aportando un dato cronológico cuantitativo riguroso.",
+    "tema": "Datación y Métodos Científicos"
+  },
+  {
+    "id_pregunta": "seed_st_116",
+    "modulo": "Scientific Thinking",
+    "enunciado": "Un modelo meteorológico computacional predice la ocurrencia de granizadas severas en Bogotá utilizando redes neuronales artificiales. Durante la fase de validación empírica, los meteorólogos ingresan al modelo datos atmosféricos reales históricos de los últimos 5 años que el algoritmo nunca vio durante su entrenamiento (dataset de prueba). Este procedimiento científico de evaluar el modelo sobre datos nuevos e independientes se conoce como:",
+    "opciones": [
+      {"letra": "A", "texto": "Ajuste por mínimos cuadrados ordinarios cruzados de primer orden.", "es_correcta": false},
+      {"letra": "B", "texto": "Validación cruzada o test de generalización, indispensable para comprobar si el modelo padece de sobreajuste (overfitting) y si conserva capacidad predictiva real.", "es_correcta": true},
+      {"letra": "C", "texto": "Amortización de la inercia térmica de los sensores analógicos terrestres.", "es_correcta": false},
+      {"letra": "D", "texto": "Demostración matemática por inducción transfinita asintótica.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La validación sobre un conjunto de datos independiente (test dataset o validation dataset) es un pilar del aprendizaje automático y modelado científico. Evita el sobreajuste (overfitting), que ocurre cuando un modelo memoriza de forma perfecta el ruido de los datos de entrenamiento pero fracasa drásticamente al predecir datos nuevos de la realidad física.",
+    "tema": "Validación de Modelos Predictivos"
+  },
+  {
+    "id_pregunta": "seed_st_117",
+    "modulo": "Scientific Thinking",
+    "enunciado": "Un grupo de cardiólogos colombianos propone que el consumo regular de grasas saturadas trans aumenta el colesterol LDL 'malo' plasmático en humanos. Diseñan un experimento donde alimentan a 20 conejos albinos machos con una dieta hipergrasa rica en grasas trans, reportando incrementos marcados de colesterol. Los investigadores publican el artículo afirmando que la hipótesis se confirma plenamente para toda la población de humanos. ¿Cuál es la principal falencia de inferencia en este diseño científico?",
+    "opciones": [
+      {"letra": "A", "texto": "Los conejos albinos carecen de sistema cardiovascular o vasos sanguíneos comparables a nivel celular.", "es_correcta": false},
+      {"letra": "B", "texto": "El sesgo de traslación filogenética al pretender extrapolar de forma directa, lineal y sin salvedades un resultado de un modelo animal herbívoro (fisiología del conejo) a humanos omnívoros, ignorando las divergencias metabólicas complejas inter-especie.", "es_correcta": true},
+      {"letra": "C", "texto": "El uso de dietas controladas en conejos viola la soberanía alimentaria del gremio de veterinarios departamentales.", "es_correcta": false},
+      {"letra": "D", "texto": "Los niveles de colesterol en conejos salvajes responden únicamente al azar electromagnético ambiental.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "Aunque la investigación con modelos animales es un paso preliminar valioso en medicina, pretender extrapolar de forma directa y concluyente hallazgos metabólicos de un herbívoro sensible (conejo) a un omnívoro complejo (humano) viola las normas de la inferencia fisiológica y validez externa. El modelo requiere ensayos clínicos o epidemiológicos posteriores sobre seres humanos.",
+    "tema": "Inferencia Interespecie"
+  },
+  {
+    "id_pregunta": "seed_st_118",
+    "modulo": "Scientific Thinking",
+    "enunciado": "En la investigación científica de un nuevo material conductor superconductor de alta temperatura en laboratorio, un científico repite la misma medición de resistencia eléctrica 50 veces bajo idénticas condiciones controladas de presión y temperatura. Al promediar los resultados, reporta una dispersión matemática extremadamente baja (Desviación Estándar σ ≈ 0.002 Ω), aunque el instrumento de medición digital utilizado presentaba una descalibración física sistemática de fábrica de +0.5 Ω. Al valorar este experimento, se puede concluir rigurosamente que el conjunto de datos de resistencia obtenido es:",
+    "opciones": [
+      {"letra": "A", "texto": "Altamente inexacto y con bajo nivel de precisión estadística.", "es_correcta": false},
+      {"letra": "B", "texto": "Altamente preciso pero inexacto debido al sesgo sistemático constante provocado por la descalibración del aparato de medida.", "es_correcta": true},
+      {"letra": "C", "texto": "Altamente exacto y preciso puesto que el número de repeticiones (N=50) anula de forma automática cualquier error sistemático físico.", "es_correcta": false},
+      {"letra": "D", "texto": "Inútil por completo debido a que la desviación estándar de la resistencia de superconductores debe ser igual a cero absoluto.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La precisión se refiere a la consistencia o reproducibilidad de los resultados entre sí (baja desviación estándar σ = 0.002 indica alta precisión). La exactitud se refiere a qué tan cerca está la medición del valor real físico. La descalibración sistemática de +0.5 Ω sesga todas las lecturas alejándolas del valor real, haciendo que los datos sean inexactos pero altamente precisos.",
+    "tema": "Exactitud vs. Precisión"
+  },
+  {
+    "id_pregunta": "seed_st_119",
+    "modulo": "Scientific Thinking",
+    "enunciado": "Un equipo de psicólogos infantiles investiga si el uso prolongado de videojuegos de estrategia abstracta mejora el coeficiente de inteligencia visoespacial de los niños. Planean evaluar a 500 niños en un estudio transversal de asociación simple de un solo día. Un asesor científico les advierte que un diseño transversal de un solo momento temporal impide probar causalidad de forma sólida. ¿Por qué se da esta limitación metodológica?",
+    "opciones": [
+      {"letra": "A", "texto": "Porque los niños menores de doce años carecen de la capacidad intelectual de resolver exámenes visoespaciales.", "es_correcta": false},
+      {"letra": "B", "texto": "Porque el estudio transversal carece de temporalidad secuencial, imposibilitando descartar la causalidad inversa (por ejemplo, que los niños con alto coeficiente de inteligencia visoespacial natural prefieran jugar videojuegos de estrategia en su tiempo libre de forma espontánea).", "es_correcta": true},
+      {"letra": "C", "texto": "Porque las consolas de videojuegos emiten radiaciones electromagnéticas que invalidan el método empírico de control mental.", "es_correcta": false},
+      {"letra": "D", "texto": "Porque la estadística multivariada prohíbe de forma absoluta correlacionar variables cognitivas continuas de un solo día.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "Los estudios transversales miden simultáneamente la exposición (videojuegos) y el efecto (inteligencia) en un solo punto del tiempo. Al no haber precedencia temporal clara (saber qué ocurrió primero), es imposible determinar la dirección de la causalidad, introduciendo el riesgo de causalidad inversa o sesgos de confusión.",
+    "tema": "Diseños de Investigación y Temporalidad"
+  },
+  {
+    "id_pregunta": "seed_st_120",
+    "modulo": "Scientific Thinking",
+    "enunciado": "En la historia de la ciencia, el experimento clásico realizado por Ignaz Semmelweis en la clínica de maternidad de Viena (1847) sobre la fiebre puerperal demostró un pilar del razonamiento científico. Semmelweis observó tasas de mortalidad mucho mayores en la sala atendida por estudiantes de medicina (que venían de realizar autopsias) que en la sala atendida por parteras. Formuló la hipótesis de que 'partículas cadavéricas' invisibles en las manos de los médicos causaban la fiebre y ordenó el lavado de manos obligatorio con cal clorada. ¿Qué principio lógico y empírico sustenta la validación de esta hipótesis?",
+    "opciones": [
+      {"letra": "A", "texto": "La deducción de que las parteras poseían un conocimiento teológico superior sobre la salud reproductiva de la madre.", "es_correcta": false},
+      {"letra": "B", "texto": "La reducción drástica de la tasa de mortalidad en la sala de médicos tras introducir la intervención activa de desinfección de manos, actuando como una prueba experimental de remoción de la presunta causa (eliminación del factor causal).", "es_correcta": true},
+      {"letra": "C", "texto": "La demostración matemática asintótica de la teoría de la relatividad general aplicada al flujo de fluidos biológicos corporativos.", "es_correcta": false},
+      {"letra": "D", "texto": "El debate filosófico dialéctico presencial con las autoridades médicas de Viena para llegar a un consenso de opinión laico.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La validación empírica en medicina a menudo recurre al principio de eliminar o introducir la presunta causa de forma experimental. Al lavar las manos con cal clorada (remoción del factor de transmisión), la caída drástica e inmediata de muertes a niveles idénticos o inferiores a la otra sala aportó evidencia causal contundente de la validez de su hipótesis.",
+    "tema": "Historia del Método Científico"
+  },
+  {
+    "id_pregunta": "seed_st_121",
+    "modulo": "Scientific Thinking",
+    "enunciado": "Durante un estudio sobre la velocidad de reacción química de descomposición enzimática, un estudiante postula la hipótesis de que al duplicar la cantidad de enzima de control en la solución líquida, la velocidad del proceso se duplicará linealmente y sin límite de concentración. Al realizar el experimento con concentraciones de enzima saturadas extremas, el estudiante observa que la velocidad deja de incrementar y se estabiliza. Este comportamiento responde científicamente a:",
+    "opciones": [
+      {"letra": "A", "texto": "Un error aleatorio cometido al verter de forma inestable el compuesto enzimático sobre el solvente líquido.", "es_correcta": false},
+      {"letra": "B", "texto": "El fenómeno físico de saturación del sustrato, donde la cantidad limitada de sustrato disponible actúa como el factor limitante en el sistema enzimático, impidiendo mayores velocidades a pesar del exceso de enzimas.", "es_correcta": true},
+      {"letra": "C", "texto": "La ineficiencia cuántica de las enzimas biológicas al operar en condiciones de gravedad terrestre ordinaria.", "es_correcta": false},
+      {"letra": "D", "texto": "El comportamiento espurio de las enzimas al interactuar con las paredes plásticas del matraz de laboratorio.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "En cinética enzimática (modelo de Michaelis-Menten), a altas concentraciones de enzima, el sustrato se vuelve el reactivo limitante. Todas las moléculas de sustrato se encuentran unidas constantemente al sitio activo de las enzimas disponibles, saturando la velocidad máxima de reacción (Vmax). Esto demuestra un límite físico no lineal del sistema químico.",
+    "tema": "Límites Técnicos y Saturación"
+  },
+  {
+    "id_pregunta": "seed_st_122",
+    "modulo": "Scientific Thinking",
+    "enunciado": "Un equipo de investigadores médicos colombianos publica un artículo afirmando haber descubierto una vacuna contra el dengue en ensayos de fase I y II con monos capuchinos. El artículo es publicado de forma directa en un blog web corporativo del laboratorio, saltándose la revisión por pares (peer-review) de revistas científicas certificadas. Ante la comunidad científica internacional, ¿cuál es el estatus epistemológico de este reporte?",
+    "opciones": [
+      {"letra": "A", "texto": "Posee la máxima validez y estatus de verdad irrefutable al agilizar el acceso libre a los datos e invenciones del laboratorio.", "es_correcta": false},
+      {"letra": "B", "texto": "Carece de credibilidad institucional y validez científica formal, puesto que el proceso de revisión por pares es un control de calidad crítico e indispensable de la ciencia para validar de forma independiente el diseño, sesgos y análisis estadístico del estudio.", "es_correcta": true},
+      {"letra": "C", "texto": "Es ilegal de forma directa en el marco del derecho penal comercial que rige el desarrollo de vacunas de patologías tropicales.", "es_correcta": false},
+      {"letra": "D", "texto": "Debe ser considerado como un postulado metafísico inmune a cualquier evaluación de carácter empírico por laboratorios ajenos.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La revisión por pares (peer-review) actúa como el filtro regulador y de control de calidad fundamental del conocimiento científico. Expertos independientes evalúan críticamente la metodología, rigor estadístico y consistencia de los análisis del estudio antes de su publicación, evitando la divulgación de errores metodológicos flagrantes o fraudes.",
+    "tema": "Estructura de la Comunidad Científica"
+  },
+  {
+    "id_pregunta": "seed_st_123",
+    "modulo": "Scientific Thinking",
+    "enunciado": "Un grupo de climatólogos analiza datos históricos de temperatura atmosférica global y decide ajustar un modelo predictivo polinomial de grado 15 sobre una muestra de solo 15 observaciones anuales sucesivas. El modelo ajustado tiene un R² = 1.0 (ajuste perfecto de todos los puntos de la curva). Al usar este modelo de grado 15 para predecir las temperaturas de los próximos 5 años, obtienen valores absurdos (como temperaturas bajo cero en el ecuador). Este error científico se debe a:",
+    "opciones": [
+      {"letra": "A", "texto": "La inestabilidad electromagnética natural de los satélites meteorológicos de medición térmica.", "es_correcta": false},
+      {"letra": "B", "texto": "Un sobreajuste severo (overfitting), provocado por ajustar un modelo matemático con demasiados parámetros sobre un conjunto de datos extremadamente pequeño, memorizando el ruido aleatorio y perdiendo total capacidad de generalización predictiva externa.", "es_correcta": true},
+      {"letra": "C", "texto": "Un error sistemático de cálculo algebraico derivado de usar matrices cuadradas no invertibles en el software.", "es_correcta": false},
+      {"letra": "D", "texto": "La influencia gravitacional no considerada del planeta Júpiter sobre las corrientes de aire ecuatoriales de la Tierra.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "El overfitting ocurre al usar un modelo de excesiva complejidad o flexibilidad (grado polinómico muy alto) en relación con el número bajo de observaciones disponibles. El modelo describe perfectamente los puntos históricos de la muestra pero crea oscilaciones erráticas entre ellos y falla drásticamente al realizar proyecciones o extrapolar datos.",
+    "tema": "Sobreajuste (Overfitting)"
+  },
+  {
+    "id_pregunta": "seed_st_124",
+    "modulo": "Scientific Thinking",
+    "enunciado": "Un equipo de investigadores en ciencias sociales de Colombia desea verificar si un programa de reinserción de excombatientes reduce los niveles de reincidencia violenta. Diseñan un estudio longitudinal observando el comportamiento de 500 excombatientes que ingresaron voluntariamente al programa y 500 que decidieron no ingresar de forma autónoma. Tras un año, el grupo del programa reporta un 5% de reincidencia frente a un 25% del grupo externo. ¿Cuál es el principal sesgo de confusión en este diseño observacional?",
+    "opciones": [
+      {"letra": "A", "texto": "La falta de un test de regresión lineal multivariada para promediar los años de escolaridad de los evaluados.", "es_correcta": false},
+      {"letra": "B", "texto": "El sesgo de autoselección (falta de asignación aleatoria): los excombatientes que deciden ingresar voluntariamente al programa ya poseen de forma preexistente una mayor motivación intrínseca, disciplina o deseos de paz que los que deciden no ingresar, confundiendo el efecto del programa con rasgos individuales previos.", "es_correcta": true},
+      {"letra": "C", "texto": "La ineficiencia presupuestaria de los municipios rurales andinos donde residen las familias afectadas por la violencia.", "es_correcta": false},
+      {"letra": "D", "texto": "La inestabilidad de las encuestas impresas al registrar respuestas cualitativas de comportamiento ético.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "En estudios observacionales no aleatorizados, los participantes se autoseleccionan. Las características preexistentes de los individuos (motivación de reinserción pacífica, menor propensión biológica o social a la violencia, etc.) que influyen en su decisión de unirse al programa actúan como variables de confusión graves que explican los resultados de reincidencia, impidiendo atribuir el éxito únicamente al programa.",
+    "tema": "Sesgo de Autoselección"
+  },
+  {
+    "id_pregunta": "seed_st_125",
+    "modulo": "Scientific Thinking",
+    "enunciado": "Un equipo de astrónomos utiliza un radiotelescopio para registrar señales electromagnéticas de galaxias lejanas. Una noche detectan un patrón repetitivo e inusual de pulsos de radio de alta intensidad. Un astrónomo afirma de inmediato ante la prensa de forma sensacionalista que 'se ha descubierto vida extraterrestre inteligente'. De acuerdo con el pensamiento científico riguroso de la navaja de Ockham y el escepticismo empírico, ¿cuál debe ser la postura metodológica correcta ante este hallazgo?",
+    "opciones": [
+      {"letra": "A", "texto": "Aceptar de inmediato la conclusión alienígena debido a la asombrosa baja probabilidad de que las galaxias emitan ondas de radio de forma espontánea.", "es_correcta": false},
+      {"letra": "B", "texto": "Buscar explicaciones naturales y físicas más sencillas y documentadas científicamente (como púlsares, interferencias de satélites terrestres, fallos de calibración de las antenas, etc.) antes de recurrir a hipótesis exóticas y complejas (vida extraterrestre), de acuerdo con el principio de parsimonia.", "es_correcta": true},
+      {"letra": "C", "texto": "Descartar la señal aduciendo que la astrofísica moderna prohíbe de forma absoluta evaluar ondas de radio provenientes de otras constelaciones.", "es_correcta": false},
+      {"letra": "D", "texto": "Exigir financiamiento de inmediato al Banco Central del país para enviar sondas espaciales tripuladas hacia la galaxia emisora.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La Navaja de Ockham o principio de parsimonia establece que ante varias explicaciones posibles para un fenómeno, la más simple y que requiere menor número de supuestos o postulados extraordinarios suele ser la correcta. Antes de alegar orígenes extraterrestres (hipótesis extraordinaria), se deben descartar metódicamente causas naturales bien conocidas (satélites, púlsares, interferencias).",
+    "tema": "Navaja de Ockham"
+  },
+  {
+    "id_pregunta": "seed_st_126",
+    "modulo": "Scientific Thinking",
+    "enunciado": "Un estudio biológico evalúa el efecto del compuesto orgánico (Resveratrol) sobre la longevidad de células de levadura in vitro. El grupo tratado con Resveratrol muestra un incremento del 20% en la duración media de vida de las células en comparación con el grupo control. El p-valor del estudio es de 0.005. No obstante, al repetir exactamente el mismo experimento en tres laboratorios independientes de otros países, el incremento observado fue de solo el 1%, con p-valores de 0.65, 0.70 y 0.81. Desde la perspectiva científica, ¿cuál es el diagnóstico técnico del hallazgo original?",
+    "opciones": [
+      {"letra": "A", "texto": "Los tres laboratorios cometieron errores biológicos sistemáticos deliberados para sabotear la reputación comercial del primer laboratorio.", "es_correcta": false},
+      {"letra": "B", "texto": "El resultado del primer estudio padece de falta de reproducibilidad, sugiriendo que el hallazgo original de incremento de longevidad pudo ser un falso positivo (Error Tipo I), producto de fluctuaciones del azar, muestras pequeñas o sesgo de publicación.", "es_correcta": true},
+      {"letra": "C", "texto": "El compuesto Resveratrol pierde de manera espontánea sus propiedades biológicas y químicas al ser transportado por vía aérea aduanera internacional.", "es_correcta": false},
+      {"letra": "D", "texto": "Se confirma plenamente la hipótesis puesto que el p-valor de un experimento original prima sobre las réplicas debido al derecho de autor.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La reproducibilidad (capacidad de obtener los mismos resultados al repetir el experimento por investigadores independientes bajo idénticas condiciones) es el criterio de demarcación científico por excelencia. Si réplicas independientes arrojan resultados no significativos (p > 0.05), el hallazgo original pierde robustez científica y debe interpretarse como un falso positivo o artefacto de laboratorio.",
+    "tema": "Reproducibilidad Científica"
+  },
+  {
+    "id_pregunta": "seed_st_127",
+    "modulo": "Scientific Thinking",
+    "enunciado": "Usted analiza un estudio clínico sobre la eficacia de un nuevo fármaco para el control de la hipertensión arterial. El estudio reporta que la presión diastólica promedio bajó de 95 mmHg a 94.8 mmHg en un grupo de 10,000 pacientes, con una significancia estadística contundente de p-valor = 0.0001. Desde una perspectiva científica y médica rigurosa, ¿cómo debe evaluarse críticamente este resultado?",
+    "opciones": [
+      {"letra": "A", "texto": "El fármaco es extraordinariamente efectivo y revolucionario al reportar un p-valor extremadamente bajo e irrefutable.", "es_correcta": false},
+      {"letra": "B", "texto": "La diferencia de presión diastólica de 0.2 mmHg es de nula relevancia o significancia clínica práctica, demostrando que un tamaño de muestra inmenso (N=10,000) puede inflar la significancia estadística del p-valor ante cambios físicos insignificantes.", "es_correcta": true},
+      {"letra": "C", "texto": "El estudio es inconstitucional en Colombia al violar el principio de soberanía del plan obligatorio de salud pública.", "es_correcta": false},
+      {"letra": "D", "texto": "La presión arterial de 95 mmHg representa un estado biológico libre de riesgos cardiovasculares crónicos.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "Un principio clave del pensamiento científico cuantitativo es diferenciar entre significancia estadística (p-valor < 0.05, que indica que la diferencia observada probablemente no es por azar) y significancia o relevancia práctica/clínica. Con muestras gigantes, variaciones minúsculas y sin importancia clínica práctica (como bajar 0.2 mmHg la presión) arrojan p-valores diminutos de forma mecánica.",
+    "tema": "Significancia Estadística vs. Práctica"
+  },
+  {
+    "id_pregunta": "seed_st_128",
+    "modulo": "Scientific Thinking",
+    "enunciado": "Un equipo de investigadores médicos desea evaluar si la ingesta diaria de vitamina C reduce la incidencia de resfriados en adultos mayores de Bogotá. El grupo experimental recibe diariamente tabletas ácidas con 500 mg de vitamina C; el grupo de control recibe tabletas ácidas con sabor y apariencia idénticas formuladas con lactosa (placebo). Ni los médicos evaluadores ni los pacientes saben qué tableta consume cada individuo durante el tratamiento. Este diseño experimental de control científico se define procedimentalmente como:",
+    "opciones": [
+      {"letra": "A", "texto": "Muestreo por conglomerados demográficos aleatorizados cruzados.", "es_correcta": false},
+      {"letra": "B", "texto": "Estudio controlado con enmascaramiento de doble ciego, indispensable para neutralizar sesgos psicológicos subjetivos del paciente (efecto placebo) y sesgos de observación o expectativa del personal médico.", "es_correcta": true},
+      {"letra": "C", "texto": "Análisis multivariable asintótico de regresión logística no lineal.", "es_correcta": false},
+      {"letra": "D", "texto": "Evaluación abierta y descriptiva de casos clínicos hospitalarios complejos.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "El diseño de doble ciego garantiza el máximo rigor experimental en medicina. Evita el sesgo de observación (médicos que evalúan con mayor optimismo al paciente tratado debido a sus expectativas personales de éxito de la investigación) y el efecto placebo (pacientes que reportan mejoras de salud ficticias simplemente por la sugestión de consumir el fármaco).",
+    "tema": "Estudios de Doble Ciego"
+  },
+  {
+    "id_pregunta": "seed_st_129",
+    "modulo": "Scientific Thinking",
+    "enunciado": "Durante una investigación de campo en ecología de cuencas fluviales, un científico reporta una fuerte correlación estadística positiva lineal (R = 0.89, p-valor = 0.001) entre la densidad física de la población de castores canadienses en ríos andinos artificiales y la concentración de materia nitrogenada orgánica disuelta en el agua. El investigador concluye que los castores causan el nitrógeno orgánico. No obstante, al revisar críticamente la literatura, descubren que los castores prefieren anidar en aguas ricas en nitrógeno porque allí crece de forma abundante su alimento vegetal favorito. Esta conclusión errónea original de causalidad representa un sesgo analítico de:",
+    "opciones": [
+      {"letra": "A", "texto": "Causalidad directa con alta variabilidad biológica aleatoria.", "es_correcta": false},
+      {"letra": "B", "texto": "Causalidad inversa, puesto que es la alta presencia de nitrógeno y vegetación vegetal el factor que atrae y causa la inmigración de castores, y no los castores la causa del nitrógeno orgánico.", "es_correcta": true},
+      {"letra": "C", "texto": "Error sistemático introducido por el clima andino de la cordillera oriental colombiana.", "es_correcta": false},
+      {"letra": "D", "texto": "Sesgo de financiación por parte de corporaciones agroquímicas multinacionales.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La causalidad inversa ocurre cuando el investigador confunde la causa con el efecto (X causa Y, cuando en realidad Y causa X). Encontrar una fuerte correlación estadística lineal no indica por sí misma la dirección causal del fenómeno físico o ecológico observacional.",
+    "tema": "Causalidad Inversa"
+  },
+  {
+    "id_pregunta": "seed_st_130",
+    "modulo": "Scientific Thinking",
+    "enunciado": "Un equipo de investigadores en ciencias sociales de Colombia desea verificar el impacto del programa de transferencias condicionadas (Familias en Acción) en la desnutrición infantil crónica de municipios rurales vulnerables. Utilizan datos históricos de 50 municipios y ajustan un modelo lineal multivariado. Un asesor sugiere aplicar el enfoque de 'Diferencias en Diferencias' (DiD) comparando municipios tratados con municipios de control similares que no tuvieron acceso al programa. ¿Cuál es el beneficio metodológico primordial de aplicar DiD en la evaluación de políticas públicas?",
+    "opciones": [
+      {"letra": "A", "texto": "Garantizar de forma legal la continuidad del presupuesto gubernamental nacional de los programas asistenciales.", "es_correcta": false},
+      {"letra": "B", "texto": "Aislar de forma sólida el efecto real de la política pública (tratamiento) controlando por tendencias temporales comunes y diferencias preexistentes invariables entre el grupo tratado y de control, simulando un experimento contraintuitivo.", "es_correcta": true},
+      {"letra": "C", "texto": "Sustituir por completo las encuestas de campo con bases de datos digitales de satélites aduaneros de importación alimentaria.", "es_correcta": false},
+      {"letra": "D", "texto": "Establecer la rentabilidad financiera privada de los supermercados que operan en zonas residenciales Boyacenses.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "El método cuasi-experimental de 'Diferencias en Diferencias' (DiD) es una herramienta robusta para la evaluación de impacto. Al comparar el cambio temporal del grupo tratado contra el cambio temporal del grupo de control, DiD elimina el efecto de factores macro o tendencias temporales compartidas (como mejoras generales del clima o la economía) y diferencias basales estáticas de cada grupo, aislando la efectividad neta del programa.",
+    "tema": "Cuasi-Experimentos y DiD"
+  }
+]

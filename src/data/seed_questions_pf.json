@@ -1,0 +1,392 @@
+[
+  {
+    "id_pregunta": "seed_pf_101",
+    "modulo": "Project Formulation",
+    "enunciado": "Un equipo de desarrollo de software formula un proyecto de migración tecnológica para un cliente del sector bancario. La inversión inicial estimada para la adecuación de servidores y licencias es de $300,000 USD. El cliente exige una Tasa de Interés de Oportunidad (TIO) mínima del 15% anual. La proyección de los flujos netos de caja para los próximos 4 años es:\n- Año 1: $100,000 USD\n- Año 2: $120,000 USD\n- Año 3: $120,000 USD\n- Año 4: $150,000 USD\n\nAl calcular el Valor Presente Neto (VPN) de este flujo de caja descontado bajo la TIO del 15%, ¿cuál es la viabilidad financiera del proyecto?",
+    "opciones": [
+      {"letra": "A", "texto": "El VPN es negativo, por lo cual el proyecto destruye riqueza y debe rechazarse de forma definitiva.", "es_correcta": false},
+      {"letra": "B", "texto": "El VPN es positivo (aproximadamente $42,600 USD), por lo cual el proyecto rinde por encima de la tasa mínima exigida y debe aceptarse porque agrega valor financiero.", "es_correcta": true},
+      {"letra": "C", "texto": "El VPN es exactamente cero, indicando que el proyecto recupera la inversión inicial pero no genera ningún tipo de interés o ganancia.", "es_correcta": false},
+      {"letra": "D", "texto": "El VPN no puede ser calculado puesto que el flujo neto del Año 1 es inferior a la tasa del costo de capital bancario.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "El cálculo del VPN descontado al 15% anual da: VPN = -300,000 + 100,000/(1.15)^1 + 120,000/(1.15)^2 + 120,000/(1.15)^3 + 150,000/(1.15)^4 ≈ -300,000 + 86,957 + 90,737 + 78,902 + 85,763 = $42,359 USD. Al ser el VPN > 0, significa que el proyecto no solo cubre la tasa de oportunidad exigida por los inversionistas, sino que genera una riqueza adicional neta de más de 42 mil dólares.",
+    "tema": "Valor Presente Neto (VPN)"
+  },
+  {
+    "id_pregunta": "seed_pf_102",
+    "modulo": "Project Formulation",
+    "enunciado": "Durante la fase de identificación de un proyecto de software para optimizar la logística de rutas de camiones recolectores de basura, el equipo debe definir la 'Línea Base' de la problemática. ¿Cuál es el propósito primordial de establecer una Línea Base en este punto del ciclo del proyecto?",
+    "opciones": [
+      {"letra": "A", "texto": "Establecer un presupuesto financiero cerrado e inmodificable para evitar desviaciones fiscales por parte de los contratistas.", "es_correcta": false},
+      {"letra": "B", "texto": "Determinar el estado actual del sistema de recolección (tiempos, costos, consumo de combustible) antes de cualquier intervención, sirviendo como punto de referencia para medir y evaluar el impacto real del proyecto tras su ejecución.", "es_correcta": true},
+      {"letra": "C", "texto": "Seleccionar la marca y arquitectura de los servidores físicos que se comprarán al final del proyecto de software.", "es_correcta": false},
+      {"letra": "D", "texto": "Garantizar que todas las patentes de desarrollo estén registradas a nombre de los ingenieros líderes antes de iniciar el diseño.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La Línea Base es un conjunto de indicadores que describen cuantitativa y cualitativamente la situación inicial del problema antes de realizar el proyecto. Esto permite comparar los indicadores 'ex-post' (después de la intervención) contra los de la Línea Base para cuantificar la efectividad y el impacto del software.",
+    "tema": "Identificación de Proyectos"
+  },
+  {
+    "id_pregunta": "seed_pf_103",
+    "modulo": "Project Formulation",
+    "enunciado": "Un equipo evalúa dos proyectos alternativos y mutuamente excluyentes de automatización de almacenes para una empresa manufacturera, con un horizonte de evaluación de 3 años y una TIO del 10% anual:\n\n- Proyecto Alfa: Inversión Inicial: $100 millones. Flujos netos anuales: Año 1: $50 millones, Año 2: $50 millones, Año 3: $50 millones.\n- Proyecto Beta: Inversión Inicial: $150 millones. Flujos netos anuales: Año 1: $80 millones, Año 2: $80 millones, Año 3: $40 millones.\n\nSabiendo que los dos proyectos son técnicamente viables, ¿cuál debe seleccionarse bajo un criterio financiero estricto de Valor Presente Neto?",
+    "opciones": [
+      {"letra": "A", "texto": "Se debe elegir Alfa porque requiere menor inversión inicial, independientemente del VPN obtenido en el periodo.", "es_correcta": false},
+      {"letra": "B", "texto": "Se debe elegir Beta porque su VPN (aproximadamente $29.2 millones) supera al de Alfa (aproximadamente $24.3 millones), maximizando la riqueza agregada.", "es_correcta": true},
+      {"letra": "C", "texto": "Ambos son exactamente iguales ya que el periodo de Payback simple de ambos es inferior a dos años comerciales.", "es_correcta": false},
+      {"letra": "D", "texto": "Se debe rechazar ambos proyectos porque la TIR calculada de manera simple es inferior a la tasa de depreciación de los activos fijos.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "Calculando los VPN con TIO=10%:\nVPN(Alfa) = -100 + 50/(1.1)^1 + 50/(1.1)^2 + 50/(1.1)^3 = -100 + 45.45 + 41.32 + 37.57 = $24.34 millones.\nVPN(Beta) = -150 + 80/(1.1)^1 + 80/(1.1)^2 + 40/(1.1)^3 = -150 + 72.73 + 66.12 + 30.05 = $28.9 millones (aproximadamente $29 millones). Dado que son mutuamente excluyentes, el criterio del VPN manda elegir el que mayor riqueza neta agregue, que es el Proyecto Beta.",
+    "tema": "Proyectos Excluyentes"
+  },
+  {
+    "id_pregunta": "seed_pf_104",
+    "modulo": "Project Formulation",
+    "enunciado": "En la gestión del alcance de un proyecto de desarrollo de software según la metodología del Project Management Institute (PMI), se utiliza la Estructura de Desglose del Trabajo (EDT) o Work Breakdown Structure (WBS). ¿Cuál es la definición correcta de este artefacto?",
+    "opciones": [
+      {"letra": "A", "texto": "Un diagrama de Gantt detallado que especifica qué programador ejecutará cada línea de código en un día específico del cronograma.", "es_correcta": false},
+      {"letra": "B", "texto": "Una descomposición jerárquica orientada a entregables del trabajo total que ejecutará el equipo del proyecto, donde cada nivel descendente representa una definición más detallada del trabajo.", "es_correcta": true},
+      {"letra": "C", "texto": "Una base de datos de consulta SQL que almacena las contraseñas criptográficas del servidor de staging.", "es_correcta": false},
+      {"letra": "D", "texto": "Un documento legal que firman los socios del proyecto para delegar la responsabilidad civil contractual a terceros contratistas.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La EDT/WBS es una herramienta clave de la gestión del alcance que organiza y define el alcance total del proyecto mediante una estructura jerárquica orientada a entregables. No define fechas ni recursos específicos (eso corresponde al cronograma), sino qué componentes concretos integran el trabajo del proyecto.",
+    "tema": "Estructura de Desglose del Trabajo"
+  },
+  {
+    "id_pregunta": "seed_pf_105",
+    "modulo": "Project Formulation",
+    "enunciado": "El análisis de sensibilidad es una herramienta crítica en la formulación de proyectos de inversión privada. ¿Cuál es el propósito metodológico esencial de efectuar este análisis antes de tomar una decisión de inversión?",
+    "opciones": [
+      {"letra": "A", "texto": "Eliminar por completo las variaciones de precios y la inflación del entorno macroeconómico durante el horizonte del proyecto.", "es_correcta": false},
+      {"letra": "B", "texto": "Evaluar cómo cambia la rentabilidad del proyecto (VPN o TIR) ante variaciones aleatorias o controladas en variables clave (como la demanda, precios, costos de insumos o retrasos temporales), identificando los factores de mayor riesgo.", "es_correcta": true},
+      {"letra": "C", "texto": "Determinar el número óptimo de reuniones semanales que debe sostener el equipo técnico con los inversionistas principales.", "es_correcta": false},
+      {"letra": "D", "texto": "Garantizar de forma legal que la tasa impositiva del impuesto de renta del país permanezca constante durante la ejecución.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "El análisis de sensibilidad permite estimar la robustez del proyecto. Al simular escenarios donde variables críticas empeoran (ej. caída del 10% en ventas, o alza del 15% en costos de operación), los formuladores pueden determinar si el VPN sigue siendo positivo o si el proyecto se torna inviable rápidamente, focalizando la mitigación de riesgos.",
+    "tema": "Análisis de Sensibilidad"
+  },
+  {
+    "id_pregunta": "seed_pf_106",
+    "modulo": "Project Formulation",
+    "enunciado": "En la formulación de un proyecto de infraestructura de transporte, el equipo técnico debe diferenciar entre la evaluación económica y social (evaluación social) y la evaluación financiera privada. ¿En qué consiste la principal diferencia entre estas dos metodologías?",
+    "opciones": [
+      {"letra": "A", "texto": "La evaluación financiera privada considera las tasas de cambio de divisas, mientras la social opera puramente con trueques no monetarios.", "es_correcta": false},
+      {"letra": "B", "texto": "La evaluación privada mide la rentabilidad del inversionista basada en flujos de efectivo comerciales, mientras la social mide el bienestar colectivo del país mediante precios sombra o de cuenta, internalizando externalidades positivas y negativas.", "es_correcta": true},
+      {"letra": "C", "texto": "La evaluación social ignora el costo de oportunidad del capital (TIO) debido a que los recursos estatales carecen de valor temporal.", "es_correcta": false},
+      {"letra": "D", "texto": "La evaluación financiera se realiza únicamente al final de la ejecución, mientras la social es un requisito exclusivo de la fase de cierre.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La evaluación privada se enfoca en los beneficios financieros directos de la empresa o inversor (ingresos de caja comerciales vs. egresos). La evaluación social analiza la contribución al bienestar de la sociedad entera, utilizando 'precios sombra' en vez de precios de mercado (que suelen tener distorsiones por aranceles o subsidios) y valorando externalidades (ej. reducción de tiempos de viaje, contaminación, accidentes).",
+    "tema": "Evaluación Social de Proyectos"
+  },
+  {
+    "id_pregunta": "seed_pf_107",
+    "modulo": "Project Formulation",
+    "enunciado": "Un director de proyectos de TI analiza la viabilidad de adquirir un nuevo servidor de bases de datos. El servidor cuesta $50,000 USD y genera ahorros en costos operativos de $15,000 USD anuales. Al mismo tiempo, el servidor requiere mantenimiento preventivo anual de $3,000 USD. Suponiendo un valor de salvamento de cero y una tasa de descuento (TIO) del 0% para simplificar, ¿cuál es el Periodo de Recuperación de la Inversión (Payback) simple de esta adquisición?",
+    "opciones": [
+      {"letra": "A", "texto": "3.33 años", "es_correcta": false},
+      {"letra": "B", "texto": "4.17 años", "es_correcta": true},
+      {"letra": "C", "texto": "5.00 años", "es_correcta": false},
+      {"letra": "D", "texto": "2.50 años", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "El beneficio neto de efectivo anual es: Ahorros - Mantenimiento = $15,000 - $3,000 = $12,000 USD anuales. El costo inicial es de $50,000 USD. El Payback simple se calcula dividiendo la inversión inicial entre el flujo anual neto: $50,000 / $12,000 = 4.17 años.",
+    "tema": "Periodo de Recuperación (Payback)"
+  },
+  {
+    "id_pregunta": "seed_pf_108",
+    "modulo": "Project Formulation",
+    "enunciado": "Durante la etapa de prefactibilidad de un proyecto de acueducto rural, el equipo debe estimar la demanda futura de agua potable. Para ello, analiza variables de población, tasa de crecimiento demográfico, dotación neta de agua por habitante y pérdidas del sistema. Este estudio técnico e investigativo corresponde principalmente al componente de:",
+    "opciones": [
+      {"letra": "A", "texto": "Estudio de Mercado", "es_correcta": true},
+      {"letra": "B", "texto": "Estudio Legal", "es_correcta": false},
+      {"letra": "C", "texto": "Estudio Organizacional", "es_correcta": false},
+      {"letra": "D", "texto": "Estudio Financiero", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "El estudio de mercado en proyectos sociales o de infraestructura pública no solo analiza transacciones comerciales tradicionales, sino la estimación de la población objetivo (demanda potencial y efectiva) y sus niveles de consumo del servicio público, permitiendo dimensionar el tamaño técnico de la obra.",
+    "tema": "Estudio de Mercado"
+  },
+  {
+    "id_pregunta": "seed_pf_109",
+    "modulo": "Project Formulation",
+    "enunciado": "Un proyecto de instalación de fibra óptica requiere una inversión inicial de $100 millones de pesos. Arroja una Tasa Interna de Retorno (TIR) calculada del 18% anual. Si los inversionistas tienen una Tasa de Interés de Oportunidad (TIO) de referencia del 20% anual debido al alto riesgo del mercado nacional, la decisión metodológica correcta es:",
+    "opciones": [
+      {"letra": "A", "texto": "Aceptar el proyecto porque la TIR es mayor que cero, garantizando ganancias contables al finalizar el periodo.", "es_correcta": false},
+      {"letra": "B", "texto": "Rechazar el proyecto porque la TIR (18%) es inferior a la tasa mínima exigida por los inversionistas (TIO = 20%), lo que significa que el VPN del proyecto será negativo.", "es_correcta": true},
+      {"letra": "C", "texto": "Aceptar el proyecto y renegociar con el proveedor de fibra óptica la reducción del impuesto al valor agregado.", "es_correcta": false},
+      {"letra": "D", "texto": "Rechazar el proyecto debido a que toda TIR superior al 15% indica inestabilidad de las variables de balance de caja.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "Para que un proyecto sea financieramente viable bajo criterios de flujos descontados, la TIR (la rentabilidad intrínseca del proyecto) debe ser mayor o igual a la TIO (el costo de oportunidad de los recursos colocados por el inversor). Si TIR < TIO, la rentabilidad no compensa lo que los socios ganarían en otras alternativas de riesgo similar, traduciéndose en un VPN negativo.",
+    "tema": "Relación TIR y TIO"
+  },
+  {
+    "id_pregunta": "seed_pf_110",
+    "modulo": "Project Formulation",
+    "enunciado": "En la formulación de proyectos públicos bajo la metodología del Marco Lógico (MML), un paso fundamental es la construcción de la Matriz de Planificación. En dicha matriz, la columna que especifica cómo se medirá el éxito de los objetivos planteados en cada nivel de la estructura jerárquica es la de:",
+    "opciones": [
+      {"letra": "A", "texto": "Indicadores Objetivamente Verificables", "es_correcta": true},
+      {"letra": "B", "texto": "Medios de Verificación", "es_correcta": false},
+      {"letra": "C", "texto": "Supuestos o Hipótesis de Riesgo", "es_correcta": false},
+      {"letra": "D", "texto": "Resumen Narrativo de Objetivos", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La columna de 'Indicadores Objetivamente Verificables' establece las metas cuantitativas y cualitativas que permiten comprobar si se han alcanzado los objetivos (Fin, Propósito, Componentes, Actividades) en las etapas de monitoreo y evaluación ex-post.",
+    "tema": "Metodología de Marco Lógico"
+  },
+  {
+    "id_pregunta": "seed_pf_111",
+    "modulo": "Project Formulation",
+    "enunciado": "Un equipo de ingeniería formula el montaje de una planta de ensamblaje de componentes electrónicos. Al analizar la viabilidad técnica, evalúa tres escalas posibles de producción (Tamaño del Proyecto). Se determina que para satisfacer la demanda de 50,000 unidades anuales, la planta requerirá operar al 95% de su capacidad instalada, lo que eleva significativamente el desgaste de maquinaria. Por ende, recomiendan adquirir una línea de producción con capacidad de 80,000 unidades anuales. Esta evaluación de tamaño del proyecto se rige principalmente por la relación entre:",
+    "opciones": [
+      {"letra": "A", "texto": "El tamaño del proyecto y el mercado de insumos y materias primas campesinas locales.", "es_correcta": false},
+      {"letra": "B", "texto": "El tamaño del proyecto, la demanda proyectada y el factor de seguridad técnica y holgura operativa de la maquinaria.", "es_correcta": true},
+      {"letra": "C", "texto": "La localización geográfica de la planta y la tasa marginal de impuestos corporativos de aduanas.", "es_correcta": false},
+      {"letra": "D", "texto": "La jerarquía organizativa de los ingenieros de soporte y los sindicatos de metalúrgicos.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "El tamaño de un proyecto está condicionado principalmente por la demanda del mercado, la disponibilidad de materias primas, el financiamiento y la tecnología/capacidad de los equipos. Seleccionar un tamaño con margen u holgura operativa evita el sobreesfuerzo de la maquinaria y permite absorber incrementos futuros de demanda sin requerir nuevas inversiones de capital inmediatas.",
+    "tema": "Tamaño del Proyecto"
+  },
+  {
+    "id_pregunta": "seed_pf_112",
+    "modulo": "Project Formulation",
+    "enunciado": "Un proyecto inmobiliario de interés social evalúa el impacto de la tasa de inflación en su rentabilidad esperada. El costo de la tierra se paga en el Año 0, pero la construcción de las viviendas durará dos años completos, tiempo durante el cual se prevé un alza generalizada del 12% anual en el costo de los materiales (cemento, acero, acabados). Para modelar de forma rigurosa este fenómeno en el flujo de caja, el proyectista financiero debe:",
+    "opciones": [
+      {"letra": "A", "texto": "Utilizar flujos de caja en precios constantes (reales) e ignorar los incrementos de precios por considerarlos meras fluctuaciones temporales.", "es_correcta": false},
+      {"letra": "B", "texto": "Utilizar flujos de caja en precios corrientes (nominales) proyectando los incrementos de costos con base en la tasa de inflación específica de materiales de construcción y descontar el flujo con la tasa de interés de oportunidad ajustada por inflación.", "es_correcta": true},
+      {"letra": "C", "texto": "Duplicar arbitrariamente la inversión inicial en el balance general de activos fijos para crear una reserva de caja opaca.", "es_correcta": false},
+      {"letra": "D", "texto": "Solicitar al gobierno nacional la fijación de precios controlados en todo el mercado ferretero para congelar los costos operativos.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "Cuando existen desfases de inflación sectorial elevados (como el acero o cemento subiendo más rápido que el índice general), el modelo más exacto de evaluación financiera exige proyectar flujos en precios corrientes (nominales) aplicando la inflación específica a cada costo e ingreso, y descontando los flujos mediante una tasa de descuento nominal (que incorpora la inflación en su estructura) para mantener la consistencia matemática.",
+    "tema": "Inflación en Flujos de Caja"
+  },
+  {
+    "id_pregunta": "seed_pf_113",
+    "modulo": "Project Formulation",
+    "enunciado": "Durante la evaluación financiera de un proyecto de software médico de telemedicina, se calcula una Relación Beneficio-Costo (B/C) de exactamente 1.25. Teniendo en cuenta que los flujos de beneficios y costos han sido debidamente descontados a valor presente neto usando una TIO del 14% anual, ¿cómo debe interpretarse técnicamente este resultado?",
+    "opciones": [
+      {"letra": "A", "texto": "Por cada peso invertido en costos del proyecto a valor presente, el proyecto genera 1.25 pesos adicionales de pura ganancia neta contable.", "es_correcta": false},
+      {"letra": "B", "texto": "Por cada peso de costo equivalente a valor presente, el proyecto reporta 1.25 pesos de beneficio equivalente a valor presente, lo cual indica que el VPN es mayor que cero y el proyecto es viable.", "es_correcta": true},
+      {"letra": "C", "texto": "Los beneficios exceden a los costos en un 125%, por lo que la rentabilidad neta del proyecto es del 14% anual inalterable.", "es_correcta": false},
+      {"letra": "D", "texto": "El proyecto destruye riqueza corporativa y debe ser reformulado reduciendo el salario del equipo de desarrollo de software.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "Una relación B/C de 1.25 significa que el valor presente de los ingresos/beneficios divididos entre el valor presente de los costos/egresos da 1.25. Como B/C > 1, el proyecto cubre todos sus costos y genera un excedente del 25% en valor presente, lo que es equivalente a tener un VPN > 0, respaldando plenamente su aprobación.",
+    "tema": "Relación Beneficio-Costo (B/C)"
+  },
+  {
+    "id_pregunta": "seed_pf_114",
+    "modulo": "Project Formulation",
+    "enunciado": "Un equipo de ingenieros civiles e industriales debe estructurar el estudio de localización de una planta embotelladora de agua mineral. Evalúan dos alternativas geográficas preliminares de localización bajo factores ponderados (acceso a fuentes de agua, cercanía al mercado de consumo urbano, costo del suelo y disponibilidad de energía eléctrica). Al aplicar esta metodología de ponderación, el paso inicial crucial consiste en:",
+    "opciones": [
+      {"letra": "A", "texto": "Seleccionar la localización que tenga el costo de tierra más bajo de forma directa sin ponderar factores cualitativos.", "es_correcta": false},
+      {"letra": "B", "texto": "Definir los factores de localización relevantes, asignar a cada factor un peso porcentual de importancia relativa según los requerimientos de la planta (sumando 100% en total) y establecer una escala común de calificación.", "es_correcta": true},
+      {"letra": "C", "texto": "Iniciar excavaciones en el lote del centro del país para comprobar la pureza biológica de la tierra vegetal rural.", "es_correcta": false},
+      {"letra": "D", "texto": "Firmar contratos de arrendamiento condicionados sobre las tres localizaciones posibles para evitar la especulación inmobiliaria comercial.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "El método de factores ponderados para la localización exige primero la identificación de las variables de localización decisivas, la asignación de pesos relativos que reflejen su importancia crítica para el negocio, y una escala común (ej. 1 a 10) para evaluar cada alternativa física. Al multiplicar pesos por calificaciones, se obtiene una puntuación agregada objetiva.",
+    "tema": "Estudio de Localización"
+  },
+  {
+    "id_pregunta": "seed_pf_115",
+    "modulo": "Project Formulation",
+    "enunciado": "En la gestión de riesgos de un proyecto de migración SAP, el equipo identifica un riesgo crítico: 'Demora en la entrega de las APIs de integración por parte del equipo técnico externo del cliente'. Para mitigar este riesgo de manera proactiva, ¿cuál de las siguientes estrategias de respuesta es la más adecuada?",
+    "opciones": [
+      {"letra": "A", "texto": "Omitir el riesgo en la matriz general de planeación y asumir que el cliente entregará el código a tiempo debido a la reputación corporativa.", "es_correcta": false},
+      {"letra": "B", "texto": "Establecer en el contrato inicial hitos de entrega intermedios vinculados a penalizaciones financieras y crear un plan de contingencia técnico usando datos simulados (mocking) para permitir que el desarrollo avance de forma paralela.", "es_correcta": true},
+      {"letra": "C", "texto": "Cancelar el contrato de software de manera inmediata y reclamar judicialmente la totalidad del lucro cesante esperado.", "es_correcta": false},
+      {"letra": "D", "texto": "Duplicar el número de desarrolladores frontend dedicados al diseño de la interfaz visual del portal corporativo del cliente.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "Mitigar un riesgo implica reducir la probabilidad de ocurrencia o su impacto negativo sobre el proyecto. Definir penalizaciones contractuales y crear ambientes de simulación de APIs (mocking) desacopla temporalmente el avance del equipo interno de la ineficiencia externa, minimizando el impacto del retraso.",
+    "tema": "Gestión de Riesgos"
+  },
+  {
+    "id_pregunta": "seed_pf_116",
+    "modulo": "Project Formulation",
+    "enunciado": "Una startup colombiana desarrolla un software de inteligencia artificial para predecir fallas en turbinas eólicas. Para financiar el proyecto, solicita un crédito bancario de $200 millones de pesos a una tasa de interés del 12% efectivo anual. En el análisis del flujo de caja del proyecto, el pago del servicio de esta deuda (capital e intereses) debe clasificarse bajo qué componente financiero?",
+    "opciones": [
+      {"letra": "A", "texto": "Flujo de Caja Libre del Proyecto (evaluación pura sin financiamiento).", "es_correcta": false},
+      {"letra": "B", "texto": "Flujo de Caja del Inversionista (evaluación con financiamiento que incorpora el flujo de la deuda en la estructura).", "es_correcta": true},
+      {"letra": "C", "texto": "Depreciación lineal acelerada de los activos intangibles de desarrollo tecnológico.", "es_correcta": false},
+      {"letra": "D", "texto": "Impuesto sobre la Renta Corporativo amortizado en el balance general consolidado.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "El flujo de caja libre del proyecto evalúa la rentabilidad del negocio de manera pura, asumiendo que todos los recursos son propios. Al incorporar préstamos bancarios, el ingreso del crédito (Año 0) y los egresos de amortización e interés anual integran el flujo de caja del inversionista (o flujo financiado), el cual evalúa si tomar deuda es rentable para los socios dada la deducción tributaria de los intereses.",
+    "tema": "Estructura del Flujo de Caja"
+  },
+  {
+    "id_pregunta": "seed_pf_117",
+    "modulo": "Project Formulation",
+    "enunciado": "En la evaluación ex-post de un proyecto público de bilingüismo escolar en escuelas rurales de Cundinamarca ejecutado por la gobernación, se reporta que el 85% de los egresados mejoraron sus habilidades de inglés conversacional. No obstante, el presupuesto final superó en un 40% al costo inicialmente planeado debido a demoras de transporte y logística de docentes. ¿Cuál es el dictamen de esta intervención bajo conceptos de eficiencia y eficacia?",
+    "opciones": [
+      {"letra": "A", "texto": "El proyecto fue eficaz pero ineficiente, ya que cumplió con el objetivo educativo y metas de cobertura deseadas pero utilizó recursos financieros superiores a lo inicialmente programado.", "es_correcta": true},
+      {"letra": "B", "texto": "El proyecto fue eficiente pero ineficaz, al optimizar al máximo el uso de las vías departamentales rurales a pesar de no impartir clases presenciales.", "es_correcta": false},
+      {"letra": "C", "texto": "El proyecto carece de eficacia puesto que los docentes de inglés rural no gozaban de salarios homologados por el magisterio nacional.", "es_correcta": false},
+      {"letra": "D", "texto": "El proyecto fue integralmente eficiente al lograr amortizar los sobrecostos de operación logística mediante donaciones internacionales privadas.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "Eficacia mide el grado de cumplimiento de los objetivos planteados sin reparar en el costo asociado (se logró que el 85% mejorara el inglés). Eficiencia evalúa la relación entre los recursos financieros, temporales o físicos utilizados y los resultados obtenidos (al haber un sobrecosto del 40%, se evidencia ineficiencia en el manejo de recursos).",
+    "tema": "Evaluación Ex-Post"
+  },
+  {
+    "id_pregunta": "seed_pf_118",
+    "modulo": "Project Formulation",
+    "enunciado": "Una multinacional de retail planea montar un centro de distribución regional automatizado en Cali. Para consolidar el estudio de viabilidad legal y asegurar que el proyecto no enfrente clausuras o demandas costosas de construcción, el primer paso legal que el equipo consultor debe verificar es:",
+    "opciones": [
+      {"letra": "A", "texto": "La tasa promedio de ausentismo laboral del sindicato nacional de comercio.", "es_correcta": false},
+      {"letra": "B", "texto": "El Plan de Ordenamiento Territorial (POT) de Cali, para garantizar que la zona elegida para la construcción es compatible con el uso de suelo logístico e industrial pesado.", "es_correcta": true},
+      {"letra": "C", "texto": "El registro de marcas del logotipo comercial de la corporación ante la Superintendencia de Industria y Comercio.", "es_correcta": false},
+      {"letra": "D", "texto": "Las leyes de propiedad intelectual que rigen el desarrollo de bases de datos relacionales en la Unión Europea.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La viabilidad legal evalúa si existen restricciones normativas insalvables para ejecutar el proyecto. En proyectos físicos de construcción, el POT regula el uso del suelo comercial, residencial, logístico e industrial. Violar el POT hace inviable el proyecto a nivel legal y físico de manera inmediata.",
+    "tema": "Estudio Legal y POT"
+  },
+  {
+    "id_pregunta": "seed_pf_119",
+    "modulo": "Project Formulation",
+    "enunciado": "En la formulación de proyectos agrícolas, un proyectista debe estimar el capital de trabajo requerido para una plantación de aguacate Hass. El capital de trabajo de un proyecto se define metodológicamente como:",
+    "opciones": [
+      {"letra": "A", "texto": "El capital social aportado por los socios accionistas para constituir legalmente la personería jurídica del negocio en la Cámara de Comercio.", "es_correcta": false},
+      {"letra": "B", "texto": "El conjunto de recursos financieros líquidos necesarios para garantizar la operación continua y cubrir desfases entre ingresos y egresos de caja durante un ciclo productivo inicial.", "es_correcta": true},
+      {"letra": "C", "texto": "La suma total del costo de los salarios de los operarios agrícolas durante los primeros diez años de cultivo.", "es_correcta": false},
+      {"letra": "D", "texto": "La tasa de depreciación contable de los terrenos y equipos de oficina durante el horizonte del proyecto agrícola.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "El capital de trabajo (ej. inventarios de semillas, abonos, pago de nómina de los primeros meses antes de vender la cosecha) representa los fondos líquidos necesarios para operar sin liquidez extrema mientras el proyecto empieza a generar ingresos operacionales propios suficientes.",
+    "tema": "Capital de Trabajo"
+  },
+  {
+    "id_pregunta": "seed_pf_120",
+    "modulo": "Project Formulation",
+    "enunciado": "Durante la estructuración organizacional de un proyecto de software médico de alta complejidad, se discute adoptar una estructura matricial fuerte frente a una estructura proyectizada. ¿Cuál es el principal beneficio de seleccionar una estructura matricial en el contexto de proyectos de ingeniería tecnológica?",
+    "opciones": [
+      {"letra": "A", "texto": "Los directores de proyecto adquieren control dictatorial e independiente sobre todos los recursos y activos fijos del cliente.", "es_correcta": false},
+      {"letra": "B", "texto": "Permite compartir recursos humanos de alta especialización técnica de manera eficiente entre múltiples proyectos simultáneos, manteniendo el sentido de pertenencia funcional de los ingenieros.", "es_correcta": true},
+      {"letra": "C", "texto": "Elimina por completo la necesidad de reportar informes de avance a la gerencia general de la corporación médica.", "es_correcta": false},
+      {"letra": "D", "texto": "Reduce a cero el costo total de la nómina de desarrollo al subcontratar todas las fases de programación a desarrolladores freelance autónomos.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La estructura matricial busca optimizar el uso de los especialistas (ej. un arquitecto de datos o experto en seguridad médica puede trabajar a tiempo parcial en tres proyectos de software diferentes). Esto aprovecha el conocimiento especializado de forma flexible, a diferencia del modelo proyectizado, donde los recursos se asignan exclusivamente a un solo proyecto.",
+    "tema": "Estructura Organizacional"
+  },
+  {
+    "id_pregunta": "seed_pf_121",
+    "modulo": "Project Formulation",
+    "enunciado": "En la evaluación financiera de proyectos en condiciones de incertidumbre, se utiliza el Método de Árboles de Decisión. Este método probabilístico permite:",
+    "opciones": [
+      {"letra": "A", "texto": "Predecir de manera exacta e infalible el comportamiento de las ventas sin importar cambios políticos imprevistos.", "es_correcta": false},
+      {"letra": "B", "texto": "Modelar de forma secuencial y gráfica múltiples decisiones alternativas en el tiempo y sus posibles resultados con probabilidades estimadas, facilitando el cálculo del Valor Monetario Esperado (VME).", "es_correcta": true},
+      {"letra": "C", "texto": "Optimizar el algoritmo de ordenamiento asintótico de las bases de datos transaccionales distribuidas.", "es_correcta": false},
+      {"letra": "D", "texto": "Sustituir la Tasa de Interés de Oportunidad por un modelo determinista libre de inflación aduanera.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "Los árboles de decisión son excelentes para modelar decisiones complejas y secuenciales sujetas a incertidumbre (ej. lanzar un producto al mercado o esperar un año, con probabilidades asociadas de éxito o fracaso y costos diferentes), evaluando alternativas a través del VME de cada nodo de decisión.",
+    "tema": "Árboles de Decisión"
+  },
+  {
+    "id_pregunta": "seed_pf_122",
+    "modulo": "Project Formulation",
+    "enunciado": "Un equipo formula el montaje de un parque solar a escala comercial. El costo de inversión es de $2,000 millones de pesos. El proyectista financiero estima los ingresos anuales basados en un precio constante del kilovatio-hora de energía durante los próximos 15 años. No obstante, no consideró la degradación natural anual del 0.8% en la eficiencia de captación física de los paneles solares. Al no considerar esta degradación, el flujo de caja estimado presenta un sesgo que se traduce en:",
+    "opciones": [
+      {"letra": "A", "texto": "Un cálculo sobreestimado de los ingresos operacionales futuros, inflando ficticiamente el VPN real de la inversión solar.", "es_correcta": true},
+      {"letra": "B", "texto": "Una reducción automática del costo de mantenimiento preventivo de los inversores de carga.", "es_correcta": false},
+      {"letra": "C", "texto": "Un incremento compensatorio de la Tasa Interna de Retorno nominal de los inversionistas extranjeros.", "es_correcta": false},
+      {"letra": "D", "texto": "La ineficiencia jurídica de los contratos de arrendamiento de tierras ejidales del departamento.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "En proyectos de energía o manufactura, omitir la depreciación física, desgaste o pérdida de eficiencia técnica de los activos fijos lleva a proyectar volúmenes de producción estables que son físicamente imposibles. Esto resulta en una sobreestimación de los ingresos operacionales futuros y en un VPN inflado que arriesga la rentabilidad real de la inversión.",
+    "tema": "Incertidumbre Técnica"
+  },
+  {
+    "id_pregunta": "seed_pf_123",
+    "modulo": "Project Formulation",
+    "enunciado": "En la gestión de proyectos ágiles utilizando Scrum, la métrica que ayuda a estimar cuántas unidades de trabajo (story points) es capaz de completar un equipo de desarrollo en un Sprint determinado se conoce como:",
+    "opciones": [
+      {"letra": "A", "texto": "Velocidad del Equipo (Velocity)", "es_correcta": true},
+      {"letra": "B", "texto": "Capacidad del Servidor (Server Capacity)", "es_correcta": false},
+      {"letra": "C", "texto": "Retorno de Inversión Tecnológica (ROI)", "es_correcta": false},
+      {"letra": "D", "texto": "Tasa Marginal de Amortización (TMA)", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La 'Velocidad' en Scrum es una métrica clave basada en el desempeño de sprints pasados que permite estimar la cantidad de esfuerzo que el equipo puede comprometer de forma sostenible en futuras planeaciones de sprint, facilitando la formulación ágil de lanzamientos.",
+    "tema": "Métricas de Proyectos Ágiles"
+  },
+  {
+    "id_pregunta": "seed_pf_124",
+    "modulo": "Project Formulation",
+    "enunciado": "Durante el estudio técnico de viabilidad de una planta procesadora de pulpa de fruta, se debe definir el 'Proceso Productivo'. El diagrama técnico que representa de manera secuencial y simbólica todas las operaciones de transporte, almacenamiento, inspección, demora y procesamiento de la fruta se conoce como:",
+    "opciones": [
+      {"letra": "A", "texto": "Cursograma Sinóptico o Diagrama de Flujo del Proceso", "es_correcta": true},
+      {"letra": "B", "texto": "Matriz de Asignación de Responsabilidades (RACI)", "es_correcta": false},
+      {"letra": "C", "texto": "Cronograma de Ruta Crítica de la Obra Civil (PERT/CPM)", "es_correcta": false},
+      {"letra": "D", "texto": "Esquema de Base de Datos de Catálogo de Productos", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "El cursograma sinóptico o analítico y el diagrama de flujo de procesos representan detalladamente las etapas físicas de un proceso industrial, utilizando símbolos normalizados (círculo para operación, flecha para transporte, cuadrado para inspección, triángulo para almacenamiento). Es indispensable para modelar la ingeniería de planta.",
+    "tema": "Estudio Técnico"
+  },
+  {
+    "id_pregunta": "seed_pf_125",
+    "modulo": "Project Formulation",
+    "enunciado": "Un inversionista analiza el proyecto de una planta embotelladora con un VPN esperado de $15 millones de pesos a una TIO del 10%. Su asesor de finanzas le explica que este VPN de $15 millones de pesos equivale a decir que el proyecto:",
+    "opciones": [
+      {"letra": "A", "texto": "Rinde exactamente $15 millones de pesos en efectivo al finalizar el primer día de operaciones comerciales.", "es_correcta": false},
+      {"letra": "B", "texto": "Rinde el 10% mínimo exigido sobre el capital de inversión, recupera el capital invertido y genera un excedente de riqueza neta hoy equivalente a $15 millones de pesos.", "es_correcta": true},
+      {"letra": "C", "texto": "Tiene pérdidas operacionales acumuladas de $15 millones de pesos que son deducibles del impuesto sobre la renta.", "es_correcta": false},
+      {"letra": "D", "texto": "Tiene una probabilidad del 15% de que la tasa de interés bancaria se duplique al finalizar el año fiscal.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "El VPN representa la creación de riqueza neta medida a valor actual (hoy) que aporta un proyecto, después de haber descontado los flujos netos anuales futuros bajo la tasa mínima requerida por los accionistas (TIO). Un VPN positivo de $15 millones indica que el proyecto cumple con las expectativas y enriquece a los inversores en esa cantidad en dinero actual.",
+    "tema": "Interpretación del VPN"
+  },
+  {
+    "id_pregunta": "seed_pf_126",
+    "modulo": "Project Formulation",
+    "enunciado": "En la evaluación ambiental de un proyecto de relleno sanitario, se identifican severos impactos de lixiviados sobre fuentes de agua subterránea. El costo financiero privado estimado de construir plantas de tratamiento de agua para purificar los lixiviados es de $1,200 millones de pesos. Si la planta no se construye, el costo estimado en salud de la población y pérdida biológica del río aledaño asciende a $5,000 millones de pesos. Desde la perspectiva de la evaluación socioeconómica de proyectos, la construcción de la planta de tratamiento representa una:",
+    "opciones": [
+      {"letra": "A", "texto": "Externalidad puramente negativa que devalúa el capital social de los inversionistas privados.", "es_correcta": false},
+      {"letra": "B", "texto": "Inversión socioeconómica altamente deseable al mitigar un costo social externalizado de $5,000 millones mediante un costo interno controlado de $1,200 millones (Beneficio Neto Social positivo).", "es_correcta": true},
+      {"letra": "C", "texto": "Operación ilegal que infringe la soberanía aduanera del Ministerio de Comercio.", "es_correcta": false},
+      {"letra": "D", "texto": "Estrategia corporativa de especulación inmobiliaria con el fin de evadir impuestos sobre la tierra.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "En evaluación social y económica, el beneficio de una medida correctora de impactos se mide como el ahorro en costos sociales externos (la enfermedad o daño ecológico evitado, de $5,000 millones) en relación con el costo privado de la corrección ($1,200 millones). Al ser el Beneficio Neto Social positivo ($3,800 millones), el proyecto público o requisito es socialmente deseable.",
+    "tema": "Externalidades e Impacto Social"
+  },
+  {
+    "id_pregunta": "seed_pf_127",
+    "modulo": "Project Formulation",
+    "enunciado": "En la técnica de diagramación PERT/CPM para planificar proyectos de ingeniería, ¿cuál es el significado e implicación del concepto de 'Ruta Crítica' (Critical Path)?",
+    "opciones": [
+      {"letra": "A", "texto": "La secuencia de actividades en el cronograma que reúne las tareas de menor importancia técnica para el proyecto.", "es_correcta": false},
+      {"letra": "B", "texto": "La cadena secuencial de actividades con holgura igual a cero, cuyo retraso individual aplazaría de forma inevitable la fecha final de terminación de todo el proyecto.", "es_correcta": true},
+      {"letra": "C", "texto": "El conjunto de tareas que representan los mayores costos de adquisición de activos de tecnología en el balance.", "es_correcta": false},
+      {"letra": "D", "texto": "La ruta vial óptima de transporte de materias primas pesadas hacia los puertos comerciales departamentales.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La ruta crítica define el camino de mayor duración física a través de la red del proyecto. Las actividades en la ruta crítica tienen holgura cero; un retraso de un solo día en cualquiera de ellas retrasará todo el proyecto en esa misma cantidad, por lo que demanda el máximo control de la gerencia.",
+    "tema": "Método de Ruta Crítica (CPM)"
+  },
+  {
+    "id_pregunta": "seed_pf_128",
+    "modulo": "Project Formulation",
+    "enunciado": "Un municipio colombiano de sexta categoría planea construir un polideportivo comunitario. El equipo formulador utiliza la Metodología General Ajustada (MGA) exigida por el Departamento Nacional de Planeación (DNP) para proyectos que aspiran a financiarse con recursos públicos del Sistema General de Regalías. ¿Cuál es el propósito primordial de registrar el proyecto en la MGA?",
+    "opciones": [
+      {"letra": "A", "texto": "Garantizar la exención fiscal del impuesto al valor agregado (IVA) para los contratistas privados de la obra civil.", "es_correcta": false},
+      {"letra": "B", "texto": "Estandarizar la identificación, preparación, evaluación social y programación del proyecto bajo una metodología pública común, indispensable para tramitar su viabilidad en el Banco de Proyectos del Estado.", "es_correcta": true},
+      {"letra": "C", "texto": "Delegar de manera directa y discrecional la interventoría del contrato al alcalde de la capital del departamento.", "es_correcta": false},
+      {"letra": "D", "texto": "Someter los diseños de ingeniería civil de las estructuras deportivas al escrutinio del Banco Mundial.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La MGA es una herramienta informática que sigue la teoría de la formulación y preparación de proyectos públicos. Organiza la información secuencialmente (módulos de identificación, preparación, evaluación y programación) para asegurar la consistencia del gasto público social antes de asignar recursos presupuestales.",
+    "tema": "Metodología General Ajustada (MGA)"
+  },
+  {
+    "id_pregunta": "seed_pf_129",
+    "modulo": "Project Formulation",
+    "enunciado": "Una empresa procesadora de cemento evalúa adquirir una nueva cargadora hidráulica. Un análisis técnico identifica que la cargadora ahorrará $40 millones anuales en arriendos de maquinaria pesada externa. Contablemente, la depreciación anual de la cargadora es de $10 millones y la tasa de impuesto corporativo es del 30%. ¿Cuál es el incremento neto en el Flujo de Caja Operacional de la empresa generado por esta adquisición?",
+    "opciones": [
+      {"letra": "A", "texto": "Incrementará el flujo de caja operativo en exactamente $31 millones de pesos anuales.", "es_correcta": true},
+      {"letra": "B", "texto": "Incrementará el flujo de caja operativo en exactamente $40 millones de pesos anuales.", "es_correcta": false},
+      {"letra": "C", "texto": "Incrementará el flujo de caja operativo en exactamente $10 millones de pesos anuales.", "es_correcta": false},
+      {"letra": "D", "texto": "Reducirá el flujo de caja operativo debido al pago recurrente del impuesto predial sobre bienes muebles.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "El impacto neto operacional se calcula como:\nUtilidad Operativa antes de Depreciación e Impuestos (UADI) = $40 millones (ahorros de arriendo).\nUtilidad antes de Impuestos (UAI) = Ahorros - Depreciación = 40 - 10 = $30 millones.\nImpuestos (30%) = 30 * 0.3 = $9 millones.\nUtilidad Neta (UN) = 30 - 9 = $21 millones.\nFlujo de Caja Operacional (FCO) = Utilidad Neta + Depreciación (al no ser un egreso real de efectivo) = 21 + 10 = $31 millones de pesos anuales. (También se calcula como: Ahorros * (1 - t) + t * Depreciación = 40 * 0.7 + 0.3 * 10 = 28 + 3 = $31 millones).",
+    "tema": "Cálculo del Flujo de Caja Operativo"
+  },
+  {
+    "id_pregunta": "seed_pf_130",
+    "modulo": "Project Formulation",
+    "enunciado": "En la gestión de proyectos de desarrollo, un 'Estudio de Mercado' arroja una Elasticidad Precio de la Demanda de -1.8 para un nuevo software de contabilidad en la nube. Esto indica que si el equipo de mercadeo decide incrementar el precio de la suscripción mensual en un 10%, se proyecta que el volumen total de suscripciones adquiridas por los usuarios experimentará:",
+    "opciones": [
+      {"letra": "A", "texto": "Un incremento del 18% en el número total de suscripciones vendidas.", "es_correcta": false},
+      {"letra": "B", "texto": "Una reducción del 18% en el número total de suscripciones vendidas, evidenciando una demanda altamente elástica.", "es_correcta": true},
+      {"letra": "C", "texto": "Una reducción del 1.8% en el total de ventas, indicando una demanda inelástica al precio.", "es_correcta": false},
+      {"letra": "D", "texto": "Un comportamiento perfectamente neutro al no tener efectos sobre los flujos netos proyectados.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La elasticidad precio de la demanda mide la sensibilidad del volumen demandado ante variaciones del precio (E = % Variación Cantidad / % Variación Precio). Una elasticidad de -1.8 indica que por cada 1% de aumento de precio, la demanda cae 1.8%. Un incremento de precio del 10% causará una caída del 18% (10% * -1.8) de las unidades vendidas, denotando que la demanda es elástica y un incremento de precio podría reducir el ingreso total.",
+    "tema": "Estudio de Mercado y Elasticidad"
+  }
+]

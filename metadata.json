@@ -1,0 +1,6 @@
+{
+  "name": "Pro Icfes",
+  "description": "Simulador interactivo de las pruebas Pro Icfes para Ingeniería Informática.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

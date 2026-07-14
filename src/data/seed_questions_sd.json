@@ -1,0 +1,392 @@
+[
+  {
+    "id_pregunta": "seed_sd_101",
+    "modulo": "Diseño de Software",
+    "enunciado": "Un sistema de comercio electrónico experimenta problemas de inconsistencia de datos al aplicar descuentos masivos en fechas de alta demanda (como el Black Friday). Varias transacciones concurrentes intentan actualizar el inventario y aplicar cupones de descuento sobre el mismo registro de usuario al mismo tiempo. El equipo de desarrollo utiliza un nivel de aislamiento de base de datos 'Read Committed'. ¿Cuál es el principal riesgo transaccional de concurrencia que provoca este escenario de inconsistencia?",
+    "opciones": [
+      {"letra": "A", "texto": "Lecturas Sucias (Dirty Reads), donde una transacción lee datos modificados por otra transacción que aún no ha confirmado (committed) sus cambios.", "es_correcta": false},
+      {"letra": "B", "texto": "Lecturas No Repetibles (Non-Repeatable Reads) o Actualizaciones Perdidas (Lost Updates), donde dos transacciones concurrentes leen el mismo saldo de inventario original e intentan sobrescribirlo de forma simultánea, causando que la última confirmación pise y destruya la actualización anterior.", "es_correcta": true},
+      {"letra": "C", "texto": "Lecturas Fantasma (Phantom Reads), caracterizadas exclusivamente por la inserción física de nuevas filas en una tabla indexada por parte de hilos secundarios.", "es_correcta": false},
+      {"letra": "D", "texto": "Bloqueo Mutuo (Deadlock) absoluto, que suspende de forma permanente todos los hilos de red del servidor express backend.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "Bajo el nivel de aislamiento 'Read Committed', las transacciones no bloquean los registros leídos para impedir modificaciones externas concurridas. Si la Transacción 1 y la Transacción 2 leen el saldo original simultáneamente y luego ambas lo modifican basándose en ese valor original, la transacción que confirme de última 'pisará' la actualización de la primera (Lost Update), violando la consistencia transaccional.",
+    "tema": "Concurrencia en Bases de Datos"
+  },
+  {
+    "id_pregunta": "seed_sd_102",
+    "modulo": "Diseño de Software",
+    "enunciado": "Usted debe diseñar una plataforma SaaS de procesamiento de videos en la nube. Los usuarios suben archivos de video en formatos MP4 o AVI, y la plataforma debe transcodificarlos a múltiples formatos adaptativos (HLS, DASH) e insertar marcas de agua dinámicas y generar subtítulos automatizados mediante IA. El tiempo de procesamiento de cada video promedia de 15 a 45 minutos. Para asegurar que la plataforma sea elástica, tolerante a fallas y que el servidor web principal no se bloquee ni agote sus recursos HTTP de conexión, ¿cuál es el diseño arquitectónico óptimo?",
+    "opciones": [
+      {"letra": "A", "texto": "Procesar la transcodificación de forma síncrona en el hilo principal del servidor Express utilizando bucles anidados para optimizar el uso de memoria RAM local.", "es_correcta": false},
+      {"letra": "B", "texto": "Diseñar una arquitectura asíncrona dirigida por eventos (EDA) utilizando una cola de mensajería (como RabbitMQ o AWS SQS). El servidor web recibe el video, guarda la solicitud en base de datos y encola un mensaje. Un clúster de workers independientes consume los mensajes de la cola de forma asíncrona para transcodificar, notificando al usuario mediante WebSockets o Webhooks al finalizar.", "es_correcta": true},
+      {"letra": "C", "texto": "Implementar llamadas REST síncronas directas y recurrentes desde el navegador del cliente al servidor utilizando timeouts ilimitados en la capa del navegador web.", "es_correcta": false},
+      {"letra": "D", "texto": "Guardar el video completo codificado en formato de texto Base64 dentro de un único registro de una base de datos relacional PostgreSQL indexada por fecha de subida.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "Las tareas pesadas y de larga duración (como el procesamiento de video de 45 minutos) deben desacoplarse del hilo síncrono del servidor web HTTP (orientado a respuestas rápidas en milisegundos). Una arquitectura asíncrona con colas de mensajería (EDA) asegura la elasticidad (los workers pueden escalar de forma independiente según la cantidad de mensajes en cola) y la estabilidad (si un worker falla, el mensaje vuelve a la cola para ser procesado por otro worker).",
+    "tema": "Arquitectura Dirigida por Eventos"
+  },
+  {
+    "id_pregunta": "seed_sd_103",
+    "modulo": "Diseño de Software",
+    "enunciado": "Un sistema de facturación en producción debe interactuar con múltiples pasarelas tributarias del gobierno de diferentes países latinoamericanos. La pasarela de Colombia requiere firmar digitalmente los XMLs mediante certificados X.509; la de México exige payloads JSON cifrados con claves simétricas; y la de Chile utiliza rpc nativo con certificados especiales. Para evitar acoplar la lógica de negocio central de facturación con los protocolos de red específicos y formatos de serialización cambiantes de cada gobierno, ¿cuál de los siguientes patrones de diseño de la banda de los cuatro (GoF) es el idóneo para este problema?",
+    "opciones": [
+      {"letra": "A", "texto": "El patrón Singleton, para asegurar que todas las peticiones utilicen un único canal físico de red.", "es_correcta": false},
+      {"letra": "B", "texto": "El patrón Adapter (Adaptador), para homogenizar las interfaces dispares de las pasarelas bajo una interfaz de negocios común (IProveedorFacturacion) acoplado con el patrón Strategy (Estrategia) para seleccionar dinámicamente la pasarela del país activo.", "es_correcta": true},
+      {"letra": "C", "texto": "El patrón Observer, que reenvía todos los payloads en crudo de forma aleatoria a todos los endpoints gubernamentales simultáneamente.", "es_correcta": false},
+      {"letra": "D", "texto": "El patrón Prototype, que duplica las instancias de las conexiones de base de datos relacional PostgreSQL.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "El patrón Adapter permite que clases con interfaces incompatibles trabajen juntas traduciendo o envolviendo sus llamadas bajo una interfaz estándar conocida por el cliente. En conjunción con el patrón Strategy, permite que el contexto empresarial seleccione e intercambie en tiempo de ejecución las estrategias específicas del adaptador del país activo de forma transparente.",
+    "tema": "Patrones de Diseño Estructurales"
+  },
+  {
+    "id_pregunta": "seed_sd_104",
+    "modulo": "Diseño de Software",
+    "enunciado": "Frente a un diseño monolítico heredado acoplado fuertemente a una base de datos relacional de gran escala, un equipo técnico decide migrar hacia una Arquitectura de Microservicios. No obstante, al analizar el dominio, descubren que el servicio de Pedidos y el servicio de Facturación requieren acceder concurrentemente a la misma tabla física de Clientes. Para cumplir de forma estricta con el diseño limpio y desacoplado de microservicios, evitando caídas encadenadas, ¿cuál es el patrón de manejo de datos correcto?",
+    "opciones": [
+      {"letra": "A", "texto": "Permitir que ambos microservicios se conecten de forma remota y directa a la misma base de datos física compartida utilizando consultas cruzadas (cross-joins).", "es_correcta": false},
+      {"letra": "B", "texto": "Aplicar el patrón Database-per-Microservice (Base de Datos por Microservicio), otorgando a cada microservicio su propia base de datos exclusiva de dominio, y propagar de forma asíncrona cualquier cambio de datos de clientes utilizando eventos de dominio emitidos por un broker de mensajería (consistencia eventual).", "es_correcta": true},
+      {"letra": "C", "texto": "Escribir un disparador recursivo (trigger) a nivel de base de datos relacional que detenga la inserción de pedidos si la facturación de clientes reporta latencia de red superior a un segundo.", "es_correcta": false},
+      {"letra": "D", "texto": "Utilizar llamadas REST circulares e indefinidas entre ambos microservicios para sincronizar la memoria caché volátil en caliente.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "El principio de autonomía en microservicios exige que cada microservicio controle sus propios datos ('Database-per-Microservice'). Compartir una base de datos física relacional anula el beneficio de microservicios (acoplamiento fuerte de datos, impedimento de despliegue independiente, un solo punto de falla). El desacoplamiento se logra mediante consistencia eventual gatillada por eventos asíncronos.",
+    "tema": "Patrones de Arquitectura de Microservicios"
+  },
+  {
+    "id_pregunta": "seed_sd_105",
+    "modulo": "Diseño de Software",
+    "enunciado": "En la ingeniería de requisitos y diseño de software, el principio Open-Closed (Abierto-Cerrado) de SOLID establece que una entidad de software debe estar abierta para su extensión pero cerrada para su modificación. ¿Cuál de las siguientes prácticas de diseño en TypeScript aplica de manera correcta este principio?",
+    "opciones": [
+      {"letra": "A", "texto": "Modificar directamente el código de una clase validadora de tarjetas añadiendo bloques 'if-else' o 'switch-case' continuos cada vez que se deba soportar una nueva franquicia financiera.", "es_correcta": false},
+      {"letra": "B", "texto": "Definir una interfaz abstracta común (IValidadorTarjeta) y crear implementaciones de clases concretas específicas para cada tipo de tarjeta de crédito (Visa, MasterCard). La clase principal que procesa pagos depende únicamente de la interfaz, permitiendo añadir nuevas franquicias con solo crear una clase nueva que implemente la interfaz.", "es_correcta": true},
+      {"letra": "C", "texto": "Declarar todas las variables de la clase de negocio como atributos de tipo estático global (static) para simplificar su herencia múltiple de interfaces complejas.", "es_correcta": false},
+      {"letra": "D", "texto": "Utilizar reflección dinámica en tiempo de ejecución para inyectar métodos arbitrarios de bajo nivel sobre clases de dominio previamente compiladas.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "El principio Open-Closed busca evitar que la adición de nuevas funcionalidades obligue a modificar el código fuente existente de la lógica de control, lo que podría introducir errores en componentes previamente probados. Al usar polimorfismo y abstracciones (interfaces), el sistema se extiende (creando nuevas clases que implementan la interfaz) sin alterar la clase consumidora original.",
+    "tema": "Principios SOLID"
+  },
+  {
+    "id_pregunta": "seed_sd_106",
+    "modulo": "Diseño de Software",
+    "enunciado": "Un sistema bancario transaccional distribuido requiere actualizar el saldo de dos cuentas alojadas en bases de datos diferentes durante una transferencia de fondos: debitar $100 USD de la cuenta origen en la base de datos de Bogotá y acreditar $100 USD en la cuenta destino en la base de datos de Medellín. La operación debe cumplir estrictamente con los principios ACID globales de atomicidad. El equipo de TI propone usar el protocolo de Confirmación en Dos Fases (2PC - Two-Phase Commit) coordinado por un servidor central. ¿Cuál es el principal inconveniente de escalabilidad y tolerancia a fallas de este enfoque de transacciones distribuidas bajo alta carga?",
+    "opciones": [
+      {"letra": "A", "texto": "El protocolo 2PC es asíncrono, por lo que introduce latencias impredecibles que impiden verificar la consistencia de los saldos de forma inmediata.", "es_correcta": false},
+      {"letra": "B", "texto": "Es un protocolo altamente síncrono y bloqueante. Durante las fases de preparación y confirmación, los recursos de base de datos se bloquean de forma prolongada esperando respuestas de red. Además, si el coordinador central falla antes del commit, los nodos participantes quedan bloqueados indefinidamente en un estado de incertidumbre de bloqueo.", "es_correcta": true},
+      {"letra": "C", "texto": "La base de datos relacional de Medellín no soporta el estándar ACID debido a limitaciones físicas en la velocidad de la luz en cables de fibra óptica.", "es_correcta": false},
+      {"letra": "D", "texto": "Se duplica automáticamente la cantidad de dinero física en circulación de los bancos centrales al no existir validaciones lógicas en el servidor.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "Aunque 2PC garantiza atomicidad y consistencia fuertes (ACID distribuido), penaliza severamente el rendimiento (throughput) de sistemas de alta carga debido a su acoplamiento temporal síncrono. Los bloqueos prolongados sobre las tablas bloquean otros hilos transaccionales, creando cuellos de botella severos. En la modernidad, se prefiere el patrón SAGA, que se enfoca en consistencia eventual.",
+    "tema": "Transacciones Distribuidas y 2PC"
+  },
+  {
+    "id_pregunta": "seed_sd_107",
+    "modulo": "Diseño de Software",
+    "enunciado": "Al diseñar un sistema basado en microservicios, el equipo de arquitectura debate el uso del patrón API Gateway. ¿Cuál es la función primordial y el beneficio arquitectónico de colocar un API Gateway al frente del clúster de microservicios?",
+    "opciones": [
+      {"letra": "A", "texto": "Sustituir de forma completa el uso de bases de datos persistentes relacionales o NoSQL mediante el cacheo masivo en memoria RAM del gateway.", "es_correcta": false},
+      {"letra": "B", "texto": "Actuar como punto único de entrada para todas las aplicaciones clientes, abstrayendo la arquitectura interna de microservicios, y centralizando tareas transversales (cross-cutting concerns) como enrutamiento de red, autenticación/autorización, cifrado SSL, balanceo de carga y limitación de tasa (rate limiting).", "es_correcta": true},
+      {"letra": "C", "texto": "Ejecutar la compilación en tiempo real del código fuente de TypeScript a nivel de los navegadores del cliente final de forma descentralizada.", "es_correcta": false},
+      {"letra": "D", "texto": "Garantizar de forma legal la exclusividad de uso de pasarelas de pago de un único emisor bancario corporativo.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "El API Gateway desacopla a los clientes (web, móvil) de la topología interna cambiante de la red de microservicios. En lugar de que el cliente deba interactuar y autenticarse individualmente contra 30 endpoints de microservicios diferentes, se comunica con el Gateway, el cual enruta la petición, valida credenciales y unifica respuestas, protegiendo y ordenando la infraestructura interna.",
+    "tema": "Patrón API Gateway"
+  },
+  {
+    "id_pregunta": "seed_sd_108",
+    "modulo": "Diseño de Software",
+    "enunciado": "En la teoría del Teorema CAP para sistemas de almacenamiento distribuido formulado por Eric Brewer, se sostiene que ante un evento inevitable de partición de red (P), un sistema distribuido solo puede garantizar una de las siguientes dos propiedades de forma absoluta:",
+    "opciones": [
+      {"letra": "A", "texto": "Atomicidad de hilos y Portabilidad de las licencias del software de bajo nivel del servidor.", "es_correcta": false},
+      {"letra": "B", "texto": "Consistencia Fuerte (C), asegurando que todos los nodos lean siempre el dato escrito más reciente, o Disponibilidad (A), asegurando que todas las peticiones no fallidas obtengan respuesta aunque el dato no esté actualizado.", "es_correcta": true},
+      {"letra": "C", "texto": "Velocidad de ejecución del disco duro de estado sólido (SSD) y Encriptación simétrica asincrónica de red inalámbrica.", "es_correcta": false},
+      {"letra": "D", "texto": "Indexación relacional múltiple de esquemas cruzados e inmunidad absoluta contra caídas electromagnéticas físicas.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "El Teorema CAP establece que en presencia de una partición de red (falla física de comunicación que desconecta nodos), el sistema debe elegir entre ser Consistente (CP) -donde rechaza o bloquea operaciones de escritura/lectura en nodos desconectados para evitar inconsistencia de datos- o Disponible (AP) -donde sigue respondiendo a pesar de que el nodo posea datos viejos desactualizados-.",
+    "tema": "Teorema CAP"
+  },
+  {
+    "id_pregunta": "seed_sd_109",
+    "modulo": "Diseño de Software",
+    "enunciado": "Usted está rediseñando una aplicación móvil de entrega a domicilio para evitar problemas de concurrencia al asignar repartidores a un pedido. La base de datos asigna el pedido al primer repartidor que presione el botón de 'Aceptar' en la pantalla de su teléfono. Si tres repartidores presionan el botón de forma simultánea, el sistema debe garantizar que el pedido se asigne exclusivamente a uno de ellos y que los otros dos reciban un mensaje informando que el pedido ya fue tomado. Para solucionar esto sin bloquear físicamente las bases de datos transaccionales, se decide implementar un esquema de bloqueo optimista en lugar de un bloqueo pesimista. ¿Cómo funciona esta estrategia?",
+    "opciones": [
+      {"letra": "A", "texto": "El sistema bloquea la fila del pedido de forma exclusiva usando sentencias SQL pesimistas (SELECT FOR UPDATE) impidiendo cualquier lectura ajena hasta terminar la transacción.", "es_correcta": false},
+      {"letra": "B", "texto": "Cada registro del pedido posee un número de versión o marca de tiempo. Al actualizar, el hilo verifica que el número de versión no haya cambiado desde que leyó el dato. Si coincide, actualiza el pedido e incrementa la versión de forma atómica. Si no coincide (otra transacción actualizó primero), la transacción falla de forma controlada y el usuario recibe el mensaje correspondiente.", "es_correcta": true},
+      {"letra": "C", "texto": "El sistema asume de forma positiva y sin validación alguna que todas las escrituras concurrentes se ordenarán correctamente por el hardware físico de red del celular.", "es_correcta": false},
+      {"letra": "D", "texto": "Se deshabilitan las transacciones lógicas en el servidor, delegando la consistencia final de asignación a un temporizador aleatorio (timeout) en el cliente.", "es_corrector": false}
+    ],
+    "explicacion_retroalimentacion": "El bloqueo optimista (Optimistic Concurrency Control) es óptimo para sistemas altamente concurrentes donde las colisiones de escritura reales son infrecuentes. Evita el costo de bloquear físicamente registros en base de datos. Se fundamenta en comprobar versiones en la cláusula WHERE (ej: UPDATE pedido SET repartidor_id = X, version = 2 WHERE id = 1 AND version = 1). Si otra transacción se adelantó, el número de filas afectadas será cero, detectando la colisión transaccional de forma económica.",
+    "tema": "Bloqueo Optimista vs. Pesimista"
+  },
+  {
+    "id_pregunta": "seed_sd_110",
+    "modulo": "Diseño de Software",
+    "enunciado": "El principio de Inversión de Dependencias (DIP) de SOLID indica que los módulos de alto nivel no deben depender de módulos de bajo nivel; ambos deben depender de abstracciones. Al diseñar una aplicación bajo Arquitectura Hexagonal (o Puertos y Adaptadores), este principio se evidencia cuando:",
+    "opciones": [
+      {"letra": "A", "texto": "Las clases de lógica de negocio o Casos de Uso centrales importan directamente los controladores HTTP de Express para validar las cabeceras de red.", "es_correcta": false},
+      {"letra": "B", "texto": "El núcleo central del dominio de negocio define interfaces abstractas (Puertos de salida, como un IUserRepository). La infraestructura de bajo nivel externa (Adaptador, como PostgresUserRepository) implementa dicha interfaz, inyectándose dinámicamente de afuera hacia adentro.", "es_correcta": true},
+      {"letra": "C", "texto": "Se duplica la totalidad de la lógica de negocio en clases duplicadas de carácter estático inmutables.", "es_correcta": false},
+      {"letra": "D", "texto": "Las bases de datos relacionales SQL importan y analizan los esquemas de validación de inputs del navegador web del cliente.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La Arquitectura Hexagonal aísla las reglas de negocio (casos de uso) del acoplamiento a tecnologías de infraestructura (bases de datos, controladores, APIs externas). Esto se logra mediante DIP: el dominio define qué necesita (Puertos, que son interfaces abstractas), e infraestructura implementa esos puertos (Adaptadores concretos). El dominio permanece completamente libre de imports tecnológicos de red, almacenamiento o UI.",
+    "tema": "Arquitectura Hexagonal y SOLID"
+  },
+  {
+    "id_pregunta": "seed_sd_111",
+    "modulo": "Diseño de Software",
+    "enunciado": "Un equipo técnico analiza el diseño de un servicio que debe almacenar y consultar información histórica de auditoría extremadamente voluminosa (millones de registros mensuales que una vez escritos nunca cambian, conteniendo logs con payloads JSON variables e impredecibles). ¿Cuál de las siguientes decisiones de modelado de base de datos es la más compatible con este volumen de Big Data?",
+    "opciones": [
+      {"letra": "A", "texto": "Crear una tabla relacional normalizada en PostgreSQL con 80 columnas de tipo numérico entero e índices recursivos cruzados sobre todas las columnas.", "es_correcta": false},
+      {"letra": "B", "texto": "Utilizar una base de datos NoSQL de tipo documental (como MongoDB) o almacenamiento de columnas amplias (como Cassandra) o motores de almacenamiento optimizados para series temporales/logs indexados (como Elasticsearch), los cuales escalan de forma horizontal masiva y manejan payloads con esquemas dinámicos de forma óptima.", "es_correcta": true},
+      {"letra": "C", "texto": "Escribir los logs directamente en formato de archivo de texto ASCII acumulado dentro del directorio del código fuente del servidor web principal.", "es_correcta": false},
+      {"letra": "D", "texto": "Guardar los registros exclusivamente en la sesión volátil (localStorage) de los navegadores web de los administradores del sistema.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "Los logs de auditoría representan escrituras masivas, de esquema semi-estructurado (variable) y de solo lectura ex-post. Las bases de datos documentales o de almacenamiento columnar escalan horizontalmente y son idóneas para escribir payloads cambiantes sin el costo de rigidez de un esquema relacional OLTP estricto.",
+    "tema": "Selección de Tecnología de Datos"
+  },
+  {
+    "id_pregunta": "seed_sd_112",
+    "modulo": "Diseño de Software",
+    "enunciado": "En la seguridad de aplicaciones web modernas, ¿cuál es el estándar óptimo y seguro para gestionar la autenticación y el intercambio seguro de afirmaciones de identidad de usuarios entre un cliente SPA y un backend distribuido de microservicios sin requerir almacenamiento de sesión de servidor en base de datos (sesiones apátridas o stateless)?",
+    "opciones": [
+      {"letra": "A", "texto": "Usar cookies de sesión PHP tradicionales vinculadas a un almacenamiento compartido persistente de archivos temporales NFS en red.", "es_correcta": false},
+      {"letra": "B", "texto": "Implementar JSON Web Tokens (JWT) firmados digitalmente por el backend (usando algoritmos asimétricos RS256 o simétricos HS256). El token contiene los claims del usuario y es verificado de forma rápida por cada microservicio de forma autónoma descodificando la firma, sin requerir llamadas al servidor central de autenticación.", "es_correcta": true},
+      {"letra": "C", "texto": "Transmitir las contraseñas lógicas de los usuarios en crudo codificadas en el encabezado HTTP de cada una de las peticiones concurrentes de red.", "es_correcta": false},
+      {"letra": "D", "texto": "Habilitar la autenticación basada en direcciones IP públicas estáticas asignadas a las tarjetas SIM físicas de los dispositivos de red.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "JWT es el estándar industrial para autenticación sin estado (stateless) en sistemas distribuidos. Al estar firmado digitalmente por el emisor (Auth Service), los microservicios de consumo solo requieren validar criptográficamente la firma del token usando la clave correspondiente, permitiendo autorizar peticiones de red de forma local sin acoplamiento temporal ni cuellos de botella de red síncronos.",
+    "tema": "Seguridad y Criptografía"
+  },
+  {
+    "id_pregunta": "seed_sd_113",
+    "modulo": "Diseño de Software",
+    "enunciado": "Usted está diseñando un microservicio financiero de alta fidelidad que calcula el balance diario consolidado de cuentas bancarias. Para certificar que no exista pérdida de información transaccional física, que la auditoría histórica de movimientos sea perfecta y reconstructible de forma matemática, y que se conserve la historia exacta de eventos del negocio en el tiempo, ¿cuál de los siguientes patrones arquitectónicos avanzados de persistencia debe seleccionar?",
+    "opciones": [
+      {"letra": "A", "texto": "Sustituir la persistencia relacional por la sobrescritura recurrente de un único archivo CSV binario alojado en red local.", "es_correcta": false},
+      {"letra": "B", "texto": "Implementar el patrón Event Sourcing (Abastecimiento de Eventos), donde en lugar de almacenar solo el estado actual consolidado, se persiste cada evento de negocio inmutable que cambia el saldo en un Almacén de Eventos (Event Store) secuencial, reconstruyendo el estado actual al reproducir los eventos acumulados.", "es_correcta": true},
+      {"letra": "C", "texto": "Utilizar disparadores recursivos (triggers) de base de datos relacional para reubicar saldos aleatorios sobre esquemas opacos de auditoría.", "es_correcta": false},
+      {"letra": "D", "texto": "Diseñar un objeto Singleton global que herede directamente de la capa de control de la interfaz web del cliente final.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "El patrón Event Sourcing asegura que cada cambio de estado se registre como un evento inmutable en un Event Store ordenado en el tiempo. Esto aporta beneficios insustituibles en finanzas: auditoría perfecta e irrefutable, posibilidad de reconstruir el estado en cualquier punto histórico (viaje en el tiempo) y desacoplamiento absoluto de las estructuras de consulta mediante CQRS.",
+    "tema": "Event Sourcing y Patrones"
+  },
+  {
+    "id_pregunta": "seed_sd_114",
+    "modulo": "Diseño de Software",
+    "enunciado": "Un backend basado en microservicios implementa llamadas HTTP síncronas en cadena para procesar la creación de una cuenta de usuario: el Microservicio A (Usuarios) llama al B (Notificaciones), que a su vez llama al C (Suscripciones), que depende del D (Facturas). Si el Microservicio D experimenta una latencia inusitada o se cae por completo, las llamadas de A, B y C empiezan a acumular hilos de ejecución en red en espera síncrona, provocando el colapso encadenado de toda la plataforma en cuestión de segundos. Para evitar esta propagación de fallas y garantizar resistencia, ¿qué patrón de estabilidad de diseño de sistemas distribuidos debe implementarse?",
+    "opciones": [
+      {"letra": "A", "texto": "El patrón Singleton, para forzar que todas las llamadas se serialicen de forma monolítica en una única cola física local.", "es_correcta": false},
+      {"letra": "B", "texto": "El patrón Circuit Breaker (Disyuntor), para interceptar las llamadas al servicio lento o caído y fallar rápidamente (fail-fast) sin agotar hilos de red, abriendo el circuito tras un número de fallas preestablecido y brindando una respuesta alternativa por defecto (fallback).", "es_correcta": true},
+      {"letra": "C", "texto": "Incrementar de forma exponencial la configuración de timeouts de HTTP a valores superiores a un día comercial.", "es_correcta": false},
+      {"letra": "D", "texto": "Eliminar la capa de microservicios y duplicar de forma física las conexiones lógicas de base de datos relacional.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "El patrón Circuit Breaker actúa igual que un cortocircuito eléctrico: si el servicio destino falla reiteradamente, abre el circuito e interrumpe de inmediato las llamadas síncronas sucesivas, respondiendo al instante con un mensaje alternativo o cacheado (fallback). Esto evita el agotamiento de recursos del servidor cliente y permite que el servicio afectado se recupere del tráfico pesado.",
+    "tema": "Patrón Circuit Breaker"
+  },
+  {
+    "id_pregunta": "seed_sd_115",
+    "modulo": "Diseño de Software",
+    "enunciado": "En la refactorización de código bajo buenas prácticas de diseño orientado a objetos, se discute la aplicación de la composición frente a la herencia clásica. ¿Cuál es el principal argumento técnico para preferir la composición de objetos sobre la herencia jerárquica rígida en sistemas de software complejos?",
+    "opciones": [
+      {"letra": "A", "texto": "La herencia consume de forma lineal un 40% más de recursos de almacenamiento en disco que las interfaces abstractas de TypeScript.", "es_correcta": false},
+      {"letra": "B", "texto": "La herencia crea un fuerte acoplamiento en tiempo de compilación entre la clase base y la subclase (rompiendo la encapsulación, pues los cambios en la clase base impactan de forma imprevista el comportamiento de las subclases, problema de la clase base frágil). La composición fomenta un diseño débilmente acoplado, permitiendo cambiar el comportamiento de las clases de manera dinámica en tiempo de ejecución combinando componentes reutilizables.", "es_correcta": true},
+      {"letra": "C", "texto": "La composición elimina la necesidad de compilar interfaces asíncronas dentro de los navegadores del cliente.", "es_correcta": false},
+      {"letra": "D", "texto": "La herencia prohíbe de forma taxativa declarar métodos de tipo privado o protegido en lenguajes orientados a objetos modernos.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "El principio de diseño orientado a objetos establece: 'Favorecer la composición de objetos sobre la herencia'. La herencia suele usarse de forma indebida para reutilizar código simple, atando de forma rígida las subclases al contrato de su padre. La composición permite un diseño más flexible basado en la inyección de comportamientos a través de dependencias de interfaces, facilitando el mantenimiento del código.",
+    "tema": "Composición vs. Herencia"
+  },
+  {
+    "id_pregunta": "seed_sd_116",
+    "modulo": "Diseño de Software",
+    "enunciado": "Un backend en Node.js debe consumir la base de datos distribuida Redis como capa de almacenamiento en caché de alta velocidad de lectura. Se requiere almacenar las configuraciones de la tienda del cliente que se consultan en cada petición. El equipo de TI implementa la técnica Cache-Aside (Caché por el Lado). ¿Cómo rige de manera secuencial esta técnica el flujo de lectura e indexación del servidor?",
+    "opciones": [
+      {"letra": "A", "texto": "El servidor lee únicamente de Redis; si Redis falla, el sistema aborta de forma física la transacción de red del cliente.", "es_correcta": false},
+      {"letra": "B", "texto": "El servidor consulta primero la caché Redis. Si se produce un acierto (cache hit), retorna el dato. Si se produce un fallo (cache miss), consulta la base de datos relacional primaria, guarda el dato leído en la caché Redis para futuras peticiones, y finalmente retorna la información al cliente de manera síncrona.", "es_correcta": true},
+      {"letra": "C", "texto": "La base de datos relacional escribe de forma directa en Redis cada vez que un registro físico es modificado por un usuario de la tienda.", "es_correcta": false},
+      {"letra": "D", "texto": "Se serializan todos los registros de caché en un único archivo de configuración volátil incrustado en el navegador del cliente.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La estrategia Cache-Aside o Lazy Loading sitúa la responsabilidad de sincronizar la caché en cabeza de la aplicación consumidora. Aliviana el tráfico pesado de la base de datos primaria al almacenar temporalmente datos que se leen de forma recurrente y cambian poco en el tiempo, asegurando que el sistema sea tolerante a fallas en caso de caídas de la base de datos en tráfico pico.",
+    "tema": "Estrategias de Caché"
+  },
+  {
+    "id_pregunta": "seed_sd_117",
+    "modulo": "Diseño de Software",
+    "enunciado": "Durante la fase de diseño de la API para una pasarela bancaria nacional, se requiere proteger las transferencias monetarias para evitar ataques Man-in-the-Middle (MitM) y ataques de repetición (Replay Attacks), donde un atacante intercepta una petición HTTPS de transferencia exitosa y la reenvía idéntica para duplicar el cobro de dinero. ¿Cuál de las siguientes medidas de seguridad a nivel de protocolo API es la idónea?",
+    "opciones": [
+      {"letra": "A", "texto": "Habilitar la directiva CORS (Cross-Origin Resource Sharing) en modo permisivo universal (*).", "es_correcta": false},
+      {"letra": "B", "texto": "Implementar endpoints idempotentes utilizando cabeceras de firma únicas e irrepetibles para cada transacción que incluyan un número aleatorio de un solo uso (Nonce), una marca de tiempo estricta y firma digital criptográfica de la petición.", "es_correcta": true},
+      {"letra": "C", "texto": "Utilizar únicamente cifrado simétrico codificado en cadenas de texto plano Base64 a nivel de frontend.", "es_correcta": false},
+      {"letra": "D", "texto": "Exigir que todas las peticiones HTTPS utilicen el método HTTP GET para transferencias transaccionales distribuidas.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "Para anular ataques de repetición en APIs transaccionales financieras, se recurre a la idempotencia y el uso de Nonces firmados y marcas de tiempo (timestamps). Si el servidor recibe una petición con un Nonce que ya fue utilizado o cuya marca de tiempo está desfasada del reloj del servidor, la descarta de inmediato impidiendo transferencias duplicadas accidentales o maliciosas.",
+    "tema": "Idempotencia y Seguridad"
+  },
+  {
+    "id_pregunta": "seed_sd_118",
+    "modulo": "Diseño de Software",
+    "enunciado": "En una base de datos relacional con millones de filas, las consultas de búsqueda que filtran por la columna 'apellido_cliente' toman más de diez segundos en retornar resultados. Para resolver esta degradación de rendimiento sin modificar el hardware físico del clúster de servidores, el equipo técnico debe:",
+    "opciones": [
+      {"letra": "A", "texto": "Crear un índice lógico B-Tree (Árbol B) sobre la columna 'apellido_cliente', reduciendo la complejidad del motor de base de datos de una búsqueda secuencial de tabla completa (O(N)) a una búsqueda de tipo logarítmica (O(log N)).", "es_correcta": true},
+      {"letra": "B", "texto": "Sustituir el motor relacional de PostgreSQL por un clúster distribuido NoSQL orientado a grafos sin índices.", "es_correcta": false},
+      {"letra": "C", "texto": "Duplicar la columna de apellido en tres tablas diferentes y realizar joins dinámicos sin restricciones de unicidad.", "es_correcta": false},
+      {"letra": "D", "texto": "Reescribir las búsquedas de texto usando expresiones regulares complejas compiladas directamente en la sesión del cliente.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "Los índices lógicos de bases de datos relacionales (como B-Tree) estructuran físicamente la información de forma jerárquica y ordenada. Al buscar por apellido, el motor no requiere recorrer de forma secuencial cada una de las millones de filas (Full Table Scan), sino que navega por el Árbol B de forma sumamente rápida de complejidad logarítmica.",
+    "tema": "Índices y Desempeño"
+  },
+  {
+    "id_pregunta": "seed_sd_119",
+    "modulo": "Diseño de Software",
+    "enunciado": "En la arquitectura monolítica heredada de un portal educativo de gran tráfico, la adición de nuevas asignaturas escolares requiere recompilar y desplegar la totalidad del servidor, interrumpiendo el servicio del portal por varias horas. Para desacoplar de forma limpia la arquitectura y permitir despliegues de módulos independientes por parte de equipos autónomos sin caídas de servicio encadenadas, la mejor recomendación técnica es transitar hacia:",
+    "opciones": [
+      {"letra": "A", "texto": "Un backend distribuido basado en Microservicios, donde cada módulo de negocio se ejecuta y despliega de manera independiente en contenedores Docker, comunicándose entre sí de forma débilmente acoplada mediante APIs gRPC o REST.", "es_correcta": true},
+      {"letra": "B", "texto": "Una arquitectura monolítica monolito-distribuido compartiendo memoria RAM remota compartida por redes locales síncronas.", "es_correcta": false},
+      {"letra": "C", "texto": "Eliminar la base de datos persistente y procesar la compilación del backend mediante componentes estáticos de React.", "es_correcta": false},
+      {"letra": "D", "texto": "Un sistema de colas en disco físico local que ordene secuencialmente los hilos de red en un único núcleo de procesamiento.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La migración hacia microservicios desacopla el ciclo de vida del software. Cada módulo (ej. asignaturas, calificaciones, pagos) es un servicio independiente con su propio código base, tubería de CI/CD y almacenamiento. Un despliegue erróneo en el módulo de asignaturas no compromete la disponibilidad de calificaciones, eliminando paradas de servicio del ecosistema total.",
+    "tema": "Microservicios y Despliegues"
+  },
+  {
+    "id_pregunta": "seed_sd_120",
+    "modulo": "Diseño de Software",
+    "enunciado": "En un sistema distribuido que procesa órdenes de compra masivas, un analista de software recomienda aplicar el patrón CQRS (Command Query Responsibility Segregation). ¿Cuál es la implicación y beneficio de este patrón de segregación de responsabilidades?",
+    "opciones": [
+      {"letra": "A", "texto": "CQRS unifica en una única interfaz y tabla relacional todas las lecturas y escrituras para evitar la inyección de dependencias.", "es_correcta": false},
+      {"letra": "B", "texto": "CQRS separa de forma estricta el modelo de datos utilizado para las mutaciones o modificaciones de estado (Comandos, optimizados para escritura rápida con esquemas de validación estrictos) del modelo utilizado para las búsquedas e informes de lectura (Consultas, optimizados para lecturas rápidas mediante vistas desnormalizadas en caché), maximizando el desempeño.", "es_correcta": true},
+      {"letra": "C", "texto": "CQRS prohíbe de forma absoluta el uso de bases de datos documentales o de almacenamiento columnar en la nube.", "es_correcta": false},
+      {"letra": "D", "texto": "CQRS exige la recompilación automática de las vistas lógicas en el navegador web del cliente tras cada transacción de cobro.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "El patrón CQRS desacopla lecturas y escrituras. En sistemas complejos de alto tráfico, optimizar un solo modelo para que cumpla con validaciones complejas de negocio (escritura) y al mismo tiempo responda rápido a consultas agregadas complejas (lectura) es sumamente difícil. Segregar estos caminos permite escalar la lectura de forma independiente de la escritura.",
+    "tema": "Patrón CQRS"
+  },
+  {
+    "id_pregunta": "seed_sd_121",
+    "modulo": "Diseño de Software",
+    "enunciado": "Un backend transaccional de un sistema de reservas de hotel debe consumir la API externa de tres agencias de turismo. Al diseñar el código, usted nota que las APIs de las agencias cambian de forma constante sus firmas de métodos y modelos de datos de entrada/salida. Para evitar que estos cambios de infraestructura externa comprometan o infecten el núcleo de la lógica de negocio interno de reservas del hotel, ¿qué patrón de diseño táctico de DDD (Domain-Driven Design) debe implementar?",
+    "opciones": [
+      {"letra": "A", "texto": "El patrón Singleton, para asegurar que todas las agencias utilicen una única conexión física de red.", "es_correcta": false},
+      {"letra": "B", "texto": "Una Capa Anticorrupción (ACL - Anti-Corruption Layer), que actúa como un traductor lógico bidireccional aislando el dominio del hotel de la influencia y malas prácticas de las APIs externas inestables.", "es_correcta": true},
+      {"letra": "C", "texto": "Un disparador (trigger) recursivo de base de datos PostgreSQL que detecte cambios sintácticos en los payloads del navegador cliente.", "es_correcta": false},
+      {"letra": "D", "texto": "La herencia directa de las clases controladoras HTTP del dominio central de las clases provistas por los SDKs de las agencias.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "El patrón ACL se ubica entre dos dominios de negocio diferentes para traducir y mediar sus comunicaciones. Impide que las inconsistencias, errores sintácticos o cambios de firma repentinos de APIs de terceros (infraestructura inestable) afecten la pureza del modelo de dominio interno de la aplicación, encapsulando las traducciones de manera aislada.",
+    "tema": "Capa Anticorrupción (ACL)"
+  },
+  {
+    "id_pregunta": "seed_sd_122",
+    "modulo": "Diseño de Software",
+    "enunciado": "Usted está evaluando los principios SOLID de diseño orientado a objetos. El principio de Sustitución de Liskov (LSP) impone restricciones estrictas sobre el comportamiento de la herencia de clases lógicas. ¿Cuál de los siguientes escenarios infringe de manera directa este principio rector?",
+    "opciones": [
+      {"letra": "A", "texto": "Una subclase 'Gato' que hereda de una clase base 'Mamifero' y sobreescribe de forma polimórfica el método 'hacerSonido' para maullar.", "es_correcta": false},
+      {"letra": "B", "texto": "Una subclase 'AvionDePapel' que hereda de una clase base 'Aeronave', la cual define un método 'volar'. Dado que un avión de papel no requiere motor ni combustible, la subclase lanza una excepción del tipo 'UnsupportedOperationException' cuando se invoca 'volar'.", "es_correcta": true},
+      {"letra": "C", "texto": "Una interfaz común que define firmas de métodos de tipo público y es implementada de forma unívoca por múltiples clases de dominio.", "es_correcta": false},
+      {"letra": "D", "texto": "Una clase abstracta que prohíbe de forma taxativa instanciar objetos directos sobre el contexto del backend.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "El principio de Sustitución de Liskov (LSP) establece que los objetos de una clase base deben poder ser reemplazados por objetos de cualquiera de sus subclases de manera transparente sin alterar el comportamiento correcto del programa. Si la subclase lanza excepciones inesperadas o rompe el contrato conceptual de la clase base (como AvionDePapel arrojando errores al volar), se viola LSP.",
+    "tema": "Principio de Liskov (SOLID)"
+  },
+  {
+    "id_pregunta": "seed_sd_123",
+    "modulo": "Diseño de Software",
+    "enunciado": "Al diseñar un microservicio de inventario que procesa peticiones de alta concurrencia, usted debe elegir entre utilizar una base de datos NoSQL clave-valor (como Redis) o una base de datos relacional PostgreSQL con bloqueo pesimista de fila. Si el negocio requiere únicamente actualizaciones atómicas de un contador numérico entero de stock de productos y lecturas sub-milisegundo con altísima concurrencia, ¿cuál es la mejor alternativa de diseño?",
+    "opciones": [
+      {"letra": "A", "texto": "Utilizar Redis para procesar los decrementos e incrementos de stock utilizando comandos atómicos de memoria rápida (como INCR/DECR), logrando latencias sub-milisegundo y eliminando cuellos de botella de bases de datos relacionales.", "es_correcta": true},
+      {"letra": "B", "texto": "Utilizar PostgreSQL con transacciones Serializable y bloqueos exclusivos a nivel de tabla completa para cada consulta de lectura ordinaria.", "es_correcta": false},
+      {"letra": "C", "texto": "Procesar la asignación de stock de forma síncrona en el frontend de la aplicación utilizando temporizadores volátiles en TypeScript.", "es_correcta": false},
+      {"letra": "D", "texto": "Guardar el stock de productos en un archivo plano en formato de disco XML que se actualice de forma síncrona con el sistema de archivos local.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "Redis es una base de datos NoSQL clave-valor en memoria que soporta operaciones atómicas rápidas de alto rendimiento ( INCR/DECR). Decrementar stock directamente en Redis evita latencias pesadas de lecturas de disco y transacciones pesadas de bases de datos relacionales bajo alta demanda, resolviendo colisiones transaccionales de stock de forma limpia.",
+    "tema": "Sistemas de Alto Rendimiento"
+  },
+  {
+    "id_pregunta": "seed_sd_124",
+    "modulo": "Diseño de Software",
+    "enunciado": "En la refactorización de un sistema monolítico, se implementa una tubería de despliegue automatizado. El equipo de TI propone que cada microservicio emita 'Eventos de Integración' (Integration Events) a través de un bus de mensajería (como Kafka) ante cambios de estado de negocio. ¿Cuál es el rol de estos eventos en el marco del desacoplamiento de la arquitectura distribuida?",
+    "opciones": [
+      {"letra": "A", "texto": "Los eventos de integración fuerzan la replicación exacta y síncrona de los esquemas de bases de datos físicas relacionales entre todos los microservicios.", "es_correcta": false},
+      {"letra": "B", "texto": "Los eventos de integración notifican de manera asíncrona a otros microservicios interesados acerca de cambios significativos del estado de negocio (ej. PedidoConfirmado), permitiendo coordinar flujos transaccionales desacoplados sin acoplamiento temporal.", "es_correcta": true},
+      {"letra": "C", "texto": "Los eventos de integración se ejecutan exclusivamente en la sesión local (localStorage) del navegador web del cliente.", "es_correcta": false},
+      {"letra": "D", "texto": "Permitir la recompilación automática del código de TypeScript de los componentes visuales de la interfaz de usuario.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "Los eventos de integración permiten desacoplar temporalmente los microservicios. Un microservicio emite el evento y no requiere saber quién lo consume ni esperar que el receptor esté disponible en ese milisegundo. Los consumidores procesan el mensaje a su propio ritmo, logrando consistencia eventual en sistemas distribuidos robustos.",
+    "tema": "Consistencia Eventual"
+  },
+  {
+    "id_pregunta": "seed_sd_125",
+    "modulo": "Diseño de Software",
+    "enunciado": "En el patrón de arquitectura Modelo-Vista-Controlador (MVC) clásico utilizado para el desarrollo de software web y de escritorio, ¿cuál es el rol del 'Controlador' frente a los componentes de Modelo y Vista?",
+    "opciones": [
+      {"letra": "A", "texto": "Definir los esquemas lógicos relacionales de las tablas físicas de la base de datos de auditoría.", "es_correcta": false},
+      {"letra": "B", "texto": "Actuar como intermediario que recibe las entradas del usuario desde la Vista, coordina las operaciones con el Modelo para mutar o consultar el estado de negocio, y finalmente selecciona la Vista apropiada para presentar la respuesta al usuario.", "es_correcta": true},
+      {"letra": "C", "texto": "Renderizar los elementos de interfaz visual, tipografías y animaciones gráficas interactivas en la pantalla del usuario final.", "es_correcta": false},
+      {"letra": "D", "texto": "Almacenar de forma persistente los tokens criptográficos de sesión en memoria volátil no volátil de la máquina.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "El Controlador actúa como mediador lógico. Recibe peticiones, interactúa con el Modelo (que contiene las reglas y datos de negocio) y actualiza o selecciona la Vista que mostrará la información al usuario, evitando que la capa visual interactúe directamente con la lógica interna pesada de datos.",
+    "tema": "Patrón de Diseño MVC"
+  },
+  {
+    "id_pregunta": "seed_sd_126",
+    "modulo": "Diseño de Software",
+    "enunciado": "Usted lidera el diseño de una API REST de alto rendimiento que expone información histórica de inventario a miles de clientes. El sistema experimenta problemas de rendimiento debido a que los clientes realizan peticiones repetitivas para consultar los mismos datos estáticos. Para resolver la degradación y cumplir con los estándares de HTTP sin aumentar el costo de cómputo del backend, la directiva adecuada es utilizar cabeceras de caché HTTP. ¿Cómo funcionan estas cabeceras?",
+    "opciones": [
+      {"letra": "A", "texto": "El servidor retorna un código HTTP 401 que invalida las credenciales lógicas de los hilos de red concurrentes.", "es_correcta": false},
+      {"letra": "B", "texto": "El servidor de API incluye cabeceras como Cache-Control (ej. max-age=3600) y ETags en sus respuestas. El navegador o capas intermedias de red (CDN) almacenan la respuesta y la sirven al usuario de forma local durante el tiempo programado, o realizan validaciones condicionales rápidas con el servidor mediante If-None-Match arrojando respuestas HTTP 304 Not Modified sin transferir el cuerpo de datos.", "es_correcta": true},
+      {"letra": "C", "texto": "La API requiere que todas las peticiones utilicen canales de red inalámbrica WebSocket con cifrado simétrico.", "es_correcta": false},
+      {"letra": "D", "texto": "Se duplica automáticamente la información de la base de datos PostgreSQL primaria sobre el almacenamiento de la sesión del cliente.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "El uso de cabeceras HTTP de caché (Cache-Control, ETags, Last-Modified) disminuye drásticamente el tráfico síncrono que viaja al backend de la API. Las CDNs y navegadores sirven respuestas locales válidas de forma ultra rápida (latencia cero), reduciendo significativamente la carga sobre los microservicios primarios y el costo de transferencia de datos.",
+    "tema": "Caché HTTP y CDNs"
+  },
+  {
+    "id_pregunta": "seed_sd_127",
+    "modulo": "Diseño de Software",
+    "enunciado": "En la refactorización de un sistema orientado a objetos, usted desea inyectar comportamientos y decoraciones adicionales sobre un objeto concreto (como un componente de facturación de envío que añade empaque especial, seguro de transporte e impuestos variables) sin necesidad de recurrir a la creación de una compleja y rígida jerarquía de subclases por herencia. ¿Qué patrón de diseño estructural GoF cumple de forma óptima con este requerimiento?",
+    "opciones": [
+      {"letra": "A", "texto": "El patrón Factory, que permite construir objetos condicionados por el hardware físico local.", "es_correcta": false},
+      {"letra": "B", "texto": "El patrón Decorator (Decorador), el cual envuelve el componente base de forma dinámica utilizando clases decoradoras que implementan la misma interfaz abstracta, delegando las operaciones al componente original y añadiendo comportamientos adicionales pre o post-llamada.", "es_correcta": true},
+      {"letra": "C", "texto": "El patrón Proxy, que bloquea de forma física el acceso a los datos transaccionales del cliente.", "es_correcta": false},
+      {"letra": "D", "texto": "El patrón State, que altera de forma dinámica el comportamiento de un objeto cuando cambia su estado interno.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "El patrón Decorator es excelente para extender funcionalidades de un objeto de manera flexible y dinámica en tiempo de ejecución de acuerdo con el principio de Composición frente a Herencia. Al envolver los objetos base en decoradores concéntricos, el programador puede combinar e inyectar múltiples responsabilidades de forma desacoplada.",
+    "tema": "Patrón Decorator"
+  },
+  {
+    "id_pregunta": "seed_sd_128",
+    "modulo": "Diseño de Software",
+    "enunciado": "Usted está evaluando los principios SOLID. El principio de Responsabilidad Única (SRP) postula que 'una clase o componente de software debe tener una única razón para cambiar'. ¿Cuál de las siguientes prácticas viola de manera flagrante este principio?",
+    "opciones": [
+      {"letra": "A", "texto": "Crear una clase 'Factura' que contiene las reglas de negocio de cálculo de totales, una función 'guardarFacturaDB' que escribe directamente en la base de datos relacional Postgres y una función 'renderizarFacturaPDF' que produce archivos de exportación visuales.", "es_correcta": true},
+      {"letra": "B", "texto": "Separar el código en clases dedicadas: 'Factura' para el modelo lógico de negocio, 'FacturaRepository' para la persistencia de datos físicos, y 'FacturaPDFExporter' para la renderización de PDFs.", "es_correcta": false},
+      {"letra": "C", "texto": "Diseñar interfaces segregadas que contengan firmas de métodos pequeños y cohesionados.", "es_correcta": false},
+      {"letra": "D", "texto": "Utilizar inyección de dependencias para delegar la persistencia de datos a clases secundarias del dominio.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "Una clase que calcula montos financieros, escribe en bases de datos y renderiza PDFs (como en la opción A) asume tres responsabilidades completamente distintas. Cambios en la tecnología de la base de datos, en las reglas tributarias de cálculo o en el diseño visual de los informes PDF obligarán a modificar la misma clase física de forma concurrente, violando gravemente el SRP y dificultando el mantenimiento.",
+    "tema": "Principio de Responsabilidad Única"
+  },
+  {
+    "id_pregunta": "seed_sd_129",
+    "modulo": "Diseño de Software",
+    "enunciado": "Un sistema distribuido requiere coordinar las transacciones entre múltiples microservicios (Pedidos, Inventario, Facturación) utilizando el patrón Saga. En la variante de 'Saga Orquestada', ¿cuál es el componente central encargado de regular el flujo y qué rol desempeña?",
+    "opciones": [
+      {"letra": "A", "texto": "La base de datos relacional central, que bloquea de forma exclusiva todas las transacciones físicas concurrentes del sistema.", "es_correcta": false},
+      {"letra": "B", "texto": "Un componente de software Orquestador (Saga Orchestrator), el cual centraliza el estado de la saga y le ordena de forma asíncrona a cada microservicio ejecutar sus respectivas transacciones locales o transacciones compensatorias en caso de que algún paso reporte fallas de negocio.", "es_correcta": true},
+      {"letra": "C", "texto": "El navegador web del cliente final, que coordina las llamadas REST síncronas entre microservicios utilizando hilos de red en el navegador.", "es_correcta": false},
+      {"letra": "D", "texto": "Un objeto Singleton estático que reside de forma inalterable en el microservicio de facturación tributaria.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "En la Saga Orquestada, un componente Orquestador central decide y gatilla los llamados transaccionales. Si el microservicio de Inventario falla al reservar stock, el orquestador intercepta el fallo y coordina la ejecución de transacciones compensatorias en reversa (ej. liberar cobro en Facturación), de forma centralizada y predecible.",
+    "tema": "Saga Orquestada"
+  },
+  {
+    "id_pregunta": "seed_sd_130",
+    "modulo": "Diseño de Software",
+    "enunciado": "Durante el diseño del backend transaccional de una aplicación de mensajería, usted nota que las clases de negocio deben reaccionar de manera inmediata y asíncrona ante la llegada de nuevos chats del usuario (ej: notificar en pantalla, actualizar barra de mensajes, incrementar contador de chats leídos). Para lograr este diseño reactivo sin acoplar de manera rígida los módulos de UI con la lógica de red de transporte web, ¿qué patrón de diseño GoF es el idóneo?",
+    "opciones": [
+      {"letra": "A", "texto": "El patrón Singleton, para restringir la comunicación a una única sesión física de red en caliente.", "es_correcta": false},
+      {"letra": "B", "texto": "El patrón Observer (Observador) o publicador-suscriptor (Pub/Sub), donde el módulo de red (Sujeto) mantiene una lista de módulos observadores interesados (UI, Notificaciones, etc.) y les notifica de forma directa y asíncrona ante la llegada de nuevos mensajes lógicos.", "es_correcta": true},
+      {"letra": "C", "texto": "El patrón Facade, que envuelve todas las bases de datos relacionales bajo una única conexión de tipo socket.", "es_correcta": false},
+      {"letra": "D", "texto": "El patrón Factory Method, que automatiza la creación física de hilos transaccionales paralelos en el servidor.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "El patrón Observer define una relación de dependencia de uno a muchos entre objetos, de manera que cuando un objeto cambia de estado (llega nuevo mensaje), todos sus suscriptores son notificados y actualizados automáticamente. Esto desacopla al publicador del mensaje de sus múltiples receptores de forma sumamente flexible y asíncrona.",
+    "tema": "Patrón Observer"
+  }
+]

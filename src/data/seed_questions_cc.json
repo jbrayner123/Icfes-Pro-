@@ -1,0 +1,782 @@
+[
+  {
+    "id_pregunta": "seed_cc_101",
+    "modulo": "Citizen Competencies",
+    "enunciado": "La Alcaldía de una capital colombiana decide peatonalizar de forma permanente el centro histórico para reducir las emisiones de CO2 y potenciar el turismo cultural. Esta medida es aplaudida por colectivos ambientalistas y comerciantes turísticos locales. Sin embargo, los vendedores informales del sector protestan enérgicamente, argumentando que la restricción al tráfico vehicular disminuye drásticamente sus ventas y restringe su derecho al trabajo y al mínimo vital. En este conflicto de intereses, ¿cuáles son las dimensiones que entran en tensión?",
+    "opciones": [
+      {"letra": "A", "texto": "La preservación del patrimonio histórico frente al interés de corporaciones multinacionales automotrices por vender más vehículos en zonas urbanas.", "es_correcta": false},
+      {"letra": "B", "texto": "El derecho colectivo a un ambiente sano y el desarrollo económico turístico frente al derecho individual de los sectores vulnerables al mínimo vital y al trabajo.", "es_correcta": true},
+      {"letra": "C", "texto": "El control policivo del espacio público por parte de la alcaldía frente al libre desarrollo de la personalidad de los turistas extranjeros.", "es_correcta": false},
+      {"letra": "D", "texto": "La soberanía del gobierno local en la planeación vial frente a las políticas fiscales nacionales de recaudación de impuestos al comercio formal.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "El problema plantea un choque clásico de principios constitucionales: el bienestar general expresado en un medio ambiente sano y el turismo vs. los derechos fundamentales de una población vulnerable (mínimo vital y trabajo de vendedores informales). La opción B describe de manera completa y balanceada las dimensiones en conflicto.",
+    "tema": "Multiperspectivismo y Derechos"
+  },
+  {
+    "id_pregunta": "seed_cc_102",
+    "modulo": "Citizen Competencies",
+    "enunciado": "Un municipio en Colombia experimenta un alto índice de deserción escolar debido a que muchos niños deben trabajar con sus padres en la cosecha de café. El alcalde propone crear subsidios monetarios condicionados para las familias que demuestren la asistencia escolar mensual de sus hijos. No obstante, un concejal se opone argumentando que la medida fomenta el asistencialismo paternalista del Estado y que los recursos deberían usarse para mejorar las vías terciarias. ¿Cuál de los siguientes enunciados define mejor la postura de los dos actores?",
+    "opciones": [
+      {"letra": "A", "texto": "El alcalde defiende el derecho colectivo a la movilidad vial, mientras el concejal aboga por el derecho fundamental e inmediato a la educación infantil.", "es_correcta": false},
+      {"letra": "B", "texto": "Ambos coinciden en que la deserción escolar se debe a factores puramente culturales de las familias rurales, pero discrepan en las sanciones penales que deben aplicarse.", "es_correcta": false},
+      {"letra": "C", "texto": "El alcalde prioriza la intervención directa del Estado para garantizar la equidad y los derechos de la infancia, mientras el concejal prioriza la inversión en infraestructura productiva bajo un enfoque de desarrollo económico.", "es_correcta": true},
+      {"letra": "D", "texto": "El alcalde busca favorecer el sector caficultor privado de la región, mientras el concejal busca el control fiscal estricto de las finanzas territoriales del municipio.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La tensión radica en dos visiones de política pública: una centrada en la protección social directa y derechos sociales constitucionales de los niños (alcalde), y otra centrada en la inversión en infraestructura productiva para dinamizar la economía de mercado de manera indirecta (concejal).",
+    "tema": "Políticas Públicas"
+  },
+  {
+    "id_pregunta": "seed_cc_103",
+    "modulo": "Citizen Competencies",
+    "enunciado": "Debido a fallos mecánicos recurrentes en un sistema masivo de transporte público operado por una empresa privada concesionaria, miles de ciudadanos quedan varados diariamente en una gran urbe colombiana. Un grupo de ciudadanos decide interponer una Acción de Grupo con el fin de exigir indemnizaciones económicas por los perjuicios causados. Otro grupo prefiere presentar una Acción de Tutela argumentando violación al derecho a la libre locomoción. Un analista jurídico indica que la vía adecuada para reclamar perjuicios económicos colectivos es la Acción de Grupo. De acuerdo con la Constitución colombiana, ¿es correcta la afirmación del analista?",
+    "opciones": [
+      {"letra": "A", "texto": "No, porque la tutela es el único mecanismo constitucional idóneo para reclamar sumas de dinero o indemnizaciones de carácter contractual.", "es_correcta": false},
+      {"letra": "B", "texto": "Sí, porque la Acción de Grupo tiene un propósito netamente indemnizatorio para resarcir daños causados a un número plural de personas (mínimo 20) por una causa común.", "es_correcta": true},
+      {"letra": "C", "texto": "No, porque las empresas privadas concesionarias de transporte público gozan de inmunidad absoluta frente a las acciones populares o de grupo del Estado.", "es_correcta": false},
+      {"letra": "D", "texto": "Sí, siempre y cuando se demuestre primero que la empresa concesionaria violó la soberanía nacional de los distritos portuarios del país.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La Acción de Grupo (Art. 88 de la Constitución Política) tiene un carácter principalmente indemnizatorio y pecuniario frente a perjuicios ocasionados a un grupo de personas bajo condiciones uniformes, requiriendo un número mínimo de 20 integrantes, a diferencia de la Acción Popular, que busca evitar el daño (preventiva).",
+    "tema": "Acciones Constitucionales"
+  },
+  {
+    "id_pregunta": "seed_cc_104",
+    "modulo": "Citizen Competencies",
+    "enunciado": "Frente a un alarmante incremento de robos a mano armada en un sector residencial, la junta de acción comunal propone contratar personal privado que patrulle armado y detenga de manera autónoma a cualquier persona sospechosa que transite a altas horas de la noche. Un vecino, abogado de profesión, advierte que esta medida vulnera la Constitución colombiana. ¿Qué principio constitucional sustenta principalmente la advertencia del vecino?",
+    "opciones": [
+      {"letra": "A", "texto": "El principio de libre competencia económica de las empresas de seguridad privada legalmente constituidas en el país.", "es_correcta": false},
+      {"letra": "B", "texto": "La exclusividad del monopolio legítimo de la fuerza y las armas en cabeza del Estado, y la garantía del debido proceso e integridad física de los ciudadanos.", "es_correcta": true},
+      {"letra": "C", "texto": "El derecho que tienen todos los residentes del sector a la libre asociación comunal para defender de forma privada sus propiedades.", "es_correcta": false},
+      {"letra": "D", "texto": "La obligación ciudadana de denunciar únicamente ante tribunales de arbitramento internacional los delitos contra el patrimonio.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La Constitución colombiana establece que el Estado tiene el monopolio de las armas y de la fuerza legítima. Delegar patrullajes armados y capturas arbitrarias a civiles vulnera el orden constitucional, el debido proceso y puede derivar en graves violaciones de derechos humanos.",
+    "tema": "Monopolio de la Fuerza y Legalidad"
+  },
+  {
+    "id_pregunta": "seed_cc_105",
+    "modulo": "Citizen Competencies",
+    "enunciado": "Un resguardo indígena de la Amazonía colombiana descubre que una multinacional minera ha obtenido una concesión del Gobierno nacional para explorar oro en su territorio ancestral. La comunidad indígena interpone una acción de tutela argumentando que el proyecto afectará gravemente su entorno ecológico y espiritual, y que no fueron consultados previamente. El representante de la minera sostiene que, dado que el subsuelo es propiedad del Estado según el Artículo 332 de la Constitución, la licencia es perfectamente legal y el interés general del país prima sobre los intereses de comunidades particulares. Al evaluar la situación, ¿cuál de los siguientes principios constitucionales ampara la posición del resguardo indígena?",
+    "opciones": [
+      {"letra": "A", "texto": "La supremacía de los tratados de comercio internacional firmados bajo el marco del desarrollo de industrias pesadas.", "es_correcta": false},
+      {"letra": "B", "texto": "El principio de diversidad étnica y cultural de la Nación y el derecho constitucional fundamental a la consulta previa libre e informada.", "es_correcta": true},
+      {"letra": "C", "texto": "La facultad exclusiva del Gobierno central de enajenar territorios indígenas en casos de interés de seguridad nacional.", "es_correcta": false},
+      {"letra": "D", "texto": "El principio de libre mercado que faculta a cualquier corporación a explotar recursos sin regulaciones de carácter geográfico.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "Aunque el Estado es propietario del subsuelo, la Corte Constitucional ha determinado consistentemente que los derechos de las minorías étnicas (diversidad étnica, consulta previa de comunidades indígenas y afrodescendientes) son fundamentales e intangibles si los proyectos mineros o de desarrollo afectan directamente sus territorios y formas de vida.",
+    "tema": "Diversidad Étnica y Consulta Previa"
+  },
+  {
+    "id_pregunta": "seed_cc_106",
+    "modulo": "Citizen Competencies",
+    "enunciado": "Un docente de ética de una escuela pública en Colombia decide proyectar un documental que cuestiona de forma satírica las posturas doctrinales de la religión mayoritaria del país en materia de derechos sexuales. Un grupo de padres de familia exige la destitución inmediata del docente por considerar que vulnera la libertad de culto de sus hijos. El rector de la institución respalda al docente, señalando que la clase fomenta el debate crítico y la diversidad. En este escenario, ¿cómo se pondera constitucionalmente el conflicto?",
+    "opciones": [
+      {"letra": "A", "texto": "El derecho de los padres a la educación religiosa exclusiva de sus hijos en planteles oficiales prima de manera absoluta sobre la autonomía curricular de la institución pública.", "es_correcta": false},
+      {"letra": "B", "texto": "La libertad de cátedra y la promoción del pluralismo por parte del docente en un espacio laico entran en tensión con el derecho de los estudiantes a no ser adoctrinados de manera coercitiva, resolviéndose a favor del debate reflexivo y no del castigo al docente.", "es_correcta": true},
+      {"letra": "C", "texto": "La religión mayoritaria posee un estatus de protección legal superior que prohíbe cualquier tipo de examen o cuestionamiento académico en el país.", "es_correcta": false},
+      {"letra": "D", "texto": "El rector debe someter a voto popular entre los estudiantes si se permite o no la libertad de cátedra para evitar futuras protestas sociales.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "En el Estado laico colombiano, la libertad de cátedra permite a los docentes presentar diferentes visiones críticas. Aunque los estudiantes tienen derecho a la libertad de cultos y a no ser forzados a profesar una doctrina, un documental que abra el debate crítico (sin persecución religiosa directa) está protegido por el pluralismo y la libre expresión académica.",
+    "tema": "Pluralismo y Libertad de Cátedra"
+  },
+  {
+    "id_pregunta": "seed_cc_107",
+    "modulo": "Citizen Competencies",
+    "enunciado": "Durante un debate político sobre la reforma penal, un ponente propone establecer la pena de muerte o la cadena perpetua para agresores de menores de edad, argumentando que el aumento de las penas es la única forma efectiva de disuadir el crimen violento y hacer justicia. Un opositor responde que este tipo de medidas son inconstitucionales en Colombia y violan tratados internacionales ratificados por el Estado. ¿Cuál de los siguientes principios de la Constitución de 1991 y del bloque de constitucionalidad respalda directamente la objeción del opositor?",
+    "opciones": [
+      {"letra": "A", "texto": "El principio de soberanía nacional, que otorga al Congreso la facultad de redactar leyes penales sin consultar a tribunales internacionales.", "es_correcta": false},
+      {"letra": "B", "texto": "La inviolabilidad de la vida (Art. 11 CN) y la prohibición de penas crueles, inhumanas y degradantes, que imponen límites infranqueables al poder punitivo del Estado.", "es_correcta": true},
+      {"letra": "C", "texto": "La obligación constitucional de destinar la mayor parte del presupuesto de la nación a la construcción de mega-cárceles privadas.", "es_correcta": false},
+      {"letra": "D", "texto": "El principio de libre empresa que rige sobre la administración de sistemas penitenciarios en el continente americano.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "El Artículo 11 de la Constitución Política de Colombia declara que 'el derecho a la vida es inviolable. No habrá pena de muerte'. Además, la Constitución y el Bloque de Constitucionalidad prohíben la tortura y penas crueles, inhumanas o degradantes, orientando el sistema penal hacia la resocialización, no hacia el castigo físico o la eliminación del individuo.",
+    "tema": "Derechos Humanos y Constitución"
+  },
+  {
+    "id_pregunta": "seed_cc_108",
+    "modulo": "Citizen Competencies",
+    "enunciado": "Un ciudadano colombiano presenta una petición formal ante la Registraduría Nacional del Estado Civil solicitando la revocatoria del mandato de un alcalde recién elegido, alegando que este ha incumplido de manera flagrante las metas propuestas en su programa de gobierno registrado. El alcalde se opone al proceso señalando que lleva solo tres meses en el cargo y que necesita tiempo para gobernar. Según la ley estatutaria de mecanismos de participación democrática en Colombia, ¿es viable la solicitud del ciudadano?",
+    "opciones": [
+      {"letra": "A", "texto": "Sí, porque la revocatoria del mandato se puede solicitar en cualquier momento desde el primer día de posesión del mandatario sin límites temporales.", "es_correcta": false},
+      {"letra": "B", "texto": "No, porque la ley colombiana exige un plazo mínimo de un año de gestión del mandatario para admitir solicitudes de revocatoria de mandato, garantizando estabilidad institucional mínima.", "es_correcta": true},
+      {"letra": "C", "texto": "Sí, pero requiere la aprobación unánime de los miembros del Concejo Municipal antes de someterse a votación ciudadana.", "es_correcta": false},
+      {"letra": "D", "texto": "No, porque los alcaldes son designados directamente por el Presidente y solo este tiene la potestad legal de removerlos de sus cargos de forma discrecional.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "De acuerdo con la legislación colombiana (Ley 1757 de 2015), la revocatoria del mandato solo puede solicitarse una vez transcurrido un año desde la posesión del respectivo gobernador o alcalde, permitiendo un tiempo mínimo prudente para el desarrollo de su plan de desarrollo.",
+    "tema": "Mecanismos de Participación"
+  },
+  {
+    "id_pregunta": "seed_cc_109",
+    "modulo": "Citizen Competencies",
+    "enunciado": "En un pueblo afectado históricamente por la violencia, se desata un conflicto entre los comerciantes locales y un grupo de jóvenes artistas urbanos que han pintado murales alusivos a las víctimas del conflicto en las fachadas de varios establecimientos comerciales sin autorización previa de los dueños. Los comerciantes exigen arrestar a los jóvenes por vandalismo y daño en bien ajeno. Un mediador comunitario propone conciliar. ¿Cuál de las siguientes propuestas de conciliación demuestra un enfoque restaurativo y ciudadano óptimo?",
+    "opciones": [
+      {"letra": "A", "texto": "Pintar todas las fachadas de gris por la fuerza pública y prohibir de forma absoluta cualquier manifestación artística en el municipio rural.", "es_correcta": false},
+      {"letra": "B", "texto": "Acordar que los jóvenes reubiquen los murales de memoria histórica en muros públicos autorizados por el municipio y ayuden a restaurar las fachadas comerciales afectadas, reconociendo el valor del arte y el derecho a la propiedad privada.", "es_correcta": true},
+      {"letra": "C", "texto": "Multar a los comerciantes por oponerse a la libre expresión artística y obligarlos a financiar los materiales de los próximos murales de la guerrilla.", "es_correcta": false},
+      {"letra": "D", "texto": "Someter a los jóvenes a una detención preventiva de seis meses en una cárcel nacional sin opción de fianza para dar un ejemplo correctivo.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La solución propuesta en la opción B equilibra de manera constructiva dos derechos en juego: el derecho a la libre expresión artística y memoria histórica frente al derecho constitucional a la propiedad privada. Es restaurativa porque repara el daño físico al comercio mientras encauza el arte de los jóvenes en lugares adecuados.",
+    "tema": "Resolución de Conflictos"
+  },
+  {
+    "id_pregunta": "seed_cc_110",
+    "modulo": "Citizen Competencies",
+    "enunciado": "Una ley aprobada por el Congreso de la República busca sancionar con cárcel a cualquier ciudadano que comparta información calificada por el gobierno de turno como 'falsa o difamatoria contra las instituciones públicas' en redes sociales. Diversos gremios de periodistas y defensores de derechos humanos demandan la inconstitucionalidad de esta norma. ¿Qué argumento de derecho fundamental es el más sólido para exigir la inexequibilidad de dicha ley?",
+    "opciones": [
+      {"letra": "A", "texto": "La norma debilita el recaudo de impuestos de telecomunicaciones que pagan los usuarios de internet a las gobernaciones.", "es_correcta": false},
+      {"letra": "B", "texto": "La ley vulnera de forma directa y desproporcionada la libertad de expresión, opinión y prensa (Art. 20 CN), instaurando un mecanismo de censura previa estatal que lesiona la democracia.", "es_correcta": true},
+      {"letra": "C", "texto": "La Constitución colombiana solo permite limitar el uso de internet a menores de edad durante los periodos de elecciones legislativas.", "es_correcta": false},
+      {"letra": "D", "texto": "Los periodistas oficiales tienen fueros parlamentarios especiales que les impiden ser juzgados por tribunales civiles colombianos.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "El Artículo 20 de la Constitución Política garantiza la libertad de expresar y difundir pensamientos y opiniones, la de informar y recibir información veraz e imparcial, e instituye la prohibición categórica de la censura previa. Sancionar con cárcel opiniones críticas contra el gobierno bajo términos vagos viola el núcleo esencial de este derecho.",
+    "tema": "Libertades Civiles y Censura"
+  },
+  {
+    "id_pregunta": "seed_cc_111",
+    "modulo": "Citizen Competencies",
+    "enunciado": "El Congreso de la República aprueba una reforma tributaria que elimina los impuestos de importación de alimentos básicos de la canasta familiar, argumentando que esto bajará los precios y beneficiará a los consumidores más pobres. No obstante, las asociaciones de pequeños agricultores del país inician un paro nacional, alegando que la medida provocará la quiebra de la producción agrícola campesina local al no poder competir con los subsidios de alimentos importados. Al analizar este escenario, se evidencia que:",
+    "opciones": [
+      {"letra": "A", "texto": "Los agricultores tienen una postura puramente irracional y egoísta que busca encarecer los precios de la comida para enriquecerse de forma ilícita.", "es_correcta": false},
+      {"letra": "B", "texto": "Existe un conflicto entre dos fines legítimos del Estado: la protección del consumidor urbano vulnerable frente a la inflación alimentaria y el fomento y protección de la producción agrícola nacional y el campesinado.", "es_correcta": true},
+      {"letra": "C", "texto": "La reforma tributaria viola directamente el principio constitucional de soberanía monetaria al usar divisas extranjeras en la compra de insumos.", "es_correcta": false},
+      {"letra": "D", "texto": "La Constitución prohíbe de manera absoluta cualquier tipo de importación de productos alimenticios o agropecuarios al territorio colombiano.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "Este dilema de política económica y social refleja una tensión típica entre la canasta de consumo barata para la población general (foco urbano, control de inflación) y la protección económica del campesinado y seguridad alimentaria interna (foco rural). Ambas perspectivas tienen asidero en mandatos del Estado social de derecho.",
+    "tema": "Multiperspectivismo Económico"
+  },
+  {
+    "id_pregunta": "seed_cc_112",
+    "modulo": "Citizen Competencies",
+    "enunciado": "Un habitante de calle de Bogotá es retirado por guardias de seguridad privada de un parque público argumentando que su presencia 'daña la estética visual del lugar, asusta a los niños y devalúa los inmuebles comerciales aledaños'. Un transeúnte interviene sosteniendo que el habitante de calle tiene derecho a permanecer allí. ¿Cuál de los siguientes principios constitucionales fundamenta jurídicamente la defensa del transeúnte?",
+    "opciones": [
+      {"letra": "A", "texto": "El derecho al libre desarrollo de la personalidad, la igualdad y la no discriminación, junto con el carácter público e inclusivo del espacio común urbano.", "es_correcta": true},
+      {"letra": "B", "texto": "La primacía de los derechos de propiedad comercial privada sobre el uso colectivo del espacio público territorial.", "es_correcta": false},
+      {"letra": "C", "texto": "El derecho constitucional que faculta a cualquier civil a realizar funciones de orden público sin supervisión institucional estatal.", "es_correcta": false},
+      {"letra": "D", "texto": "La autonomía absoluta de las juntas de propietarios comerciales para restringir el acceso peatonal a parques de la nación.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La Corte Constitucional ha reiterado que el espacio público es para el goce colectivo y que los habitantes de calle tienen el derecho a la libre locomoción, igualdad de trato y libre desarrollo de su personalidad. No pueden ser excluidos de zonas públicas por consideraciones de 'estética social' o prejuicios clasistas.",
+    "tema": "Igualdad y Espacio Público"
+  },
+  {
+    "id_pregunta": "seed_cc_113",
+    "modulo": "Citizen Competencies",
+    "enunciado": "La junta directiva de una gran corporación de salud en Colombia decide despedir a una trabajadora administrativa tras enterarse de que se encuentra en su tercer mes de gestación, argumentando una 'reestructuración interna de cargos'. La trabajadora recurre a una Acción de Tutela. ¿Es procedente este mecanismo y bajo qué figura constitucional se ampara su pretensión?",
+    "opciones": [
+      {"letra": "A", "texto": "No es procedente, porque el despido ocurrió en el ámbito de un contrato laboral privado y debe ser resuelto únicamente por la justicia ordinaria ordinaria laboral tras un proceso de varios años.", "es_correcta": false},
+      {"letra": "B", "texto": "Sí es procedente de forma inmediata, debido al principio de estabilidad laboral reforzada (fuero de maternidad), que protege a la mujer gestante de discriminación laboral y asegura el mínimo vital de la madre y del recién nacido.", "es_correcta": true},
+      {"letra": "C", "texto": "No, a menos que el presidente de la junta directiva corporativa sea un funcionario del ministerio de hacienda en ejercicio de funciones fiscales.", "es_correcta": false},
+      {"letra": "D", "texto": "Sí, porque el derecho mercantil internacional ampara de manera prioritaria los derechos de asociación de los sindicatos corporativos de salud.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La estabilidad laboral reforzada de la mujer embarazada (fuero de maternidad) es un principio constitucional de rango fundamental. La acción de tutela procede excepcionalmente contra particulares para evitar un perjuicio irremediable cuando se vulnera este fuero sin autorización previa del inspector de trabajo.",
+    "tema": "Estabilidad Laboral Reforzada"
+  },
+  {
+    "id_pregunta": "seed_cc_114",
+    "modulo": "Citizen Competencies",
+    "enunciado": "En un departamento colombiano, el gobernador decreta que todas las escuelas públicas del territorio deben destinar de forma obligatoria las dos primeras horas diarias del plan académico a la oración guiada católica y lectura de la Biblia, con el fin de 'reforzar los valores morales y cívicos de la juventud'. Un colectivo de padres budistas y ateos demanda la medida. Al evaluar la validez legal del decreto del gobernador, ¿cuál es el dictamen constitucional correcto?",
+    "opciones": [
+      {"letra": "A", "texto": "El gobernador está plenamente facultado ya que la Constitución de 1991 consagra que Colombia es una teocracia confesional católica regida por las directrices de la Santa Sede.", "es_correcta": false},
+      {"letra": "B", "texto": "El decreto es inconstitucional, pues viola el carácter de Estado Laico y pluralista de Colombia, la libertad de cultos y de conciencia (Art. 18 y 19 CN), que prohíbe la imposición de dogmas religiosos oficiales en la educación pública.", "es_correcta": true},
+      {"letra": "C", "texto": "La medida es válida siempre y cuando el clero católico local autorice el ingreso de estudiantes de otras confesiones a las clases presenciales de historia universal.", "es_correcta": false},
+      {"letra": "D", "texto": "Es constitucional porque los planes de estudio departamentales gozan de soberanía legislativa absoluta e independiente de los tratados internacionales de la ONU.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "Con la Constitución de 1991, Colombia se define como un Estado laico y pluralista. Esto implica la neutralidad del Estado en materia religiosa. Imponer rezos obligatorios en planteles oficiales vulnera el derecho a la libertad de conciencia y de culto de las minorías no católicas.",
+    "tema": "Estado Laico"
+  },
+  {
+    "id_pregunta": "seed_cc_115",
+    "modulo": "Citizen Competencies",
+    "enunciado": "La guerrilla y el Gobierno nacional firman un cese al fuego y discuten la participación política de excombatientes acusados de delitos políticos de rebelión (no de lesa humanidad). Un sector de la población civil se opone rotundamente, argumentando que permitir que personas alzadas en armas accedan a cargos de elección popular sin pagar cárcel común promueve la impunidad y destruye la moral pública. La postura del Gobierno defiende que este es un paso necesario para transitar del conflicto armado a la deliberación institucional democrática. Este choque de posturas evidencia una tensión profunda entre:",
+    "opciones": [
+      {"letra": "A", "texto": "La eficiencia económica de las elecciones presidenciales y la soberanía tributaria de las regiones apartadas del país.", "es_correcta": false},
+      {"letra": "B", "texto": "La justicia retributiva estricta (el castigo ordinario por violar la ley penal) frente a la justicia restaurativa y transicional orientada a la paz como valor supremo y fin constitucional.", "es_correcta": true},
+      {"letra": "C", "texto": "La jerarquía orgánica del derecho internacional privado y los tratados aduaneros bilaterales del sector de transporte vial.", "es_correcta": false},
+      {"letra": "D", "texto": "El derecho al libre desarrollo de la personalidad de los excombatientes frente a las normas de urbanismo de las grandes ciudades capitales.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "Este es el dilema clásico de la Justicia Transicional: balancear la exigencia de castigo penal retributivo (justicia tradicional) frente a la necesidad de lograr la paz y la reincorporación política (paz como fin constitucional de rango supremo en el Art. 22 de la CN).",
+    "tema": "Justicia Transicional"
+  },
+  {
+    "id_pregunta": "seed_cc_116",
+    "modulo": "Citizen Competencies",
+    "enunciado": "Un proyecto de ley en Colombia busca restringir el acceso a cargos públicos a cualquier ciudadano que haya sido sancionado administrativamente por incumplir obligaciones alimentarias con sus hijos (inasistencia alimentaria). Un opositor de la norma afirma que esto viola el derecho constitucional fundamental de todo ciudadano de elegir y ser elegido en cargos de votación popular. ¿Cuál de los siguientes argumentos defiende de manera más sólida la constitucionalidad de la restricción propuesta?",
+    "opciones": [
+      {"letra": "A", "texto": "La prevalencia constitucional de los derechos de los niños (Art. 44 CN) y el deber correlativo del Estado de velar por su protección integral y sostenimiento básico frente a pretensiones individuales.", "es_correcta": true},
+      {"letra": "B", "texto": "La necesidad fiscal del Ministerio de Hacienda de reducir la nómina pública estatal mediante la exclusión de funcionarios de bajo rango.", "es_correcta": false},
+      {"letra": "C", "texto": "El derecho que poseen los partidos políticos tradicionales de vetar candidatos que no tengan títulos académicos de posgrado.", "es_correcta": false},
+      {"letra": "D", "texto": "La soberanía absoluta del derecho penal sobre cualquier norma protectora de la infancia en tratados internacionales del continente.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "El Artículo 44 de la Constitución colombiana declara explícitamente que los derechos de los niños prevalecen sobre los derechos de los demás. Imponer sanciones cívicas o restricciones de idoneidad ética/legal a cargos públicos por incumplir obligaciones de inasistencia alimentaria busca proteger este fin supremo prevalente.",
+    "tema": "Prevalencia de Derechos de la Infancia"
+  },
+  {
+    "id_pregunta": "seed_cc_117",
+    "modulo": "Citizen Competencies",
+    "enunciado": "Una minera de carbón opera cerca de una comunidad afrodescendiente en La Guajira. La actividad industrial genera material particulado en el aire que afecta la salud respiratoria de los niños del sector, además de desviar un arroyo local vital para el riego de cultivos de subsistencia de la comunidad. Los voceros de la empresa afirman que generan el 40% de las regalías fiscales del departamento, necesarias para construir hospitales y escuelas. En esta compleja coyuntura, la comunidad interpone una Acción Popular. ¿Cuál es el objeto de esta acción?",
+    "opciones": [
+      {"letra": "A", "texto": "Solicitar la indemnización individual en dinero de cada uno de los habitantes que demuestren tener asma diagnosticada clínicamente.", "es_correcta": false},
+      {"letra": "B", "texto": "Proteger los derechos e intereses colectivos relacionados con la salud pública, el medio ambiente sano, la seguridad alimentaria y el equilibrio ecológico, previniendo el daño ambiental y restableciendo el arroyo.", "es_correcta": true},
+      {"letra": "C", "texto": "Lograr la expropiación sin indemnización de todos los activos físicos e industriales de la multinacional minera extranjera.", "es_correcta": false},
+      {"letra": "D", "texto": "Iniciar un juicio político penal al gobernador del departamento para destituirlo de su cargo de forma directa y sumaria.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La Acción Popular (Art. 88 CN) es el mecanismo idóneo para defender derechos colectivos como el medio ambiente sano, el espacio público y la seguridad o salud pública. A diferencia de la Acción de Grupo, su fin primordial no es indemnizatorio o resarcitorio individual, sino preventivo y restitutivo del bien común colectivo.",
+    "tema": "Acción Popular"
+  },
+  {
+    "id_pregunta": "seed_cc_118",
+    "modulo": "Citizen Competencies",
+    "enunciado": "Un joven es detenido por la policía durante una jornada de protestas sociales en Medellín. Transcurridas 38 horas desde su detención, el joven sigue retenido en la estación de policía sin haber sido presentado ante un juez de control de garantías y sin que se le haya formulado ningún cargo legal explícito. Al percatarse de esto, su familia debe interponer de inmediato un mecanismo constitucional de protección rápida de la libertad física llamado:",
+    "opciones": [
+      {"letra": "A", "texto": "Acción de Tutela por discriminación política y abuso de autoridad.", "es_correcta": false},
+      {"letra": "B", "texto": "Habeas Corpus (Art. 30 CN), que exige la comparecencia judicial del retenido y la resolución inmediata de su estado de detención en un término máximo de 36 horas.", "es_correcta": true},
+      {"letra": "C", "texto": "Acción de Cumplimiento para obligar a los policías a seguir los manuales de procedimientos internos del Ministerio de Defensa.", "es_correcta": false},
+      {"letra": "D", "texto": "Recurso extraordinario de casación civil ante el Tribunal Superior del Distrito Judicial departamental.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "El Habeas Corpus es una acción constitucional fundamental consagrada en el Artículo 30 de la Constitución colombiana. Procede cuando una persona es privada de la libertad con violación de las garantías constitucionales o legales, o cuando la captura se prolonga ilegalmente más de 36 horas, debiendo el juez resolver la solicitud en un término improrrogable de 36 horas.",
+    "tema": "Habeas Corpus y Garantías Judiciales"
+  },
+  {
+    "id_pregunta": "seed_cc_119",
+    "modulo": "Citizen Competencies",
+    "enunciado": "Con el propósito de incentivar la industria nacional, un partido político propone un proyecto de ley que restringe de forma permanente la libertad de prensa y de información comercial de marcas de ropa extranjeras en el país, prohibiendo que pauten en canales locales de televisión. Un analista afirma que el proyecto es inconstitucional. ¿Cuál de los siguientes argumentos de teoría de derechos es aplicable para ratificar la inconstitucionalidad señalada por el analista?",
+    "opciones": [
+      {"letra": "A", "texto": "La medida no vulnera la libertad económica ya que los canales de televisión locales son propiedad colectiva inalienable del Estado colombiano.", "es_correcta": false},
+      {"letra": "B", "texto": "La libertad de expresión comercial y el derecho constitucional de libre competencia económica e información del consumidor se ven afectados de manera desproporcionada por una medida discriminatoria e irrazonable.", "es_correcta": true},
+      {"letra": "C", "texto": "La Constitución colombiana solo protege la propiedad industrial de empresas con sede en el centro histórico de la capital.", "es_correcta": false},
+      {"letra": "D", "texto": "El proteccionismo económico es un delito de lesa humanidad tipificado de manera taxativa por la Corte Penal Internacional de La Haya.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La libre competencia económica y la libertad de prensa y de información comercial del consumidor son derechos constitucionales básicos (Art. 333 CN). Aunque el Estado puede intervenir en la economía, las prohibiciones de pauta publicitaria bajo criterios netamente proteccionistas e injustificados violan la libre expresión y el derecho de competencia del mercado.",
+    "tema": "Derechos Económicos y Libre Mercado"
+  },
+  {
+    "id_pregunta": "seed_cc_120",
+    "modulo": "Citizen Competencies",
+    "enunciado": "Un líder ambientalista de una zona rural en Colombia es amenazado reiteradamente de muerte por oponerse a un proyecto de ganadería extensiva sobre bosques nativos. El líder solicita medidas de seguridad a la Unidad Nacional de Protección (UNP), pero el trámite administrativo se demora más de seis meses sin respuesta. Mientras tanto, las amenazas aumentan y personas armadas merodean su hogar. ¿Es procedente interponer una Acción de Tutela en este caso?",
+    "opciones": [
+      {"letra": "A", "texto": "No, porque las amenazas de muerte son asuntos estrictamente policiales y de orden público ordinario, por lo que la tutela es improcedente por subsidiariedad.", "es_correcta": false},
+      {"letra": "B", "texto": "Sí es procedente de forma transitoria, debido a la inminente y grave vulneración a los derechos fundamentales a la vida, integridad personal y seguridad, configurándose un perjuicio irremediable ante la omisión administrativa de protección estatal rápida.", "es_correcta": true},
+      {"letra": "C", "texto": "No, porque la tutela solo protege el derecho a la propiedad de la junta de acción comunal si se demuestra la pérdida física de escrituras de tierras.", "es_correcta": false},
+      {"letra": "D", "texto": "Sí, pero el juez de tutela solo puede exigir que la empresa ganadera privada reubique sus bovinos en otra subregión montañosa del país.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La tutela procede cuando hay omisión de entidades estatales encargadas de la protección (como la UNP) y el riesgo a la vida e integridad del solicitante es inminente y grave. Aquí se requiere la protección constitucional transitoria para evitar un perjuicio irreparable (homicidio).",
+    "tema": "Acción de Tutela y Perjuicio Irremediable"
+  },
+  {
+    "id_pregunta": "seed_cc_121",
+    "modulo": "Citizen Competencies",
+    "enunciado": "Un sindicato de trabajadores portuarios declara una huelga indefinida exigiendo incrementos salariales y mejores dotaciones de seguridad laboral industrial. La huelga paraliza por completo el cargue y descargue de buques en el principal puerto comercial del país. El Gobierno nacional ordena la intervención del ejército militar para operar el puerto a la fuerza, argumentando que el paro lesiona de forma severa el interés de la economía nacional. Los líderes sindicales demandan la inconstitucionalidad de la intervención gubernamental armada. ¿Qué marco legal y constitucional rige esta disputa en Colombia?",
+    "opciones": [
+      {"letra": "A", "texto": "La huelga es un delito penal en Colombia que faculta al Gobierno a disolver cualquier sindicato civil sin debido proceso.", "es_correcta": false},
+      {"letra": "B", "texto": "La Constitución garantiza el derecho de huelga (Art. 56 CN) salvo en los servicios públicos esenciales definidos por el legislador. Las actividades portuarias comerciales puras no constituyen por sí mismas un servicio público esencial, por lo que la intervención forzosa de la fuerza militar vulnera la libertad sindical básica.", "es_correcta": true},
+      {"letra": "C", "texto": "Los sindicatos portuarios tienen fueros diplomáticos que les permiten bloquear las rutas marítimas nacionales de forma perpetua sin supervisión estatal.", "es_correcta": false},
+      {"letra": "D", "texto": "El Presidente de la República goza de facultades judiciales absolutas para invalidar los derechos de asociación sindical en el sector agrario.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "El Artículo 56 de la Constitución colombiana garantiza el derecho de huelga, excepto en servicios públicos esenciales. La Corte Constitucional define servicio público esencial de manera estricta (salud, servicios públicos domiciliarios básicos, administración de justicia). El transporte y manejo portuario puramente de carga comercial no es un servicio esencial intrínseco, por lo que las intervenciones forzadas armadas estatales limitan de forma inconstitucional la huelga.",
+    "tema": "Derecho de Huelga y Asociación"
+  },
+  {
+    "id_pregunta": "seed_cc_122",
+    "modulo": "Citizen Competencies",
+    "enunciado": "Una asamblea departamental aprueba una ordenanza que prohíbe de forma indefinida el ingreso de personas pertenecientes a la comunidad LGBT a piscinas públicas y balnearios recreativos del departamento, argumentando razones de 'salubridad e higiene epidemiológica' basadas en preconcepciones discriminatorias. ¿Cuál de los siguientes principios de la Constitución de 1991 fue violado de manera directa por esta ordenanza?",
+    "opciones": [
+      {"letra": "A", "texto": "El principio de descentralización y autonomía de los departamentos en la administración del presupuesto de salud pública.", "es_correcta": false},
+      {"letra": "B", "texto": "El derecho fundamental a la igualdad y no discriminación por razones de sexo o identidad (Art. 13 CN) y la dignidad humana como valor fundante del Estado.", "es_correcta": true},
+      {"letra": "C", "texto": "El principio de libre mercado que faculta a los balnearios comerciales privados a seleccionar discrecionalmente a sus clientes.", "es_correcta": false},
+      {"letra": "D", "texto": "La supremacía de las leyes de tránsito vial e infraestructura turística aprobadas bajo el amparo de la gobernación local.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "El Artículo 13 de la Constitución colombiana establece categóricamente la igualdad de todas las personas ante la ley y prohíbe la discriminación por motivos de sexo, raza, origen nacional o familiar, lengua, religión, opinión política o filosófica. Excluir a personas del espacio público o recreativo por su orientación o identidad de género viola gravemente la igualdad y la dignidad humana.",
+    "tema": "Derecho a la Igualdad"
+  },
+  {
+    "id_pregunta": "seed_cc_123",
+    "modulo": "Citizen Competencies",
+    "enunciado": "Un proyecto de ley busca penalizar de forma drástica la posesión de dosis mínimas de estupefacientes para consumo personal en Colombia, argumentando que esto combatirá el narcotráfico en las calles y protegerá la salud pública de los jóvenes. Un ponente de la oposición objeta que la posesión de la dosis mínima para consumo personal está protegida en Colombia bajo un criterio de autonomía del individuo. ¿Qué concepto constitucional ampara este argumento de oposición?",
+    "opciones": [
+      {"letra": "A", "texto": "El derecho constitucional a la propiedad privada sobre las sustancias botánicas o químicas adquiridas comercialmente.", "es_correcta": false},
+      {"letra": "B", "texto": "El derecho fundamental al libre desarrollo de la personalidad (Art. 16 CN), el cual faculta a la persona a autodeterminarse moralmente sin interferencias coactivas estatales en decisiones que no afecten derechos de terceros.", "es_correcta": true},
+      {"letra": "C", "texto": "La supremacía de la autonomía médica que faculta a los consumidores a auto-recetarse medicamentos de alto riesgo de forma discrecional.", "es_correcta": false},
+      {"letra": "D", "texto": "El principio constitucional de soberanía fiscal del campesinado cocalero frente a las importaciones agrícolas de la nación.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La histórica Sentencia C-221 de 1994 (M.P. Carlos Gaviria Díaz) determinó que penalizar el consumo de la dosis personal de estupefacientes vulnera el libre desarrollo de la personalidad (Art. 16 CN). El Estado no puede imponer visiones perfeccionistas del comportamiento individual si estas conductas no trascienden a causar daños directos a derechos ajenos.",
+    "tema": "Libre Desarrollo de la Personalidad"
+  },
+  {
+    "id_pregunta": "seed_cc_124",
+    "modulo": "Citizen Competencies",
+    "enunciado": "En un pueblo costero afectado por inundaciones severas provocadas por el cambio climático, la comunidad pesquera reclama que la alcaldía asigne recursos inmediatos para construir un dique de contención. La alcaldía argumenta que carece de presupuesto propio y que la responsabilidad es de la Gobernación departamental y del Gobierno nacional. Los pescadores deciden presentar una Acción de Cumplimiento. ¿Cuál es el propósito procedimental básico de esta herramienta constitucional?",
+    "opciones": [
+      {"letra": "A", "texto": "Exigir de forma sumaria y efectiva el cumplimiento material de leyes o actos administrativos vigentes que imponen un deber imperativo y omitido a una autoridad pública.", "es_correcta": true},
+      {"letra": "B", "texto": "Solicitar compensaciones monetarias directas al Estado por los daños ocasionados por fenómenos climáticos extremos.", "es_correcta": false},
+      {"letra": "C", "texto": "Lograr la destitución penal o suspensión cautelar del alcalde municipal mediante la intervención de un tribunal de arbitramento privado.", "es_correcta": false},
+      {"letra": "D", "texto": "Peticionar a organismos internacionales la anulación de contratos aduaneros de exportación de recursos pesqueros.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La Acción de Cumplimiento (Art. 87 CN) busca asegurar la efectividad de las leyes y actos administrativos que de manera clara, expresa y exigible imponen deberes u obligaciones concretas a las autoridades públicas y que estas se niegan o muestran renuentes a cumplir, sin que medie reclamo puramente indemnizatorio.",
+    "tema": "Acción de Cumplimiento"
+  },
+  {
+    "id_pregunta": "seed_cc_125",
+    "modulo": "Citizen Competencies",
+    "enunciado": "Un proyecto hidroeléctrico de gran escala genera tensiones entre el consorcio de ingeniería (que destaca la generación de energía limpia para el país y empleo local) y los campesinos pescadores que dependen de la fauna del río afectado. Al realizar un análisis multiperspectivista de este conflicto ambiental, ¿cuál de los siguientes enunciados representa la visión más imparcial y holística de la problemática?",
+    "opciones": [
+      {"letra": "A", "texto": "El consorcio privado actúa movido por el deseo de contaminar deliberadamente los ríos, mientras los campesinos defienden el retraso industrial del país.", "es_correcta": false},
+      {"letra": "B", "texto": "Es un dilema complejo entre el desarrollo de infraestructura energética nacional, con miras al autoabastecimiento energético y mitigación global de carbono, y la seguridad alimentaria, soberanía económica, territorialidad y sostenibilidad ambiental inmediata de comunidades ribereñas vulnerables.", "es_correcta": true},
+      {"letra": "C", "texto": "Se trata de un simple problema de policía urbana donde las protestas campesinas ilegítimas entorpecen la correcta especulación inmobiliaria nacional.", "es_correcta": false},
+      {"letra": "D", "texto": "El conflicto se resuelve demostrando que las represas hidroeléctricas no tienen efectos físicos o biológicos sobre las corrientes o ecosistemas acuáticos.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "Un verdadero análisis de multiperspectivismo en Competencias Ciudadanas requiere identificar los intereses, necesidades y justificaciones legítimas de los actores involucrados de manera objetiva, sin caer en generalizaciones, sesgos morales o simplificaciones falsas.",
+    "tema": "Multiperspectivismo Ambiental"
+  },
+  {
+    "id_pregunta": "seed_cc_126",
+    "modulo": "Citizen Competencies",
+    "enunciado": "Durante un cabildo abierto sobre la legalización del aborto en Colombia, un activista afirma:\n\n'Quienes defienden la despenalización del aborto bajo cualquier circunstancia odian la familia y la sociedad, y su único propósito real es promover la decadencia moral del país para someterlo a dictaduras de ideología de género de las Naciones Unidas'.\n\n¿Qué falacia lógica o sesgo argumentativo se evidencia en la intervención del activista?",
+    "opciones": [
+      {"letra": "A", "texto": "Una falacia Ad Hominem circunstancial combinada con el sesgo de la falacia del hombre de paja, puesto que distorsiona de forma extrema las intenciones reales del oponente para atacarlo con prejuicios falsos, en lugar de debatir los argumentos de salud pública y derechos sexuales de las mujeres.", "es_correcta": true},
+      {"letra": "B", "texto": "Una falacia de apelación a la autoridad científica del clero católico en la definición de la fecundación in vitro.", "es_correcta": false},
+      {"letra": "C", "texto": "Un sesgo de confirmación basado en estadísticas empíricas irrefutables de las tasas de natalidad de los distritos rurales.", "es_correcta": false},
+      {"letra": "D", "texto": "La falacia de petición de principio al asumir que las leyes del Congreso están subordinadas a la soberanía del derecho comparado de la Unión Europea.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La falacia del 'hombre de paja' consiste en caricaturizar, distorsionar o exagerar los argumentos e intenciones del oponente para hacerlos parecer ridículos o malvados, facilitando un ataque simplista. El activista atribuye motivaciones de 'odio a la familia' u 'odio moral' a quienes debaten el aborto por razones sanitarias o de autonomía.",
+    "tema": "Pensamiento Crítico y Argumentación"
+  },
+  {
+    "id_pregunta": "seed_cc_127",
+    "modulo": "Citizen Competencies",
+    "enunciado": "La Alcaldía de un municipio andino promulga un decreto que prohíbe el uso de capuchas, máscaras o pasamontañas en manifestaciones públicas de carácter estudiantil, argumentando que estas prendas son utilizadas de forma exclusiva por grupos delincuenciales 'infiltrados' para causar daños físicos al comercio formal y evadir la identificación policiva. Un colectivo de estudiantes demanda el decreto argumentando violación a su libertad de expresión y de manifestación pacífica. ¿Qué aspecto constitucional entra en tensión?",
+    "opciones": [
+      {"letra": "A", "texto": "La soberanía de los comerciantes locales para conformar milicias civiles de autoprotección privada frente al derecho de tránsito de vehículos.", "es_correcta": false},
+      {"letra": "B", "texto": "El mantenimiento del orden público, la seguridad urbana y prevención del delito frente a los derechos fundamentales de reunión, manifestación pública libre y pacífica y libertad de expresión artística del estudiante.", "es_correcta": true},
+      {"letra": "C", "texto": "La supremacía de los derechos de autor que rigen sobre el diseño de prendas de vestir escolares de carácter público regional.", "es_correcta": false},
+      {"letra": "D", "texto": "El principio de libre competencia económica que favorece la venta masiva de pasamontañas e insumos textiles extranjeros.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La prohibición de prendas específicas en protestas plantea una tensión real entre las medidas de seguridad del Estado para identificar infractores del orden público y el derecho de reunión pacífica e identidad estética/libre expresión de los manifestantes en espacios democráticos.",
+    "tema": "Manifestación Pública y Orden Público"
+  },
+  {
+    "id_pregunta": "seed_cc_128",
+    "modulo": "Citizen Competencies",
+    "enunciado": "La Constitución Política de Colombia consagra al Procurador General de la Nación como el director del Ministerio Público. Entre sus funciones orgánicas principales frente a la estructura del Estado social de derecho, no se encuentra la de:",
+    "opciones": [
+      {"letra": "A", "texto": "Vigilar el cumplimiento de la Constitución, las leyes, las decisiones judiciales y los actos administrativos por parte de los servidores estatales.", "es_correcta": false},
+      {"letra": "B", "texto": "Defender los intereses colectivos de la sociedad, especialmente el medio ambiente y los derechos humanos de las comunidades vulnerables.", "es_correcta": false},
+      {"letra": "C", "texto": "Dirigir la investigación penal e instructiva de los delitos comunes y proferir órdenes directas de captura y allanamiento contra ciudadanos particulares.", "es_correcta": true},
+      {"letra": "D", "texto": "Ejercer vigilancia superior de la conducta oficial de quienes desempeñan funciones públicas, inclusive los de elección popular, ejerciendo poder disciplinario.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La dirección de la investigación penal, la formulación de acusaciones ante los jueces correspondientes y la solicitud de órdenes de captura es competencia de la Fiscalía General de la Nación, no de la Procuraduría General. Esta última tiene una función netamente preventiva y disciplinaria/administrativa sobre los servidores públicos y el control constitucional ordinario.",
+    "tema": "Estructura del Estado Colombiano"
+  },
+  {
+    "id_pregunta": "seed_cc_129",
+    "modulo": "Citizen Competencies",
+    "enunciado": "Un ciudadano colombiano asiste a un centro médico estatal de urgencias presentando fuertes dolores torácicos. El recepcionista del centro médico se niega a brindarle atención médica debido a que el ciudadano carece de afiliación a una EPS y no porta dinero en efectivo para pagar un depósito o copago de admisión. Un transeúnte exige atención basándose en la Constitución. ¿Bajo qué principio constitucional se ampara esta exigencia?",
+    "opciones": [
+      {"letra": "A", "texto": "El derecho constitucional que faculta al personal de seguridad médica privada a retener los documentos de identidad de pacientes insolventes.", "es_correcta": false},
+      {"letra": "B", "texto": "La supremacía de la vida, la dignidad humana y el derecho fundamental a la salud (Art. 49 CN) como servicio público inalienable, que exige la atención inmediata de urgencias médicas con total prescindencia de condiciones de pago o afiliación administrativa.", "es_correcta": true},
+      {"letra": "C", "texto": "La potestad de las EPS de suspender de forma transitoria el tratamiento de patologías cardiovasculares de alto costo por razones de equilibrio fiscal corporativo.", "es_correcta": false},
+      {"letra": "D", "texto": "El principio de libre mercado comercial de las farmacias e insumos quirúrgicos que autoriza el cobro preferencial de medicamentos del POS.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La salud es un derecho fundamental autónomo (Ley Estatutaria 1751 de 2015) y el Artículo 49 de la Constitución Política prescribe el deber del Estado de garantizar el acceso a la salud. Bajo ninguna circunstancia legal se puede supeditar la atención inicial de urgencias (riesgo de muerte) a pagos financieros o comprobaciones administrativas de seguridad social.",
+    "tema": "Derecho Fundamental a la Salud"
+  },
+  {
+    "id_pregunta": "seed_cc_130",
+    "modulo": "Citizen Competencies",
+    "enunciado": "Un corregimiento de Colombia experimenta constantes tensiones debido a la llegada de familias migrantes extranjeras de un país vecino en situación de vulnerabilidad extrema. Varias personas del corregimiento exigen al alcalde expulsar por la fuerza militar a los migrantes alegando desabastecimiento de medicamentos en el centro de salud local, incremento del desempleo y diferencias culturales molestas. El alcalde responde que los migrantes están cobijados por la legalidad de acuerdos de derechos humanos internacionales. Al analizar las posiciones de los habitantes, ¿cuál de los siguientes enunciados representa un sesgo de xenofobia que obstaculiza la deliberación pacífica ciudadana?",
+    "opciones": [
+      {"letra": "A", "texto": "La preocupación por el límite material del presupuesto público de salud para atender una demanda médica imprevista y superior en el corregimiento.", "es_correcta": false},
+      {"letra": "B", "texto": "Atribuir de manera categórica e infundada tendencias delictivas, suciedad moral, holgazanería o culpabilidad del desempleo general a toda la población migrante debido a su nacionalidad, ignorando la solidaridad humanitaria universal.", "es_correcta": true},
+      {"letra": "C", "texto": "Sugerir que se solicite apoyo y recursos logísticos al Gobierno nacional y a agencias de la ONU para atender la crisis humanitaria.", "es_correcta": false},
+      {"letra": "D", "texto": "Establecer mesas de diálogo comunitario entre representantes locales e inmigrantes para distribuir tareas de limpieza del espacio público común.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "Xenofobia es el prejuicio, rechazo u hostilidad hacia las personas extranjeras. Generalizar rasgos negativos de comportamiento, delincuencia o parasitismo social a todo un grupo debido a su origen geográfico constituye un grave sesgo de discriminación y desprecio humano incompatible con la ética de los derechos humanos y la ciudadanía deliberativa.",
+    "tema": "Prejuicios y Derechos Humanos"
+  },
+  {
+    "id_pregunta": "seed_cc_131",
+    "modulo": "Citizen Competencies",
+    "enunciado": "Un grupo de ciudadanos de un municipio colombiano está inconforme con las decisiones de planeación urbana que está tomando el Concejo Municipal en relación con la urbanización de una zona de reserva forestal aledaña. Los ciudadanos desean debatir este asunto directamente con los concejales en una sesión pública donde la comunidad pueda participar con voz. ¿Cuál de los siguientes mecanismos de participación democrática es el idóneo para este fin específico?",
+    "opciones": [
+      {"letra": "A", "texto": "El Cabildo Abierto, que consiste en una reunión pública de los concejos distritales, municipales o de las juntas administradoras locales, donde los habitantes pueden participar directamente discutiendo asuntos de interés comunitario.", "es_correcta": true},
+      {"letra": "B", "texto": "Un Referendo Derogatorio, para someter a votación la anulación inmediata de los sueldos de todos los concejales del municipio.", "es_correcta": false},
+      {"letra": "C", "texto": "Una Iniciativa Popular Legislativa, para obligar al Congreso de la República a expedir un decreto de destitución del alcalde municipal.", "es_correcta": false},
+      {"letra": "D", "texto": "Un Plebiscito, convocado por el Presidente de la República para consultar la soberanía ambiental del departamento.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "El Cabildo Abierto es el mecanismo de participación ciudadana idóneo (Ley 134 de 1994 y Ley 1757 de 2015) para que los ciudadanos discutan directamente con las corporaciones públicas de elección local (Concejos o JAL) asuntos de interés para la comunidad.",
+    "tema": "Mecanismos de Participación"
+  },
+  {
+    "id_pregunta": "seed_cc_132",
+    "modulo": "Citizen Competencies",
+    "enunciado": "Un ciudadano de escasos recursos económicos ha sido despedido de su trabajo tras haber sufrido un accidente laboral que disminuyó su capacidad física. El ciudadano no cuenta con dinero para contratar un abogado privado que entable una demanda para proteger su fuero de salud. De acuerdo con la estructura del Estado colombiano, ¿cuál de las siguientes instituciones tiene la función constitucional de asesorarlo, orientarlo de forma gratuita y proveerle representación legal a través de un defensor público?",
+    "opciones": [
+      {"letra": "A", "texto": "La Defensoría del Pueblo, que hace parte del Ministerio Público y garantiza el derecho a la defensa técnica de personas vulnerables o insolventes.", "es_correcta": true},
+      {"letra": "B", "texto": "La Fiscalía General de la Nación, encargada de investigar penalmente a los empresarios infractores y encarcelarlos de manera inmediata sin juicio previo.", "es_correcta": false},
+      {"letra": "C", "texto": "La Contraloría General de la República, que vigila la ejecución presupuestal de los contratos laborales de las empresas privadas nacionales.", "es_correcta": false},
+      {"letra": "D", "texto": "La Corte Suprema de Justicia, a través de su sala de casación civil y comercial, de forma directa en ventanilla de urgencias.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La Defensoría del Pueblo tiene el mandato constitucional de velar por la promoción, el ejercicio y la divulgación de los derechos humanos en Colombia, lo que incluye la defensoría pública para garantizar el derecho fundamental a la defensa de las personas vulnerables.",
+    "tema": "Estructura del Estado Colombiano"
+  },
+  {
+    "id_pregunta": "seed_cc_133",
+    "modulo": "Citizen Competencies",
+    "enunciado": "Una ley aprobada por el Congreso de la República amplía el tiempo de la licencia de paternidad remunerada para los hombres, con el fin de fomentar la corresponsabilidad en el cuidado de los recién nacidos. Sin embargo, un colectivo de empresarios argumenta que esta medida perjudica la competitividad de las empresas, incrementa los costos laborales y desincentiva la contratación formal de hombres en edad reproductiva. En este escenario, ¿cuáles son las dimensiones que entran en tensión?",
+    "opciones": [
+      {"letra": "A", "texto": "La equidad de género en el hogar y los derechos de la primera infancia frente a la productividad y estabilidad de los costos operativos de las empresas.", "es_correcta": true},
+      {"letra": "B", "texto": "El monopolio del poder punitivo del Estado frente al principio de libertad económica de las juntas de socios comerciales extranjeros.", "es_correcta": false},
+      {"letra": "C", "texto": "El derecho constitucional a la huelga sindical frente a la potestad legislativa del Congreso de fijar impuestos aduaneros.", "es_correcta": false},
+      {"letra": "D", "texto": "La autonomía territorial de los municipios frente a las políticas fiscales de recaudo de impuestos sobre las herencias familiares.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La tensión se presenta entre un fin social constitucionalmente valioso (equidad de género, corresponsabilidad familiar y protección al menor) frente a un interés económico de los empleadores (costos de nómina, productividad y rentabilidad corporativa).",
+    "tema": "Multiperspectivismo"
+  },
+  {
+    "id_pregunta": "seed_cc_134",
+    "modulo": "Citizen Competencies",
+    "enunciado": "Un ciudadano colombiano descubre que una central de información crediticia (banco de datos) mantiene un reporte negativo en su historial financiero por una deuda que él ya canceló por completo hace tres años. El ciudadano solicita por escrito la actualización de sus datos a la central crediticia, pero esta no responde en el término legal de 15 días hábiles. ¿Qué mecanismo constitucional y qué derecho fundamental son los indicados para resolver de forma rápida esta situación?",
+    "opciones": [
+      {"letra": "A", "texto": "La Acción de Tutela para proteger el derecho fundamental al Habeas Data (Art. 15 CN), que garantiza el derecho a conocer, actualizar y rectificar las informaciones recolectadas en bases de datos.", "es_correcta": true},
+      {"letra": "B", "texto": "La Acción Popular por violación al derecho a la libre competencia del mercado financiero y el control de la inflación crediticia.", "es_correcta": false},
+      {"letra": "C", "texto": "El Habeas Corpus, puesto que el reporte negativo equivale a una detención arbitraria del capital económico del solicitante.", "es_correcta": false},
+      {"letra": "D", "texto": "La Acción de Cumplimiento para obligar a los bancos comerciales a reducir las tasas de interés de usura de tarjetas de crédito.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "El Habeas Data, consagrado en el Artículo 15 de la Constitución Política, es el derecho que tienen todas las personas a conocer, actualizar y rectificar las informaciones que se hayan recogido sobre ellas en bancos de datos. La tutela es procedente cuando la entidad obligada se rehúsa a corregir o actualizar la información errónea.",
+    "tema": "Derecho Fundamental al Habeas Data"
+  },
+  {
+    "id_pregunta": "seed_cc_135",
+    "modulo": "Citizen Competencies",
+    "enunciado": "Durante un debate televisado entre dos candidatos a la gobernación, el Candidato A afirma que es urgente construir una planta de tratamiento de residuos sólidos para solucionar la contaminación de los ríos. El Candidato B responde: 'No deberíamos escuchar las propuestas del Candidato A, ya que él fue sancionado administrativamente hace diez años por un problema de tránsito y además es un mentiroso compulsivo en su vida personal'. ¿Qué tipo de falacia argumentativa se evidencia en la respuesta del Candidato B?",
+    "opciones": [
+      {"letra": "A", "texto": "Falacia Ad Hominem, que consiste en descalificar la propuesta o el argumento de un oponente atacando sus características personales o historial, en lugar de refutar la validez de su propuesta.", "es_correcta": true},
+      {"letra": "B", "texto": "Falacia de Apelación a la Ignorancia (Ad Ignorantiam), que sostiene que un argumento es verdadero únicamente porque no se ha demostrado su falsedad.", "es_correcta": false},
+      {"letra": "C", "texto": "Falacia de Falsa Equivalencia, que equipara dos situaciones completamente distintas como si tuvieran el mismo peso ético o social.", "es_correcta": false},
+      {"letra": "D", "texto": "Falacia de Petición de Principio, en la que la conclusión de la premisa ya está asumida implícitamente en el punto de partida del discurso.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La descalificación de una propuesta ambiental atacando el carácter personal o fallas pasadas del proponente (sin relación lógica con el tema ambiental debatido) es un ejemplo clásico de la falacia Ad Hominem (ataque al hombre).",
+    "tema": "Análisis de Argumentos"
+  },
+  {
+    "id_pregunta": "seed_cc_136",
+    "modulo": "Citizen Competencies",
+    "enunciado": "Un grupo de congresistas colombianos propone un proyecto para modificar el Artículo 11 de la Constitución con el fin de permitir la pena de muerte en casos de terrorismo internacional. Sin embargo, diversos juristas afirman que una reforma de esta magnitud que restringe de forma grave derechos humanos fundamentales no puede ser aprobada de forma simple por el Congreso, sino que requiere de mecanismos especiales según la Constitución. ¿Cuál de los siguientes es un mecanismo autorizado para reformar la Constitución?",
+    "opciones": [
+      {"letra": "A", "texto": "Un Acto Legislativo expedido por el Congreso, un Referendo Constitucional aprobatorio por votación del pueblo, o la convocatoria a una Asamblea Nacional Constituyente.", "es_correcta": true},
+      {"letra": "B", "texto": "Un Decreto Ley de emergencia económica proferido de manera directa y discrecional por el Presidente de la República.", "es_correcta": false},
+      {"letra": "C", "texto": "Una Circular Administrativa firmada conjuntamente por la Procuraduría, la Fiscalía y las Fuerzas Militares en asamblea general.", "es_correcta": false},
+      {"letra": "D", "texto": "Una sentencia vinculante de nulidad expedida de forma unilateral por los cabildos indígenas en consulta ambiental.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "El Artículo 374 de la Constitución colombiana prescribe que la Constitución Política podrá ser reformada únicamente por el Congreso (mediante Actos Legislativos), por una Asamblea Constituyente o por el pueblo mediante Referendo.",
+    "tema": "Reforma Constitucional"
+  },
+  {
+    "id_pregunta": "seed_cc_137",
+    "modulo": "Citizen Competencies",
+    "enunciado": "Dos municipios de un departamento tienen un conflicto de límites territoriales que afecta el cobro de impuestos de industria y comercio a una zona industrial ubicada en la frontera común. Para evitar un largo y costoso litigio judicial ante el Consejo de Estado, los alcaldes deciden acudir a un tercero neutral y calificado para que este tome una decisión definitiva e independiente que resuelva el conflicto de linderos, decisión que tendrá efectos de cosa juzgada. ¿Cómo se denomina este mecanismo alternativo de resolución de conflictos?",
+    "opciones": [
+      {"letra": "A", "texto": "Amigable Composición, donde las partes delegan en un tercero (amigable componedor) la facultad de resolver con fuerza vinculante y contractual su controversia.", "es_correcta": true},
+      {"letra": "B", "texto": "Mediación Policial Comunitaria, dirigida por patrulleros del sector urbano de forma verbal e inmediata en el lugar de los hechos.", "es_correcta": false},
+      {"letra": "C", "texto": "Arbitraje Internacional Penal, bajo la jurisdicción de la Corte Interamericana de Derechos Humanos de San José.", "es_correcta": false},
+      {"letra": "D", "texto": "Consulta Popular Previa, en la que se somete el cobro de impuestos a una votación de todos los turistas extranjeros.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La amigable composición es un mecanismo de solución de conflictos de carácter contractual por medio del cual dos o más particulares, o entidades públicas, delegan en un tercero la solución de una controversia de libre disposición, cuya decisión tiene efectos de transacción entre las partes.",
+    "tema": "Resolución de Conflictos"
+  },
+  {
+    "id_pregunta": "seed_cc_138",
+    "modulo": "Citizen Competencies",
+    "enunciado": "Un consorcio privado planea desviar un río en la costa pacífica colombiana para construir una represa que suministrará energía limpia y confiable a todo un departamento. Los pequeños campesinos ribereños, que dependen de la pesca artesanal y del riego de cultivos de subsistencia en las márgenes del río, se oponen al proyecto señalando que se destruirá su economía tradicional de supervivencia y su forma de vida. Al realizar un análisis multiperspectivista de este conflicto socioambiental, ¿cuál de los siguientes enunciados representa de manera imparcial los intereses de ambos sectores?",
+    "opciones": [
+      {"letra": "A", "texto": "El dilema radica en la necesidad de infraestructura y diversificación de la matriz energética del departamento para asegurar la competitividad general frente a la preservación del derecho al mínimo vital, la seguridad alimentaria y la estabilidad sociocultural de los pescadores locales vulnerables.", "es_correcta": true},
+      {"letra": "B", "texto": "El conflicto consiste en la codicia egoísta del consorcio minero que desea contaminar deliberadamente el río pacífico frente a la terquedad irracional de campesinos que rechazan todo tipo de avance industrial en el país.", "es_correcta": false},
+      {"letra": "C", "texto": "La tensión se ubica entre la soberanía aduanera nacional del Gobierno central de Colombia y las normas ambientales impuestas por tratados bilaterales de comercio de la ONU.", "es_correcta": false},
+      {"letra": "D", "texto": "El problema se reduce a un debate penal sobre si los campesinos tienen o no la autorización de personería jurídica para pescar especies protegidas de agua dulce.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "El análisis de multiperspectivismo exige identificar de forma balanceada y sin sesgos valorativos los argumentos de ambas partes: los beneficios económicos/energéticos colectivos a gran escala frente a los impactos directos sobre la vida, economía de subsistencia y derechos fundamentales de una comunidad localizada vulnerable.",
+    "tema": "Multiperspectivismo"
+  },
+  {
+    "id_pregunta": "seed_cc_139",
+    "modulo": "Citizen Competencies",
+    "enunciado": "Un joven de 18 años es citado por el Ejército Nacional para definir su situación militar. El joven manifiesta que debido a sus profundas convicciones éticas, morales y filosóficas pacifistas, se opone de manera absoluta a portar armas, realizar entrenamientos de combate y participar en cualquier tipo de actividad de guerra. La Corte Constitucional de Colombia ha determinado que este argumento está amparado por un derecho fundamental específico. ¿Cuál es este derecho y cómo se denomina legalmente?",
+    "opciones": [
+      {"letra": "A", "texto": "El derecho a la Objeción de Conciencia (Art. 18 CN), derivado de la libertad de conciencia, que permite a las personas eximirse de cumplir un deber legal (como el servicio militar obligatorio) si este choca de forma directa con sus convicciones íntimas e inquebrantables.", "es_correcta": true},
+      {"letra": "B", "texto": "El derecho al libre desarrollo de la personalidad, que autoriza a los ciudadanos a no pagar ningún tipo de impuesto fiscal si se sienten inconformes con el gobierno de turno.", "es_correcta": false},
+      {"letra": "C", "texto": "El derecho constitucional a la rebelión civil armada contra las instituciones públicas en defensa de la ecología forestal.", "es_correcta": false},
+      {"letra": "D", "texto": "La libertad de cátedra militar, que faculta a los soldados a dar clases de pacifismo dentro de los batallones sin permiso del comandante.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La objeción de conciencia al servicio militar obligatorio está protegida constitucionalmente en Colombia (Art. 18 de la CN y Sentencia C-728 de 2009). Permite eximirse de la obligación legal si el afectado demuestra de manera sólida que portar armas o entrenar para la guerra vulnera sus convicciones morales, éticas o religiosas.",
+    "tema": "Libertad de Conciencia y Objeción de Conciencia"
+  },
+  {
+    "id_pregunta": "seed_cc_140",
+    "modulo": "Citizen Competencies",
+    "enunciado": "En medio de una ola de inseguridad urbana, se viraliza en redes sociales un video de un presunto hurto en el que el delincuente es golpeado por la comunidad. Un ciudadano comenta en redes: 'Todos los delincuentes de esta nacionalidad específica deberían ser expulsados o linchados, ya que se ha demostrado que todos ellos vienen a robar. Las estadísticas oficiales dicen que los robos bajaron, pero yo no les creo porque a mi vecino lo robaron ayer'. ¿Qué sesgo cognitivo obstaculiza el análisis racional de las estadísticas de seguridad en este comentario?",
+    "opciones": [
+      {"letra": "A", "texto": "Sesgo de confirmación y sesgo de representatividad heurística, donde el ciudadano prioriza anécdotas personales o casos impactantes cercanos para generalizar de forma discriminatoria, ignorando datos estadísticos agregados y objetivos.", "es_correcta": true},
+      {"letra": "B", "texto": "Sesgo de anclaje fiscal, que consiste en ajustar la estimación de presupuestos públicos de seguridad con base en la inflación comercial local del año anterior.", "es_correcta": false},
+      {"letra": "C", "texto": "Efecto Dunning-Kruger, donde las personas con alta preparación académica tienden a dudar de sus capacidades analíticas en materia de delincuencia urbana.", "es_correcta": false},
+      {"letra": "D", "texto": "Sesgo de correspondencia retrospectiva, en el que se asume que un evento delictivo era predecible únicamente después de que este ya ha ocurrido.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "El sesgo de confirmación y el sesgo de representatividad (disponibilidad heurística) llevan a los individuos a confiar más en vivencias dramáticas cercanas (el robo al vecino o un video viral) que en estadísticas generales de delitos de una ciudad, obstaculizando una lectura objetiva de la realidad.",
+    "tema": "Sesgos Cognitivos y Análisis Crítico"
+  },
+  {
+    "id_pregunta": "seed_cc_141",
+    "modulo": "Citizen Competencies",
+    "enunciado": "El Presidente de la República expide un Decreto de Emergencia Económica mediante el cual ordena la expropiación administrativa temporal de todas las cosechas de papa del departamento de Boyacá para centralizar su distribución nacional. Un gremio de agricultores boyacenses considera que este decreto viola la Constitución y sus derechos de propiedad. Según la división del poder público en Colombia, ¿ante qué máxima corporación judicial deben demandar la inconstitucionalidad de este decreto presidencial de carácter administrativo?",
+    "opciones": [
+      {"letra": "A", "texto": "El Consejo de Estado, que ejerce el control constitucional sobre los decretos de carácter reglamentario y administrativo expedidos por el Gobierno nacional que no sean competencia de la Corte Constitucional.", "es_correcta": true},
+      {"letra": "B", "texto": "La Corte Suprema de Justicia, a través de su sala de casación penal para iniciar juicio inmediato por traición a la patria al presidente.", "es_correcta": false},
+      {"letra": "C", "texto": "La Procuraduría General de la Nación, mediante un proceso de nulidad administrativa fiscal de carácter vinculante.", "es_correcta": false},
+      {"text": "El Congreso de la República, en asamblea general bicameral unánime convocada por la mesa directiva del senado.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La Jurisdicción de lo Contencioso Administrativo tiene en cabeza al Consejo de Estado. Esta corporación tiene la competencia de ejercer el control de legalidad y constitucionalidad de los actos administrativos y decretos del Gobierno nacional que no correspondan a la Corte Constitucional (la cual revisa leyes del Congreso y Decretos Legislativos bajo estados de excepción).",
+    "tema": "Estructura de la Rama Judicial"
+  },
+  {
+    "id_pregunta": "seed_cc_142",
+    "modulo": "Citizen Competencies",
+    "enunciado": "Un barrio ubicado en las laderas de una gran ciudad de Colombia presenta grietas severas en el suelo y muros de contención debido a filtraciones de agua de un acueducto obsoleto operado por el distrito. Geólogos advierten que si no se repara de inmediato la infraestructura, un deslizamiento de tierra arrasará con decenas de viviendas en la próxima temporada de lluvias. ¿Qué mecanismo judicial constitucional es el idóneo para proteger a la comunidad del barrio frente al riesgo inminente de una catástrofe que afecte sus derechos colectivos?",
+    "opciones": [
+      {"letra": "A", "texto": "La Acción Popular (Art. 88 CN), orientada a evitar el daño contingente, hacer cesar el peligro o restituir las cosas a su estado anterior en defensa de los derechos colectivos a la seguridad, prevención de desastres y salubridad pública.", "es_correcta": true},
+      {"letra": "B", "texto": "La Acción de Grupo, con el propósito inmediato de lograr indemnizaciones económicas individuales por el desgaste físico y estético de las viviendas del sector.", "es_correcta": false},
+      {"letra": "C", "texto": "El Habeas Corpus, puesto que las familias se encuentran atrapadas y retenidas ilegalmente en un sector geográfico peligroso debido a la negligencia estatal.", "es_correcta": false},
+      {"letra": "D", "texto": "Una Demanda de Inconstitucionalidad, para solicitar la derogatoria de los manuales técnicos del acueducto metropolitano.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La Acción Popular es la herramienta constitucional consagrada para la defensa de derechos e intereses colectivos (salubridad, espacio público, medio ambiente, seguridad y prevención de desastres). Es preventiva, buscando evitar un daño contingente derivado de la negligencia en infraestructura.",
+    "tema": "Mecanismos de Protección Colectiva"
+  },
+  {
+    "id_pregunta": "seed_cc_143",
+    "modulo": "Citizen Competencies",
+    "enunciado": "En el marco del debate sobre el uso de sustancias psicoactivas en Colombia, se discute la conveniencia de regular la venta recreativa de cannabis para adultos. Los defensores de la regulación argumentan que esto acabaría con las redes criminales de narcotráfico y generaría millonarios ingresos por impuestos para el sector salud. Los opositores sostienen que regular la venta incrementará los índices de adicción, pondrá en riesgo el desarrollo cognitivo de los jóvenes y deteriorará el espacio público en los parques infantiles. Al analizar de manera crítica las posturas de ambos grupos, se puede concluir que:",
+    "opciones": [
+      {"letra": "A", "texto": "Ambas posiciones se basan en fines constitucionales legítimos, existiendo una tensión real entre la libertad individual de consumo (libre desarrollo de la personalidad) y la seguridad/economía frente a la protección de la salud pública, los derechos de la infancia y la tranquilidad urbana.", "es_correcta": true},
+      {"letra": "B", "texto": "Los defensores de la regulación son delincuentes financiados por cárteles extranjeros, mientras que los opositores son ciudadanos ejemplares sin ningún sesgo ideológico.", "es_correcta": false},
+      {"letra": "C", "texto": "El debate carece de relevancia jurídica porque la Constitución prohíbe de manera absoluta cualquier tipo de discusión sobre sustancias químicas en el Congreso de la República.", "es_correcta": false},
+      {"letra": "D", "texto": "La única solución aceptable según el derecho internacional es encarcelar de por vida a cualquier consumidor recreativo de cannabis en el país.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "Este debate involucra una tensión entre el derecho al libre desarrollo de la personalidad y la autonomía del individuo en armonía con fines de paz y economía, frente al deber correlativo del Estado de velar por la salud pública, la tranquilidad social y la prevalencia de los derechos de los niños en el espacio público.",
+    "tema": "Multiperspectivismo y Debate Cívico"
+  },
+  {
+    "id_pregunta": "seed_cc_144",
+    "modulo": "Citizen Competencies",
+    "enunciado": "Un ciudadano colombiano presenta un derecho de petición ante una empresa de energía eléctrica de carácter puramente privado que suministra el servicio público domiciliario en su municipio, solicitando explicaciones detalladas por los constantes cobros excesivos e injustificados en su factura mensual. La empresa se niega a responder argumentando que, al ser una corporación privada, no está sujeta al derecho de petición aplicable únicamente a entidades del Estado. ¿Es correcta la postura de la empresa?",
+    "opciones": [
+      {"letra": "A", "texto": "No, porque el derecho de petición procede de manera directa contra organizaciones o entidades privadas que presten servicios públicos domiciliarios o cumplan funciones públicas delegadas.", "es_correcta": true},
+      {"letra": "B", "texto": "Sí, porque las corporaciones privadas solo están obligadas a responder peticiones verbales formuladas por inspectores de tránsito en ejercicio de funciones tributarias.", "es_correcta": false},
+      {"letra": "C", "texto": "No, puesto que la Constitución colombiana nacionalizó todas las empresas privadas de energía eléctrica del país prohibiendo el capital comercial particular.", "es_correcta": false},
+      {"letra": "D", "texto": "Sí, a menos que el ciudadano sea miembro de la mesa directiva del partido político de gobierno en el Congreso de la República.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "El derecho de petición (Art. 23 CN y Ley 1755 de 2015) es plenamente procedente contra particulares, de manera obligatoria y directa, cuando estos prestan un servicio público domiciliario (como energía, agua, telefonía) o cuando el peticionario se encuentra en una situación de indefensión o subordinación.",
+    "tema": "Derecho de Petición contra Particulares"
+  },
+  {
+    "id_pregunta": "seed_cc_145",
+    "modulo": "Citizen Competencies",
+    "enunciado": "Un concejal afirma en un debate sobre empleo juvenil: 'Ayer hablé con dos jóvenes de un barrio vulnerable que me contaron que no quieren trabajar porque prefieren recibir subsidios estatales sin hacer nada. Esto demuestra de manera contundente que la juventud actual de escasos recursos económicos carece de cultura del esfuerzo y no tiene deseos de salir adelante'. ¿Cuál es el principal defecto lógico y metodológico de la argumentación del concejal?",
+    "opciones": [
+      {"letra": "A", "texto": "Incurre en una falacia de generalización apresurada, al extraer una conclusión de carácter sociológico sobre miles de jóvenes de bajos recursos basándose únicamente en el testimonio particular y anecdótico de dos personas.", "es_correcta": true},
+      {"letra": "B", "texto": "Presenta una falacia de falsa equivalencia, al equiparar los subsidios públicos estatales de educación con los sueldos devengados por senadores del Congreso.", "es_correcta": false},
+      {"letra": "C", "texto": "Utiliza un argumento circular de inconstitucionalidad aduanera al no reportar el origen fiscal de los recursos monetarios de los subsidios.", "es_correcta": false},
+      {"letra": "D", "texto": "Comete una falacia de apelación a la compasión, al victimizar desproporcionadamente a los jóvenes desempleados para ganar votos electorales.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La falacia de generalización apresurada consiste en inducir una regla general para toda una población con base en una muestra extremadamente pequeña e insuficiente de casos individuales (dos jóvenes), lo que invalida científicamente el argumento sociológico.",
+    "tema": "Falacias Argumentativas"
+  },
+  {
+    "id_pregunta": "seed_cc_146",
+    "modulo": "Citizen Competencies",
+    "enunciado": "Los habitantes de un municipio andino descubren que una minera extranjera obtuvo un título del Gobierno nacional para explotar carbón a cielo abierto en los páramos de su territorio municipal. La comunidad del municipio desea participar para frenar el proyecto que afectará el suministro de agua dulce. Al amparo de la Ley Orgánica de Mecanismos de Participación Democrática, ¿cuál es el mecanismo idóneo para que los ciudadanos del municipio decidan si permiten o no actividades mineras en su jurisdicción?",
+    "opciones": [
+      {"letra": "A", "texto": "La Consulta Popular de carácter local, convocada por el alcalde con firma de concejales, donde el pueblo del municipio responde por 'Sí' o 'No' a una pregunta sobre un asunto de trascendencia territorial.", "es_correcta": true},
+      {"letra": "B", "texto": "El Plebiscito, puesto que el uso del subsuelo por la minería constituye una reforma del cese al fuego bilateral firmado en el departamento.", "es_correcta": false},
+      {"letra": "C", "texto": "Una Iniciativa Popular de Referendo Derogatorio de todas las leyes comerciales de minas del Congreso de la República de Colombia.", "es_correcta": false},
+      {"letra": "D", "texto": "Un Cabildo Abierto con la participación exclusiva de los miembros de la junta directiva de la corporación minera internacional.", "es_correcta": false}
+    ],
+  "explicacion_retroalimentacion": "La Consulta Popular local es un mecanismo de participación (Art. 105 CN) mediante el cual se consulta al pueblo sobre decisiones de gran trascendencia para su territorio. Nota: aunque existen tensiones sobre el alcance de las consultas locales frente al monopolio del subsuelo estatal, sigue siendo el instrumento de participación local consagrado por ley para este propósito.",
+    "tema": "Mecanismos de Participación Ciudadana"
+  },
+  {
+    "id_pregunta": "seed_cc_147",
+    "modulo": "Citizen Competencies",
+    "enunciado": "La Contraloría General de la República detecta graves sobrecostos y desvío de dineros públicos en un contrato de alimentación escolar (PAE) financiado con recursos del presupuesto de la Nación en un departamento. ¿Cuál es el ámbito de competencia exclusivo de la Contraloría en la investigación y sanción de esta irregularidad en el Estado de derecho colombiano?",
+    "opciones": [
+      {"letra": "A", "texto": "El control fiscal para determinar la pérdida de recursos públicos, sancionar con multas o inhabilidades administrativas (responsabilidad fiscal) y buscar el resarcimiento económico del daño causado al patrimonio estatal.", "es_correcta": true},
+      {"letra": "B", "texto": "La investigación penal orientada a proferir de manera directa sentencias de cárcel común de por vida para los contratistas y gobernantes involucrados.", "es_correcta": false},
+      {"letra": "C", "texto": "La destitución disciplinaria y suspensión política de cargos del sector privado y de la junta directiva de los bancos comerciales locales.", "es_correcta": false},
+      {"letra": "D", "texto": "El arbitraje comercial aduanero internacional bajo las directrices del Banco Mundial en Washington.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La Contraloría General de la República tiene la misión constitucional (Art. 267 CN) de ejercer la vigilancia de la gestión fiscal de la administración y de los particulares o entidades que manejen fondos o bienes de la Nación, enfocándose en la recuperación del patrimonio público desviado, no en la sanción penal carcelaria (competencia de jueces penales) ni disciplinaria (competencia de la Procuraduría).",
+    "tema": "Estructura del Estado Colombiano"
+  },
+  {
+    "id_pregunta": "seed_cc_148",
+    "modulo": "Citizen Competencies",
+    "enunciado": "Un estudiante de una universidad pública en Colombia es expulsado de manera definitiva de la institución por el rector, tras haber sido acusado por un compañero de copiar en un examen parcial escrito. La expulsión se decreta mediante resolución de rectoría sin que al estudiante acusado se le haya permitido conocer las pruebas en su contra, presentar descargos formales o apelar la decisión ante el Consejo Superior. ¿Qué derecho fundamental fue vulnerado de forma directa en este procedimiento académico?",
+    "opciones": [
+      {"letra": "A", "texto": "El derecho fundamental al Debido Proceso (Art. 29 CN), aplicable a todas las actuaciones judiciales y administrativas (incluidos los procesos disciplinarios de instituciones educativas de carácter oficial o privado).", "es_correcta": true},
+      {"letra": "B", "texto": "El derecho al libre desarrollo de la personalidad, que faculta a los estudiantes a copiar libremente en evaluaciones académicas escritas.", "es_correcta": false},
+      {"letra": "C", "texto": "La autonomía universitaria, que otorga al rector la facultad discrecional de expulsar alumnos sin límites constitucionales.", "es_correcta": false},
+      {"letra": "D", "texto": "El derecho constitucional a la libre asociación estudiantil para boicotear exámenes de admisión universitaria.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "El Artículo 29 de la Constitución Política consagra que el Debido Proceso se aplicará a toda clase de actuaciones judiciales y administrativas. Esto exige que los reglamentos disciplinarios universitarios garanticen la presunción de inocencia, el derecho a presentar descargos, conocer y contradecir pruebas y apelar ante un superior.",
+    "tema": "Derecho Fundamental al Debido Proceso"
+  },
+  {
+    "id_pregunta": "seed_cc_149",
+    "modulo": "Citizen Competencies",
+    "enunciado": "En una gran corporación de tecnología en Colombia, los directivos implementan un software de monitoreo de actividad que toma capturas de pantalla de los computadores corporativos de los empleados cada 10 minutos, incluso fuera de la jornada laboral de 8:00 AM a 5:00 PM, argumentando protección de secretos industriales. Los trabajadores protestan señalando invasión a la privacidad hogareña. Al evaluar la tensión entre el derecho a la intimidad familiar y el derecho de control empresarial, ¿cuál de los siguientes enunciados representa la lectura constitucional más adecuada?",
+    "opciones": [
+      {"letra": "A", "texto": "El derecho a la intimidad personal y familiar (Art. 15 CN) e inviolabilidad del domicilio son fundamentales y prevalecen sobre el poder de fiscalización del empleador fuera del horario laboral pactado, constituyendo el monitoreo extralaboral una intromisión ilegítima desproporcionada.", "es_correcta": true},
+      {"letra": "B", "texto": "La libertad económica del empleador faculta a las empresas a vigilar la vida familiar de los trabajadores de manera indefinida si estos operan equipos de cómputo corporativos.", "es_correcta": false},
+      {"letra": "C", "texto": "El teletrabajo extingue automáticamente todas las garantías constitucionales relacionadas con el debido proceso y la libertad de expresión de los trabajadores.", "es_correcta": false},
+      {"letra": "D", "texto": "La intimidad en Colombia es un derecho de carácter opcional que solo ampara a los funcionarios de alto rango del Congreso de la República.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La Corte Constitucional ha reiterado que el poder directivo y de vigilancia del empleador no es absoluto y encuentra límites claros en la dignidad humana y los derechos fundamentales a la intimidad y al descanso de los trabajadores, los cuales no pueden ser vulnerados bajo pretextos de protección comercial.",
+    "tema": "Derechos Laborales e Intimidad"
+  },
+  {
+    "id_pregunta": "seed_cc_150",
+    "modulo": "Citizen Competencies",
+    "enunciado": "En un colegio público, un estudiante es víctima de constantes insultos virtuales, burlas agresivas y aislamiento social por parte de sus compañeros debido a su orientación sexual. Los padres del estudiante informan la situación al director del plantel, pero este responde que 'el matoneo en internet es un asunto privado de adolescentes' y que el colegio no intervendrá porque no ocurre dentro de las aulas físicas. Al analizar de forma crítica la postura del director, ¿cuál es el dictamen ético y ciudadano correcto?",
+    "opciones": [
+      {"letra": "A", "texto": "La postura del director es omisiva e irresponsable, pues la Ley de Convivencia Escolar (Ley 1620 de 2013) obliga a los planteles a activar comités de convivencia y protocolos de protección integral de derechos frente a casos de ciberacoso y discriminación que afecten a la comunidad escolar.", "es_correcta": true},
+      {"letra": "B", "texto": "El director actúa de forma prudente ya que la libre expresión de los estudiantes ampara su derecho a discriminar en redes sociales a compañeros no tradicionales.", "es_correcta": false},
+      {"letra": "C", "texto": "El colegio público carece de personería jurídica para intervenir en conflictos relacionados con la diversidad sexual de los menores de edad.", "es_correcta": false},
+      {"letra": "D", "texto": "Los padres deben denunciar el caso directamente ante el Tribunal Penal Internacional de La Haya para solicitar patrullajes armados en el barrio del colegio.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La Ley 1620 de 2013 impone el deber legal a las instituciones educativas de prevenir, mitigar y orientar frente al acoso escolar (bullying) y ciberacoso (cyberbullying). Excluirse de intervenir en agresiones virtuales de estudiantes lesiona de manera directa la dignidad del afectado y el ambiente de convivencia escolar.",
+    "tema": "Convivencia Escolar y Derechos"
+  },
+  {
+    "id_pregunta": "seed_cc_151",
+    "modulo": "Citizen Competencies",
+    "enunciado": "Un grupo de defensores de derechos humanos en Colombia presenta una demanda de inconstitucionalidad contra una ley de tierras, argumentando que viola las pautas de propiedad colectiva consagradas en la Convención Americana sobre Derechos Humanos (Pacto de San José). El abogado del Gobierno afirma que la demanda es improcedente porque los tratados internacionales están por debajo de la Constitución colombiana y no pueden usarse para anular leyes de la República. ¿Es válida la argumentación del abogado del Gobierno?",
+    "opciones": [
+      {"letra": "A", "texto": "No, porque los tratados de derechos humanos ratificados por Colombia hacen parte del Bloque de Constitucionalidad (Art. 93 CN), poseyendo rango constitucional directo y sirviendo de parámetro de validez obligatorio para las leyes ordinarias del Congreso.", "es_correcta": true},
+      {"letra": "B", "texto": "Sí, porque la soberanía nacional faculta al Congreso a redactar leyes con total prescindencia de los tratados internacionales de derechos humanos ratificados.", "es_correcta": false},
+      {"letra": "C", "texto": "No, a menos que el Pacto de San José sea aprobado por un plebiscito de carácter departamental convocado por los gobernadores fronterizos.", "es_correcta": false},
+      {"letra": "D", "texto": "Sí, puesto que Colombia fue excluida de la OEA tras la reforma a los tratados aduaneros de transporte marítimo del pacífico.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "El Artículo 93 de la Constitución consagra la figura del Bloque de Constitucionalidad. Los tratados y convenios internacionales ratificados por el Congreso, que reconocen los derechos humanos y prohíben su limitación en estados de excepción, prevalecen en el orden interno y forman un solo cuerpo normativo junto con el texto constitucional.",
+    "tema": "Bloque de Constitucionalidad"
+  },
+  {
+    "id_pregunta": "seed_cc_152",
+    "modulo": "Citizen Competencies",
+    "enunciado": "Un periódico regional publica una noticia falsa afirmando de manera categórica que un comerciante local lidera una banda de falsificadores de medicamentos, basándose en rumores no contrastados. La noticia causa la ruina comercial del comerciante y amenazas vecinales. El afectado exige al periódico publicar una corrección visible de la noticia errónea, pero el director del diario se niega alegando que el derecho a la libre expresión y de prensa ampara sus publicaciones de forma absoluta sin censura. ¿Cuál es la solución constitucional adecuada para esta controversia?",
+    "opciones": [
+      {"letra": "A", "texto": "El comerciante tiene derecho a solicitar la rectificación en condiciones de equidad (Art. 20 CN) mediante acción de tutela, dado que la libertad de prensa exige responsabilidad social y el suministro de información veraz e imparcial, no protegiendo la difusión dolosa de infundios que lesionen el buen nombre.", "es_correcta": true},
+      {"letra": "B", "texto": "El periódico regional tiene la razón, ya que la prensa libre puede publicar noticias no contrastadas de forma discrecional para fomentar el suspenso y el entretenimiento de la audiencia.", "es_correcta": false},
+      {"letra": "C", "texto": "La única vía permitida es que el comerciante expropie físicamente las rotativas del periódico regional con el apoyo de un cuerpo militar distrital.", "es_correcta": false},
+      {"letra": "D", "texto": "La Corte Suprema de Justicia dictamina que las calumnias periodísticas prescriben a las 24 horas de haber sido pautadas en canales locales de radio.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La libertad de información y expresión (Art. 20 CN) no es un derecho absoluto. Está limitada por los derechos al buen nombre y a la honra de los ciudadanos. La prensa tiene el deber ético e imperativo constitucional de contrastar la información y rectificar de forma equitativa e inmediata si incurre en falsedades.",
+    "tema": "Libertad de Prensa y Buen Nombre"
+  },
+  {
+    "id_pregunta": "seed_cc_153",
+    "modulo": "Citizen Competencies",
+    "enunciado": "Durante una fuerte crisis inflacionaria en Colombia, el Presidente de la República le ordena mediante decreto ejecutivo al Banco de la República (banco central) emitir billones de pesos de forma descontrolada para financiar subsidios directos a las familias y forzar una bajada artificial de las tasas de interés comercial. El Gerente del Banco de la República se niega a cumplir la orden presidencial. Al amparo de la Constitución de 1991, ¿cuál de los siguientes enunciados respalda jurídicamente la posición de negación del Banco de la República?",
+    "opciones": [
+      {"letra": "A", "texto": "La autonomía constitucional del Banco de la República (Art. 371 y 372 CN) como persona jurídica de derecho público con independencia administrativa, patrimonial y técnica, encargada de la estabilidad de la moneda sin sujeción a las órdenes presupuestales del poder de turno.", "es_correcta": true},
+      {"letra": "B", "texto": "El deber del Gerente de solicitar primero la aprobación del clero católico local para la impresión de billetes con denominación nacional.", "es_correcta": false},
+      {"letra": "C", "texto": "La facultad que tiene el Banco de la República de disolver de manera autónoma el Congreso si este expide leyes de carácter comercial tributario.", "es_correcta": false},
+      {"letra": "D", "texto": "La supremacía de la moneda extranjera del dólar sobre las directrices fiscales del Ministerio de Hacienda de la Nación colombiana.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La Constitución colombiana de 1991 consagró la autonomía e independencia técnica y administrativa del Banco de la República con el propósito primordial de aislar la política monetaria y el control de la inflación de los vaivenes políticos inmediatos del Gobierno ejecutivo.",
+    "tema": "Autonomía de Órganos del Estado"
+  },
+  {
+    "id_pregunta": "seed_cc_154",
+    "modulo": "Citizen Competencies",
+    "enunciado": "Una mujer de la tercera edad que padece de cáncer avanzado acude a su EPS solicitando la entrega de un medicamento especializado de alto costo formulado por su médico oncólogo adscrito a la red. La EPS niega el medicamento bajo el argumento de que este fármaco se encuentra fuera del Plan de Beneficios en Salud (PBS, antiguo POS) y que carece de presupuesto para financiar tratamientos de carácter excepcional. ¿Bajo qué lineamientos jurisprudenciales procede de forma prioritaria la Acción de Tutela formulada por la paciente?",
+    "opciones": [
+      {"letra": "A", "texto": "El derecho a la salud es fundamental y autónomo, y la Corte Constitucional prescribe que las EPS deben garantizar la entrega de medicamentos incluso excluidos del PBS si el fármaco es vital, fue formulado por médico de la red, no puede ser sustituido por otro incluido y la paciente es insolvente.", "es_correcta": true},
+      {"letra": "B", "texto": "El tratamiento de enfermedades oncológicas queda suspendido legalmente si la EPS demuestra un saldo negativo en el recaudo fiscal de copagos del POS.", "es_correcta": false},
+      {"letra": "C", "texto": "La paciente debe esperar que el Congreso apruebe un Acto Legislativo de adición presupuestal antes de reclamar de manera rápida atención médica de alto costo.", "es_correcta": false},
+      {"letra": "D", "texto": "La tutela es improcedente por subsidiariedad absoluta debiendo la mujer radicar primero una demanda comercial ordinaria en tribunales civiles marítimos.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La salud es un derecho fundamental y autónomo (Sentencia T-760 de 2008 y Ley Estatutaria 1751 de 2015). La Corte Constitucional ha determinado los requisitos específicos para obligar al suministro de medicamentos no PBS por tutela, garantizando la prevalencia de la vida sobre las normas administrativas o financieras de las EPS.",
+    "tema": "Derecho Fundamental a la Salud"
+  },
+  {
+    "id_pregunta": "seed_cc_155",
+    "modulo": "Citizen Competencies",
+    "enunciado": "Un debate sobre el endurecimiento de penas para conductores ebrios tiene el siguiente argumento de un panelista: 'Si permitimos que las personas manejen habiendo consumido una sola cerveza sin imponerles cárcel de forma inmediata, pronto la sociedad civil colapsará por completo, la gente consumirá heroína en las calles sin control y volveremos a la anarquía absoluta de la edad de piedra'. ¿Qué falla lógica de argumentación comete el panelista?",
+    "opciones": [
+      {"letra": "A", "texto": "Falacia de Pendiente Resbaladiza (o efecto dominó), en la que se asume de forma infundada que un evento inicial menor desencadenará inevitablemente una cadena extrema de consecuencias catastróficas, sin aportar nexos causales demostrados.", "es_correcta": true},
+      {"letra": "B", "texto": "Falacia de Apelación a la Autoridad, al citar los manuales técnicos del clero católico boyacense como criterio de validez de las leyes penales.", "es_correcta": false},
+      {"letra": "C", "texto": "Argumento de falsa analogía, al equiparar de forma idéntica el consumo de bebidas alcohólicas con las importaciones comerciales agrícolas del país.", "es_correcta": false},
+      {"letra": "D", "texto": "Falacia Ad Ignorantiarn, al sostener que la cárcel para ebrios es ineficaz debido a que los datos estadísticos generales son confidenciales en todo el continente.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "El argumento de que permitir un comportamiento moderado o inicial (consumir una cerveza) llevará sin remedio al peor escenario imaginable (la heroína generalizada y el colapso absoluto de la civilización civil) es una falacia de pendiente resbaladiza.",
+    "tema": "Falacias y Argumentación"
+  },
+  {
+    "id_pregunta": "seed_cc_156",
+    "modulo": "Citizen Competencies",
+    "enunciado": "Un partido político propone un subsidio de un millón de pesos mensuales para los pequeños productores campesinos de maíz del país, señalando que es de carácter ético e imperativo rescatar al sector agrario rural de la quiebra absoluta provocada por las importaciones subsidiadas del extranjero. Otro sector se opone afirmando que dar estos subsidios directos incrementará el déficit fiscal de la Nación, elevará la inflación interna del costo de vida y violará los tratados de libre comercio (TLC) firmados por Colombia. Al evaluar la controversia, ¿cuál de los enunciados representa la visión multiperspectivista más acertada?",
+    "opciones": [
+      {"letra": "A", "texto": "El conflicto radica en un dilema de política económica y social legítimo entre la soberanía y seguridad alimentaria y la protección social del campesinado vulnerable frente a la estabilidad fiscal del presupuesto nacional, el control inflacionario y el cumplimiento de acuerdos mercantiles internacionales.", "es_correcta": true},
+      {"letra": "B", "texto": "El problema consiste en que el sector agrario rural busca deliberadamente arruinar las finanzas públicas del Estado por intereses puramente de codicia personal.", "es_correcta": false},
+      {"letra": "C", "texto": "La tensión se ubica entre las decisiones de planeación de límites viales de los departamentos cafeteros y los impuestos aduaneros sobre vehículos importados.", "es_correcta": false},
+      {"letra": "D", "texto": "Los campesinos carecen de personería jurídica para formular propuestas legislativas según los tratados de la OEA.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "El dilema representa la tensión clásica en políticas de desarrollo agrario: proteger con subsidios un sector campesino vulnerable e históricamente abandonado frente a la necesidad de mantener el orden fiscal de las finanzas estatales de la Nación y honrar compromisos comerciales internacionales que promueven la inserción en mercados globales.",
+    "tema": "Multiperspectivismo Socioeconómico"
+  },
+  {
+    "id_pregunta": "seed_cc_157",
+    "modulo": "Citizen Competencies",
+    "enunciado": "La Secretaría de Educación departamental de San Andrés, Providencia y Santa Catalina emite una directriz que prohíbe de forma absoluta dar clases en el dialecto tradicional 'creole' de la comunidad raizal en todas las escuelas públicas del archipiélago, ordenando el uso exclusivo del idioma español en todos los niveles académicos. ¿Qué principio de la Constitución de 1991 vulnera de forma directa y desproporcionada esta directriz de educación?",
+    "opciones": [
+      {"letra": "A", "texto": "La diversidad étnica y cultural de la Nación y el Artículo 10 de la Constitución que consagra que las lenguas y dialectos de los grupos étnicos son también oficiales en sus territorios, junto con el derecho de estas minorías a una educación bilingüe respetuosa de su identidad.", "es_correcta": true},
+      {"letra": "B", "texto": "El principio de libre mercado comercial de las editoriales de libros escolares con sede fiscal en la capital boyacense.", "es_correcta": false},
+      {"letra": "C", "texto": "El derecho que poseen los directores de colegios públicos de seleccionar de forma autónoma el idioma de instrucción sin límites jurídicos nacionales.", "es_correcta": false},
+      {"letra": "D", "texto": "La soberanía de la asamblea departamental de fijar aranceles fiscales a las importaciones pesqueras de la costa pacífica colombiana.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "El Artículo 10 de la Constitución prescribe que el castellano es el idioma oficial de Colombia, pero que las lenguas y dialectos de los grupos étnicos son también oficiales en sus territorios. La prohibición del 'creole' en el archipiélago vulnera la identidad cultural inalienable de los raizales y su derecho fundamental a una etnoeducación bilingüe.",
+    "tema": "Diversidad Étnica e Identidad Cultural"
+  },
+  {
+    "id_pregunta": "seed_cc_158",
+    "modulo": "Citizen Competencies",
+    "enunciado": "La Fiscalía General de la Nación captura a un ciudadano acusado de cometer un presunto fraude financiero y le dicta una medida cautelar inmediata de reclusión celular preventiva por un año de forma directa, sin presentar al capturado ante un Juez de Control de Garantías para legalizar la detención o sustentar la necesidad de la medida privativa de la libertad. ¿Es correcto el proceder procesal de la Fiscalía?",
+    "opciones": [
+      {"letra": "A", "texto": "No, porque las medidas privativas de la libertad y la legalización de capturas son competencia exclusiva e independiente de los jueces de control de garantías, debiendo la Fiscalía sustentar ante el juez la necesidad de la medida preventiva respetando la presunción de inocencia.", "es_correcta": true},
+      {"letra": "B", "texto": "Sí, puesto que la Fiscalía goza de facultades judiciales absolutas e ilimitadas para encarcelar a cualquier ciudadano sin necesidad de control judicial externo.", "es_correcta": false},
+      {"letra": "C", "texto": "No, a menos que el capturado demuestre de forma física poseer fueros parlamentarios del clero católico boyacense.", "es_correcta": false},
+      {"letra": "D", "texto": "Sí, siempre y cuando se demuestre que el fraude afectó el presupuesto fiscal de las gobernaciones fronterizas del pacífico.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "En el sistema penal acusatorio colombiano, rige el control de garantías (Art. 250 CN). La restricción de derechos fundamentales como la libertad corporal exige que el fiscal solicite la autorización o convalidación respectiva a un juez constitucional de control de garantías independiente de la Fiscalía.",
+    "tema": "Due Process e Independencia Judicial"
+  },
+  {
+    "id_pregunta": "seed_cc_159",
+    "modulo": "Citizen Competencies",
+    "enunciado": "Dos campesinos minifundistas de una vereda en el Tolima tienen un fuerte conflicto de linderos debido a que la corriente de una quebrada desvió su cauce natural, modificando la frontera de sus fincas de papa. Para evitar un largo y costoso litigio civil de deslinde en juzgados municipales, ¿cuál de los siguientes es el mecanismo idóneo y obligatorio en muchos casos civiles como requisito de procedibilidad que les permite dialogar con la ayuda de un conciliador oficial neutral para firmar un acta vinculante de acuerdo mutuo?",
+    "opciones": [
+      {"letra": "A", "texto": "La Conciliación Extrajudicial, que se realiza ante un centro de conciliación, notaría o inspector de policía oficial, cuyo acuerdo plasmado en acta tiene efectos de cosa juzgada y mérito ejecutivo.", "es_correcta": true},
+      {"letra": "B", "texto": "La Acción de Tutela ante la Corte Constitucional para solicitar la delimitación satelital definitiva de las fincas rurales de papa.", "es_correcta": false},
+      {"letra": "C", "texto": "El Habeas Corpus, puesto que el desvío de la quebrada equivale a un secuestro ambiental de las escrituras de linderos de propiedad.", "es_correcta": false},
+      {"letra": "D", "texto": "Un Cabildo Abierto veredal de obligatoria convocatoria presidencial para debatir las leyes de reforma agraria del Congreso.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La conciliación es un mecanismo alternativo de resolución de conflictos (Art. 116 CN y Ley 640 de 2001) que permite a las personas solucionar disputas civiles sin acudir al aparato judicial tradicional. El acta de conciliación hace tránsito a cosa juzgada (no se puede volver a debatir el tema) y presta mérito ejecutivo.",
+    "tema": "Mecanismos de Conciliación y Paz"
+  },
+  {
+    "id_pregunta": "seed_cc_160",
+    "modulo": "Citizen Competencies",
+    "enunciado": "Un barrio de asentamiento informal en una capital colombiana carece de conexión a las redes distritales de acueducto y alcantarillado. Los habitantes deben abastecerse de agua de pozos contaminados o de carrotanques costosos. El alcalde responde que al ser un asentamiento informal no legalizado técnicamente, la ley de urbanismo prohíbe realizar inversiones públicas distritales de infraestructura en el sector. Los habitantes interponen una Acción de Tutela. ¿Qué lineamiento constitucional rige la resolución de esta tensión de derechos?",
+    "opciones": [
+      {"letra": "A", "texto": "El derecho fundamental al agua potable como derivación de la dignidad humana, la salud y la vida (Art. 1, 11 y 49 CN). La Corte Constitucional prescribe que el Estado debe garantizar el suministro del mínimo vital de agua potable (por ejemplo, a través de piletas públicas provisionales o carrotanques gratuitos) sin importar la situación de legalidad técnica o catastral del asentamiento vulnerable.", "es_correcta": true},
+      {"letra": "B", "texto": "La primacía absoluta de las leyes catastrales de urbanismo distrital que autoriza la exclusión de recursos vitales a familias insolventes que habiten en zonas informales.", "es_correcta": false},
+      {"letra": "C", "texto": "El deber constitucional de las familias de comprar el agua potable exclusivamente de proveedores privados registrados ante la junta directiva de la corporación del POS.", "es_correcta": false},
+      {"letra": "D", "texto": "La improcedencia de la tutela puesto que el suministro de líquidos es una competencia privativa del Ministerio de Comercio Exterior bajo tratados multilaterales.", "es_correcta": false}
+    ],
+    "explicacion_retroalimentacion": "La Corte Constitucional colombiana (Sentencia T-740 de 2011, entre otras) ha determinado de forma reiterada que el agua potable es un derecho constitucional fundamental. Aunque existan impedimentos de legalización urbana o catastral de un asentamiento, el Estado no puede desentenderse de proveer el mínimo vital de agua para garantizar la vida y dignidad de personas vulnerables.",
+    "tema": "Derecho Fundamental al Mínimo Vital de Agua"
+  }
+]
