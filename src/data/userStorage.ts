@@ -29,9 +29,15 @@ export function mergeUsers(localUsers: User[], serverUsers: User[]): User[] {
         }
       });
 
+      const mergedAnswers = {
+        ...(serverUser.answers || {}),
+        ...(localUser.answers || {})
+      };
+
       mergedMap.set(key, {
         ...serverUser,
         scores: mergedScores,
+        answers: mergedAnswers,
         // Keep password of local user if server user has default admin or matches
         password: localUser.password || serverUser.password,
         role: (serverUser.role === "admin" || localUser.role === "admin") ? "admin" : "user",

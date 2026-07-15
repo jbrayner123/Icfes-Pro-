@@ -44,6 +44,15 @@ export default function App() {
     });
   };
 
+  // Sync userAnswers state with currentUser's saved answers
+  useEffect(() => {
+    if (currentUser) {
+      setUserAnswers(currentUser.answers || {});
+    } else {
+      setUserAnswers({});
+    }
+  }, [currentUser?.username, currentUser?.answers]);
+
   // Restore user session and sync with server on mount
   useEffect(() => {
     async function syncAndRestoreSession() {
@@ -81,7 +90,7 @@ export default function App() {
     syncAndRestoreSession();
   }, []);
 
-  // Fetch questions when category changes
+  // Fetch questions when category changes and find the first unanswered question to resume progress
   useEffect(() => {
     if (!currentUser) return;
     
@@ -91,8 +100,22 @@ export default function App() {
       try {
         const data = await fetchQuestionsFromBackend(currentModuleId);
         setQuestions(data);
-        setCurrentQuestionIndex(0);
-        setShowSummary(false);
+        
+        // Find first unanswered question in this module
+        const userAnswersMap = currentUser.answers || {};
+        const firstUnansweredIndex = data.findIndex(q => !userAnswersMap[q.id_pregunta]);
+        
+        if (firstUnansweredIndex !== -1) {
+          setCurrentQuestionIndex(firstUnansweredIndex);
+          setShowSummary(false);
+        } else if (data.length > 0) {
+          // If all questions are answered, show summary
+          setCurrentQuestionIndex(0);
+          setShowSummary(true);
+        } else {
+          setCurrentQuestionIndex(0);
+          setShowSummary(false);
+        }
       } catch (error) {
         console.error("Error loading questions", error);
       } finally {
@@ -135,7 +158,7 @@ export default function App() {
     setShowSummary(false);
   };
 
-  const updateUserScore = (moduleId: string, scoreDelta: number, completedDelta: number, total: number) => {
+  const updateUserScore = (moduleId: string, questionId: string | number, selectedLetra: string, total: number) => {
     if (!currentUser) return;
 
     const storedUsers = localStorage.getItem("engiexam_users");
@@ -144,28 +167,40 @@ export default function App() {
 
     const updatedUsersList = usersList.map(u => {
       if (u.username === currentUser.username) {
-        const currentModuleScore = u.scores[moduleId] || {
-          score: 0,
-          completed: 0,
-          totalQuestions: total,
-          updatedAt: new Date().toISOString()
+        const updatedAnswers = {
+          ...(u.answers || {}),
+          [questionId]: selectedLetra
         };
+
+        // Recalculate scores for the module
+        let correctCount = 0;
+        let answeredCount = 0;
+
+        questions.forEach(q => {
+          const ans = updatedAnswers[q.id_pregunta];
+          if (ans !== undefined) {
+            answeredCount++;
+            const correctOpt = q.opciones.find(o => o.es_correcta);
+            if (correctOpt && (ans === correctOpt.letra || ans === correctOpt.texto)) {
+              correctCount++;
+            }
+          }
+        });
 
         const updatedScore: UserScore = {
-          score: Math.max(0, currentModuleScore.score + scoreDelta),
-          completed: Math.max(0, currentModuleScore.completed + completedDelta),
+          score: correctCount * 10,
+          completed: answeredCount,
           totalQuestions: total,
           updatedAt: new Date().toISOString()
-        };
-
-        const updatedScores = {
-          ...u.scores,
-          [moduleId]: updatedScore
         };
 
         return {
           ...u,
-          scores: updatedScores
+          answers: updatedAnswers,
+          scores: {
+            ...u.scores,
+            [moduleId]: updatedScore
+          }
         };
       }
       return u;
@@ -177,6 +212,16 @@ export default function App() {
     if (updatedUser) {
       setCurrentUser(updatedUser);
       localStorage.setItem("engiexam_session", JSON.stringify(updatedUser));
+
+      // Re-calculate totals
+      let totalScore = 0;
+      let totalCompleted = 0;
+      Object.values(updatedUser.scores).forEach((s) => {
+        totalScore += s.score;
+        totalCompleted += s.completed;
+      });
+      setCumulativeScore(totalScore);
+      setCompletedCount(totalCompleted);
     }
   };
 
@@ -191,7 +236,18 @@ export default function App() {
       if (u.username === currentUser.username) {
         const updatedScores = { ...u.scores };
         delete updatedScores[moduleId];
-        return { ...u, scores: updatedScores };
+
+        // Delete module answers
+        const updatedAnswers = { ...(u.answers || {}) };
+        questions.forEach(q => {
+          delete updatedAnswers[q.id_pregunta];
+        });
+
+        return {
+          ...u,
+          answers: updatedAnswers,
+          scores: updatedScores
+        };
       }
       return u;
     });
@@ -224,7 +280,7 @@ export default function App() {
 
     const updatedUsersList = usersList.map(u => {
       if (u.username === currentUser.username) {
-        return { ...u, scores: {} };
+        return { ...u, scores: {}, answers: {} };
       }
       return u;
     });
@@ -251,24 +307,14 @@ export default function App() {
   const handleSelectOption = (option: Option) => {
     if (!currentQuestion || isAnswered) return;
 
-    // Save answer
+    // Save answer locally in state
     setUserAnswers(prev => ({
       ...prev,
       [currentQuestion.id_pregunta]: option.letra
     }));
 
-    // Increment completed count
-    setCompletedCount(prev => prev + 1);
-
-    // If correct, reward 10 points
-    let pointsEarned = 0;
-    if (option.es_correcta) {
-      setCumulativeScore(prev => prev + 10);
-      pointsEarned = 10;
-    }
-
-    // Persist user scores locally
-    updateUserScore(currentModuleId, pointsEarned, 1, questions.length);
+    // Persist and recalculate scores (which also updates totals and saves in DB/server)
+    updateUserScore(currentModuleId, currentQuestion.id_pregunta, option.letra, questions.length);
   };
 
   // Move to next question or show summary

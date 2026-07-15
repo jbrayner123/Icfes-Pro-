@@ -31,5 +31,6 @@ export interface User {
   password?: string; // Stored in plain text for this simple mock simulator
   role: "admin" | "user";
   scores: Record<string, UserScore>; // moduleId -> score details
+  answers?: Record<string, string>; // questionId -> selectedOptionLetra
   createdAt: string;
 }
