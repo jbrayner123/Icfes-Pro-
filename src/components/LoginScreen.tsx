@@ -197,18 +197,7 @@ export default function LoginScreen({ onLoginSuccess }: LoginScreenProps) {
           </div>
         </div>
 
-        {/* Credentials Tip Panel */}
-        <div className="mt-4 bg-brand-bg border border-brand-ink/15 rounded-none p-4">
-          <div className="flex gap-3">
-            <Shield className="w-4 h-4 text-brand-accent shrink-0 mt-0.5" />
-            <div>
-              <p className="text-xs font-display font-bold uppercase tracking-wide text-brand-ink">Acceso Rápido Administrador</p>
-              <p className="text-[11px] text-brand-ink/70 leading-relaxed font-inter mt-1">
-                Ingresa con <span className="font-bold font-mono bg-brand-ink/5 px-1 py-0.5 border border-brand-ink/10 text-brand-ink">usuario: admin</span> y <span className="font-bold font-mono bg-brand-ink/5 px-1 py-0.5 border border-brand-ink/10 text-brand-ink">contraseña: admin</span> para ver las puntuaciones de todos los estudiantes registrados.
-              </p>
-            </div>
-          </div>
-        </div>
+
 
       </motion.div>
     </div>
